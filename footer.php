@@ -203,7 +203,7 @@ $(document).ready(function() {
 <!-- pagination tabs -->
 
 <script>
- $(document).ready(function () {
+$(document).ready(function () {
     // Function to initialize pagination for a specific tab
     function initializePagination(tabContainer) {
         var contentContainer = tabContainer.find(".content");
@@ -221,6 +221,12 @@ $(document).ready(function() {
         for (var i = 1; i <= totalPages; i++) {
             paginationLinks += '<li><a href="#" data-page="' + i + '">' + i + '</a></li>';
         }
+
+        // Insert the "Previous" button before the pagination links
+        paginationLinks = '<li><button class="prevPage">Previous</button></li>' + paginationLinks;
+
+        // Insert the "Next" button after the pagination links
+        paginationLinks += '<li><button class="nextPage">Next</button></li>';
 
         tabContainer.find(".pagination-links").html(paginationLinks);
 
@@ -250,10 +256,6 @@ $(document).ready(function() {
             currentPage = page;
         });
 
-        // Show the first page initially
-        showItemsForPage(currentPage);
-        tabContainer.find(".pagination-links a:first").addClass("active");
-
         // Function to increment the page by a certain number of items
         function incrementPage(increment) {
             var newPage = currentPage + increment;
@@ -266,16 +268,17 @@ $(document).ready(function() {
         }
 
         // Next and Previous buttons for pagination
-        tabContainer.find(".pagination").append('<button class="prevPage">Previous</button>');
-        tabContainer.find(".pagination").append('<button class="nextPage">Next</button>');
-
-        tabContainer.find(".prevPage").on("click", function () {
+        tabContainer.find(".pagination-links .prevPage").on("click", function () {
             incrementPage(-1);
         });
 
-        tabContainer.find(".nextPage").on("click", function () {
+        tabContainer.find(".pagination-links .nextPage").on("click", function () {
             incrementPage(1);
         });
+
+        // Show the first page initially
+        showItemsForPage(currentPage);
+        tabContainer.find(".pagination-links a:first").addClass("active");
     }
 
     // Initialize pagination for all tabs
@@ -283,7 +286,6 @@ $(document).ready(function() {
         initializePagination($(this));
     });
 });
-
 
 </script>
 

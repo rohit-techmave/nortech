@@ -741,6 +741,11 @@ cursor: pointer;
 
 
 
+
+
+
+
+
 /*********************************************
      Ankur Css Start Here 03 Oct,2023
 ********************************************/
@@ -1075,7 +1080,6 @@ font-size: 20px;
 
 /* tabs pagination style */
 /* Pagination styles */
-/* Pagination styles */
 .pagination-links {
   list-style: none;
   display: flex;
@@ -1108,13 +1112,30 @@ font-size: 20px;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
-  margin: 0 5px;
   cursor: pointer;
 }
 
 .pagination button:hover {
   background-color: #555;
 }
+
+/* Style for the Previous and Next buttons */
+.pagination-links .prevPage,
+.pagination-links .nextPage {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination-links .prevPage:hover,
+.pagination-links .nextPage:hover {
+  background-color: #555;
+}
+
 
 
 
