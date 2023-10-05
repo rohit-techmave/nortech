@@ -1080,11 +1080,16 @@ font-size: 20px;
 
 /* tabs pagination style */
 /* Pagination styles */
+.pagination {
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
 .pagination-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	padding: 0;
+	align-items: center;
 }
 
 .pagination-links li {
@@ -1094,48 +1099,83 @@ font-size: 20px;
 .pagination-links a,
 .pagination button {
   text-decoration: none;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  color: #333;
-  background-color: #fff;
+  /* padding: 5px 10px; */
+  /* border: 1px solid #ccc; */
+  /* color: #333; */
+  /* background-color: #fff; */
+  color: #007bff;
   border-radius: 5px;
 }
 
 .pagination-links a.active {
-  background-color: #333;
-  color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
 }
-
+.pagination-links a {
+	color: #46556b;
+	padding: 5px 12px;
+	border: 1px solid #253041;
+}
 .pagination button {
-  background-color: #333;
-  color: #fff;
+  /* background-color: #333; */
+  /* color: #fff; */
+  color: #007bff;
   border: none;
   border-radius: 5px;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   cursor: pointer;
 }
 
 .pagination button:hover {
-  background-color: #555;
+  /* background-color: #555; */
+  color: #007bff;
+
 }
 
 /* Style for the Previous and Next buttons */
-.pagination-links .prevPage,
-.pagination-links .nextPage {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin: 0 5px;
+.pagination-links .prevPage, .pagination-links .nextPage {
+	background-color: #1e293b;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	/* margin: 0 5px; */
+	font-size: 14px;
 }
-
 .pagination-links .prevPage:hover,
 .pagination-links .nextPage:hover {
-  background-color: #555;
+  /* background-color: #555; */
+  color: #007bff;
 }
-
-
-
-
+.level_up {
+  font-size: 12px;
+  font-weight: 600;
+  color: #989aa0;
+}
+.history_tab_ak {
+	padding: 0 !important;
+	display: flex;
+	justify-content: flex-start !important;
+}
+.history_tab_ak li {
+  width: calc(33.33% - 0px) !important;
+}
+.history_tab_ak li button {
+	border-radius: 0 !important;
+}
+.history_tab_ak li button img {
+  width: 40px;
+  margin: 10px auto;
+}
+.history_tab_ak li button {
+	border-bottom: 2px solid #1a2234;
+}
+.history_tab_ak li button.bg-violet-600 {
+  background: #015cf914 !important;
+  border-bottom: 2px solid #0e5cf1;
+  color: #015cfa !important;
+}
+.inner_content ul li {
+	padding: 10px 20px;
+}

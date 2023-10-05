@@ -647,7 +647,8 @@
                                        <ul class="list-none services_list_user">
                                           <li class="service_list">
                                              <span class="">
-                                                <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">The Graph</span></h5>
+                                                <p class="level_up">Level Up</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">The Graph</span></h5>
                                              </span>
                                              <div class="transition-all duration-500 right_tradername_amnt">
                                                    <a href="##" class="btn btnamount_service"> 1 NTH</a>                                
@@ -655,7 +656,8 @@
                                           </li>
                                           <li class="service_list">
                                              <span class="">
-                                                <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Shping</span></h5>
+                                               <p class="level_up">Course Complete</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Shping</span></h5>
                                              </span>
                                              <div class="transition-all duration-500 right_tradername_amnt">
                                                    <a href="##" class="btn btnamount_service"> 2 NTH</a>                                
@@ -663,10 +665,47 @@
                                           </li>
                                           <li class="service_list">
                                              <span class="">
-                                                <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">NEAR Protocol</span></h5>
+                                               <p class="level_up">Trade</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">NEAR Protocol</span></h5>
                                              </span>
                                              <div class="transition-all duration-500 right_tradername_amnt">
                                                    <a href="##" class="btn btnamount_service"> 3 NTH</a>                                
+                                             </div>
+                                          </li>
+                                          <li class="service_list">
+                                             <span class="">
+                                                <p class="level_up">Staking</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Amp</span></h5>
+                                             </span>
+                                             <div class="transition-all duration-500 right_tradername_amnt">
+                                                   <a href="##" class="btn btnamount_service"> 5 NTH</a>                                
+                                             </div>
+                                          </li>
+                                          <li class="service_list">
+                                             <span class="">
+                                                <p class="level_up">Level Up</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How do you buy an NFT? </span></h5>
+                                             </span>
+                                             <div class="transition-all duration-500 right_tradername_amnt">
+                                                   <a href="##" class="btn btnamount_service"> 4 NTH</a>                                
+                                             </div>
+                                          </li>
+                                          <li class="service_list">
+                                             <span class="">
+                                                <p class="level_up">Trade</p>
+                                                <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How to set up a crypto wallet ? </span></h5>
+                                             </span>
+                                             <div class="transition-all duration-500 right_tradername_amnt">
+                                                   <a href="##" class="btn btnamount_service"> 10 NTH</a>                                
+                                             </div>
+                                          </li>
+                                          <li class="service_list">
+                                             <span class="">
+                                               <p class="level_up">Course Complete</p>
+                                                <h5  class="font-bold leading-snug text-white"> <span  class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">An investor who got in when Bitcoin was $10 </span></h5>
+                                             </span>
+                                             <div class="transition-all duration-500 right_tradername_amnt">
+                                                   <a href="##" class="btn btnamount_service"> 6 NTH</a>                                
                                              </div>
                                           </li>
                                        </ul>
@@ -883,13 +922,122 @@
                   </div>
 
 
+
+                  <!-- id tab start-->
                   <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
                   </div>
+                   <!-- id tab End-->
+
+                  <!-- history tab start-->
                   <div class="hidden" id="History" role="tabpanel" aria-labelledby="History-tab">
+                  <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-3xl">
+                     <div class="row">
+
+                  <div class="col-lg-12">
+                  <ul class="md:w-fit w-full flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash history_tab_ak" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Reward-ak-tab" data-tabs-target="#Reward-ak" type="button" role="tab" aria-controls="Reward-ak" aria-selected="true"><img src="assets/images/newimages/rewards.png" alt=""> Rewards</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="Payway-ak-done-tab" data-tabs-target="#Payway-ak-done" type="button" role="tab" aria-controls="Payway-ak-done" aria-selected="false"><img src="assets/images/newimages/credit.png" alt=""> Payway</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="History-ak-tab" data-tabs-target="#History-ak" type="button" role="tab" aria-controls="History-ak" aria-selected="false"><img src="assets/images/newimages/purchase.png" alt=""> Buy On Market</button>
+                     </li>
+                    </ul>
                   </div>
+
+
+                  <div class="lg:col-span-9 md:col-span-9">
+                  <div id="StarterContent" >
+
+                    <div class="tab-content" id="Reward-ak" role="tabpanel" aria-labelledby="Reward-ak-tab">
+                      <div class="inner_content">
+                      <ul class="list-none services_list_user">
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Level Up</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">The Graph</span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 1 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Course Complete</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Shping</span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 2 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Trade</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">NEAR Protocol</span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 3 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Staking</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Amp</span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 5 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Level Up</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How do you buy an NFT? </span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 4 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Trade</p>
+                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How to set up a crypto wallet ? </span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 10 NTH</a>                                
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                                 <span class="">
+                                    <p class="level_up">Course Complete</p>
+                                    <h5  class="font-bold leading-snug text-white"> <span  class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">An investor who got in when Bitcoin was $10 </span></h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 6 NTH</a>                                
+                                 </div>
+                              </li>
+                           </ul>
+                      </div>
+                  </div>
+                  <div class="hidden tab-content" id="Payway-ak-done" role="tabpanel" aria-labelledby="Payway-ak-done-tab">
+                  sdfrgthyjukhil
+               </div>
+                  <div class="hidden tab-content" id="History-ak" role="tabpanel" aria-labelledby="History-ak-tab">
+                sdafsgdhfjgkhlj;k
+               </div>
+
+                       </div>
+                     </div>
+                  </div> 
+                     </div>
+                  </div>
+                  <!-- history tab end-->
+
+                    <!-- manage tab start-->
                   <div class="hidden" id="Manage" role="tabpanel" aria-labelledby="Manage-tab">
                   </div>
-                  
+                   <!-- manage tab end-->
                </div>
             </div>
          </div>

@@ -290,6 +290,24 @@ $(document).ready(function () {
 </script>
 
 
-    </body>
+<!-- set limit characters -->
+<script>
+        function limitTitleLength(maxLength) {
+            var titleElements = document.querySelectorAll(".title-limit");
+
+            titleElements.forEach(function (titleElement) {
+                var originalTitle = titleElement.innerText;
+
+                if (originalTitle.length > maxLength) {
+                    var truncatedTitle = originalTitle.substring(0, maxLength) + "...";
+                    titleElement.innerText = truncatedTitle;
+                }
+            });
+        }
+
+        // Call the function with the desired title length limit (e.g., 20 characters)
+        limitTitleLength(30);
+    </script>
+</body>
 
 </html>
