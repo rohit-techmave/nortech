@@ -6,7 +6,7 @@
                         <!-- Start Content -->
                         <div class="md:flex justify-between items-center">
                             <div>
-                                <h5 class="font-semibold text-2xl mb-1">Welcome!</h5>
+                                <h5 class="font-semibold text-2xl mb-1">Welcome! Ankur</h5>
                                 <h5 class="font-medium text-base text-slate-400">Jenny Jimenez</h5>
                             </div>
                             <!-- <span class="text-slate-400">My balance: <span class="font-semibold text-emerald-600">$ 45,578.032</span></span> -->
