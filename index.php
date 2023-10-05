@@ -275,6 +275,7 @@
                   </div>
                   <div class="lg:col-span-9 md:col-span-9">
                   <div id="StarterContent" >
+
                     <div class="tab-content" id="Finish" role="tabpanel" aria-labelledby="Finish-tab">
                      <div class="content">
                      <div class="courses">
@@ -413,13 +414,13 @@
                      </div>
 
                        <!-- Inside the Tab 1 content -->
-<div class="pagination">
-    <ul class="pagination-links">
-        <li><button class="prevPage">Previous</button></li>
-        <!-- Pagination links with numbers will be added dynamically using JavaScript -->
-        <li><button class="nextPage">Next</button></li>
-    </ul>
-</div>
+                     <div class="pagination">
+                        <ul class="pagination-links">
+                           <li><button class="prevPage">Previous</button></li>
+                           <!-- Pagination links with numbers will be added dynamically using JavaScript -->
+                           <li><button class="nextPage">Next</button></li>
+                        </ul>
+                     </div>
                      
                      
                      <!-- <div class="custom_table_area">
