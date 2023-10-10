@@ -939,7 +939,7 @@
                         <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Reward-ak-tab" data-tabs-target="#Reward-ak" type="button" role="tab" aria-controls="Reward-ak" aria-selected="true"><img src="assets/images/newimages/rewards.png" alt=""> Rewards</button>
                      </li>
                      <li role="presentation" class="md:inline-block block md:w-fit w-full">
-                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="Payway-ak-done-tab" data-tabs-target="#Payway-ak-done" type="button" role="tab" aria-controls="Payway-ak-done" aria-selected="false"><img src="assets/images/newimages/credit.png" alt=""> Payway</button>
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="Payway-ak-done-tab" data-tabs-target="#Payway-ak-done" type="button" role="tab" aria-controls="Payway-ak-done" aria-selected="false"><img src="assets/images/newimages/invoice.png" alt=""> Payway</button>
                      </li>
                      <li role="presentation" class="md:inline-block block md:w-fit w-full">
                         <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="History-ak-tab" data-tabs-target="#History-ak" type="button" role="tab" aria-controls="History-ak" aria-selected="false"><img src="assets/images/newimages/purchase.png" alt=""> Buy On Market</button>
@@ -950,81 +950,185 @@
 
                   <div class="lg:col-span-9 md:col-span-9">
                   <div id="StarterContent" >
-
                     <div class="tab-content" id="Reward-ak" role="tabpanel" aria-labelledby="Reward-ak-tab">
                       <div class="inner_content">
                       <ul class="list-none services_list_user">
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Level Up</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">The Graph</span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Level Up</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">The Graph</span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 1 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 1 NTH</a> 
+                                       <p class="date_time_reward">20 Jan,2023 10:00 am</p>                               
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Course Complete</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Shping</span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Course Complete</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">Shping</span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 2 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 2 NTH</a>     
+                                       <p class="date_time_reward">01 April,2023 11:00 am</p>                           
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Trade</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">NEAR Protocol</span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Trade</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">NEAR Protocol</span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 3 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 3 NTH</a>  
+                                       <p class="date_time_reward">26 July,2023 04:00 am</p>                              
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Staking</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Amp</span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Staking</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit from-red-600 to-violet-600 text-transparent bg-clip-text">Amp</span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 5 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 5 NTH</a> 
+                                       <p class="date_time_reward">25 Jan,2023 12:00 am</p>                               
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Level Up</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How do you buy an NFT? </span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Level Up</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">How do you buy an NFT? </span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 4 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 4 NTH</a> 
+                                       <p class="date_time_reward">18 June,2023 01:00 pm</p>                               
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Trade</p>
-                                    <h5 class="font-bold leading-snug text-white"> <span class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">How to set up a crypto wallet ? </span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Trade</p>
+                                    <h5 class="font-bold leading-snug text-white reward_title"> <span class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">How to set up a crypto wallet ? </span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 10 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 10 NTH</a>  
+                                       <p class="date_time_reward">18 June,2023 03:00 pm</p>                                  
                                  </div>
                               </li>
                               <li class="service_list">
                                  <span class="">
-                                    <p class="level_up">Course Complete</p>
-                                    <h5  class="font-bold leading-snug text-white"> <span  class="title-limit bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">An investor who got in when Bitcoin was $10 </span></h5>
+                                    <p class="level_up bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Course Complete</p>
+                                    <h5  class="font-bold leading-snug text-white reward_title"> <span  class="title-limit  from-red-600 to-violet-600 text-transparent bg-clip-text">An investor who got in when Bitcoin was $10 </span></h5>
                                  </span>
                                  <div class="transition-all duration-500 right_tradername_amnt">
-                                       <a href="##" class="btn btnamount_service"> 6 NTH</a>                                
+                                       <a href="##" class="btn btnamount_service"> 6 NTH</a>   
+                                       <p class="date_time_reward">19 May,2023 02:00 pm</p>                                 
                                  </div>
                               </li>
                            </ul>
                       </div>
                   </div>
                   <div class="hidden tab-content" id="Payway-ak-done" role="tabpanel" aria-labelledby="Payway-ak-done-tab">
-                  sdfrgthyjukhil
+                  <div class="inner_content">
+                      <ul class="list-none services_list_user">
+                              <li class="service_list">
+                                 <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/pix-icon.png" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$200</span>
+                                       <span class="payment_method">Pay via Pix</span>
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 2000 NTH</a> 
+                                       <p class="date_time_reward">20 Jan,2023 10:00 am</p>                               
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                              <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/osko-icon.png" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$500</span>
+                                       <span class="payment_method ">Pay via Osko</span>
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 5000 NTH</a>     
+                                       <p class="date_time_reward">01 April,2023 11:00 am</p>                           
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                              <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/credit-card-icon.png" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$1000</span>
+                                       <span class="payment_method ">Pay via Credit Card</span>
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 10000 NTH</a>  
+                                       <p class="date_time_reward">26 July,2023 04:00 am</p>                              
+                                 </div>
+                              </li>
+                              
+                           </ul>
+                      </div>
                </div>
                   <div class="hidden tab-content" id="History-ak" role="tabpanel" aria-labelledby="History-ak-tab">
-                sdafsgdhfjgkhlj;k
+                  <div class="inner_content">
+                      <ul class="list-none services_list_user">
+                              <li class="service_list">
+                                 <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/nft.png" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">NFT</span>
+                                       <span class="payment_method "> 0xe849fa28a...ea14</span>
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 2000 ETH</a> 
+                                       <p class="date_time_reward">20 Jan,2023 10:00 am</p>                               
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                              <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/tradebtc.jpg" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">The Graph</span>
+                                       <!-- <span class="payment_method">Pay via Osko</span> -->
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 200 NTH</a>     
+                                       <p class="date_time_reward">01 April,2023 11:00 am</p>                           
+                                 </div>
+                              </li>
+                              <li class="service_list">
+                              <span class="payment_box__">
+                                    <div class="payment_icon">
+                                       <img src="assets/images/newimages/near-protocol.jpg" alt="">
+                                    </div>
+                                    <h5 class="font-bold leading-snug "> 
+                                       <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">NEAR Protocol</span>
+                                       <!-- <span class="payment_method">Pay via Osko</span> -->
+                                   </h5>
+                                 </span>
+                                 <div class="transition-all duration-500 right_tradername_amnt">
+                                       <a href="##" class="btn btnamount_service"> 300 NTH</a>     
+                                       <p class="date_time_reward">01 April,2023 11:00 am</p>                           
+                                 </div>
+                              </li>
+                              
+                           </ul>
+                      </div>
                </div>
 
                        </div>
@@ -1036,6 +1140,145 @@
 
                     <!-- manage tab start-->
                   <div class="hidden" id="Manage" role="tabpanel" aria-labelledby="Manage-tab">
+                     <div class="inner_main_box">
+                        <!-- <div class="header_mm">
+                           <h3>Access & Security</h3>
+                        </div> -->
+                        <h3 class="main_title">Access & Security</h3>
+                     
+                        <div class="box">
+                        <div class="box-header authentication">
+                           <h3>Two Factor Authentication</h3>
+                           <!-- <div class="switch-field">
+                                 <input type="radio" id="radio-one" name="switch-one" value="yes" checked="">
+                                 <label for="radio-one">On</label>
+                                 <input type="radio" id="radio-two" name="switch-one" value="no">
+                                 <label for="radio-two">Off</label>
+                              </div> -->
+                        
+                              <label class="switch">
+                                 <input type="checkbox">
+                                 <span class="slider"></span>
+                              </label> 
+                           
+                        </div>
+                
+                     </div>
+                     <form action="#">
+                     <div class="box">
+                        <div class="box-header">
+                           <h3>Reset Password</h3>
+                        </div>
+                        <div class="box-body">
+                           <div class="form-group">
+                              <label for="">Old Password</label>
+                             <input class="form-control" type="text">
+                           </div>
+                           <div class="form-group">
+                              <label for="">New Password</label>
+                             <input class="form-control" type="text">
+                           </div>
+                           <div class="form-group">
+                              <label for="">Confirm Password</label>
+                             <input class="form-control" type="text">
+                           </div>
+                     
+                             <div class="update_action">
+                              <a href="#" class="update_btn">Update</a>
+                              </div>
+                         
+                        </div>
+                     </div>
+                     </form>
+                     
+                     <form action="#">
+                     <div class="box">
+                        <div class="box-header">
+                           <h3>Email Update</h3>
+                        </div>
+                        <div class="box-body">
+                           <div class="form-group">
+                              <label for="">Email Address</label>
+                             <input class="form-control" type="text">
+                             <a href="#" class="change_mail_btn">Update</a>
+                           </div>
+                          
+                        </div>
+                     </div>
+                     </form>
+                     
+
+                     <form action="#">
+                     <div class="box">
+                        <div class="box-header">
+                           <h3>Profile Update</h3>
+                        </div>
+                        <div class="box-body">
+                           <div class="row">
+                             <div class="col-lg-6">
+                             <div class="form-group">
+                              <label for="">First Name</label>
+                             <input class="form-control" type="text">
+                           </div>
+                             </div>
+                             <div class="col-lg-6">
+                             <div class="form-group">
+                              <label for="">Last Name</label>
+                             <input class="form-control" type="text">
+                           </div>
+                             </div>
+                             <div class="col-lg-12">
+                               <div class="form-group">
+                                  <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                               </div>
+                             </div>
+                             <div class="col-lg-12">
+                             <div class="update_action">
+                              <a href="#" class="update_btn">Update</a>
+                              </div>
+                             </div>
+                           </div>
+                          
+                          
+                        </div>
+                     </div>
+                     </form>
+                     
+
+                     
+                      
+                       
+                       
+                     </div>
+
+                     <div class="box">
+                     <div class="box-header">
+                           <h3>Wallet Change</h3>
+                        </div>
+                      <div class="box-body">
+                        <div class="wallet_box">
+                        <div class="other_account_list wallet_change">
+                           <h6 class="wallet_title"><img src="assets/images/newimages/metamask-icon.png" alt=""> Metamask Wallet</h6>
+                           <ul>
+                              <li><a href="#"><span> Wallet Amount</span> 1.0 ETH</a></li>
+                              <li><a href="#"><span>Wallet Address</span> 0xe849fa28a...ea14</a></li>
+            
+                           </ul>
+                        </div>
+                        <div class="change_wallet">
+                        <div class="w-full ">
+                              <h1 class="font-bold leading-snug text-white text-4xl"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Wallet Settings</span></h1>
+                           
+                              <div class="buy_more">
+                                 <a href="#">Change Wallet</a>
+                              </div>
+                           </div>
+                        </div>
+                        </div>
+                      
+                      </div>
+                   </div>
                   </div>
                    <!-- manage tab end-->
                </div>
