@@ -103,6 +103,66 @@
         });
     </script>
 
+<script>
+        // Sample data (replace this with your own data)
+        var balanceData = {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+            datasets: [{
+                label: 'Payment',
+                data: [10000, 10500, 11000, 10800, 11500, 12000],
+                borderColor: '#50abff',
+                backgroundColor: '#50abff1c',
+                borderWidth: 2,
+                fill: true,
+            },
+            {
+                label: 'Payment',
+                data: [10000, 10500, 11000, 10800, 11500, 12000],
+                borderColor: '#50abff',
+                backgroundColor: '#50abff1c',
+                borderWidth: 2,
+                fill: true,
+            }
+        ]
+
+        
+        };
+
+        var ctx = document.getElementById('rewardChart').getContext('2d');
+
+        var balanceChart = new Chart(ctx, {
+            type: 'line',
+            data: balanceData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: 'Month',
+                            color: '#ffffff'
+                        },
+                        ticks: {
+                    color: '#ffffff' // Change the x-axis ticks text color to blue
+                }
+                    },
+                    y: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: 'Balance (USD)',
+                            color: '#7c3aed'
+                        },
+                        ticks: {
+                    color: '#ccc' // Change the y-axis ticks text color to purple
+                }
+                    }
+                }
+            }
+        });
+    </script>
 
 
 <!-- custom js -->
