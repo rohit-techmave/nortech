@@ -1229,8 +1229,8 @@ font-size: 20px;
   padding: 20px;
 }
 .form-control {
-  border: 2px solid #293445 !important;
-  padding: 10px 15px !important;
+  border: 1px solid #2d3f5a !important;
+  padding: 8px 15px !important;
   border-radius: 5px !important;
   margin: 10px 0 !important;
   color: #6a717f !important;
@@ -1238,6 +1238,21 @@ font-size: 20px;
 .form-control:focus{
   box-shadow: none !important;
 }
+
+
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+ 
+  font-size: 12px;
+}
+
+.form-control:focus + .form-label{
+  color: #007bff; /* Label color on focus or hover */
+}
+
+
+
 .header_mm h3 {
   font-weight: 500;
   font-size: 20px;
@@ -1247,12 +1262,13 @@ font-size: 20px;
   margin-bottom: 25px;
 }
 .form-group label {
-  font-size: 14px;
+  font-size: 13px;
   position: absolute;
   top: -16px;
   left: 15px;
   background: #0f172a;
   padding: 5px;
+  color: #8aa2b3;
 }
 
 /* .switch-field {
@@ -1429,7 +1445,7 @@ input:checked + .slider {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border: 1px solid #2563eb;
   color: #2563eb;
   background: #2563eb47;

@@ -1170,17 +1170,20 @@
                            <h3>Reset Password</h3>
                         </div>
                         <div class="box-body">
+
                            <div class="form-group">
-                              <label for="">Old Password</label>
-                             <input class="form-control" type="text">
+                           <input class="form-control" type="text">
+                              <label for="" class="form-label">Old Password</label>
+                       
                            </div>
                            <div class="form-group">
-                              <label for="">New Password</label>
-                             <input class="form-control" type="text">
+                           <input class="form-control" type="text">
+                              <label for="" class="form-label">New Password</label>
                            </div>
                            <div class="form-group">
-                              <label for="">Confirm Password</label>
-                             <input class="form-control" type="text">
+                           <input class="form-control" type="text">
+                              <label for="" class="form-label">Confirm Password</label>
+                           
                            </div>
                      
                              <div class="update_action">
@@ -1198,8 +1201,8 @@
                         </div>
                         <div class="box-body">
                            <div class="form-group">
-                              <label for="">Email Address</label>
-                             <input class="form-control" type="text">
+                           <input class="form-control" type="text">
+                              <label for="" class="form-label">Email Address</label>
                              <a href="#" class="change_mail_btn">Update</a>
                            </div>
                           
@@ -1217,20 +1220,21 @@
                            <div class="row">
                              <div class="col-lg-6">
                              <div class="form-group">
-                              <label for="">First Name</label>
                              <input class="form-control" type="text">
+                              <label for="" class="form-label">First Name</label>
                            </div>
                              </div>
                              <div class="col-lg-6">
                              <div class="form-group">
-                              <label for="">Last Name</label>
                              <input class="form-control" type="text">
+                              <label for="" class="form-label">Last Name</label>
                            </div>
                              </div>
                              <div class="col-lg-12">
                                <div class="form-group">
+                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
                                   <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
-                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                </div>
                              </div>
                              <div class="col-lg-12">
@@ -1290,16 +1294,18 @@
                          <div class="row">
                            <div class="col-lg-12">
                               <div class="form-group">
-                                 <label for="">Change API</label>
                                   <input class="form-control" type="text" placeholder="https://jsonplaceholder.typicode.com/todos/1" value="https://jsonplaceholder.typicode.com/todos/1">
-                                  <a href="#" class="change_mail_btn">Change</a>
+                                    <label for="" class="form-label">Change API</label>
+
+                                    <a href="#" class="change_mail_btn">Change</a>
                               </div>
                            </div>
                            <div class="col-lg-12">
                               <div class="form-group">
-                                 <label for="">Connect API</label>
                                  <input class="form-control" type="text" placeholder="https://jsonplaceholder.typicode.com/todos/1" value="https://jsonplaceholder.typicode.com/todos/1">
-                                 <a href="#" class="change_mail_btn">Connect</a>
+                                    <label for="" class="form-label">Connect API</label>
+
+                                    <a href="#" class="change_mail_btn">Connect</a>
                               </div>
                            </div>
                          </div>
