@@ -90,7 +90,7 @@
          </div>
          <!--end col-->
          <div id="content" class="content lg:col-span-9 md:col-span-8">
-            <div class="grid grid-cols-1 ">
+            <div class=" finance__area grid grid-cols-1 ">
                <ul class="md:w-fit w-full flex-wrap justify-center  usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
                      <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Finance-tab" data-tabs-target="#Finance" type="button" role="tab" aria-controls="Finance" aria-selected="true">My Finance</button>
