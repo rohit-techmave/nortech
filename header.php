@@ -26,6 +26,8 @@
         <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="assets/css/tailwind.min.css">
         <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="assets/css/custom-r.css">
+
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     </head>
     

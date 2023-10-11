@@ -1479,3 +1479,13 @@ input:checked + .slider {
 .text-success{
 color:#0ab39c
 }
+.ban_Service_btn i {
+  margin-right: 5px;
+}
+.ban_Service_btn {
+  border: 1px solid #ff0000;
+  padding: 10px 12px;
+  background: #ff00001c;
+  border-radius: 5px;
+  color: #ff0000;
+}

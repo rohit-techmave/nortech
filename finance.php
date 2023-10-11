@@ -116,7 +116,7 @@
                                           </div>
                                        </td>
                                     <td>
-                                       
+                                      <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
                                     </td>
                                    </tr>
                                    
