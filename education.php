@@ -56,7 +56,7 @@
                 <div class="row">
                 <div class="col-lg-5">
                 <div class="course__box">
-                    <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/1.avif'); background-size: cover;">
+                    <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/1.webp'); background-size: cover;">
                         course1
                     </div>
 
