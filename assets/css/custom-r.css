@@ -1,3 +1,66 @@
 .actionbtnarea{
     width: 15% !important;
 }
+
+.flexgrid_tabs li{
+    width: calc(16.66% - 4px) !important;
+}
+/* course card style for education tab */
+
+.course__box .course__imgleft{
+    border-radius: 16px;
+    background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  transition: .2s;
+  overflow: hidden;
+  height: 260px;
+}
+
+.coursemain_titlearea{
+    display: flex;
+}
+.courseright__details{
+    display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-right: 32px;
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: justify;
+}
+
+.courseicon__imgC img{
+    width: 50px;
+    margin-right: 12px;
+}
+.coursemain_titlearea{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.coursemain_titlearea .course-title__{
+    font-size: 28px;
+}
+.courseshort__detailC{
+    color: #c2b5c6;
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+
+.progress__areaP{
+    display: flex;
+    align-items: center;
+}
+.progress__areaP a{
+    background-color: rgb(24, 84, 255);
+  border: 1px solid rgb(24, 84, 255);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
