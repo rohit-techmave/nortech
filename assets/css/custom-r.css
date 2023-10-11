@@ -64,3 +64,23 @@
   padding: 10px 30px;
   border-radius: 5px;
 }
+
+.nameandlecture_area{
+    display: flex;
+    align-items: center;
+}
+.nameauthor__Course{
+    color: #858585;
+    display: inline-block;
+    font-size: .8125rem;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+ .lacture_Count{
+    color: #858585;
+    display: inline-block;
+    font-size: .8125rem;
+    margin-right: 15px;
+    vertical-align: middle;
+  }

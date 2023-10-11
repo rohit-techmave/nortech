@@ -64,6 +64,11 @@
                 </div>
                 <div class="col-lg-7">
                 <div class="courseright__details">
+                <div class="nameandlecture_area">
+                                     <div class="nameauthor__Course"><i class="far fa-clock"></i> Expiration date : 14/10/2023
+                                    </div>
+                                           <div class="lacture_Count"><i class="fas fa-user-friends"></i> 159 People Used </div>
+                                    </div>
                                 <div class="coursemain_titlearea">
                                     <div class="courseicon__imgC">
                                         <img class="brand-logo ls-is-cached lazyloaded" alt="band-protocol logo" data-src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png" src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png">
