@@ -1419,7 +1419,7 @@ input:checked + .slider {
   margin-right: 10px;
 }
 
-.other_account_list.wallet_change ul li a {
+.other_account_list.wallet_change ul li a{
   padding: 6px 25px;
   border-radius: 5px;
   background: #7c3aed4d;
