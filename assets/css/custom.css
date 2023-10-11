@@ -1510,6 +1510,6 @@ th.sortable i {
   display: flex;
   justify-content: space-between;
 }
-.redeem_box .change_wallet{
-  
+.redeem_box .change_wallet {
+  padding-left: 50px;
 }

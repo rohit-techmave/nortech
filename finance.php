@@ -151,7 +151,7 @@
                                       <td>
                                           <div class="flex-shrink-0">
                                              <h5 class="text-success fs-14 mb-0">
-                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                              +18.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
                                              </h5>
                                           </div>
                                        </td>
@@ -172,7 +172,7 @@
                                       <td>
                                           <div class="flex-shrink-0">
                                              <h5 class="text-success fs-14 mb-0">
-                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                              +14.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
                                              </h5>
                                           </div>
                                        </td>
@@ -194,7 +194,7 @@
                                       <td>
                                           <div class="flex-shrink-0">
                                              <h5 class="text-success fs-14 mb-0">
-                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                              +10.11 %  <i class="fa-solid fa-arrow-trend-up"></i> 
                                              </h5>
                                           </div>
                                        </td>
@@ -216,7 +216,7 @@
                                       <td>
                                           <div class="flex-shrink-0">
                                              <h5 class="text-success fs-14 mb-0">
-                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                              +12.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
                                              </h5>
                                           </div>
                                        </td>
