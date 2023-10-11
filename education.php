@@ -67,7 +67,7 @@
                 <div class="nameandlecture_area">
                                      <div class="nameauthor__Course"><i class="far fa-clock"></i> Expiration date : 14/10/2023
                                     </div>
-                                           <div class="lacture_Count"><i class="fas fa-user-friends"></i> 159 People Used </div>
+                                           <div class="lacture_Count"><i class="fas fa-user-friends"></i> Nortech </div>
                                     </div>
                                 <div class="coursemain_titlearea">
                                     <div class="courseicon__imgC">
@@ -88,16 +88,18 @@
                                     </div> 
                                    
                                         <div  class="hexagon-box">
-                                            <div  class="progresS-bg"><i class="fas fa-check font-weight-bold"></i></div>
+                                            <img src="assets/images/newimages/courses/certificate-icon.svg" alt="">
+                                            <!-- <div  class="progresS-bg">
+                                                <i class="fas fa-check font-weight-bold"></i>
+                                            </div> -->
                                         </div>
                                    
                                 </div>
-                                
+
   
    <div class="progress__areaP">
       <a href="##" class="">Watch again
       </a>
-      <div class="rewardEarn_text">🔥 <strong>Earn: 7% Deposit Bonus</strong></div>
    </div>
 
 
