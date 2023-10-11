@@ -77,7 +77,23 @@
                                         <h2 class="mb-0 text-capitalize">Learn PrimeXBT</h2>
                                     </a>
                                 </div>
+
+                               
+
    <p class="courseshort__detailC">PrimeXBT is a crypto-native trading platform for both beginners &amp; advanced-level enthusiasts. Take a course, learn &amp; start using it today!</p>
+  
+   <div class="mainprogressbox">
+                                    <div  class="progress my-2 w-100">
+                                        <div  aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100" class="progress-bar" style="width: 100%;"></div>
+                                    </div> 
+                                   
+                                        <div  class="hexagon-box">
+                                            <div  class="progresS-bg"><i class="fas fa-check font-weight-bold"></i></div>
+                                        </div>
+                                   
+                                </div>
+                                
+  
    <div class="progress__areaP">
       <a href="##" class="">Watch again
       </a>

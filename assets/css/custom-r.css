@@ -50,7 +50,7 @@
     font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  padding-bottom: 24px;
+  padding-bottom: 10px;
 }
 
 .progress__areaP{
@@ -68,9 +68,10 @@
 .nameandlecture_area{
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 .nameauthor__Course{
-    color: #858585;
+    color: #c0c0c0;
     display: inline-block;
     font-size: .8125rem;
     margin-right: 15px;
@@ -78,9 +79,73 @@
 }
 
  .lacture_Count{
-    color: #858585;
+    color: #c0c0c0;
     display: inline-block;
     font-size: .8125rem;
     margin-right: 15px;
     vertical-align: middle;
+  }
+
+  /* progressbar style */
+
+ .mainprogressbox  .progress {
+    background-color: #8243ee;
+    border-radius: 0;
+    height: 7px;
+    transform: skewX(-45deg);
+    width: 75%;
+  }
+ .mainprogressbox  .progress .progress-bar {
+    background-color: #9884fc !important;
+  }
+  .mainprogressbox  .hexagon-box {
+    background: #344156;
+    border-radius: 3px;
+    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    height: 40px;
+    margin: 0 auto;
+      margin-left: auto;
+    position: relative;
+    width: 36px;
+    margin-left: 20px;
+  }
+ .mainprogressbox .progresS-bg {
+    background: #222e43;
+    border-radius: 3px;
+    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
+    color: #717a89;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    height: 38px;
+    margin: 0 auto;
+    position: relative;
+    width: 34px;
+    display: flex !important;
+  justify-content: center;
+  align-items: center;
+  }
+ .mainprogressbox .progresS-bg .fa-check {
+    color: #9884fc;
+    font-size: 12px;
+  }
+.mainprogressbox  .progresS-bg  .fa-check::before {
+    content: "\f00c";
+  }
+  .mainprogressbox{
+    display: flex;
+    align-items: center !important;
+  }
+
+  .progress-bar {
+    background-color: #9884fc !important;
+    color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: width .6s ease;
+  white-space: nowrap;
+  display: flex;
+  overflow: hidden;
   }
