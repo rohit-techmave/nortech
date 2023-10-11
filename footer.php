@@ -308,6 +308,30 @@ $(document).ready(function () {
         // Call the function with the desired title length limit (e.g., 20 characters)
         limitTitleLength(30);
     </script>
+
+<script>
+  const table = document.getElementById("export-button");
+  const headers = table.querySelectorAll("th.sortable");
+  let currentSortColumn = 0;
+
+  headers.forEach((header, index) => {
+    // Remove the "active-arrow" class from all header arrows
+    headers.forEach(th => {
+      th.querySelector(".fa-arrow-up").classList.remove("active-arrow");
+      th.querySelector(".fa-arrow-down").classList.remove("active-arrow");
+    });
+
+    // Determine sort direction and add "active-arrow" class to the appropriate arrow
+    if (index === currentSortColumn) {
+      if (table.classList.contains("sort-reverse")) {
+        header.querySelector(".fa-arrow-down").classList.add("active-arrow");
+      } else {
+        header.querySelector(".fa-arrow-up").classList.add("active-arrow");
+      }
+    }
+  });
+</script>
+
 </body>
 
 </html>

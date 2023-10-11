@@ -91,10 +91,29 @@
                              <table class="datatable " id="export-button">
                                 <thead>
                                    <tr>
-                                      <th>Name</th>
-                                      <th>Fees Adjust</th>
-                                      <th>Gain</th>
-                                      <th class="actionbtnarea">Action</th>
+                                      <th class="sortable sorted-asc">
+                                       <div class="arrow_box">
+                                           <span>Name</span> <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i class="fas fa-arrow-down"></i></div>
+                                       </div>
+                                       </th>
+                                      <th class="sortable">
+                                       <div class="arrow_box">
+                                        <span>Fees Adjust</span> <div class="arrow"><i class="fas fa-arrow-up"></i> <i class="fas fa-arrow-down"></i></div>
+                                       </div>
+                                     </th>
+                                      <th class="sortable">
+                                       <div class="arrow_box">
+                                       <span>Gain</span> <div class="arrow"><i class="fas fa-arrow-up"></i> <i class="fas fa-arrow-down"></i></div>
+                                       </div>
+                                       
+                                     </th>
+                                      <th class="actionbtnarea sortable">
+                                       <div class="arrow_box">
+                                       <span>Action</span> <div class="arrow"><i class="fas fa-arrow-up"></i> <i class="fas fa-arrow-down"></i></div> 
+                                       </div>
+                                      
+                                    </th>
+      
                                    </tr>
                                 </thead>
                                 <tbody>
@@ -119,7 +138,92 @@
                                       <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
                                     </td>
                                    </tr>
-                                   
+                                   <tr>
+                                      <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                                <img src="assets/images/newimages/avatar-2.jpg" alt="" class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Jansh Brown</div>
+                                       </div>
+                                    </td>
+                                      <td>05%</td>
+                                      <td>
+                                          <div class="flex-shrink-0">
+                                             <h5 class="text-success fs-14 mb-0">
+                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                             </h5>
+                                          </div>
+                                       </td>
+                                    <td>
+                                      <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                                <img src="assets/images/newimages/avatar-3.jpg" alt="" class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Ayaan Bowen</div>
+                                       </div>
+                                    </td>
+                                      <td>15%</td>
+                                      <td>
+                                          <div class="flex-shrink-0">
+                                             <h5 class="text-success fs-14 mb-0">
+                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                             </h5>
+                                          </div>
+                                       </td>
+                                    <td>
+                                      <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
+                                    </td>
+                                   </tr>
+
+                                   <tr>
+                                      <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                                <img src="assets/images/newimages/avatar-4.jpg" alt="" class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Prezy Mark</div>
+                                       </div>
+                                    </td>
+                                      <td>18%</td>
+                                      <td>
+                                          <div class="flex-shrink-0">
+                                             <h5 class="text-success fs-14 mb-0">
+                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                             </h5>
+                                          </div>
+                                       </td>
+                                    <td>
+                                      <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
+                                    </td>
+                                   </tr>
+
+                                   <tr>
+                                      <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                                <img src="assets/images/newimages/avatar-6.jpg" alt="" class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Alex Smith</div>
+                                       </div>
+                                    </td>
+                                      <td>18%</td>
+                                      <td>
+                                          <div class="flex-shrink-0">
+                                             <h5 class="text-success fs-14 mb-0">
+                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                             </h5>
+                                          </div>
+                                       </td>
+                                    <td>
+                                      <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban Service</a> 
+                                    </td>
+                                   </tr>
                                 </tbody>
                              </table>
                              </div>
@@ -133,7 +237,29 @@
                          
                         </div>
                      </div>
-                    
+                     <div class="box">
+                 
+                      <div class="box-body">
+                        <div class="redeem_box">
+                        <div class="pt-6 balanceAmount nth_balance">
+                           <h6 class="total_earned_nth">Total Earned</h6>
+                           <h3>2600 <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">NTH</span></h3>
+                        
+                        
+                        </div>
+                        <div class="change_wallet">
+                        <div class="w-full ">
+                              <h1 class="font-bold leading-snug text-white text-4xl"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Redeem NTH Rewards</span></h1>
+                           
+                              <div class="buy_more">
+                                 <a href="#">Redeem Now</a>
+                              </div>
+                           </div>
+                        </div>
+                        </div>
+                      
+                      </div>
+                   </div>
                   </div>
                   <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
                   </div>

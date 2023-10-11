@@ -777,7 +777,7 @@ align-items: center;
 margin-bottom: 20px;
 }
 .custom_table_area {
-padding: 0px 20px 20px 0;
+padding:0;
 }
 
 .dataTables_length label select {
@@ -807,9 +807,10 @@ padding: 10px;
 border-bottom: 1px solid #293445;
 font-size: 14px;
 }
-table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+/* table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
   bottom: 13px;
-}
+} */
+
 .dataTables_info {
 font-size: 14px;
 }
@@ -1488,4 +1489,27 @@ color:#0ab39c
   background: #ff00001c;
   border-radius: 5px;
   color: #ff0000;
+}
+/*  */
+th.sortable {
+  cursor: pointer;
+}
+.active-arrow {
+  color: green !important; /* Change the color to indicate active state */
+}
+th.sortable i {
+  font-size: 10px !important;
+  color: #565771;
+}
+.arrow_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.redeem_box {
+  display: flex;
+  justify-content: space-between;
+}
+.redeem_box .change_wallet{
+  
 }
