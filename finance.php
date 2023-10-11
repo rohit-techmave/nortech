@@ -94,7 +94,7 @@
                                       <th>Name</th>
                                       <th>Fees Adjust</th>
                                       <th>Gain</th>
-                                      <th>Action</th>
+                                      <th class="actionbtnarea">Action</th>
                                    </tr>
                                 </thead>
                                 <tbody>
