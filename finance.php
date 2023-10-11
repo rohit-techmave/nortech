@@ -56,17 +56,17 @@
        <div class="col-lg-auto">
         <div class="exchangesign"> <h1><i class="fas fa-exchange-alt"></i></h1></div>
        </div>
-<div class="col-lg-5">
-<input type="text" id="result" placeholder="Converted Amount" readonly class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2">
+         <div class="col-lg-5">
+         <input type="text" id="result" placeholder="Converted Amount" readonly class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2">
 
-</div> 
+         </div> 
 
-<div class="col-lg-12">
-    <div class="formsubmit_btnnth">
-    <input type="submit" id="submit" name="send" class="btn bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-full mt-5" value="Pay Now">
-    </div>
-</div>
-</div>
+         <div class="col-lg-12">
+            <div class="formsubmit_btnnth">
+            <input type="submit" id="submit" name="send" class="btn bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-full mt-5" value="Pay Now">
+            </div>
+         </div>
+         </div>
                                
                      </div>
 
@@ -75,6 +75,65 @@
                   <div class="hidden" id="Courses" role="tabpanel" aria-labelledby="Courses-tab">
                   </div>
                   <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
+                       
+                  <div class="box">
+                        <div class="box-header">
+                           <h3>User Management</h3>
+                        </div>
+                        <div class="box-body">
+                        <div class="custom_table_area">
+                             
+                             <div class="tabltoparea">
+                             <div id="entries-container"></div>
+                                <div id="search-button-container"></div>
+                             </div>
+                             <div class="table-responsive">
+                             <table class="datatable " id="export-button">
+                                <thead>
+                                   <tr>
+                                      <th>Name</th>
+                                      <th>Fees Adjust</th>
+                                      <th>Gain</th>
+                                      <th>Action</th>
+                                   </tr>
+                                </thead>
+                                <tbody>
+                                   <tr>
+                                      <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                                <img src="assets/images/newimages/avatar-1.jpg" alt="" class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Vihan Hudda</div>
+                                       </div>
+                                    </td>
+                                      <td>10%</td>
+                                      <td>
+                                          <div class="flex-shrink-0">
+                                             <h5 class="text-success fs-14 mb-0">
+                                              +16.24 %  <i class="fa-solid fa-arrow-trend-up"></i> 
+                                             </h5>
+                                          </div>
+                                       </td>
+                                    <td>
+                                       
+                                    </td>
+                                   </tr>
+                                   
+                                </tbody>
+                             </table>
+                             </div>
+                             
+                             <div class="entries_pagination">
+                               <div id="info-container"></div>
+                                <div id="pagination-container"></div>
+  
+                             </div>
+                             </div>
+                         
+                        </div>
+                     </div>
+                    
                   </div>
                   <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
                   </div>

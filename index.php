@@ -1279,6 +1279,33 @@
                       
                       </div>
                    </div>
+
+
+                   <div class="box">
+                     <div class="box-header">
+                           <h3>Change API'S</h3>
+                        </div>
+                      <div class="box-body">
+                       <div class="change_api">
+                         <div class="row">
+                           <div class="col-lg-12">
+                              <div class="form-group">
+                                 <label for="">Change API</label>
+                                  <input class="form-control" type="text" placeholder="https://jsonplaceholder.typicode.com/todos/1" value="https://jsonplaceholder.typicode.com/todos/1">
+                                  <a href="#" class="change_mail_btn">Change</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-12">
+                              <div class="form-group">
+                                 <label for="">Connect API</label>
+                                 <input class="form-control" type="text" placeholder="https://jsonplaceholder.typicode.com/todos/1" value="https://jsonplaceholder.typicode.com/todos/1">
+                                 <a href="#" class="change_mail_btn">Connect</a>
+                              </div>
+                           </div>
+                         </div>
+                       </div>                      
+                      </div>
+                   </div>
                   </div>
                    <!-- manage tab end-->
                </div>
