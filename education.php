@@ -5,9 +5,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 <div class="container-fluid relative px-3">
    <div class="layout-specing">
-      <div class="grid md:grid-cols-12 gap-6 ">
-         <div class="lg:col-span-12 md:col-span-12 ">
-            <div class="grid grid-cols-1 ">
+  
                <ul class="finance__area flexgrid_tabs md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
                      <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out custom-btn btn-11" id="Finance-tab" data-tabs-target="#Finance" type="button" role="tab" aria-controls="Finance" aria-selected="true">
@@ -31,29 +29,37 @@
                      <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Stats-tab" data-tabs-target="#Stats" type="button" role="tab" aria-controls="Stats" aria-selected="false">Stats</button>
                   </li>
                </ul>
-               <div class="filter__header__">
+               
+               <div id="StarterContent" class="mt-6">
+
+                  <div class="" id="Finance" role="tabpanel" aria-labelledby="Finance-tab">
+
+                  <div class="filter__header__">
                   <h6 class="text-lg font-semibold">Your Courses</h6>
-                  <div class="filter-container">
-                     <label for="course-filter">Filter By:</label>
-                     <select id="course-filter">
-                        <option value="new">New Courses</option>
-                        <option value="enrolled">Enrolled Courses</option>
-                        <option value="completed">Completed Courses</option>
-                        <option value="learning">Learning Paths</option>
-                        <option value="wishlist">Wish List</option>
-                     </select>
-                  </div>
+              
+
+                  <select id="course-filter">
+    <option value="new">New Courses</option>
+    <option value="enrolled">Enrolled Courses</option>
+    <option value="completed">Completed Courses</option>
+    <option value="learning">Learning Paths</option>
+    <option value="wishlist">Wish List</option>
+</select>
+
 
                 
 
                </div>
-               <div id="StarterContent" class="mt-6">
-                  <div class="" id="Finance" role="tabpanel" aria-labelledby="Finance-tab">
+
                      <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full ">
                         <div class="row ">
                            <ul id="course-list">
                         
-                           <div class="course__header_tit">
+                          
+
+                              <li data-status="enrolled" id="enrolled_courselist" style="display: none;">
+
+                              <div class="course__header_tit">
                                     <div class="coursecat_titlte">
                                        <h2>Enrolled Courses</h2>
                                     </div>
@@ -63,8 +69,6 @@
                                     </div>
                                  </div>
 
-                              <li data-status="enrolled" id="enrolled_courselist" style="display: none;">
-                                 
                                  <div class="row course__boxmain">
                                     <div class="col-lg-5">
                                        <div class="course__box">
@@ -172,6 +176,15 @@
 
 
                               <li data-status="completed">
+                              <div class="course__header_tit">
+                                    <div class="coursecat_titlte">
+                                       <h2>Completed Courses</h2>
+                                    </div>
+                                 <div class="search-container">
+                                       <label for="search-courses">Search Courses:</label>
+                                       <input type="text" id="search-courses">
+                                    </div>
+                                 </div>
                              
                                  <div class="row course__boxmain">
                                     <div class="col-lg-5">
@@ -313,10 +326,386 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-status="learning">learning</li>
-                              <li data-status="wishlist">wishlist</li>
-                              <li data-status="new">Course 5 (New Course)</li>
-                              <li data-status="new">Course 6 (New Course)</li>
+                              <li data-status="learning">
+                              <div class="course__header_tit">
+                                    <div class="coursecat_titlte">
+                                       <h2>Learning Courses</h2>
+                                    </div>
+                                 <div class="search-container">
+                                       <label for="search-courses">Search Courses:</label>
+                                       <input type="text" id="search-courses">
+                                    </div>
+                                 </div>
+                                 learning
+                              </li>
+                              <li data-status="wishlist">
+                                 <div class="course__header_tit">
+                                    <div class="coursecat_titlte">
+                                       <h2>Wishlist Courses</h2>
+                                    </div>
+                                 <div class="search-container">
+                                       <label for="search-courses">Search Courses:</label>
+                                       <input type="text" id="search-courses">
+                                    </div>
+                                 </div>
+                                 wishlist</li>
+                              <li data-status="new">
+                                 
+                              <div class="course__header_tit">
+                                    <div class="coursecat_titlte">
+                                       <h2>New Courses</h2>
+                                    </div>
+                                 <div class="search-container">
+                                       <label for="search-courses">Search Courses:</label>
+                                       <input type="text" id="search-courses">
+                                    </div>
+                                 </div>
+
+                                 <div class="allcourse__listarea">
+
+                                 <div class="allcourse_grid_box row">
+                            
+                            
+                                 <div class="col-lg-3 col-md-6">
+                                 <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/2.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+        
+                                    
+        
+                                 
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Genuine Undead #3902</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                                 </div>
+        
+                            <div class="col-lg-3 col-md-6">
+                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/5.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Windchime #768</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                            </div>
+        
+                           <div class="col-lg-3 col-md-6">
+                           <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/7.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                    
+        
+                                 
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #3277</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                           </div>
+        
+                            <div class="col-lg-3 col-md-6">
+                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/4.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                    
+        
+                                 
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #1711</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                            </div>
+        
+                            <div class="col-lg-3 col-md-6">
+                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/5.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                    
+        
+                                 
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Shibuya Scramble Punks</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                            </div>
+        
+                           <div class="col-lg-3 col-md-6">
+                           <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/1.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #650</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                           </div>
+        
+                           <div class="col-lg-3 col-md-6">
+                           <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/3.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                </div>
+        
+                                <div class="mt-3">
+                                    <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Looki#0147</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                           </div>
+        
+                            <div class="col-lg-3 col-md-6">
+                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
+                                <div class="relative overflow-hidden">
+                                    <div class="relative overflow-hidden rounded-lg">
+                                        <img src="assets/images/newimages/courses/4.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
+                                    </div>
+                                    
+                                    
+        
+                                 
+                                </div>
+        
+                                <div class="mt-3">
+                                <div class="instructerand_ration">
+                                        <a href="##" class="instructor_text">Instructor </a>
+                                        <div class="star-rating">
+                                             <div class="star-rating__star">&#9733;</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+                                    </div>
+        
+                                    <div class="my-3">
+                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Poob #285</a>
+                                    </div>
+        
+                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        </div>
+                                        
+                                        <div>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end content-->
+                            </div>
+        
+                          
+                           
+                        </div>
+                                 </div>
+                              </li>
                               <!-- Add more courses with data-status as needed -->
                            </ul>
                            <!-- <div class="noresult__contair">
@@ -399,10 +788,9 @@
                   <div class="hidden" id="Stats" role="tabpanel" aria-labelledby="Stats-tab">
                   </div>
                </div>
-            </div>
-         </div>
+           
          <!--end col-->
-      </div>
+     
       <!-- End Content -->
    </div>
 </div>
@@ -412,61 +800,43 @@
 <script>
 
 $(document).ready(function() {
-   $('#course-filter').select2({
-        closeOnSelect: true
-    });
-
-    const courseItems = document.querySelectorAll('#course-list li');
-    const noResultsContainer = document.getElementById('no-results-container');
-    let searchQuery = "";
+    // Initialize Select2 on the course-filter select element
+    $('#course-filter').select2();
+    
+    const courseList = document.getElementById("course-list");
+    const courseItems = courseList.querySelectorAll('li');
 
     $('#course-filter').on('change', function() {
-        filterCourses();
-    });
-
-    $('#search-courses').on('input', function() {
-        searchQuery = this.value.toLowerCase();
-        filterCourses();
-    });
-
-    $('#course-filter').val('new').trigger('change');
-
-    function filterCourses() {
-        const selectedFilter = $('#course-filter').val().toLowerCase();
-        let anyResults = false;
+        const selectedFilter = $(this).val();
 
         courseItems.forEach(course => {
-            const courseStatus = course.getAttribute('data-status').toLowerCase();
-            const courseRows = course.querySelectorAll('.row');
-            let visible = false;
-
-            if (selectedFilter === "all" || selectedFilter === courseStatus) {
-                courseRows.forEach(row => {
-                    const rowText = row.innerText.toLowerCase();
-                    const isMatch = rowText.includes(searchQuery);
-
-                    if (isMatch) {
-                        visible = true;
-                        anyResults = true;
-                    }
-                });
-            }
-
-            if (visible) {
+            const courseStatus = course.getAttribute('data-status');
+            if (selectedFilter === "new" && courseStatus === "new") {
+                course.style.display = 'block';
+            } else if (selectedFilter === "all" || selectedFilter === courseStatus) {
                 course.style.display = 'block';
             } else {
                 course.style.display = 'none';
             }
         });
+    });
 
-        if (searchQuery.length > 0 && !anyResults) {
-            noResultsImage.style.display = 'block';
-        } else {
-            noResultsImage.style.display = 'none';
-        }
-    }
+    // Initial population of the course list with "New Courses" selected
+    $('#course-filter').val('new').trigger('change');
 });
 
+
+</script>
+
+<!-- rating js -->
+
+<script>
+   $(document).ready(function() {
+    // Set the width of the filled stars based on the rating (4.6 out of 5).
+    const rating = 4.6;
+    const filledStarsWidth = (rating / 5) * 100;
+    $('.star-rating__filled-stars').css('width', `${filledStarsWidth}%`);
+});
 
 </script>
 

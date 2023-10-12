@@ -363,3 +363,58 @@ position: absolute;
   margin: 0 auto;
   margin-bottom: 12px;
 }
+.filter__header__{
+  margin-bottom: 10px;
+}
+.allcourse_grid_box{
+  margin: 0px 20px;
+}
+
+.relative.overflow-hidden{
+  height: 200px;
+}
+
+.relative.overflow-hidden .rounded-lg {
+  height: 100%;
+}
+
+.relative.overflow-hidden .rounded-lg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.allcourse__listarea{
+  margin: 20px;
+}
+
+.allcourse__listarea .col-lg-3{
+  margin-bottom: 20px;
+}
+
+.instructor_text{
+  color: #ccc;
+  font-size: 13px;
+}
+
+
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating__star {
+  color: #FFD700;
+  font-size: 16px;
+}
+
+.star-rating__text {
+  margin-left: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.instructerand_ration{
+  display: flex;
+  justify-content: space-between;
+}
