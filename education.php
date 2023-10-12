@@ -50,7 +50,7 @@
                      <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full ">
                         <div class="row ">
                            <ul id="course-list">
-                           
+                        
 
                               <li data-status="enrolled">
                                  <div class="course__header_tit">
@@ -97,8 +97,8 @@
                                                    </div> -->
                                              </div>
                                           </div>
-                                          <div class="progress__areaP">
-                                             <a href="##" class="">Watch again
+                                          <div class="progress__areaP ">
+                                             <a href="##" class="btn btn-lined-rounded"><span>Watch again</span>
                                              </a>
                                           </div>
                                        </div>
@@ -108,7 +108,7 @@
                                  <div class="row">
                                     <div class="col-lg-5">
                                        <div class="course__box">
-                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/2.jpg'); background-size: cover;">
+                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/2.jpeg'); background-size: cover;">
                                              course1
                                           </div>
                                        </div>
@@ -140,8 +140,8 @@
                                                    </div> -->
                                              </div>
                                           </div>
-                                          <div class="progress__areaP">
-                                             <a href="##" class="">Watch again
+                                          <div class="progress__areaP ">
+                                             <a href="##" class="btn btn-lined-rounded"><span>Watch again</span>
                                              </a>
                                           </div>
                                        </div>
@@ -151,7 +151,7 @@
                                  <div class="row">
                                     <div class="col-lg-5">
                                        <div class="course__box">
-                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/3.webp'); background-size: cover;">
+                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/3.jpeg'); background-size: cover;">
                                              course1
                                           </div>
                                        </div>
@@ -183,8 +183,8 @@
                                                    </div> -->
                                              </div>
                                           </div>
-                                          <div class="progress__areaP">
-                                             <a href="##" class="">Watch again
+                                          <div class="progress__areaP ">
+                                             <a href="##" class="btn btn-lined-rounded"><span>Watch again</span>
                                              </a>
                                           </div>
                                        </div>
