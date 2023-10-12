@@ -9,7 +9,7 @@
       <div class="grid md:grid-cols-12 gap-6 ">
          <div class="lg:col-span-12 md:col-span-12 ">
             <div class="grid grid-cols-1 ">
-               <ul class="finance__area md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
+               <ul class="finance__area finance__as_area md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
                      <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out custom-btn btn-11" id="Finance-tab" data-tabs-target="#Finance" type="button" role="tab" aria-controls="Finance" aria-selected="true">
                         Pay Way 
@@ -289,6 +289,38 @@
                    </div>
                   </div>
                   <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
+                  <div class="box">
+                    <div class="box-header">
+                        <h3>Select </h3>
+                     </div>
+                 <div class="box-body">
+                  <div class="row">
+                     <div class="col-lg-6">
+                     <div class="account_select">
+                     <select class="image-select">
+                        <option value="assets/images/newimages/coinbase-icon.png" data-image="assets/images/newimages/coinbase-icon.png">Coinbase |  0xe849fa28a...ea14</option>
+                        <option value="assets/images/newimages/binance-icon.png" data-image="assets/images/newimages/binance-icon.png">Binance |  0xe849fa28a...ea14</option>
+                        <option value="assets/images/newimages/bitfinex-icon.png" data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex | 0xe849fa28a...ea14</option>
+                     </select>
+                     </div>
+                     </div>
+                     <div class="col-lg-6">
+                     <div class="account_select">
+                     <select class="image-select">
+                        <option value="assets/images/newimages/coinbase-icon.png" data-image="assets/images/newimages/coinbase-icon.png">Coinbase |  0xe849fa28a...ea14</option>
+                        <option value="assets/images/newimages/binance-icon.png" data-image="assets/images/newimages/binance-icon.png">Binance |  0xe849fa28a...ea14</option>
+                        <option value="assets/images/newimages/bitfinex-icon.png" data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex | 0xe849fa28a...ea14</option>
+                     </select>
+                     </div>
+                     </div>
+                  </div>
+                  
+               
+
+    <!-- <img id="display-image" src="" alt="Selected Image" style="max-width: 200px; max-height: 200px;"> -->
+                              
+                 </div>
+              </div>
                   </div>
                   <div class="hidden" id="History" role="tabpanel" aria-labelledby="History-tab">
                   </div>
@@ -302,3 +334,26 @@
 </div>
 <!--end container-->
 <?php include("footer.php") ?>
+<script>
+        $(document).ready(function() {
+            $('.image-select').select2({
+                templateResult: formatState,
+                templateSelection: formatState,
+            });
+
+            $('.image-select').on('select2:select', function(e) {
+                var selectedImage = e.params.data.element.getAttribute('data-image');
+                $('#display-image').attr('src', selectedImage);
+            });
+
+            function formatState(state) {
+                if (!state.element) {
+                    return state.text;
+                }
+                var $state = $(
+                    '<span><img class="select-image" src="' + state.element.getAttribute('data-image') + '" /> ' + state.text + '</span>'
+                );
+                return $state;
+            }
+        });
+    </script>
