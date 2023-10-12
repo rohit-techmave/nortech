@@ -290,27 +290,35 @@
                   </div>
                   <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
                   <div class="box">
-                    <div class="box-header">
+                    <!-- <div class="box-header">
                         <h3>Select </h3>
-                     </div>
+                     </div> -->
                  <div class="box-body">
                   <div class="row">
                      <div class="col-lg-6">
                      <div class="account_select">
+                        <div class="form-group">
+                        <label for="">Select Account</label>
                      <select class="image-select">
                         <option value="assets/images/newimages/coinbase-icon.png" data-image="assets/images/newimages/coinbase-icon.png">Coinbase |  0xe849fa28a...ea14</option>
                         <option value="assets/images/newimages/binance-icon.png" data-image="assets/images/newimages/binance-icon.png">Binance |  0xe849fa28a...ea14</option>
                         <option value="assets/images/newimages/bitfinex-icon.png" data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex | 0xe849fa28a...ea14</option>
                      </select>
+                        </div>
+                
                      </div>
                      </div>
                      <div class="col-lg-6">
                      <div class="account_select">
+                        <div class="form-group">
+   <label for="">Select CRYPTO</label>
                      <select class="image-select">
-                        <option value="assets/images/newimages/coinbase-icon.png" data-image="assets/images/newimages/coinbase-icon.png">Coinbase |  0xe849fa28a...ea14</option>
-                        <option value="assets/images/newimages/binance-icon.png" data-image="assets/images/newimages/binance-icon.png">Binance |  0xe849fa28a...ea14</option>
-                        <option value="assets/images/newimages/bitfinex-icon.png" data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex | 0xe849fa28a...ea14</option>
+                        <option value="assets/images/newimages/bitcoin-icon.png" data-image="assets/images/newimages/bitcoin-icon.png">BTC</option>
+                        <option value="assets/images/newimages/ethirum-icon.png" data-image="assets/images/newimages/ethirum-icon.png">ETH</option>
+                        <option value="assets/images/newimages/tether-icon.png" data-image="assets/images/newimages/tether-icon.png">USDT</option>
                      </select>
+                        </div>
+                  
                      </div>
                      </div>
                   </div>
@@ -339,6 +347,7 @@
             $('.image-select').select2({
                 templateResult: formatState,
                 templateSelection: formatState,
+                minimumResultsForSearch: Infinity, // Disable search
             });
 
             $('.image-select').on('select2:select', function(e) {
