@@ -1262,8 +1262,9 @@ font-size: 20px;
 }
 .box {
   background: #0f172a;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 .box-header {
   padding: 15px;
@@ -1555,4 +1556,8 @@ th.sortable i {
 }
 .redeem_box .change_wallet {
   padding-left: 50px;
+}
+.default_chart{
+height: 350px !important;
+width: 100%;
 }

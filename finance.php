@@ -75,16 +75,34 @@
                   <div class="hidden" id="Courses" role="tabpanel" aria-labelledby="Courses-tab">
                   </div>
                   <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
-                  <div class="box">
-                     <!-- <div class="box-header">
-                           <h3>Wallet Change</h3>
-                        </div> -->
-                      <div class="box-body">
-                        <div class="balnce__chart">
-                        <canvas id="rewardChart" width="400" height="400"></canvas>
+                   <div class="row">
+                     <div class="col-lg-8">
+                     <div class="box">
+                           <!-- <div class="box-header">
+                                 <h3>Wallet Change</h3>
+                              </div> -->
+                           <div class="box-body">
+                              <div class="balnce__chart">
+                              <canvas id="rewardChart" class="default_chart"></canvas>
+                              </div>
+                           </div>
                         </div>
-                      </div>
+                     </div>
+                     <div class="col-lg-4">
+                     <div class="box">
+                           <!-- <div class="box-header">
+                                 <h3>Wallet Change</h3>
+                              </div> -->
+                           <div class="box-body">
+                              <div class="balnce__chart">
+                              <canvas id="userperformanceChart" class="default_chart"></canvas>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                    </div>
+                
+
                   <div class="box">
                         <div class="box-header">
                            <h3>User Management</h3>
