@@ -40,16 +40,19 @@
                            <h6 class="text-lg font-semibold">Buy NTH Token</h6>
                         </div>
 
-                        <div class="exchange-form row ">
+                        <div class="row ">
                         
 
                         <div class="filter-container">
         <label for="course-filter">Filter By:</label>
+
         <select id="course-filter">
             <option value="all">All Courses</option>
             <option value="enrolled">Enrolled Courses</option>
             <option value="completed">Completed Courses</option>
         </select>
+
+        
     </div>
     <ul id="course-list">
         <li data-status="enrolled">
@@ -203,25 +206,29 @@
 
 <script>
 
-const courseFilter = document.getElementById("course-filter");
-const courseList = document.getElementById("course-list");
-const courseItems = courseList.querySelectorAll('li');
+$(document).ready(function() {
+    // Initialize Select2 on the course-filter select element
+    $('#course-filter').select2();
+    
+    const courseList = document.getElementById("course-list");
+    const courseItems = courseList.querySelectorAll('li');
 
-courseFilter.addEventListener("change", function () {
-    const selectedFilter = courseFilter.value;
-    courseItems.forEach(course => {
-        const courseStatus = course.getAttribute('data-status');
-        if (selectedFilter === "all" || selectedFilter === courseStatus) {
-            course.style.display = 'block';
-        } else {
-            course.style.display = 'none';
-        }
+    $('#course-filter').on('change', function() {
+        const selectedFilter = $(this).val();
+
+        courseItems.forEach(course => {
+            const courseStatus = course.getAttribute('data-status');
+            if (selectedFilter === "all" || selectedFilter === courseStatus) {
+                course.style.display = 'block';
+            } else {
+                course.style.display = 'none';
+            }
+        });
     });
+
+    // Initial population of the course list with "All Courses" selected
+    $('#course-filter').val('all').trigger('change');
 });
-
-// Initial population of the course list with "All Courses" selected
-courseFilter.value = "all";  // Set the default filter value
-
 
 
 </script>

@@ -656,12 +656,12 @@ a{
   font-size: 14px;
 }
 
- .select2-container {
+.exchange-form .select2-container {
   position: absolute !important;
   right: 10px;
   top: 15px;
 }
- .select2-container--default .select2-selection--single {
+.exchange-form .select2-container--default .select2-selection--single {
   background-color: transparent !important;
   border: none !important;
   border-radius: 4px;
@@ -669,38 +669,56 @@ a{
     border-top-right-radius: 4px;
   color: #fff;
 }
- .select2-container--open .select2-dropdown--above {
+.exchange-form .select2-container--open .select2-dropdown--above {
   width: 120px !important;
 }
 #currencyareawithinp .select2-container--open .select2-dropdown--below {
   width: 120px !important;
 }
- .select2-results__option--selectable {
+.exchange-form .select2-results__option--selectable {
   cursor: pointer;
   color: #fff !important;
   font-size: 13px !important;
 }
- .select2-container--open .select2-dropdown--below {
+.exchange-form .select2-container--open .select2-dropdown--below {
   background: #0f172a !important;
 }
  .select2-container--default .select2-results__option--selected {
   background-color: #ddd0 !important;
 }
- .select2-dropdown {
-  background-color: white;
-  border: 1px solid #000 !important;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px !important;
+.select2-dropdown {
+  background-color: #0f172a !important; 
+  border: 1px solid #aaa;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(170, 170, 170);
+  border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: -100000px;
+  width: 100%;
+  z-index: 1051;
 }
- .select2-search--dropdown {
+.select2-results__option {
+  padding: 6px;
+  font-size: 12px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  font-size: 13px !important;
+}
+.exchange-form .select2-search--dropdown {
   display: none !important;
 }
 
- .select2-container--default .select2-selection--single .select2-selection__rendered {
+.exchange-form .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #e1e1e1 !important;
   line-height: 28px;
   font-size: 12px !important;
 }
- .select2-container--open .select2-dropdown {
+.exchange-form .select2-container--open .select2-dropdown {
   left: 0px !important;
   top: 5px !important;
   border-radius: 0px 0px 15px 15px !important;
@@ -741,11 +759,36 @@ cursor: pointer;
 
 
 
-
-
-
-
-
+.select2-container--default .select2-selection--single {
+  background-color: transparent !important;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  color: #fff !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #eaeaea !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #aaa;
+  color: #e6e6e6 !important;
+}
+#select2-course-filter-container:focus-visible {
+  outline: none;
+}
+.select2-dropdown {
+  border: 1px solid #1e2637 !important;
+}
+.select2-container--default .select2-selection--single {
+  border: 1px solid #1e2637 !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #27324a !important;
+  background: #0f172a !important;
+  font-size: 14px !important;
+}
+.select2-search__field:focus-visible {
+  outline: none;
+}
 /*********************************************
      Ankur Css Start Here 03 Oct,2023
 ********************************************/

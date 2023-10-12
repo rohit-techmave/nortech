@@ -43,7 +43,7 @@
        <div class="input-group currencyareawithinp" >
             <!-- Change input type to "text" -->
             <input type="text" id="amount" placeholder="Enter amount" class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2">
-            <select id="currency__select">
+            <select id="currency__select" class="custom-select">
                 <option value="usd">USD</option>
                 <option value="aud">AUD</option>
                 <option value="brl">BRL</option>

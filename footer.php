@@ -215,12 +215,22 @@ $(document).ready(function() {
 
 
 <!-- select dropdown call -->
-<!-- JavaScript/jQuery to initialize Select2 -->
+
+
 <script>
-  $(document).ready(function() {
-    $('#currency__select').select2();
+    $(document).ready(function() {
+  $(".custom-select").select2({
+    templateSelection: function(selected, container) {
+      // Add your custom class to the span element
+      $(container).addClass("custom-select2");
+      return selected.text;
+    }
   });
+});
+
 </script>
+
+
 
 
 <script>

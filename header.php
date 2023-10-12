@@ -84,7 +84,7 @@
                         </li>
 
                         <li class="">
-                            <a href="##"><i data-feather="book" class="h-4 w-4 me-3"></i>Education</a>
+                            <a href="education.php"><i data-feather="book" class="h-4 w-4 me-3"></i>Education</a>
                         </li>
 
                         <li class="marketplacemenu">
