@@ -98,18 +98,7 @@
  .mainprogressbox  .progress .progress-bar {
     background-color: #9884fc !important;
   }
-  /* .mainprogressbox  .hexagon-box {
-    background: #344156;
-    border-radius: 3px;
-    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    height: 40px;
-    margin: 0 auto;
-      margin-left: auto;
-    position: relative;
-    width: 36px;
-    margin-left: 20px;
-  } */
+
   .mainprogressbox  .hexagon-box {
  
     margin: 0 auto;
@@ -118,22 +107,6 @@
     width: 36px;
     margin-left: 10px;
   }
- /* .mainprogressbox .progresS-bg {
-    background: #222e43;
-    border-radius: 3px;
-    -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
-    color: #717a89;
-    font-family: Open Sans,Helvetica,Arial,sans-serif;
-    font-size: 10px;
-    height: 38px;
-    margin: 0 auto;
-    position: relative;
-    width: 34px;
-    display: flex !important;
-  justify-content: center;
-  align-items: center;
-  } */
 
   .mainprogressbox .progresS-bg {
     font-size: 10px;
@@ -172,4 +145,36 @@
   }
   .course-list li .row{
     align-items: center;
+  }
+
+  .filter__header__ {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #0f172a;
+    border-radius: 6px;
+  }
+  #course-list li .row{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #283247;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #search-courses{
+    border: 1px solid #1e2637;
+  background: #0f172a;
+  padding: 5px 10px;
+  font-size: 14px;
+  }
+  .course__header_tit{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0px 20px;
+  }
+  .search-container label{
+    color: #949494;
+  font-size: 14px;
   }
