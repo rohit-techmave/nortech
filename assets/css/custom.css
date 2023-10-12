@@ -779,7 +779,7 @@ cursor: pointer;
   border: 1px solid #1e2637 !important;
 }
 .select2-container--default .select2-selection--single {
-  border: 1px solid #1e2637 !important;
+  border: 1px solid #2d3f5a !important;
 }
 .select2-container--default .select2-search--dropdown .select2-search__field {
   border: 1px solid #27324a !important;
@@ -1587,3 +1587,114 @@ img.select-image {
   top: 12px;
   right: 6px;
 }
+.account_select .form-group {
+  margin-bottom: 0;
+}
+.money_unit {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 15px;
+  color: #9c9c9c;
+}
+.bid_status p {
+  margin-right: 20px;
+  color: #0858e5;
+}
+.bid_status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span.green {
+  color: #02c653;
+}
+span.red {
+  color: #e65050;
+}
+
+
+
+.slider-container {
+  text-align: center;
+  position: relative;
+  margin: 20px;
+}
+
+.slider-label {
+  font-size: 1.2rem;
+}
+
+.slider_ {
+  width: 100%;
+}
+
+
+
+.scrolling-percentage {
+  position: absolute;
+}
+.range_slider_input {
+  padding: 10px;
+  background: #0f172a;
+  border: 1px solid #2d3f5a;
+  border-radius: 5px;
+}
+.sizes span {
+  width: 20%;
+  padding: 5px 10px;
+  background: #1e293b;
+  text-align: center;
+  border-right: 1px solid #2d3f5a;
+}
+.sizes span.active {
+  width: 20%;
+  padding: 5px 10px;
+  background: #1e293b;
+  text-align: center;
+  border-right: 1px solid #2d3f5a;
+}
+.sizes span:last-child{
+  border-right: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.sizes span:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.sizes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #2d3f5a;
+}
+.note {
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  color: #5c7296;
+}
+.sizes span.active {
+  background: #2d3f5a;
+}
+.theme_btn {
+  background: #2563eb;
+  font-weight: 400;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+}
+.theme_secondary_btn {
+  background: #2d3f5a !important;
+  border: 1px solid #2d3f5a !important;
+}
+.action_create_btn{
+  text-align: center;
+}
+.verified_icon {
+  color: #00e76f;
+}
+/*  */
