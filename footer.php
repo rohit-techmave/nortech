@@ -433,7 +433,26 @@ $(document).ready(function () {
     }
   });
 </script>
+<script>
+        // Function to limit the number of characters in containers with a specific class and add ellipsis
+        function limitContentByClass(className, maxCharacters) {
+            const containers = document.querySelectorAll('.' + className);
 
+            containers.forEach(container => {
+                const paragraphs = container.getElementsByTagName('p');
+
+                for (let i = 0; i < paragraphs.length; i++) {
+                    if (maxCharacters > 0 && paragraphs[i].textContent.length > maxCharacters) {
+                        const truncatedText = paragraphs[i].textContent.substring(0, maxCharacters) + '...';
+                        paragraphs[i].textContent = truncatedText;
+                    }
+                }
+            });
+        }
+
+        // Example: Limit all elements with the "content-container" class to 50 characters with ellipsis
+        limitContentByClass('content-container', 120);
+    </script>
 </body>
 
 </html>

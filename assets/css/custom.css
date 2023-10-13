@@ -1443,6 +1443,7 @@ input:checked + .slider {
 .main_title {
   font-size: 22px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 .update_action {
   text-align: end;
@@ -1698,3 +1699,44 @@ span.red {
   color: #00e76f;
 }
 /*  */
+
+.profit_loss {
+  display: flex;
+  border-top: 1px solid #293345;
+  /* padding: 10px 15px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.text-danger {
+  color: #ff0000;
+}
+.text-blue{
+  color:#2563eb;
+}
+.padding-0{
+  padding: 0 !important;
+}
+.inner_box_pp {
+  padding: 15px;
+}
+.profit_loss h5 {
+  font-size: 15px;
+ 
+}
+
+.profit_loss .flex-shrink-0{
+  border-right: 1px solid #293345;
+  padding: 10px 26px;
+  cursor:pointer;
+}
+.profit_loss .flex-shrink-0:last-child{
+  border-right:none;
+}
+.content-container p {
+  margin-top: 12px;
+  color: #ccc;
+  font-size: 14px;
+}
+.name__ {
+  letter-spacing: 1px;
+}
