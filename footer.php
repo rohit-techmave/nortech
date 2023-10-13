@@ -262,44 +262,41 @@ $(document).ready(function() {
 
 </script>
 
-
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.13/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
 
 <script>
-               
+$(document).ready(function() {
+    // Initialize DataTable for the first table
+    $('#datatable1').DataTable({
+        // Add DataTable options and configuration here
+        "scrollY": "280px", // Adjust the height as needed
+        "paging": true,
+        "fixedHeader": true,
+        "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
+        // ... other options
+    });
 
-	if ($('.datatable').length > 0) {
-        $('.datatable').DataTable({
-           
-        });
-    }
-    if ($('.datatables').length > 0) {
-        $('.datatables').DataTable({
-          
-        });
-    }
-        </script>
-        <!-- JAVASCRIPTS -->
-        <script>
-    $(document).ready(function () {
-   
-  
-    // Move export buttons to the export-button-container div
-    $('.buttons-excel, .buttons-pdf, .buttons-csv , .buttons-copy ,  .buttons-print').appendTo('#export-button-container');
-  
-    // Move search input to the search-button-container div
-    $('.dataTables_filter').appendTo('#search-button-container');
+    // Initialize DataTable for the second table
+    $('#datatable2').DataTable({
+        // Add DataTable options and configuration here
+        "scrollY": "280px", // Adjust the height as needed
+        "paging": true,
+        "fixedHeader": true,
+        "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
+        // ... other options
+    });
+});
 
-    $('.dataTables_info').appendTo('#info-container');
 
-    
-     // Move entries control to the entries-container div
-     $('.dataTables_length').appendTo('#entries-container');
-  
-  // Move pagination control to the pagination-container div
-  $('.dataTables_paginate').appendTo('#pagination-container');
-  });
-  </script>
+</script>
+
+ 
+
+
+
 <!-- custom js -->
 
 <!-- pagination tabs -->

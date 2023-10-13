@@ -253,51 +253,17 @@
                   </div>
                </div>
                <!-- col-lg-4 -->
-            </div>
-         </div>
-         <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
-            <div class="row">
-               <div class="col-lg-8">
+               
+               <div class="col-lg-12">
                   <div class="box">
-                     <!-- <div class="box-header">
-                                 <h3>Wallet Change</h3>
-                              </div> -->
-                     <div class="box-body">
-                        <div class="balnce__chart">
-                           <canvas id="rewardChart" class="default_chart"></canvas>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4">
-                  <div class="box">
-                     <!-- <div class="box-header">
-                                 <h3>Wallet Change</h3>
-                              </div> -->
-                     <div class="box-body">
-                        <div class="balnce__chart">
-                           <canvas id="userperformanceChart" class="default_chart"></canvas>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-
-            <div class="box">
                <div class="box-header">
                   <h3>User Management</h3>
                </div>
                <div class="box-body">
-                  <div class="custom_table_area">
-
-                     <div class="tabltoparea">
-                        <div id="entries-container"></div>
-                        <div id="search-button-container"></div>
-                     </div>
-                     <div class="table-responsive">
-                        <table class="datatable " id="export-button">
-                           <thead>
+               <div class="datatable-container">
+    
+        <table id="datatable1" class="display">
+        <thead>
                               <tr>
                                  <th class="sortable sorted-asc">
                                     <div class="arrow_box">
@@ -451,15 +417,210 @@
                                  </td>
                               </tr>
                            </tbody>
-                        </table>
-                     </div>
+        </table>
+    </div>
 
-                     <div class="entries_pagination">
-                        <div id="info-container"></div>
-                        <div id="pagination-container"></div>
+    
 
+
+
+               </div>
+            </div>
+               </div>
+            </div>
+         </div>
+         <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
+            <div class="row">
+               <div class="col-lg-8">
+                  <div class="box">
+                     <!-- <div class="box-header">
+                                 <h3>Wallet Change</h3>
+                              </div> -->
+                     <div class="box-body">
+                        <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
                      </div>
                   </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="box">
+                     <!-- <div class="box-header">
+                                 <h3>Wallet Change</h3>
+                              </div> -->
+                     <div class="box-body">
+                        <div class="balnce__chart">
+                           <canvas id="userperformanceChart" class="default_chart"></canvas>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="box">
+               <div class="box-header">
+                  <h3>User Management</h3>
+               </div>
+               <div class="box-body">
+               <div class="datatable-container">
+        <table id="datatable2" class="display">
+        <thead>
+                              <tr>
+                                 <th class="sortable sorted-asc">
+                                    <div class="arrow_box">
+                                       <span>Name</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                             class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Fees Adjust</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                             class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Gain/Loss</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                             class="fas fa-arrow-down"></i></div>
+                                    </div>
+
+                                 </th>
+                                 <th class="actionbtnarea sortable">
+                                    <div class="arrow_box">
+                                       <span>Action</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                             class="fas fa-arrow-down"></i></div>
+                                    </div>
+
+                                 </th>
+
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-1.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Vihan Hudda</div>
+                                    </div>
+                                 </td>
+                                 <td>10%</td>
+                                 <td>
+                                    <div class="flex-shrink-0">
+                                       <h5 class="text-success fs-14 mb-0">
+                                          +16.24 % <i class="fa-solid fa-arrow-trend-up"></i>
+                                       </h5>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
+                                       Service</a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Jansh Brown</div>
+                                    </div>
+                                 </td>
+                                 <td>05%</td>
+                                 <td>
+                                 <div class="flex-shrink-0">
+                              <h5 class="text-danger fs-14 mb-0">
+                                 -08.24 % <i class="fa-solid fa-arrow-trend-down"></i>
+                              </h5>
+                           </div>
+                                 </td>
+                                 <td>
+                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
+                                       Service</a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Ayaan Bowen</div>
+                                    </div>
+                                 </td>
+                                 <td>15%</td>
+                                 <td>
+                                    <div class="flex-shrink-0">
+                                       <h5 class="text-success fs-14 mb-0">
+                                          +14.24 % <i class="fa-solid fa-arrow-trend-up"></i>
+                                       </h5>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
+                                       Service</a>
+                                 </td>
+                              </tr>
+
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Prezy Mark</div>
+                                    </div>
+                                 </td>
+                                 <td>18%</td>
+                                 <td>
+                                 <div class="flex-shrink-0">
+                              <h5 class="text-danger fs-14 mb-0">
+                                 -08.24 % <i class="fa-solid fa-arrow-trend-down"></i>
+                              </h5>
+                           </div>
+                                 </td>
+                                 <td>
+                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
+                                       Service</a>
+                                 </td>
+                              </tr>
+
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-6.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Alex Smith</div>
+                                    </div>
+                                 </td>
+                                 <td>18%</td>
+                                 <td>
+                                    <div class="flex-shrink-0">
+                                       <h5 class="text-success fs-14 mb-0">
+                                          +12.24 % <i class="fa-solid fa-arrow-trend-up"></i>
+                                       </h5>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
+                                       Service</a>
+                                 </td>
+                              </tr>
+                           </tbody>
+        </table>
+    </div>
 
                </div>
             </div>

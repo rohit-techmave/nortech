@@ -1762,3 +1762,14 @@ span.red {
   height: 35px;
 
 }
+
+.custom-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.dataTables_scrollHeadInner, .dataTable{
+  width: 100% !important;
+}
