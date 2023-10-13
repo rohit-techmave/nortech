@@ -370,9 +370,7 @@ position: absolute;
   margin: 0px 20px;
 }
 
-.allcourse_grid_box .relative.overflow-hidden{
-  height: 200px;
-}
+
 
 .allcourse_grid_box .relative.overflow-hidden .rounded-lg {
   height: 100%;
