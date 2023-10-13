@@ -348,7 +348,66 @@
                                        <input type="text" id="search-courses">
                                     </div>
                                  </div>
-                                 wishlist</li>
+                                
+                                 <div class="row course__boxmain">
+                                    <div class="col-lg-5">
+                                       <div class="course__box">
+                                       <span class="enrolled_badge">Enrolled</span>
+                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/5.jpeg'); background-size: cover;">
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                       <div class="courseright__details">
+                                         <div class="row">
+                                         <div class="col-12 col-md-6">
+                                         <div class="nameandlecture_area">
+                                             <div class="lacture_Count"><i class="fas fa-user-friends"></i> Nortech </div>
+                                             <div class="nameauthor__Course"><i class="fa fa-bars pr-1"></i> 5 <span>lectures</span>
+                                             </div>
+                                          </div>
+                                         </div>
+                                          <div class="col-12 col-md-6 text-right">
+                                             <div class="course-rewards">
+                                                <span class="course-reward">+100XP</span> 
+                                                <span  class="course-reward">+<span  class="translation">Certificate</span></span>
+                                             </div>
+                                          </div>
+                                         </div>
+                                          <div class="coursemain_titlearea">
+                                             <!-- <div class="courseicon__imgC">
+                                                <img class="brand-logo ls-is-cached lazyloaded" alt="band-protocol logo" data-src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png" src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png">
+                                             </div> -->
+                                             <a class="course-title__" href="##">
+                                                <h2 class="mb-0 text-capitalize">Learn PrimeXBT</h2>
+                                             </a>
+                                          </div>
+                                          <p class="courseshort__detailC">PrimeXBT is a crypto-native trading platform for both beginners &amp; advanced-level enthusiasts. Take a course, learn &amp; start using it today!</p>
+                                          <div class="certificate_progress">
+                                                <p>Certificate Progress</p>
+                                             </div>
+                                        
+
+                                          <div class="enrollprogress__">
+                                          <div  class="progress rounded-0"><div  aria-valuenow="17" role="progressbar" aria-valuemin="0" aria-valuemax="100" class="progress-bar" style="width: 17%;"></div>
+                                       </div>
+                                            <div  data-toggle="tooltip" data-placement="top" title="" class="course-progress-award course-progress-award__certificate certificate-locked" data-original-title="Complete this course to unlock your Certificate!">
+                                             <i  class="fas fa-lock hexagon-type"></i> <img  src="https://cdn.bitdegree.org/assets/certificate-grey-icon.svg" alt="Certificate icon"> 
+                                             <div  class="hexagon-bg"></div>
+                                          </div>
+
+                                          </div>
+                                          <div class="progress__areaP ">
+                                             <a href="##" class="btn btn-lined-rounded"><span>View Course</span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              
+                              
+                              </li>
                               <li data-status="new">
                                  
                               <div class="course__header_tit">
@@ -373,9 +432,6 @@
                                         <img src="assets/images/newimages/courses/2.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
                                     </div>
         
-                                    
-        
-                                 
                                 </div>
         
                                 <div class="mt-3">
@@ -391,19 +447,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Genuine Undead #3902</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Genuine Undead #3902</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class=>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Enrolled</span>
-                                            <span class="text-[16px] font-semibold block"><i class="fa fa-users"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Time</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-clock"></i> 1h 45min</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -431,19 +490,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Windchime #768</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Windchime #768</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -456,9 +518,6 @@
                                         <img src="assets/images/newimages/courses/7.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
                                     </div>
                                     
-                                    
-        
-                                 
                                 </div>
         
                                 <div class="mt-3">
@@ -474,19 +533,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #3277</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #3277</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -499,9 +561,6 @@
                                         <img src="assets/images/newimages/courses/4.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
                                     </div>
                                     
-                                    
-        
-                                 
                                 </div>
         
                                 <div class="mt-3">
@@ -517,19 +576,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #1711</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #1711</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -541,10 +603,6 @@
                                     <div class="relative overflow-hidden rounded-lg">
                                         <img src="assets/images/newimages/courses/5.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
                                     </div>
-                                    
-                                    
-        
-                                 
                                 </div>
         
                                 <div class="mt-3">
@@ -560,19 +618,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Shibuya Scramble Punks</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Shibuya Scramble Punks</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -600,19 +661,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Probably A Label #650</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #650</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -640,19 +704,22 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Looki#0147</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Looki#0147</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -665,9 +732,6 @@
                                         <img src="assets/images/newimages/courses/4.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
                                     </div>
                                     
-                                    
-        
-                                 
                                 </div>
         
                                 <div class="mt-3">
@@ -683,19 +747,23 @@
                                     </div>
         
                                     <div class="my-3">
-                                        <a href="item-detail.html" class="font-semibold hover:text-violet-600">Poob #285</a>
+                                        <a href="##" class="font-semibold hover:text-violet-600">Poob #285</a>
                                     </div>
         
-                                    <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                                        <div class="course_totlaenrolled">
+                                            <span class="E_title">Enrolled</span>
+                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
                                         </div>
                                         
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                        <div class="course_timE">
+                                            <span class="E_title">Time</span>
+                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
+                                    </div>
+
+                                    <div class="courselearn_more_bt">
+                                    <a href="##" class="btn "> Learn More</a>
                                     </div>
                                 </div>
                             </div><!--end content-->

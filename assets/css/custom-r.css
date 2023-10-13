@@ -41,17 +41,17 @@
 .coursemain_titlearea{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .coursemain_titlearea .course-title__{
     font-size: 28px;
 }
 .courseshort__detailC{
-    color: #c2b5c6;
-    font-size: 16px;
+  color: #ddd;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 28px;
-  padding-bottom: 10px;
+  line-height: 23px;
+  padding-bottom: 15px;
 }
 
 .progress__areaP{
@@ -266,7 +266,7 @@ position: absolute;
 }
 .certificate_progress p{
   font-size: 14px;
-  color: #d2d2d2;
+  color: #3ac98c;
 }
 
 /* enroll_progress */
@@ -417,4 +417,36 @@ position: absolute;
 .instructerand_ration{
   display: flex;
   justify-content: space-between;
+}
+
+.E_title{
+  color: #8b9aaf !important;
+  font-size: 14px;
+  display: block;
+}
+.Enumber__{
+  font-size: 13px;
+}
+.Enumber__ .fa-users{
+  font-size: 10px;
+}
+.course_ENB_time{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+}
+
+.courselearn_more_bt{
+  margin: 20px 0px 0px 0px;
+}
+
+
+.courselearn_more_bt a {
+  padding: 8px 15px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  background: #7c3aed;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
 }
