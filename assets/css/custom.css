@@ -1740,3 +1740,25 @@ span.red {
 .name__ {
   letter-spacing: 1px;
 }
+.top__flex_ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.top__flex_ .main_title{
+  margin-bottom: 0;
+}
+.filter .select2-container {
+  width: 80px !important;
+}
+.filter .select2-container .select2-selection--single {
+  height: 35px;
+}
+.filter .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 35px;
+}
+.filter .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 35px;
+
+}

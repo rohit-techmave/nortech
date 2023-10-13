@@ -89,7 +89,18 @@
 
          </div>
          <div class="hidden" id="Courses" role="tabpanel" aria-labelledby="Courses-tab">
+            <div class="top__flex_">
             <h3 class="main_title">Hall of Fame</h3>
+            <div class="filter">
+               <label for="">Filter by :</label>
+               <select name="" class="filter_select">
+                  <option>Week</option>
+                  <option>Month</option>
+
+               </select>
+            </div>
+            </div>
+       
             <div class="row">
                <div class="col-lg-4">
                   <div class="box">
@@ -304,7 +315,7 @@
                                  </th>
                                  <th class="sortable">
                                     <div class="arrow_box">
-                                       <span>Gain</span>
+                                       <span>Gain/Loss</span>
                                        <div class="arrow"><i class="fas fa-arrow-up"></i> <i
                                              class="fas fa-arrow-down"></i></div>
                                     </div>
@@ -357,11 +368,11 @@
                                  </td>
                                  <td>05%</td>
                                  <td>
-                                    <div class="flex-shrink-0">
-                                       <h5 class="text-success fs-14 mb-0">
-                                          +18.24 % <i class="fa-solid fa-arrow-trend-up"></i>
-                                       </h5>
-                                    </div>
+                                 <div class="flex-shrink-0">
+                              <h5 class="text-danger fs-14 mb-0">
+                                 -08.24 % <i class="fa-solid fa-arrow-trend-down"></i>
+                              </h5>
+                           </div>
                                  </td>
                                  <td>
                                     <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
@@ -404,11 +415,11 @@
                                  </td>
                                  <td>18%</td>
                                  <td>
-                                    <div class="flex-shrink-0">
-                                       <h5 class="text-success fs-14 mb-0">
-                                          +10.11 % <i class="fa-solid fa-arrow-trend-up"></i>
-                                       </h5>
-                                    </div>
+                                 <div class="flex-shrink-0">
+                              <h5 class="text-danger fs-14 mb-0">
+                                 -08.24 % <i class="fa-solid fa-arrow-trend-down"></i>
+                              </h5>
+                           </div>
                                  </td>
                                  <td>
                                     <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
@@ -692,6 +703,15 @@
    });
 </script>
 
+<script>
+   $(document).ready(function () {
+      $('.filter_select').select2({
+            minimumResultsForSearch: Infinity, // Disable search
+      });
+
+
+   });
+</script>
 
 <script>
    function initializeSlider(sliderId, inputId, circleId, scrollingPercentageId) {
