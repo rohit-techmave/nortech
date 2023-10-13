@@ -256,9 +256,9 @@
                
                <div class="col-lg-12">
                   <div class="box">
-               <div class="box-header">
+               <!-- <div class="box-header">
                   <h3>User Management</h3>
-               </div>
+               </div> -->
                <div class="box-body">
                <div class="datatable-container">
     
@@ -279,7 +279,7 @@
                                              class="fas fa-arrow-down"></i></div>
                                     </div>
                                  </th>
-                                 <th class="sortable">
+                                 <th class="sortable actionbtnarea sortable">
                                     <div class="arrow_box">
                                        <span>Gain/Loss</span>
                                        <div class="arrow"><i class="fas fa-arrow-up"></i> <i
@@ -287,14 +287,7 @@
                                     </div>
 
                                  </th>
-                                 <th class="actionbtnarea sortable">
-                                    <div class="arrow_box">
-                                       <span>Action</span>
-                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
-                                             class="fas fa-arrow-down"></i></div>
-                                    </div>
-
-                                 </th>
+                             
 
                               </tr>
                            </thead>
@@ -306,7 +299,13 @@
                                           <img src="assets/images/newimages/avatar-1.jpg" alt=""
                                              class="avatar-xs rounded-circle">
                                        </div>
-                                       <div class="flex-grow-1">Vihan Hudda</div>
+                                       <div class="ms-3">
+                                    <a href="#" class="name__tb font-semibold block hover:text-violet-600">
+                                       Yohann Taieb
+                                       <i class="mdi mdi-check-decagram verified_icon"></i>
+                                    </a>
+                                    <span class="username__tb text-slate-400 text-sm block mt-1">@YohannTaieb</span>
+                                 </div>
                                     </div>
                                  </td>
                                  <td>10%</td>
@@ -317,10 +316,7 @@
                                        </h5>
                                     </div>
                                  </td>
-                                 <td>
-                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
-                                       Service</a>
-                                 </td>
+                              
                               </tr>
                               <tr>
                                  <td>
@@ -329,7 +325,13 @@
                                           <img src="assets/images/newimages/avatar-2.jpg" alt=""
                                              class="avatar-xs rounded-circle">
                                        </div>
-                                       <div class="flex-grow-1">Jansh Brown</div>
+                                       <div class="ms-3">
+                                    <a href="#" class="name__tb font-semibold block hover:text-violet-600">
+                                    Alex Genadinik
+                                       <i class="mdi mdi-check-decagram verified_icon"></i>
+                                    </a>
+                                    <span class="username__tb text-slate-400 text-sm block mt-1">@AlexGenadinik</span>
+                                 </div>
                                     </div>
                                  </td>
                                  <td>05%</td>
@@ -340,10 +342,7 @@
                               </h5>
                            </div>
                                  </td>
-                                 <td>
-                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
-                                       Service</a>
-                                 </td>
+                               
                               </tr>
                               <tr>
                                  <td>
@@ -352,7 +351,13 @@
                                           <img src="assets/images/newimages/avatar-3.jpg" alt=""
                                              class="avatar-xs rounded-circle">
                                        </div>
-                                       <div class="flex-grow-1">Ayaan Bowen</div>
+                                       <div class="ms-3">
+                                    <a href="#" class="name__tb font-semibold block hover:text-violet-600">
+                                    Steven Townsend
+                                       <i class="mdi mdi-check-decagram verified_icon"></i>
+                                    </a>
+                                    <span class="username__tb text-slate-400 text-sm block mt-1">@StreetBoy</span>
+                                 </div>
                                     </div>
                                  </td>
                                  <td>15%</td>
@@ -363,10 +368,7 @@
                                        </h5>
                                     </div>
                                  </td>
-                                 <td>
-                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
-                                       Service</a>
-                                 </td>
+                              
                               </tr>
 
                               <tr>
@@ -376,7 +378,14 @@
                                           <img src="assets/images/newimages/avatar-4.jpg" alt=""
                                              class="avatar-xs rounded-circle">
                                        </div>
-                                       <div class="flex-grow-1">Prezy Mark</div>
+                                    
+                                       <div class="ms-3">
+                                    <a href="#" class="name__tb font-semibold block hover:text-violet-600">
+                                    Prezy Mark
+                                       <i class="mdi mdi-check-decagram verified_icon"></i>
+                                    </a>
+                                    <span class="username__tb text-slate-400 text-sm block mt-1">@PrezyMark</span>
+                                 </div>
                                     </div>
                                  </td>
                                  <td>18%</td>
@@ -387,10 +396,7 @@
                               </h5>
                            </div>
                                  </td>
-                                 <td>
-                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
-                                       Service</a>
-                                 </td>
+                               
                               </tr>
 
                               <tr>
@@ -400,7 +406,14 @@
                                           <img src="assets/images/newimages/avatar-6.jpg" alt=""
                                              class="avatar-xs rounded-circle">
                                        </div>
-                                       <div class="flex-grow-1">Alex Smith</div>
+                                  
+                                       <div class="ms-3">
+                                    <a href="#" class="name__tb font-semibold block hover:text-violet-600">
+                                    Alex Smith
+                                       <i class="mdi mdi-check-decagram verified_icon"></i>
+                                    </a>
+                                    <span class="username__tb text-slate-400 text-sm block mt-1">@Alex Smith</span>
+                                 </div>
                                     </div>
                                  </td>
                                  <td>18%</td>
@@ -411,10 +424,7 @@
                                        </h5>
                                     </div>
                                  </td>
-                                 <td>
-                                    <a href="#" class="ban_Service_btn"><i class="fa-solid fa-ban"></i> Ban
-                                       Service</a>
-                                 </td>
+                                 
                               </tr>
                            </tbody>
         </table>

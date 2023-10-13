@@ -1773,3 +1773,19 @@ span.red {
 .dataTables_scrollHeadInner, .dataTable{
   width: 100% !important;
 }
+.name__tb{
+
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
+
+}
+.username__tb{
+
+    font-size: 12px !important;
+    margin: 0 !important;
+
+}
+.dataTables_wrapper .custom-controls:last-child {
+  margin-top: 20px;
+}

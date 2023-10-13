@@ -262,7 +262,7 @@ $(document).ready(function() {
 
 </script>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- data table code -->
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.13/js/dataTables.fixedHeader.min.js"></script>
     <script src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
@@ -272,7 +272,7 @@ $(document).ready(function() {
     // Initialize DataTable for the first table
     $('#datatable1').DataTable({
         // Add DataTable options and configuration here
-        "scrollY": "280px", // Adjust the height as needed
+     
         "paging": true,
         "fixedHeader": true,
         "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
@@ -282,7 +282,7 @@ $(document).ready(function() {
     // Initialize DataTable for the second table
     $('#datatable2').DataTable({
         // Add DataTable options and configuration here
-        "scrollY": "280px", // Adjust the height as needed
+        
         "paging": true,
         "fixedHeader": true,
         "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
