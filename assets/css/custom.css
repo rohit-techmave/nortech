@@ -1789,3 +1789,109 @@ span.red {
 .dataTables_wrapper .custom-controls:last-child {
   margin-top: 20px;
 }
+
+/* accordion filter style */
+
+.at-tab {
+  display: none;
+  padding: 15px;
+  border: 1px solid #0f172a;
+  border-top: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #0f172a;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.at-title {
+  cursor: pointer;
+  background-color: #0f172a;
+  position: relative;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+.at-title:after {
+  content: "\2b";
+  font-family:FontAwesome;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.at-title.active:after {
+  content: "\f00d";
+  font-family:FontAwesome;
+}
+
+.at-item {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.at-title h2 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin: 0;
+}
+.accordion-header {
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  padding: 20px 0;
+}
+.at-title.active {
+  border-bottom: 1px dashed #293445;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+/*  */
+.checkbox-alias {
+  background-color: #f1f1f1;
+  display: flex;
+  width: calc(60px - 9px);
+  height: 45px;
+  z-index: 1;
+  position: relative;
+  transition: all 250ms ease-out;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.invisible-checkboxes input[type=radio]{
+display: none;
+/*   margin-right: -20px;
+position: relative;
+z-index: 2; */
+}
+
+.invisible-checkboxes input[type=radio]:checked + .checkbox-alias {
+  background-color: #0d6efd45;
+  color: #fff;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+.invisible-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-group .invisible-checkboxes label {
+  position: unset;
+  width: calc(50% - 5px);
+  border: 1px solid #293445;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.at-tab .form-group{
+  margin-bottom: 0;
+}

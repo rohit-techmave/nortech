@@ -86,7 +86,7 @@
                         </li>
 
                         <li class="marketplacemenu">
-                            <a href="##"><img src="assets/images/newimages/icons/marketplacegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/marketplace-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Market Place</a>
+                            <a href="marketplace.php"><img src="assets/images/newimages/icons/marketplacegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/marketplace-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Market Place</a>
                         </li>
 
                         <li class="votemenu">
