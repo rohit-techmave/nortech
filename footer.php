@@ -262,7 +262,7 @@ $(document).ready(function() {
 
 </script>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- data table cdn -->
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.13/js/dataTables.fixedHeader.min.js"></script>
     <script src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
@@ -450,6 +450,21 @@ $(document).ready(function () {
         // Example: Limit all elements with the "content-container" class to 50 characters with ellipsis
         limitContentByClass('content-container', 120);
     </script>
+
+
+<!-- page loader -->
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

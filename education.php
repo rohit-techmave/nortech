@@ -338,7 +338,7 @@
                                  </div>
                                  learning
                               </li>
-                              <li data-status="wishlist">
+                              <li data-status="wishlist" id="wishlist_list">
                                  <div class="course__header_tit">
                                     <div class="coursecat_titlte">
                                        <h2>Wishlist Courses</h2>
@@ -349,10 +349,10 @@
                                     </div>
                                  </div>
                                 
-                                 <div class="row course__boxmain">
+                                 <div class="row course__boxmain favorite_course_added" >
                                     <div class="col-lg-5">
                                        <div class="course__box">
-                                       <span class="enrolled_badge">Enrolled</span>
+                                       <span class="favorite_badge">Enrolled</span>
                                           <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/5.jpeg'); background-size: cover;">
                                              
                                           </div>
@@ -376,38 +376,108 @@
                                           </div>
                                          </div>
                                           <div class="coursemain_titlearea">
-                                             <!-- <div class="courseicon__imgC">
-                                                <img class="brand-logo ls-is-cached lazyloaded" alt="band-protocol logo" data-src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png" src="https://assets.bitdegree.org/assets/learndrops/primexbt/primexbt-coin.png">
-                                             </div> -->
+                                           
                                              <a class="course-title__" href="##">
                                                 <h2 class="mb-0 text-capitalize">Learn PrimeXBT</h2>
                                              </a>
                                           </div>
                                           <p class="courseshort__detailC">PrimeXBT is a crypto-native trading platform for both beginners &amp; advanced-level enthusiasts. Take a course, learn &amp; start using it today!</p>
-                                          <div class="certificate_progress">
-                                                <p>Certificate Progress</p>
-                                             </div>
+                                    
                                         
+                                             <div class="rating course__rating__">
+                                                   <div class="stars">
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                   </div>
+                                                   <div class="rating-text">
+                                                      4.4 (13 reviews)
+                                                   </div>
+                                                </div>
 
-                                          <div class="enrollprogress__">
-                                          <div  class="progress rounded-0"><div  aria-valuenow="17" role="progressbar" aria-valuemin="0" aria-valuemax="100" class="progress-bar" style="width: 17%;"></div>
-                                       </div>
-                                            <div  data-toggle="tooltip" data-placement="top" title="" class="course-progress-award course-progress-award__certificate certificate-locked" data-original-title="Complete this course to unlock your Certificate!">
-                                             <i  class="fas fa-lock hexagon-type"></i> <img  src="https://cdn.bitdegree.org/assets/certificate-grey-icon.svg" alt="Certificate icon"> 
-                                             <div  class="hexagon-bg"></div>
-                                          </div>
+                                          <div class="areabtn_and_viewcourse">
 
-                                          </div>
-                                          <div class="progress__areaP ">
+                                              <div class="favoritetime_remove">
+                                              <p><i class="fa-solid fa-bookmark"></i> Added on: <span id="course1-added-time"> 2023-10-12 09:43:35</span></p>
+                                               <button class="remove-button"><i class="fa-solid fa-xmark"></i> Remove</button>
+                                              </div>
+
                                              <a href="##" class="btn btn-lined-rounded"><span>View Course</span>
                                              </a>
                                           </div>
                                        </div>
                                     </div>
                                  </div>
+
+                                 <div class="row course__boxmain favorite_course_added" >
+                                    <div class="col-lg-5">
+                                       <div class="course__box">
+                                       <span class="favorite_badge">Enrolled</span>
+                                          <div class="course__imgleft" style="background-image: url('assets/images/newimages/courses/6.jpeg'); background-size: cover;">
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                       <div class="courseright__details">
+                                         <div class="row">
+                                         <div class="col-12 col-md-6">
+                                         <div class="nameandlecture_area">
+                                             <div class="lacture_Count"><i class="fas fa-user-friends"></i> Nortech </div>
+                                             <div class="nameauthor__Course"><i class="fa fa-bars pr-1"></i> 5 <span>lectures</span>
+                                             </div>
+                                          </div>
+                                         </div>
+                                          <div class="col-12 col-md-6 text-right">
+                                             <div class="course-rewards">
+                                                <span class="course-reward">+100XP</span> 
+                                                <span  class="course-reward">+<span  class="translation">Certificate</span></span>
+                                             </div>
+                                          </div>
+                                         </div>
+                                          <div class="coursemain_titlearea">
+                                           
+                                             <a class="course-title__" href="##">
+                                                <h2 class="mb-0 text-capitalize">Learn PrimeXBT</h2>
+                                             </a>
+                                          </div>
+                                          <p class="courseshort__detailC">PrimeXBT is a crypto-native trading platform for both beginners &amp; advanced-level enthusiasts. Take a course, learn &amp; start using it today!</p>
+                                    
+                                        
+                                             <div class="rating course__rating__">
+                                                   <div class="stars">
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                      <span class="star">&#9733;</span>
+                                                   </div>
+                                                   <div class="rating-text">
+                                                      4.4 (13 reviews)
+                                                   </div>
+                                                </div>
+
+                                                <div class="areabtn_and_viewcourse">
+
+                                                      <div class="favoritetime_remove">
+                                                      <p><i class="fa-solid fa-bookmark"></i> Added on: <span id="course1-added-time"> 2023-10-12 09:43:35</span></p>
+                                                      <button class="remove-button"><i class="fa-solid fa-xmark"></i> Remove</button>
+                                                      </div>
+
+                                                      <a href="##" class="btn btn-lined-rounded"><span>View Course</span>
+                                                      </a>
+                                                </div>
+                                       </div>
+                                    </div>
+                                 </div>
                               
-                              
+                                 <div class="alert courseremovealert" id="remove-alert">Course removed from favorites</div>
+
                               </li>
+
+
                               <li data-status="new">
                                  
                               <div class="course__header_tit">
@@ -897,16 +967,38 @@ $(document).ready(function() {
 </script>
 
 <!-- rating js -->
-
 <script>
    $(document).ready(function() {
-    // Set the width of the filled stars based on the rating (4.6 out of 5).
     const rating = 4.6;
     const filledStarsWidth = (rating / 5) * 100;
     $('.star-rating__filled-stars').css('width', `${filledStarsWidth}%`);
 });
-
 </script>
 
+<!-- dynamic date and time favorite card  -->
+<script>
+    // Get all elements with the "Remove" button class
+    const removeButtons = document.querySelectorAll('.remove-button');
+    const removeAlert = document.getElementById('remove-alert');
+
+    // Add click event listeners to all "Remove" buttons
+    removeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Find the parent course card and remove it
+            const courseCard = button.closest('.favorite_course_added');
+            if (courseCard) {
+                courseCard.remove();
+
+                // Show the alert
+                removeAlert.style.display = 'block';
+
+                // Automatically remove the alert after 5 seconds
+                setTimeout(() => {
+                    removeAlert.style.display = 'none';
+                }, 2000); // 5000 milliseconds = 5 seconds
+            }
+        });
+    });
+</script>
 
 

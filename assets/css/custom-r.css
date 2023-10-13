@@ -156,6 +156,8 @@
     border: 1px solid #283247;
     border-radius: 5px;
     margin-bottom: 20px;
+    display: flex;
+  align-items: center;
   }
 
   #search-courses{
@@ -449,4 +451,84 @@ position: absolute;
   border: none;
   border-radius: 4px;
   width: 100%;
+}
+
+.course__rating__ {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.course__rating__ .stars {
+  color: #FFD700; /* Yellow color for stars */
+}
+
+.course__rating__ .star {
+  margin-right: 0px;
+}
+
+.course__rating__ .rating-text {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.areabtn_and_viewcourse{
+  display: flex;
+  justify-content: space-between;
+}
+.favoritetime_remove p , .favoritetime_remove button{
+  font-size: 11px;
+}
+.favoritetime_remove p i{
+  margin-right: 4px;
+}
+.favoritetime_remove{
+  display: flex;
+  align-items: center;
+}
+.favoritetime_remove button{
+  margin-left: 10px;
+  color: #df4646;
+  font-size: 13px;
+}
+.favoritetime_remove button i{
+  margin-right: 4px;
+}
+
+/* course remove alert */
+.courseremovealert {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #2d59d6;
+  color: #fff;
+  border-radius: 5px;
+  display: none;
+  z-index: 10;
+  font-size: 14px;
+  padding: 8px 20px;
+  transition: opacity 0.5s, right 0.5s;
+}
+#course-list li{
+  position: relative;
+}
+
+.favorite_badge {
+	background-color: #FFD700;
+	padding: 3px 14px !important;
+	margin-left: 5px;
+	font-size: 12px;
+	-webkit-clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+	clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+	color: #171717 !important;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.6;
+	vertical-align: middle;
+	position: absolute;
+	z-index: 10;
+	left: -20px;
+	top: 10px;
+  font-weight: 600;
 }
