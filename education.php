@@ -395,14 +395,14 @@
                                     </div>
         
                                     <div class="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Price</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.5 ETH</span>
+                                        <div class=>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Enrolled</span>
+                                            <span class="text-[16px] font-semibold block"><i class="fa fa-users"></i> 3.5 ETH</span>
                                         </div>
                                         
                                         <div>
-                                            <span class="text-[16px] font-medium text-slate-400 block">Highest Bid</span>
-                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-ethereum"></i> 3.55 ETH</span>
+                                            <span class="text-[16px] font-medium text-slate-400 block">Time</span>
+                                            <span class="text-[16px] font-semibold block"><i class="mdi mdi-clock"></i> 1h 45min</span>
                                         </div>
                                     </div>
                                 </div>
