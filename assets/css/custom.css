@@ -1790,7 +1790,9 @@ span.red {
   margin-top: 20px;
 }
 
-/* accordion filter style */
+/************************
+accordion filter style 
+********************/
 
 .at-tab {
   display: none;
@@ -1852,7 +1854,9 @@ span.red {
 }
 
 
-/*  */
+/***********************
+   Select radio Filter
+*************************/
 .checkbox-alias {
   background-color: #f1f1f1;
   display: flex;
@@ -1894,4 +1898,199 @@ z-index: 2; */
 }
 .at-tab .form-group{
   margin-bottom: 0;
+}
+
+
+
+/*****************************
+     Price Range Slider
+****************************/
+.price-input {
+  width: 100%;
+  display: flex;
+  margin: 5px 0 30px;
+}
+.price-input .field {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  align-items: center;
+}
+.field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 15px;
+  margin-left: 0;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #293445;
+  -moz-appearance: textfield;
+  background: #0f172a;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.price-input .separator {
+  width: 130px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+.slider_range {
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+.slider_range .progress {
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #035efc;
+}
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #035efc;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #035efc;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Support */
+.support-box {
+  top: 2rem;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  display: block;
+}
+.b-btn {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.b-btn.paypal i {
+  color: blue;
+}
+.b-btn:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.b-btn i {
+  font-size: 20px;
+  color: yellow;
+  margin-top: 2rem;
+}
+.wrapper {
+  margin-bottom: 10px;
+}
+.price-input .field {
+  margin-right: 10px;
+}
+.price-input .field:last-child{
+  margin-right:0;
+}
+
+/**********************************
+         Search filter
+*******************************/
+/* (A) SEARCH BOX */
+#the-filter {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #0f172a;
+  border: 1px solid #293445;
+  border-radius: 5px;
+}
+/* (B) LIST */
+#the-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#the-list li {
+  padding: 10px;
+
+}
+
+#the-list li.hide { display: none; }
+
+
+
+
+/* WIDGET */
+.widget-wrap {
+  /* min-width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4); */
+}
+
+/* FOOTER */
+#code-boxx {
+  font-weight: 600;
+  margin-top: 50px;
+}
+#code-boxx a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  background: #b90a0a;
+  color: #fff;
+}
+.instructor_img img{
+  width: 1.5rem !important;
+  height:1.5rem !important;
+}
+.instructor_box{
+  margin-bottom: 10px;
+}
+.course_title a {
+  font-weight: 400 !important;
+}
+.course_dt_bt .Enumber__ {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.course_count {
+  display: flex;
+  align-items: center;
+}
+.course_count svg{
+  margin-right: 5px;
+}
+.allcourse_collection .allcourse_grid_box .group {
+  margin-bottom: 20px;
 }
