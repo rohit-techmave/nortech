@@ -2158,11 +2158,14 @@ Admin Css Start Here 17 Oct, 2023
 .avatar svg {
   fill: #fff;
 }
+
+
 .main_card_box_total {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   margin-top: 15px;
+  flex-wrap: wrap;
 }
 .main_card_box_total .card_box_total:first-child{
   padding-left: 0;
@@ -2171,9 +2174,11 @@ Admin Css Start Here 17 Oct, 2023
 padding-right: 0;
 }
 .card_box_total {
-  width: calc(100% - 10px);
+  width: calc(20% - 0px);
   padding: 0 5px;
+    padding-left: 5px;
 }
+
 .custom-card .box-body {
   padding: 12px;
 }

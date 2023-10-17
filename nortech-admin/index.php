@@ -289,7 +289,8 @@
                            <span class="tooltiptext">
                               <ul>
                                  <li>Register on the platform</li>
-                                 <li>efgh</li>
+                                 <li>Use the products</li>
+                                 <li>Acquire the monthly subscription</li>
                               </ul>
                            </span>
                            </span>
@@ -331,8 +332,8 @@
                            <span class="tooltip badge bg-info-gradient">Builder Enthusiast
                            <span class="tooltiptext">
                               <ul>
-                                 <li>rh</li>
-                                 <li>efgh</li>
+                                 <li>Have at least one learning badge</li>
+                                 <li>Have at least 1000 $NTH in staking</li>
                               </ul>
                            </span>
                         </span>
@@ -371,7 +372,17 @@
                               </div>
                            </div>
                         </td>
-                        <td><span class="badge bg-success-gradient">Builder Prodigy</span></td>
+                        <td>
+                           <span class="tooltip badge bg-success-gradient">
+                              Builder Prodigy
+                              <span class="tooltiptext">
+                              <ul>
+                                 <li>Have at least 5 learning badges</li>
+                                 <li>Have at least 10,000 $NTH in staking</li>
+                              </ul>
+                           </span>
+                           </span>
+                        </td>
                         <td>2600 NTH</td>
                         <td>
                         <span class="fw-semibold text-primary">3</span>
@@ -403,7 +414,18 @@
                               <div class="flex-grow-1">Prezy Mark</div>
                            </div>
                         </td>
-                        <td><span class="badge bg-danger-gradient">Builder Elite</span></td>
+                        <td>
+                           <span class="tooltip badge bg-danger-gradient">
+                              Builder Elite
+                              <span class="tooltiptext">
+                              <ul>
+                                 <li>Have at least 10 users/builder associates in Builder ID</li>
+                                 <li>Have at least 5 learning badges</li>
+                                 <li>Have at least 50,000 $NTH in staking</li>
+                              </ul>
+                           </span>
+                           </span>
+                        </td>
                         <td>2500 NTH</td>
                         <td>
                           <span class="fw-semibold text-primary">4</span>
