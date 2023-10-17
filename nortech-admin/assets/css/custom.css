@@ -2325,7 +2325,8 @@ padding-right: 0;
   transition: opacity 0.3s;
   text-align: left;
   /* border: 1px solid #293445; */
-  box-shadow: #7066ff0f 0px 6px 24px 0px, #293445 0px 0px 0px 1px;
+  box-shadow: #7066ff38 0px 6px 24px 0px, #293445 0px 0px 0px 1px;
+  white-space: nowrap;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -2339,4 +2340,15 @@ padding-right: 0;
 }
 .tooltiptext ul{
   padding-left: 10px;
+}
+.tooltip img {
+  width: 50px;
+}
+.redeem_box.box_redeem_ .change_wallet {
+  padding-left: 0;
+  border-left: 0;
+  margin-left: 0;
+}
+.box_h_gen {
+  height: 140px;
 }

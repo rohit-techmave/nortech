@@ -284,14 +284,10 @@
                         </td>
                         <td>
                           <!-- <span class="badge bg-primary-gradient"></span> -->
-                          <span class="tooltip badge bg-primary-gradient">
-                          Student
+                          <span class="tooltip">
+                            <img src="assets/images/newimages/levels/level1.png" alt="">
                            <span class="tooltiptext">
-                              <ul>
-                                 <li>Register on the platform</li>
-                                 <li>Use the products</li>
-                                 <li>Acquire the monthly subscription</li>
-                              </ul>
+                             Student
                            </span>
                            </span>
 
@@ -325,16 +321,18 @@
                                  <img src="assets/images/newimages/avatar-2.jpg" alt=""
                                     class="avatar-xs rounded-circle">
                               </div>
-                              <div class="flex-grow-1">Jansh Brown</div>
+                              <div class="flex-grow-1">Jansh Brown
+                              <a href="#" class="email_user">example@gmail.com</a>
+                              </div>
+                            
                            </div>
                         </td>
                         <td> 
-                           <span class="tooltip badge bg-info-gradient">Builder Enthusiast
+                           <span class="tooltip">
+                            <img src="assets/images/newimages/levels/level2.png" alt="">
+
                            <span class="tooltiptext">
-                              <ul>
-                                 <li>Have at least one learning badge</li>
-                                 <li>Have at least 1000 $NTH in staking</li>
-                              </ul>
+                             Builder Enthusiast
                            </span>
                         </span>
                      </td>
@@ -373,13 +371,11 @@
                            </div>
                         </td>
                         <td>
-                           <span class="tooltip badge bg-success-gradient">
-                              Builder Prodigy
+                           <span class="tooltip">
+                             
+                              <img src="assets/images/newimages/levels/level3.png" alt="">
                               <span class="tooltiptext">
-                              <ul>
-                                 <li>Have at least 5 learning badges</li>
-                                 <li>Have at least 10,000 $NTH in staking</li>
-                              </ul>
+                              Builder Prodigy
                            </span>
                            </span>
                         </td>
@@ -411,18 +407,17 @@
                                  <img src="assets/images/newimages/avatar-4.jpg" alt=""
                                     class="avatar-xs rounded-circle">
                               </div>
-                              <div class="flex-grow-1">Prezy Mark</div>
+                              <div class="flex-grow-1">Prezy Mark
+                              <a href="#" class="email_user">example@gmail.com</a>
+                              </div>
+                          
                            </div>
                         </td>
                         <td>
-                           <span class="tooltip badge bg-danger-gradient">
-                              Builder Elite
+                           <span class="tooltip">
+                              <img src="assets/images/newimages/levels/level4.png" alt="">
                               <span class="tooltiptext">
-                              <ul>
-                                 <li>Have at least 10 users/builder associates in Builder ID</li>
-                                 <li>Have at least 5 learning badges</li>
-                                 <li>Have at least 50,000 $NTH in staking</li>
-                              </ul>
+                              Builder Elite
                            </span>
                            </span>
                         </td>
@@ -462,14 +457,11 @@
                            </div>
                         </td>
                         <td>
-                           <span class="tooltip badge bg-warning-gradient">
-                           Builder Ambassador
+                           <span class="tooltip">
+                  
+                           <img src="assets/images/newimages/levels/level5.png" alt="">
                            <span class="tooltiptext">
-                              <ul>
-                                 <li>Have at least 10 users/builder associates in Builder ID</li>
-                                 <li>Have at least 5 learning badges</li>
-                                 <li>Have at least 50,000 $NTH in staking</li>
-                              </ul>
+                             Builder Ambassador
                            </span>
                         </span>
                      </td>
@@ -501,6 +493,61 @@
          </div>
       </div>
 
+
+      <div class="row">
+         <div class="col-lg-8">
+         <div class="box">
+
+            <div class="box-body">
+               <div class="redeem_box">
+                  <div class="pt-6 balanceAmount nth_balance">
+                     <h6 class="total_earned_nth">Notification Sent History</h6>
+                     <h3>260 <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">SENT</span>
+                     </h3>
+
+
+                  </div>
+                  <div class="change_wallet">
+                     <div class="w-full ">
+                        <h1 class="font-bold leading-snug text-white text-4xl"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">
+                         Send Notification
+                           </span></h1>
+
+                        <div class="buy_more">
+                           <a href="#">Send Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+         <div class="box box_h_gen">
+
+            <div class="box-body">
+               <div class="redeem_box box_redeem_">
+            
+                  <div class="change_wallet">
+                     <div class="w-full ">
+                        <h1 class="font-bold leading-snug text-white text-4xl"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">
+                       General User Dashboard
+                           </span></h1>
+
+                        <div class="buy_more">
+                           <a href="#">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            </div>
+         </div>
+      </div>
+
+      
 
 
       <!-- End Content -->
