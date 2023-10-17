@@ -283,7 +283,17 @@
                            </div>
                         </td>
                         <td>
-                          <span class="badge bg-primary-gradient">Student</span>
+                          <!-- <span class="badge bg-primary-gradient">Student</span> -->
+                          <span class="tooltip">
+  Hover over me
+  <span class="tooltiptext">
+   <ul>
+      <li>rh</li>
+      <li>efgh</li>
+   </ul>
+  </span>
+</span>
+
                         </td>
                         <td>2000 NTH</td>
 
@@ -457,3 +467,33 @@
 <!--end container-->
 
 <?php include("footer.php") ?>
+
+<style>
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+</style>
