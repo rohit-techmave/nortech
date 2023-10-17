@@ -449,6 +449,16 @@ $(document).ready(function () {
         // Example: Limit all elements with the "content-container" class to 50 characters with ellipsis
         limitContentByClass('content-container', 120);
     </script>
+
+    <!-- admin panel loader js -->
+
+<script>
+$(window).on('load',function(){
+	setTimeout(function(){ // allowing 3 secs to fade out loader
+	$('.page-loader').fadeOut('fast');
+	},500);
+});
+</script>
 </body>
 
 </html>
