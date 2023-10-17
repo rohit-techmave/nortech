@@ -534,3 +534,41 @@ position: absolute;
 }
 
 /* new style here */
+
+
+
+/* *************************************************************************************************************************
+ADMIN PANEL STYLE HERE
+************************************************************************************************************************************ */
+
+.NTHmenu .whiteicon {
+  display: none;
+}
+.NTHmenu:hover .whiteicon {
+  display: block !important;
+}
+.NTHmenu:hover .greyicon {
+  display: none !important;
+}
+
+.platFormmenu .whiteicon {
+  display: none;
+}
+
+.platFormmenu:hover .whiteicon {
+  display: block !important;
+}
+.platFormmenu:hover .greyicon {
+  display: none !important;
+}
+
+.adminmenu .whiteicon {
+  display: none;
+}
+
+.adminmenu:hover .whiteicon {
+  display: block !important;
+}
+.adminmenu:hover .greyicon {
+  display: none !important;
+}

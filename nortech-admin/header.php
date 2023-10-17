@@ -74,23 +74,23 @@
                         </li> -->
 
                         <li class="">
-                            <a href="index.php"><i data-feather="home" class="h-4 w-4 me-3"></i>User</a>
+                            <a href="index.php"><i data-feather="user" class="h-4 w-4 me-3"></i>User</a>
                         </li>
 
                         <li class="">
                             <a href="finance.php"><i data-feather="activity" class="h-4 w-4 me-3"></i>Builder</a>
                         </li>
 
-                        <li class="">
-                            <a href="education.php"><i data-feather="book" class="h-4 w-4 me-3"></i>NTH</a>
+                        <li class="NTHmenu">
+                            <a href="education.php"><img src="assets/images/newimages/icons/nthgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
                         </li>
 
-                        <li class="marketplacemenu">
-                            <a href="marketplace.php"><img src="assets/images/newimages/icons/marketplacegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/marketplace-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
+                        <li class="platFormmenu">
+                            <a href="marketplace.php"><img src="assets/images/newimages/icons/platformgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
                         </li>
 
-                        <li class="votemenu">
-                            <a href="##"><img src="assets/images/newimages/icons/votegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/votewhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
+                        <li class="adminmenu">
+                            <a href="##"><img src="assets/images/newimages/icons/admingreyicon.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/adminwhiteicon.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
                         </li>
 
 
