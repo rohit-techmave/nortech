@@ -493,7 +493,15 @@ $(document).ready(function () {
 
 <!-- end -->
 
+<!-- admin panel loader js -->
 
+<script>
+$(window).on('load',function(){
+	setTimeout(function(){ // allowing 3 secs to fade out loader
+	$('.page-loader').fadeOut('fast');
+	},500);
+});
+</script>
 
 
 
