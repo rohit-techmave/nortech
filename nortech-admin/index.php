@@ -25,7 +25,7 @@
          <!-- <span class="text-slate-400">My balance: <span class="font-semibold text-emerald-600">$ 45,578.032</span></span> -->
       </div>
 
-      <div class="main_card_box_total dashcards">
+      <div class="main_card_box_total ">
          <div class="card_box_total">
             <a href="#">
                <div class="box custom-card">
