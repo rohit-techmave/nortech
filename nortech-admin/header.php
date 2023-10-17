@@ -19,7 +19,11 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="assets/images/newimages/nortech-favicon.png">
 
-        <!-- Css -->
+        <!-- all Css -->
+
+        <!-- slick css -->
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
         <!-- Main Css -->
         <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
         <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
@@ -78,7 +82,7 @@
                         </li>
 
                         <li class="">
-                            <a href="finance.php"><i data-feather="activity" class="h-4 w-4 me-3"></i>Builder</a>
+                            <a href="builder.php"><i data-feather="activity" class="h-4 w-4 me-3"></i>Builder</a>
                         </li>
 
                         <li class="NTHmenu">

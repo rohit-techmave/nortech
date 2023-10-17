@@ -572,3 +572,15 @@ ADMIN PANEL STYLE HERE
 .adminmenu:hover .greyicon {
   display: none !important;
 }
+.box.custom-card{
+position: relative;
+}
+.box.custom-card .back-image {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.main_card_box_total .slick-slide {
+	margin-right: 10px;
+}
