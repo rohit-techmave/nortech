@@ -69,12 +69,12 @@
                             </div>
                         </li> -->
 
-                        <li class="">
+                        <!-- <li class="">
                             <a href="index.php"><i data-feather="user" class="h-4 w-4 me-3"></i>Profile</a>
-                        </li>
+                        </li> -->
 
                         <li class="">
-                            <a href="user.php"><i data-feather="home" class="h-4 w-4 me-3"></i>User</a>
+                            <a href="index.php"><i data-feather="home" class="h-4 w-4 me-3"></i>User</a>
                         </li>
 
                         <li class="">
