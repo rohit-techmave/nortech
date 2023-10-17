@@ -587,3 +587,62 @@ position: relative;
 .bg-darkblue {
   background-color: #3a88ed !important;
 }
+.customblck_card{
+  background-color: #0f172a;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.blcard_header{
+  border-bottom: 1px solid #293445;
+  padding: 15px;
+}
+.blcard_body{
+  padding: 20px;
+}
+.card_listhgt{
+  height: 167px;
+  overflow-y: scroll;
+}
+.anchorhover:hover{
+  color: #7c3aed;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: .5s !important;
+}
+
+.newly__date{
+  color: #b5c6df;
+  font-size: 12px;
+}
+.newbuilder__dataL{
+  display: flex;
+  align-items: center;
+}
+
+.common__listcard {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed #91919145;
+  width: 100%;
+  padding-bottom: 12px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.namecomon_user{
+  font-size: 15px;
+  line-height: 14px;
+}
+.anchorhover{
+  font-size: 13px;
+  color: #d8d8d8;
+}
+.usernameandid_dt{
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+}
+.user_listimg img{ 
+  height: 40px;
+  width: 40px;
+  border-radius: 50% !important;
+}
