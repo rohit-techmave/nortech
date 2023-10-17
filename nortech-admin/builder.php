@@ -171,10 +171,7 @@
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-pink">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                 <path fill="currentColor"
-                                    d="M7 21v-2h4v-3.1q-1.225-.275-2.188-1.038T7.4 12.95q-1.875-.225-3.138-1.637T3 8V7q0-.825.588-1.413T5 5h2V3h10v2h2q.825 0 1.413.588T21 7v1q0 1.9-1.263 3.313T16.6 12.95q-.45 1.15-1.413 1.913T13 15.9V19h4v2H7Zm0-10.2V7H5v1q0 .95.55 1.713T7 10.8Zm5 3.2q1.25 0 2.125-.875T15 11V5H9v6q0 1.25.875 2.125T12 14Zm5-3.2q.9-.325 1.45-1.088T19 8V7h-2v3.8Zm-5-1.3Z" />
-                                 </svg>
+                        <img src="assets/images/newimages/icons/nth-white.png" alt="" class="">
                            </span> </div>
                         <div class="flex-fill">
                            <p class="mb-0 fs-10 op-7 text-muted fw-semibold">NTH Earned</p>
@@ -257,37 +254,5 @@
 
 <?php include("footer.php") ?>
 
-<!-- dashcards slick slider -->
 
-<script>
-    $(document).ready(function(){
-  $('.dashcards').slick({
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  autoplay:true,
-  autoplaySpeed: 2000,
-  arrows:false,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-  });
-});
-</script>
 

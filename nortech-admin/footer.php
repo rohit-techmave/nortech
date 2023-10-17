@@ -453,6 +453,55 @@ $(document).ready(function () {
         // Example: Limit all elements with the "content-container" class to 50 characters with ellipsis
         limitContentByClass('content-container', 120);
     </script>
+
+<!-- all page cards slider js -->
+<!-- dashcards slick slider -->
+
+<script>
+    $(document).ready(function(){
+  $('.dashcards').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay:true,
+  autoplaySpeed: 2000,
+  arrows:false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+  });
+});
+</script>
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
