@@ -28,7 +28,7 @@
         <!-- Switcher -->
 
    <!-- finance page convert currency js -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+<script src="assets/js/jquery-3.6.0.min.js"></script>   
 <script src="assets/datatables/jquery3.6.js"></script>
         
         <!-- JAVASCRIPTS -->
@@ -44,8 +44,7 @@
         <script src="assets/datatables/jquery.dataTables.min.js"></script>
 
 <!-- Select2 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="assets/js/select2.min.js"></script>
 
 
  <!-- chart js -->

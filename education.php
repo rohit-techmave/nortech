@@ -326,6 +326,7 @@
                                     </div>
                                  </div>
                               </li>
+                              
                               <li data-status="learning">
                               <div class="course__header_tit">
                                     <div class="coursecat_titlte">
@@ -336,9 +337,8 @@
                                        <input type="text" id="search-courses">
                                     </div>
                                  </div>
-                                 <div class="allcourse_grid_box row">
-                            
-                            
+                                 <div class="allcourse_grid_box row learningpath_courses">
+
                                  <div class="col-lg-3 col-md-6">
                                  <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
                                 <div class="relative overflow-hidden">
@@ -349,34 +349,34 @@
                                 </div>
         
                                 <div class="mt-3">
+
                                 <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
+                                        <a href="##" class="instructor_text">By Nortech </a>
+                                        
                                     </div>
         
                                     <div class="my-3">
                                         <a href="##" class="font-semibold hover:text-violet-600">Genuine Undead #3902</a>
                                     </div>
-        
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
+
+
+                                   <div class="pathprogressbar">
+                                   <div class="progress-info">
+                                          <p>Path progress</p>
+                                          <p id="progress-label">0 of 8</p>
+                                       </div>
+                                    <div class="progress-container">
+                                       <div class="progress-bar" id="progress"></div>
                                     </div>
+                                   </div>
+
+                                   <div class="cdpath_description">
+                                    <p>Complete the next step...</p>
+                                   </div>
+        
+                                   
                                     <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
+                                    <a href="##" class="btn ">Open</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -393,33 +393,30 @@
         
                                 <div class="mt-3">
                                 <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
+                                        <a href="##" class="instructor_text">By Nortech </a>
+                                        
                                     </div>
         
                                     <div class="my-3">
                                         <a href="##" class="font-semibold hover:text-violet-600">Windchime #768</a>
                                     </div>
         
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
+                                    <div class="pathprogressbar">
+                                   <div class="progress-info">
+                                          <p>Path progress</p>
+                                          <p id="progress-label">0 of 8</p>
+                                       </div>
+                                    <div class="progress-container">
+                                       <div class="progress-bar" id="progress"></div>
                                     </div>
+                                   </div>
+
+                                   <div class="cdpath_description">
+                                    <p>Complete the next step...</p>
+                                   </div>
+
                                     <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
+                                    <a href="##" class="btn ">Open</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -436,33 +433,30 @@
         
                                 <div class="mt-3">
                                 <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
+                                        <a href="##" class="instructor_text">By Nortech </a>
+                                        
                                     </div>
         
                                     <div class="my-3">
                                         <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #3277</a>
                                     </div>
         
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
+                                    <div class="pathprogressbar">
+                                   <div class="progress-info">
+                                          <p>Path progress</p>
+                                          <p id="progress-label">0 of 8</p>
+                                       </div>
+                                    <div class="progress-container">
+                                       <div class="progress-bar" id="progress"></div>
                                     </div>
+                                   </div>
+
+                                   <div class="cdpath_description">
+                                    <p>Complete the next step...</p>
+                                   </div>
+
                                     <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
+                                    <a href="##" class="btn ">Open</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
@@ -479,213 +473,40 @@
         
                                 <div class="mt-3">
                                 <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
+                                        <a href="##" class="instructor_text">By Nortech </a>
+                                        
                                     </div>
         
                                     <div class="my-3">
                                         <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #1711</a>
                                     </div>
         
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
+                                    <div class="pathprogressbar">
+                                   <div class="progress-info">
+                                          <p>Path progress</p>
+                                          <p id="progress-label">0 of 8</p>
+                                       </div>
+                                    <div class="progress-container">
+                                       <div class="progress-bar" id="progress"></div>
                                     </div>
-                                    <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!--end content-->
-                            </div>
-        
-                            <div class="col-lg-3 col-md-6">
-                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
-                                <div class="relative overflow-hidden">
-                                    <div class="relative overflow-hidden rounded-lg">
-                                        <img src="assets/images/newimages/courses/5.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
-                                    </div>
-                                </div>
-        
-                                <div class="mt-3">
-                                <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
-                                    </div>
-        
-                                    <div class="my-3">
-                                        <a href="##" class="font-semibold hover:text-violet-600">Shibuya Scramble Punks</a>
-                                    </div>
-        
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
-                                    </div>
-                                    <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!--end content-->
-                            </div>
-        
-                           <div class="col-lg-3 col-md-6">
-                           <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
-                                <div class="relative overflow-hidden">
-                                    <div class="relative overflow-hidden rounded-lg">
-                                        <img src="assets/images/newimages/courses/1.webp" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
-                                    </div>
-                                    
-                                </div>
-        
-                                <div class="mt-3">
-                                <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
-                                    </div>
-        
-                                    <div class="my-3">
-                                        <a href="##" class="font-semibold hover:text-violet-600">Probably A Label #650</a>
-                                    </div>
-        
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
-                                    </div>
-                                    <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!--end content-->
-                           </div>
-        
-                           <div class="col-lg-3 col-md-6">
-                           <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
-                                <div class="relative overflow-hidden">
-                                    <div class="relative overflow-hidden rounded-lg">
-                                        <img src="assets/images/newimages/courses/3.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
-                                    </div>
-                                    
-                                </div>
-        
-                                <div class="mt-3">
-                                    <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
-                                    </div>
-        
-                                    <div class="my-3">
-                                        <a href="##" class="font-semibold hover:text-violet-600">Looki#0147</a>
-                                    </div>
-        
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
-                                    </div>
-                                    <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!--end content-->
-                           </div>
-        
-                            <div class="col-lg-3 col-md-6">
-                            <div class="group relative overflow-hidden p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 hover:-mt-2 h-fit">
-                                <div class="relative overflow-hidden">
-                                    <div class="relative overflow-hidden rounded-lg">
-                                        <img src="assets/images/newimages/courses/4.jpeg" class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500" alt="">
-                                    </div>
-                                    
-                                </div>
-        
-                                <div class="mt-3">
-                                <div class="instructerand_ration">
-                                        <a href="##" class="instructor_text">Instructor </a>
-                                        <div class="star-rating">
-                                             <div class="star-rating__star">&#9733;</div>
-                                             <div class="star-rating__text">
-                                                   <span class="star-rating__rating">4.6</span>
-                                                   <span class="star-rating__count">(20)</span>
-                                             </div>
-                                          </div>
-                                    </div>
-        
-                                    <div class="my-3">
-                                        <a href="##" class="font-semibold hover:text-violet-600">Poob #285</a>
-                                    </div>
-        
-                                    <div class="course_ENB_time bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
-                                        <div class="course_totlaenrolled">
-                                            <span class="E_title">Enrolled</span>
-                                            <span class="Enumber__"><i class="fa fa-users"></i> 250+</span>
-                                        </div>
-                                        
-                                        <div class="course_timE">
-                                            <span class="E_title">Time</span>
-                                            <span class="Enumber__"><i class="mdi mdi-clock"></i> 1h 45min</span>
-                                        </div>
-                                    </div>
+                                   </div>
+
+                                   <div class="cdpath_description">
+                                    <p>Complete the next step...</p>
+                                   </div>
 
                                     <div class="courselearn_more_bt">
-                                    <a href="##" class="btn "> Learn More</a>
+                                    <a href="##" class="btn ">Open</a>
                                     </div>
                                 </div>
                             </div><!--end content-->
                             </div>
         
-                          
+                           
                            
                         </div>
+
+
                               </li>
                               <li data-status="wishlist" id="wishlist_list">
                                  <div class="course__header_tit">
@@ -1348,6 +1169,20 @@ $(document).ready(function() {
             }
         });
     });
+</script>
+
+<!-- path progress bar js -->
+
+<script>
+   function updateProgressBar(completedPaths) {
+  const totalPaths = 8;
+  const progress = (completedPaths / totalPaths) * 100;
+  $("#progress").css("width", progress + "%");
+  $(".progress-label").text(completedPaths + " of " + totalPaths);
+}
+
+// Example usage: updateProgressBar(3); // Set this to the number of completed paths
+
 </script>
 
 

@@ -533,4 +533,42 @@ position: absolute;
   font-weight: 600;
 }
 
+.learningpath_courses{
+  margin: 20px 10px !important;
+}
+ 
+/* path progressbar */
+.pathprogressbar  .progress-container {
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	height: 10px;
+	background-color: lightgray;
+	border: none !important;
+	position: relative;
+	border-radius: 50px;
+}
+
+.pathprogressbar .progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #7066ff;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+}
+.pathprogressbar  .progress-info{
+  display: flex;
+  justify-content: space-between;
+}
+.pathprogressbar  .progress-info p{
+  font-size: 14px;
+}
+.pathprogressbar  #progress-label{
+  font-size: 14px;
+}
+.cdpath_description p{
+  font-size: 14px;
+  color: #ccc;
+}
 /* new style here */

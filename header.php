@@ -20,6 +20,8 @@
         <link rel="shortcut icon" href="assets/images/newimages/nortech-favicon.png">
 
         <!-- Css -->
+        <!-- select2 css -->
+        <link rel="stylesheet" href="assets/css/select2.min.css">
         <!-- Main Css -->
         <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
         <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
