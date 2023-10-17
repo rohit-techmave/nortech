@@ -461,7 +461,18 @@
                               </div>
                            </div>
                         </td>
-                        <td><span class="badge bg-warning-gradient">Builder Ambassador</span></td>
+                        <td>
+                           <span class="tooltip badge bg-warning-gradient">
+                           Builder Ambassador
+                           <span class="tooltiptext">
+                              <ul>
+                                 <li>Have at least 10 users/builder associates in Builder ID</li>
+                                 <li>Have at least 5 learning badges</li>
+                                 <li>Have at least 50,000 $NTH in staking</li>
+                              </ul>
+                           </span>
+                        </span>
+                     </td>
                         <td>3000 NTH</td>
                         <td>
                           <span class="fw-semibold text-primary">2</span>
@@ -498,33 +509,3 @@
 <!--end container-->
 
 <?php include("footer.php") ?>
-
-<style>
-  .tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 200px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-  }
-</style>

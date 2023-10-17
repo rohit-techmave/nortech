@@ -2197,7 +2197,7 @@ padding-right: 0;
   display: flex;
   border: 1px solid #7c3aed;
   width: 100%;
-  padding: 8px 20px;
+  padding: 5px 20px;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
@@ -2301,4 +2301,42 @@ padding-right: 0;
 .bg-purple-gradient {
   background: linear-gradient(to right,rgb(137,32,173) 0,#ff496d 100%)!important;
   color: #fff;
+}
+/* tooltip css start */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #0f172a;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: left;
+  /* border: 1px solid #293445; */
+  box-shadow: #7066ff0f 0px 6px 24px 0px, #293445 0px 0px 0px 1px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.tooltiptext ul li {
+  margin: 8px 0;
+  font-weight: 400;
+  list-style: disc;
+  font-size: 13px;
+}
+.tooltiptext ul{
+  padding-left: 10px;
 }
