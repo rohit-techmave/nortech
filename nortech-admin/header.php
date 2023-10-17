@@ -74,7 +74,7 @@
                         </li>
 
                         <li class="">
-                            <a href="home.php"><i data-feather="home" class="h-4 w-4 me-3"></i>User</a>
+                            <a href="user.php"><i data-feather="home" class="h-4 w-4 me-3"></i>User</a>
                         </li>
 
                         <li class="">
