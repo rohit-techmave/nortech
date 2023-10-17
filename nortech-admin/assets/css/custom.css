@@ -2352,3 +2352,6 @@ padding-right: 0;
 .box_h_gen {
   height: 140px;
 }
+.box_redeem_ .change_wallet h1, .notification .change_wallet h1 {
+  font-size: 25px !important;
+}

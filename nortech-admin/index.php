@@ -499,7 +499,7 @@
          <div class="box">
 
             <div class="box-body">
-               <div class="redeem_box">
+               <div class="redeem_box notification">
                   <div class="pt-6 balanceAmount nth_balance">
                      <h6 class="total_earned_nth">Notification Sent History</h6>
                      <h3>260 <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">SENT</span>
