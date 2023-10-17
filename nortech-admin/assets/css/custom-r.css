@@ -584,3 +584,6 @@ position: relative;
 .main_card_box_total .slick-slide {
 	margin-right: 10px;
 }
+.bg-darkblue {
+  background-color: #3a88ed !important;
+}

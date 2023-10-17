@@ -57,11 +57,9 @@
                <div class="box custom-card">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
-                        <div class="me-3"> <span class="avatar avatar-md p-2 bg-secondary"> <svg
-                                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                 <path fill="currentColor"
-                                    d="M14 11h-1V7h2a1 1 0 0 1 1 1a1 1 0 0 0 2 0a3 3 0 0 0-3-3h-2V3a1 1 0 0 0-2 0v2h-1a4 4 0 0 0 0 8h1v4H9a1 1 0 0 1-1-1a1 1 0 0 0-2 0a3 3 0 0 0 3 3h2v2a1 1 0 0 0 2 0v-2h1a4 4 0 0 0 0-8Zm-3 0h-1a2 2 0 0 1 0-4h1Zm3 6h-1v-4h1a2 2 0 0 1 0 4Z" />
-                                 </svg></span> </div>
+                        <div class="me-3"> <span class="avatar avatar-md p-2 bg-secondary"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 7a3 3 0 1 1 6 0a3 3 0 0 1-6 0Zm3-5a5 5 0 1 0 0 10a5 5 0 0 0 0-10Zm7 0h-1v2h1a3 3 0 1 1 0 6h-1v2h1a5 5 0 0 0 0-10ZM0 19a5 5 0 0 1 5-5h7a5 5 0 0 1 5 5v2h-2v-2a3 3 0 0 0-3-3H5a3 3 0 0 0-3 3v2H0v-2Zm24 0a5 5 0 0 0-5-5h-1v2h1a3 3 0 0 1 3 3v2h2v-2Z"/></svg>
+                        </span> </div>
                         <div class="flex-fill">
                            <p class="mb-0 fs-10 op-7 text-muted fw-semibold">Associate Members</p>
                            <div class="d-flex align-items-center justify-content-between">
@@ -95,7 +93,7 @@
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-warning">
-                              <img src="assets/images/newimages/icons/nth-white.png" alt="" class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32"><path fill="currentColor" d="M24 30H8a2.002 2.002 0 0 1-2-2V4a2.002 2.002 0 0 1 2-2h16a2.002 2.002 0 0 1 2 2v16.618l-5-2.5l-5 2.5V4H8v24h16v-4h2v4a2.003 2.003 0 0 1-2 2Zm-3-14.118l3 1.5V4h-6v13.382Z"/></svg>
                            </span> </div>
                         <div class="flex-fill">
                            <p class="mb-0 fs-10 op-7 text-muted fw-semibold">Sold Course</p>
@@ -132,10 +130,7 @@
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-success">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                 <path fill="currentColor"
-                                    d="M21 11h-3.94a.78.78 0 0 0-.21 0h-.17a1.3 1.3 0 0 0-.15.1a1.67 1.67 0 0 0-.16.12a1 1 0 0 0-.09.13a1.32 1.32 0 0 0-.12.2l-1.6 4.41l-4.17-11.3a1 1 0 0 0-1.88 0L6.2 11H3a1 1 0 0 0 0 2h4.3a.86.86 0 0 0 .16-.1a1.67 1.67 0 0 0 .16-.12l.09-.13a1 1 0 0 0 .12-.2l1.62-4.53l4.16 11.42a1 1 0 0 0 .94.66a1 1 0 0 0 .94-.66l2.3-6.34H21a1 1 0 0 0 0-2Z" />
-                                 </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10" cy="6" r="4"/><path stroke-linecap="round" d="M21 10h-2m0 0h-2m2 0V8m0 2v2m-1.003 6c.003-.164.003-.331.003-.5c0-2.485-3.582-4.5-8-4.5s-8 2.015-8 4.5S2 22 10 22c2.231 0 3.84-.157 5-.437"/></g></svg>
                            </span> </div>
                         <div class="flex-fill">
                            <p class="mb-0 fs-10 op-7 text-muted fw-semibold">Copy Members</p>
@@ -207,7 +202,7 @@
               
                   <div class="box-body">
                      <div class="d-flex align-items-center">
-                        <div class="me-3"> <span class="avatar avatar-md p-2 bg-pink">
+                        <div class="me-3"> <span class="avatar avatar-md p-2 bg-darkblue">
                               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                  <path fill="currentColor"
                                     d="M7 21v-2h4v-3.1q-1.225-.275-2.188-1.038T7.4 12.95q-1.875-.225-3.138-1.637T3 8V7q0-.825.588-1.413T5 5h2V3h10v2h2q.825 0 1.413.588T21 7v1q0 1.9-1.263 3.313T16.6 12.95q-.45 1.15-1.413 1.913T13 15.9V19h4v2H7Zm0-10.2V7H5v1q0 .95.55 1.713T7 10.8Zm5 3.2q1.25 0 2.125-.875T15 11V5H9v6q0 1.25.875 2.125T12 14Zm5-3.2q.9-.325 1.45-1.088T19 8V7h-2v3.8Zm-5-1.3Z" />

@@ -30,7 +30,9 @@
    <!-- finance page convert currency js -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
 <script src="assets/datatables/jquery3.6.js"></script>
-        
+
+<!-- iconscdn -->
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!-- JAVASCRIPTS -->
         <script src="assets/libs/shufflejs/shuffle.min.js"></script>
         <script src="assets/libs/feather-icons/feather.min.js"></script>
