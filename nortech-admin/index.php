@@ -283,16 +283,16 @@
                            </div>
                         </td>
                         <td>
-                          <!-- <span class="badge bg-primary-gradient">Student</span> -->
-                          <span class="tooltip">
-  Hover over me
-  <span class="tooltiptext">
-   <ul>
-      <li>rh</li>
-      <li>efgh</li>
-   </ul>
-  </span>
-</span>
+                          <!-- <span class="badge bg-primary-gradient"></span> -->
+                          <span class="tooltip badge bg-primary-gradient">
+                          Student
+                           <span class="tooltiptext">
+                              <ul>
+                                 <li>Register on the platform</li>
+                                 <li>efgh</li>
+                              </ul>
+                           </span>
+                           </span>
 
                         </td>
                         <td>2000 NTH</td>
@@ -327,7 +327,16 @@
                               <div class="flex-grow-1">Jansh Brown</div>
                            </div>
                         </td>
-                        <td> <span class="badge bg-info-gradient">Builder Enthusiast</span></td>
+                        <td> 
+                           <span class="tooltip badge bg-info-gradient">Builder Enthusiast
+                           <span class="tooltiptext">
+                              <ul>
+                                 <li>rh</li>
+                                 <li>efgh</li>
+                              </ul>
+                           </span>
+                        </span>
+                     </td>
                         <td>2400 NTH</td>
                         <td>
                         <span class="fw-semibold text-primary">5</span>
