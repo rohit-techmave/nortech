@@ -88,7 +88,7 @@
                         </li>
 
                         <li class="platFormmenu">
-                            <a href="marketplace.php"><img src="assets/images/newimages/icons/platformgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
+                            <a href="platform.php"><img src="assets/images/newimages/icons/platformgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
                         </li>
 
                         <li class="adminmenu">
