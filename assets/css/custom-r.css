@@ -583,16 +583,14 @@ position: absolute;
   z-index: 1000;
 }
 .page-loader .txt {
-  background: #0F5CEF;
-  background: -webkit-linear-gradient(to right, #0F5CEF 26%, #5E57B0 45%, #7559A7 79%);
-  background: -moz-linear-gradient(to right, #0F5CEF 26%, #5E57B0 45%, #7559A7 79%);
-  background: linear-gradient(to right, #0F5CEF 26%, #5E57B0 45%, #7559A7 79%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  
+         
 
-  text-align: center;
+          
+/** TEXT GRADIENT */
+
+          /** TEXT GRADIENT */ color: #312eff; background-image: -webkit-linear-gradient(0deg, #312eff 19%, #4159c7 62%, #7659a7 34%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+          text-align: center;
   top: 40%;
   position: relative;
   text-transform: uppercase;

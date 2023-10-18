@@ -651,11 +651,16 @@ position: relative;
 /* PRELOADER CSS */
 .page-loader {
   width: 100%;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: #0f172a;
   z-index: 1000;
+  overflow: hidden !important;
+  scrollbar-3dlight-color: #0F5CEF;
 }
+
 .page-loader .txt {
   background: #0F5CEF;
   background: -webkit-linear-gradient(to right, #0F5CEF 26%, #5E57B0 45%, #7559A7 79%);

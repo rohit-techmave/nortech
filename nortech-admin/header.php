@@ -82,7 +82,7 @@
                         </li>
 
                         <li class="NTHmenu">
-                            <a href="education.php"><img src="assets/images/newimages/icons/nthgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
+                            <a href="nth.php"><img src="assets/images/newimages/icons/nthgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
                         </li>
 
                         <li class="platFormmenu">
