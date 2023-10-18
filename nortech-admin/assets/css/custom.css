@@ -2494,3 +2494,10 @@ textarea.form-control {
 .swal2-popup.swal2-toast {
   box-shadow: #7066ff38 0px 0px 5px 4px, #293445 0px 0px 0px 1px !important;
 }
+.back_btn {
+  padding: 8px 10px;
+  background: #7c3aed;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-right: 10px;
+}

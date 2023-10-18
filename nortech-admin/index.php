@@ -536,7 +536,7 @@
                            </span></h1>
 
                         <div class="buy_more">
-                           <a href="#">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+                           <a href="general-user-dashboard.php">View More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                      </div>
                   </div>
@@ -646,7 +646,7 @@
     animation: false,
     position: 'top-right',
     showConfirmButton: false,
-    timer: 1000,
+    timer: 2000,
     timerProgressBar: true,
     didOpen: (toast) => {
       toast.addEventListener('mouseenter', Swal.stopTimer)

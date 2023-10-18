@@ -517,6 +517,33 @@ $(window).on('load',function(){
 
 
 
+<!-- Sweet alert toast message -->
+
+<script>
+   var toastMixin = Swal.mixin({
+    toast: true,
+    icon: 'success',
+    title: 'General Title',
+    animation: false,
+    position: 'top-right',
+    showConfirmButton: false,
+    timer: 2000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  });
+
+</script>
+<script>
+   $('.second').on('click',function(){
+      toastMixin.fire({
+      animation: true,
+      title: 'Notification Sent Successfully'
+      });
+   })
+</script>
 
 
 
