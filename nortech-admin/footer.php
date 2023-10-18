@@ -499,7 +499,11 @@ $(document).ready(function () {
 $(window).on('load',function(){
 	setTimeout(function(){ // allowing 3 secs to fade out loader
 	$('.page-loader').fadeOut('fast');
+    $(this).css('overflow', 'hidden');
+    
 	},500);
+
+  
 });
 </script>
 

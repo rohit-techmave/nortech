@@ -28,11 +28,356 @@
                <div id="StarterContent" class="mt-6">
 
                   <div class="" id="fee" role="tabpanel" aria-labelledby="fee-tab">
-                  <h1>fee</h1>
+                  <div class="createnftid_section">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Adjust Fee ( General )</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <form action="#">
+                        <div class="form-group">
+                           <input class="form-control" type="text">
+                           <label for="" class="form-label">Name</label>
+                        </div>
+                        <div class="form-group">
+                           <input class="form-control" type="text">
+                           <label for="" class="form-label">Reference</label>
+                        </div>
+                        <div class="update_action">
+                           <a href="#" class="update_btn">Create ID</a>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Adjust Reward</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                        <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                       <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Adjust Burn System</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                        <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                       <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Content -->
+   </div>
                   </div>
                   
                   <div class="hidden" id="dao" role="tabpanel" aria-labelledby="dao-tab">
-                  <h1>dao</h1>
+                  <div class="createnftid_section">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Create Votes</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <form action="#">
+                        <div class="form-group">
+                           <input class="form-control" type="text">
+                           <label for="" class="form-label">Vote Title</label>
+                        </div>
+                       
+                        <div class="form-group">
+                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                                  <label for="exampleFormControlTextarea1" class="form-label">Vote Description</label>
+                               </div>
+
+                        <div class="form-group">
+                           <input class="form-control" type="text">
+                           <label for="" class="form-label">Voting ends in</label>
+                        </div>
+                        <div class="update_action">
+                           <a href="#" class="update_btn">Create ID</a>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Adjust Reward</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                        <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                       <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">Adjust Burn System</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                           <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                        <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+
+                       <div class="common__listcard">
+                              <div class="newbuilder__dataL">
+                                 <div class="user_listimg">
+                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                 </div>
+                                 <div class="usernameandid_dt">
+                                    <div class="namecomon_user">
+                                       Alex Smith
+                                    </div>
+                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                 </div>
+                              </div>
+                              <span class="newly__date">17 Oct,2023</span>
+                           </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Content -->
+   </div>
                   </div>
 
                   <div class="hidden" id="Stake" role="tabpanel" aria-labelledby="Stake-tab">
