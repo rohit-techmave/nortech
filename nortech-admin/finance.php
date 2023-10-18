@@ -883,7 +883,7 @@
 
    });
 </script>
-
+<!-- slider range -->
 <script>
    function initializeSlider(sliderId, inputId, circleId, scrollingPercentageId) {
       const slider = document.getElementById(sliderId);
