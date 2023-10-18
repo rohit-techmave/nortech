@@ -758,8 +758,6 @@ position: relative;
   line-height: 21px;
 }
 
-.mega-menu{
-  width: 100%;
-  background: #000;
+.nthtabsarea li {
+  width: calc(25% - 4px) !important;
 }
-

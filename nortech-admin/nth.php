@@ -6,7 +6,7 @@
 <div class="container-fluid relative px-3">
    <div class="layout-specing">
   
-               <ul class="finance__area flexgrid_tabs md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
+               <ul class="finance__area nthtabsarea flexgrid_tabs md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
                      <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out custom-btn btn-11" id="fee-tab" data-tabs-target="#fee" type="button" role="tab" aria-controls="fee" aria-selected="true">
                        Fee
@@ -389,7 +389,73 @@
                   </div>
 
                   <div class="hidden" id="report" role="tabpanel" aria-labelledby="report-tab">
-                    <h1>report</h1>
+
+
+                    <div class="reports__chtarea row">
+                    <div class="col-lg-6">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">NTH Holders</h3>
+                  </div>
+                  <div class="blcard_body">
+                     <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-6">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">NTH in Circulation</h3>
+                  </div>
+                  <div class="blcard_body">
+                  <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-6">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">NTH Locked</h3>
+                  </div>
+                  <div class="blcard_body">
+                  <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-6">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">NTH Reward</h3>
+                  </div>
+                  <div class="blcard_body">
+                  <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-lg-12">
+               <div class="customblck_card">
+                  <div class="blcard_header">
+                     <h3 class="blcard_header_title">NTH history Price</h3>
+                  </div>
+                  <div class="blcard_body">
+                  <div class="balnce__chart">
+                           <canvas id="rewardChart" class="default_chart"></canvas>
+                        </div>
+               </div>
+            </div>
+         </div>
+                    </div>
                   </div>
                   
                </div>
@@ -508,7 +574,7 @@ $(document).ready(function() {
                 const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-                countdownElement.innerHTML = `${days} days${hours} hours${minutes} minutes${seconds} seconds`;
+                countdownElement.innerHTML = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
             }
         }
     </script>
