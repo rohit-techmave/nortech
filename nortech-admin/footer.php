@@ -513,12 +513,7 @@ $(window).on('load',function(){
 });
 </script>
 
-
-
-
-
 <!-- Sweet alert toast message -->
-
 <script>
    var toastMixin = Swal.mixin({
     toast: true,
@@ -545,6 +540,39 @@ $(window).on('load',function(){
    })
 </script>
 
+
+<!-- datetime picker -->
+
+  <!--  Flatpickr  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.js"></script>
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/themes/dark.css">
+
+
+  <script>
+    $("#basicDate").flatpickr({
+    enableTime: true,
+    dateFormat: "F, d Y H:i"
+});
+
+$("#basicDate2").flatpickr({
+    enableTime: true,
+    dateFormat: "F, d Y H:i"
+});
+
+$("#timePicker").flatpickr({
+    enableTime: true,
+    noCalendar: true,
+    time_24hr: true,
+    dateFormat: "H:i",
+});
+
+$(".resetDate").flatpickr({
+    wrap: true,
+    weekNumbers: true,
+});
+  </script>
 
 
 

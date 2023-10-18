@@ -220,34 +220,24 @@
                             <div class="col-lg-12">
                             <div class="form-group">
                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
                                   <label for="exampleFormControlTextarea1" class="form-label">Vote Description</label>
                                </div>
                             </div>
 
                             <div class="col-lg-6">
-                           <div class="row">
-                            <div class="col-lg-6">
                             <div class="form-group">
-                           <input type="text" id="datepicker" class="date form-control" readonly="readonly" placeholder="Date">
-                           <label for="" class="form-label">Voting Start Date</label>
+                            <input type="text" id="basicDate" class="form-control" placeholder="" data-input>
+                           <label for="" class="form-label">Voting Start Date & Time</label>
                         </div>
-                            </div>
-                            <div class="col-lg-6">
-                            <div class="form-group">
-                            <input type="text" id="timepicker">
-                           <!-- <input type="text" id="datepicker" class="date form-control" readonly="readonly" placeholder="Date"> -->
-                           <label for="" class="form-label">Voting Start Time</label>
-                        </div>
-                            </div>
-                           </div>
+                         
                             </div>
 
                             <div class="col-lg-6">
                             <div class="form-group">
-                           <input class="form-control" type="time">
-                           <label for="" class="form-label">Voting ends Time</label>
+                            <input type="text" id="basicDate2" class="form-control" placeholder="" data-input>
+                           <label for="" class="form-label">Voting ends Date & Time</label>
                         </div>
+                         
                             </div>
 
                         </div>
@@ -257,77 +247,70 @@
 
                        
                         <div class="update_action">
-                           <a href="#" class="update_btn">Create ID</a>
+                           <a href="#" class="update_btn">Create Vote</a>
                         </div>
                      </form>
                   </div>
                </div>
             </div>
-            <div class="col-lg-12">
+
+            <div class="col-lg-6 countdown-container">
                <div class="customblck_card">
                   <div class="blcard_header">
-                     <h3 class="blcard_header_title">Adjust Reward</h3>
+                     <h3 class="blcard_header_title">Pending Votes</h3>
                   </div>
                   <div class="blcard_body">
-                     <div class=" card_listhgt">
+                     <div class=" card_listhgt countdowns">
                            <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                              
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                          PTIP 50 - Treasury Assets Management #1
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-20T12:10:00Z"></div>
                            </div>
                   
                            <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                               
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 61 - Stake XRP Earn Cake Syrup Pool
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit amet consectetur.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-19T14:20:00Z"></div>
                            </div>
 
                         <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                                
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 63 - Claim Rewards from Locked Staking
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem, ipsum dolor.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-20T18:30:10Z"></div>
                            </div>
 
                        <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
-                                    <div class="namecomon_user">
-                                       Alex Smith
+                                
+                                 <div class="withoutimg__listcont">
+                                    <div class="namecomon_user ">
+                                    PTIP 64 - Loan and/or fixed term with the Cake
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit amet.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-22T18:00:00Z"></div>
                            </div>
                   
                   </div>
@@ -335,71 +318,63 @@
             </div>
          </div>
 
-         <div class="col-lg-12">
+         <div class="col-lg-6 countdown-container">
                <div class="customblck_card">
                   <div class="blcard_header">
-                     <h3 class="blcard_header_title">Adjust Burn System</h3>
+                     <h3 class="blcard_header_title">History Votes</h3>
                   </div>
                   <div class="blcard_body">
-                     <div class=" card_listhgt">
+                     <div class=" card_listhgt countdowns">
                            <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                                 
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 50 - Treasury Assets Management #1 
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem, ipsum dolor.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-23T18:00:00Z"></div>
                            </div>
                   
                            <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                                
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 61 - Stake XRP Earn Cake Syrup Pool 
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit amet consectetur.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-24T18:00:00Z"></div>
                            </div>
 
                         <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                                
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 63 - Claim Rewards from Locked Staking
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-25T18:00:00Z"></div>
                            </div>
 
                        <div class="common__listcard">
                               <div class="newbuilder__dataL">
-                                 <div class="user_listimg">
-                                    <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
-                                 </div>
-                                 <div class="usernameandid_dt">
+                                
+                                 <div class="withoutimg__listcont">
                                     <div class="namecomon_user">
-                                       Alex Smith
+                                    PTIP 64 - Loan and/or fixed term with the Cake 
                                     </div>
-                                    <a href="#" class=" anchorhover">0xe849fa28a...ea14</a>
+                                    <a href="#" class=" anchorhover">Lorem ipsum dolor sit amet.</a>
                                  </div>
                               </div>
-                              <span class="newly__date">17 Oct,2023</span>
+                              <div class="countdown_box" data-end-time="2023-10-24T18:00:00Z"></div>
                            </div>
                   
                   </div>
@@ -496,5 +471,49 @@ $(document).ready(function() {
 </script>
 
 
+
+<!-- vote count down -->
+<script>
+        // Get the countdown containers
+        const countdownContainers = document.querySelectorAll(".countdown-container");
+
+        countdownContainers.forEach((container, containerIndex) => {
+            const countdownDivs = container.querySelector(".countdowns").querySelectorAll(".countdown_box");
+
+            countdownDivs.forEach((countdownDiv, index) => {
+                const endTime = new Date(countdownDiv.getAttribute("data-end-time")).getTime();
+
+                const countdownElement = document.createElement("div");
+                countdownElement.id = `countdown-${containerIndex}-${index}`;
+                countdownDiv.appendChild(countdownElement);
+
+                updateCountdown(containerIndex, index);
+
+                setInterval(() => updateCountdown(containerIndex, index), 1000);
+            });
+        });
+
+        function updateCountdown(containerIndex, index) {
+            const countdownDiv = countdownContainers[containerIndex]
+                .querySelector(".countdowns")
+                .querySelectorAll(".countdown_box")[index];
+            const currentTime = new Date().getTime();
+            const endTime = new Date(countdownDiv.getAttribute("data-end-time")).getTime();
+            const timeRemaining = endTime - currentTime;
+            const countdownElement = document.getElementById(`countdown-${containerIndex}-${index}`);
+
+            if (timeRemaining <= 0) {
+                countdownElement.innerHTML = "Voting has ended!";
+            } else {
+                const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                countdownElement.innerHTML = `${days} days${hours} hours${minutes} minutes${seconds} seconds`;
+            }
+        }
+    </script>
+<!-- end -->
 
 
