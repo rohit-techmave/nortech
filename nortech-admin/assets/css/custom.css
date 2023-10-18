@@ -2495,9 +2495,24 @@ textarea.form-control {
   box-shadow: #7066ff38 0px 0px 5px 4px, #293445 0px 0px 0px 1px !important;
 }
 .back_btn {
-  padding: 8px 10px;
+  padding: 5px 6px;
   background: #7c3aed;
   border-radius: 5px;
   font-size: 13px;
   margin-right: 10px;
+}
+.history_tab_ak.finance_tab li {
+  width: calc(25% - 0px) !important;
+
+}
+.history_tab_ak.finance_tab li button {
+  border-radius: 0 !important;
+  background: #0f172a;
+  border-bottom: 2px solid #273243;
+  padding: 12px !important;
+}
+.history_tab_ak.finance_tab li button.bg-violet-600 {
+  background: #0e5df121 !important;
+  border-bottom: 2px solid #0e5cf1;
+  color: #015cfa !important;
 }
