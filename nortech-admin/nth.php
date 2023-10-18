@@ -210,21 +210,52 @@
                   </div>
                   <div class="blcard_body">
                      <form action="#">
-                        <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                            <div class="form-group">
                            <input class="form-control" type="text">
                            <label for="" class="form-label">Vote Title</label>
                         </div>
-                       
-                        <div class="form-group">
+                            </div>
+                            <div class="col-lg-12">
+                            <div class="form-group">
                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
                                   <label for="exampleFormControlTextarea1" class="form-label">Vote Description</label>
                                </div>
+                            </div>
 
-                        <div class="form-group">
-                           <input class="form-control" type="text">
-                           <label for="" class="form-label">Voting ends in</label>
+                            <div class="col-lg-6">
+                           <div class="row">
+                            <div class="col-lg-6">
+                            <div class="form-group">
+                           <input type="text" id="datepicker" class="date form-control" readonly="readonly" placeholder="Date">
+                           <label for="" class="form-label">Voting Start Date</label>
                         </div>
+                            </div>
+                            <div class="col-lg-6">
+                            <div class="form-group">
+                            <input type="text" id="timepicker">
+                           <!-- <input type="text" id="datepicker" class="date form-control" readonly="readonly" placeholder="Date"> -->
+                           <label for="" class="form-label">Voting Start Time</label>
+                        </div>
+                            </div>
+                           </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                            <div class="form-group">
+                           <input class="form-control" type="time">
+                           <label for="" class="form-label">Voting ends Time</label>
+                        </div>
+                            </div>
+
+                        </div>
+                        
+                       
+                       
+
+                       
                         <div class="update_action">
                            <a href="#" class="update_btn">Create ID</a>
                         </div>
@@ -463,5 +494,7 @@ $(document).ready(function() {
         });
     });
 </script>
+
+
 
 
