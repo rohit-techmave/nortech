@@ -565,30 +565,47 @@
     <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
   </div>
   <div class="offcanvas-body small">
+  <div class="alert courseremovealert" id="remove-alert">Course removed from favorites</div>
     <form action="#">
+      <div class="notification_form">
       <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12 mb-4">
             <div class="account_select">
                <div class="form-group">
-                  <label for="">Select Account</label>
+                  <label for="">Select User</label>
                   <select class="image-select">
-                     <option value="assets/images/newimages/coinbase-icon.png"
-                        data-image="assets/images/newimages/coinbase-icon.png">Coinbase |
-                        0xe849fa28a...ea14</option>
-                     <option value="assets/images/newimages/binance-icon.png"
-                        data-image="assets/images/newimages/binance-icon.png">Binance |
-                        0xe849fa28a...ea14</option>
-                     <option value="assets/images/newimages/bitfinex-icon.png"
-                        data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex |
-                        0xe849fa28a...ea14</option>
+                  <!-- <option value="assets/images/newimages/person-dummy.png"
+                        data-image="assets/images/newimages/person-dummy.png">Select User</option> -->
+                     <option value="assets/images/newimages/avatar-4.jpg"
+                        data-image="assets/images/newimages/avatar-4.jpg">Prezy Mark</option>
+                     <option value="assets/images/newimages/avatar-3.jpg"
+                        data-image="assets/images/newimages/avatar-3.jpg">Jansh Brown</option>
+                     <option value="assets/images/newimages/avatar-2.jpg"
+                        data-image="assets/images/newimages/avatar-2.jpg">Vihan Hudda</option>
                   </select>
                </div>
 
             </div>
          </div>
+         <div class="col-lg-12">
+                               <div class="form-group">
+                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                                  <label for="exampleFormControlTextarea1" class="form-label">Type Notification</label>
+                               </div>
+                             </div>
       </div>
+      </div>
+
     </form>
   </div>
+  <div class="offcanvas-footer">
+   <div class="frmbtn_areasubmit"> 
+         <!-- <button type="submit" class="btn btn-primary  edit__green">Edit</button> -->
+         <button type="submit" class="btn btn-primary theme_btn second" data-bs-dismiss="offcanvas">Send</button>
+         <button type="submit" class="btn btn-secondary theme_btn theme_btn_secondary" data-bs-dismiss="offcanvas">Close</button>
+      </div>
+   </div>
 </div>
 
 <script>
@@ -596,6 +613,7 @@
       $('.image-select').select2({
          templateResult: formatState,
          templateSelection: formatState,
+         dropdownParent: $("#offcanvasBottom")
       });
 
       $('.image-select').on('select2:select', function (e) {
@@ -608,10 +626,40 @@
             return state.text;
          }
          var $state = $(
-            '<span><img class="select-image" src="' + state.element.getAttribute('data-image') + '" /> ' +
+            '<span class="img_profile_select"><img class="select-image" src="' + state.element.getAttribute('data-image') + '" /> ' +
             state.text + '</span>'
          );
          return $state;
       }
    });
+</script>
+
+
+
+<!-- Sweet alert toast message -->
+
+<script>
+   var toastMixin = Swal.mixin({
+    toast: true,
+    icon: 'success',
+    title: 'General Title',
+    animation: false,
+    position: 'top-right',
+    showConfirmButton: false,
+    timer: 1000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  });
+
+</script>
+<script>
+   $('.second').on('click',function(){
+      toastMixin.fire({
+      animation: true,
+      title: 'Notification Sent Successfully'
+      });
+   })
 </script>

@@ -31,8 +31,10 @@
         <link rel="stylesheet" href="assets/css/tailwind.min.css">
         <link rel="stylesheet" href="assets/css/custom.css">
         <link rel="stylesheet" href="assets/css/custom-r.css">
-
+        <!-- bootstrap css -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Sweet alert Css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css">
     </head>
     
     <body class="font-urbanist text-base text-black dark:text-white dark:bg-slate-900">

@@ -1309,10 +1309,10 @@ font-size: 20px;
 .form-group label {
   font-size: 13px;
   position: absolute;
-  top: -16px;
+  top: -12px;
   left: 15px;
   background: #0f172a;
-  padding: 5px;
+  padding: 0 5px;
   color: #8aa2b3;
   z-index: 1;
 }
@@ -1579,7 +1579,7 @@ img.select-image {
   height: 50px !important;
 }
 .account_select .select2-container--default .select2-selection--single .select2-selection__rendered {
-  line-height: 53px !important;
+  line-height: 57px !important;
 }
 .account_select .select2-container {
   width: 100% !important;
@@ -2413,8 +2413,84 @@ top: -82px;
 margin-right: 5px;
 }
 .offcanvas.offcanvas-bottom {
-  height: 90vh !important;
+  height: 60vh !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
 }
 .offcanvas {
   background: #0f172a !important;
+  
+}
+
+.notification_form {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+span.img_profile_select img {
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.frmbtn_areasubmit {
+  padding: 15px;
+  border-top: 1px solid #293445;
+  text-align: end;
+}
+.theme_btn_secondary {
+  background: #0f172a;
+  border: 1px solid #4c607e;
+  color: #4c607e;
+}
+textarea.form-control {
+  padding: 20px !important;
+}
+
+.swal2-popup {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0,100%);
+  width: 32em;
+  max-width: 100%;
+  padding: 0 0 1.25em;
+  border: none;
+  border-radius: 5px;
+  background: #0f172a !important;
+  color: #ffffff !important;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.swal2-success-circular-line-left, .swal2-success-circular-line-right{
+  background: #0f172a !important;
+}
+.swal2-title {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: .8em 1em 0;
+  color: #ffffff !important;
+  font-size: 1.875em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+  font-weight: 500 !important;
+}
+.swal2-html-container {
+  z-index: 1;
+  justify-content: center;
+  margin: 1em 1.6em .3em;
+  padding: 0;
+  overflow: auto;
+  color: #ffffff !important;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.swal2-popup.swal2-toast {
+  box-shadow: #7066ff38 0px 0px 5px 4px, #293445 0px 0px 0px 1px !important;
 }
