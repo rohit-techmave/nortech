@@ -1285,12 +1285,12 @@ font-size: 20px;
 }
 
 
-
 .form-control:focus + .form-label,
 .form-control:not(:placeholder-shown) + .form-label {
  
   font-size: 13px;
 }
+
 
 .form-control:focus + .form-label{
   color: #007bff; /* Label color on focus or hover */
