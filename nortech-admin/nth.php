@@ -24,6 +24,8 @@
                   </li>
                  
                </ul>
+
+               
                
                <div id="StarterContent" class="mt-6">
 
@@ -46,7 +48,7 @@
                            <label for="" class="form-label">Reference</label>
                         </div>
                         <div class="update_action">
-                           <a href="#" class="update_btn">Create ID</a>
+                           <a href="#" class="update_btn ">Create ID</a>
                         </div>
                      </form>
                   </div>
@@ -242,12 +244,8 @@
 
                         </div>
                         
-                       
-                       
-
-                       
                         <div class="update_action">
-                           <a href="#" class="update_btn">Create Vote</a>
+                           <a href="#" class="update_btn votecrreated_alert">Create Vote</a>
                         </div>
                      </form>
                   </div>

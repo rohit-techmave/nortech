@@ -532,10 +532,10 @@ $(window).on('load',function(){
 
 </script>
 <script>
-   $('.second').on('click',function(){
+   $('.votecrreated_alert').on('click',function(){
       toastMixin.fire({
       animation: true,
-      title: 'Notification Sent Successfully'
+      title: 'Vote Created Successfully'
       });
    })
 </script>
@@ -573,6 +573,10 @@ $(".resetDate").flatpickr({
     weekNumbers: true,
 });
   </script>
+
+  <!-- page refresh on click -->
+
+
 
 
 
