@@ -514,7 +514,7 @@
                            </span></h1>
 
                         <div class="buy_more">
-                           <a href="#">Send Now</a>
+                           <a href="##" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Send Now</a>
                         </div>
                      </div>
                   </div>
@@ -556,3 +556,62 @@
 <!--end container-->
 
 <?php include("footer.php") ?>
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button> -->
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-regular fa-circle-down"></i> Close</button>
+<div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Send Notification</h5>
+    <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+  </div>
+  <div class="offcanvas-body small">
+    <form action="#">
+      <div class="row">
+      <div class="col-lg-6">
+            <div class="account_select">
+               <div class="form-group">
+                  <label for="">Select Account</label>
+                  <select class="image-select">
+                     <option value="assets/images/newimages/coinbase-icon.png"
+                        data-image="assets/images/newimages/coinbase-icon.png">Coinbase |
+                        0xe849fa28a...ea14</option>
+                     <option value="assets/images/newimages/binance-icon.png"
+                        data-image="assets/images/newimages/binance-icon.png">Binance |
+                        0xe849fa28a...ea14</option>
+                     <option value="assets/images/newimages/bitfinex-icon.png"
+                        data-image="assets/images/newimages/bitfinex-icon.png">Bitfinex |
+                        0xe849fa28a...ea14</option>
+                  </select>
+               </div>
+
+            </div>
+         </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+   $(document).ready(function () {
+      $('.image-select').select2({
+         templateResult: formatState,
+         templateSelection: formatState,
+      });
+
+      $('.image-select').on('select2:select', function (e) {
+         var selectedImage = e.params.data.element.getAttribute('data-image');
+         $('#display-image').attr('src', selectedImage);
+      });
+
+      function formatState(state) {
+         if (!state.element) {
+            return state.text;
+         }
+         var $state = $(
+            '<span><img class="select-image" src="' + state.element.getAttribute('data-image') + '" /> ' +
+            state.text + '</span>'
+         );
+         return $state;
+      }
+   });
+</script>

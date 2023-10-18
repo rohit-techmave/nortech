@@ -1289,7 +1289,7 @@ font-size: 20px;
 .form-control:focus + .form-label,
 .form-control:not(:placeholder-shown) + .form-label {
  
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .form-control:focus + .form-label{
@@ -2354,4 +2354,67 @@ padding-right: 0;
 }
 .box_redeem_ .change_wallet h1, .notification .change_wallet h1 {
   font-size: 25px !important;
+}
+
+
+
+
+
+
+#offcanvasBottom .offcanvas-body {
+  /* background: #fff; */
+  flex: 1;
+  min-height: 0;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  /* box-shadow: 0px 0px 16px rgba(0,0,0,0.04),0px 8px 32px rgba(0,0,0,0.06); */
+  display: flex;
+  flex-direction: column;
+  /* height: 100% !important; */
+}
+
+/* #offcanvasBottom .offcanvas-body {
+position: relative;
+width: 100%;
+margin: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+pointer-events: none;
+max-width: 100% !important;
+height: 100vh;
+max-height: 100vh !important;
+margin-top: 20px;
+} */
+#offcanvasBottom .offcanvas-header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .7;
+  border-bottom: 1px solid #293445;
+  text-align: center;
+}
+#offcanvasBottom   .btn-close {
+background: transparent !important;
+display: flex;
+color: #fff;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+vertical-align: middle;
+padding-top: 50px;
+opacity: 1;
+font-size: 15px;
+position: absolute;
+top: -82px;
+}
+#offcanvasBottom  .btn-close i{
+margin-right: 5px;
+}
+.offcanvas.offcanvas-bottom {
+  height: 90vh !important;
+}
+.offcanvas {
+  background: #0f172a !important;
 }
