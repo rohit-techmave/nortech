@@ -2502,8 +2502,7 @@ textarea.form-control {
   margin-right: 10px;
 }
 .history_tab_ak.finance_tab li {
-  width: calc(25% - 0px) !important;
-
+  width: 100% !important;
 }
 .history_tab_ak.finance_tab li button {
   border-radius: 0 !important;
@@ -2512,7 +2511,24 @@ textarea.form-control {
   padding: 12px !important;
 }
 .history_tab_ak.finance_tab li button.bg-violet-600 {
-  background: #0e5df121 !important;
+  background: #1c3052 !important;
   border-bottom: 2px solid #0e5cf1;
   color: #015cfa !important;
+}
+.main_tab_box__ank {
+  position: relative;
+}
+
+.finance_tab{
+  display: block;
+}
+
+.finance__as_area.finanace_ank li {
+  width: calc(25% - 4px) !important;
+}
+.mega-menu {
+  width: 25%;
+  position: absolute;
+  top: 45px;
+  left: 0;
 }

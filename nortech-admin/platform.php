@@ -6,8 +6,8 @@
 
 <div class="container-fluid relative px-3">
    <div class="layout-specing">
-
-      <ul class="finance__area finance__as_area md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash"
+<div class="main_tab_box__ank">
+<ul class="finance__area finanace_ank finance__as_area md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash"
          id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
          <li role="presentation" class="md:inline-block block md:w-fit w-full megaone">
             <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out custom-btn btn-11"
@@ -61,6 +61,8 @@
                     </div>
        
     </div>
+</div>
+     
 
     <!-- end -->
    
