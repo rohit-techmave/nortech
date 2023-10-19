@@ -783,3 +783,143 @@ position: relative;
 .btnheader_w svg{
   margin-left: 5px;
 }
+
+#tab-search {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #0f172a;
+  border: 1px solid #293445;
+  border-radius: 5px;
+}
+
+/* tab filter data table style start */
+
+   /* Styles for tabs and active tab */
+
+.permissions__tabs  .tab.active {
+  color: #ab7ff7;
+}
+.permissions__tabs .tab {
+cursor: pointer;
+padding: 12px 0px 12px 12px;
+border-bottom: 1px dashed #91919145;
+font-size: 13px;
+}
+.permissions__tabs .tab:hover {
+  background: #ffe4c405;
+  transition: .25s linear cubic-bezier;
+}
+
+.permissions__tabs .tab:last-child {
+  border: none !important;
+  
+}
+
+/* Style for the data table */
+.filtertb_data   .data-table {
+    display: none;
+}
+.filtertb_data   .data-table th {
+  border-right: 1px solid #2d3953;
+  white-space: nowrap;
+}
+.filtertb_data   .data-table td {
+  font-size: 13px;
+  color: #99a2ad;
+  white-space: nowrap;
+}
+.filtertb_data  .data-table.active {
+    display: block;
+}
+
+.filtertb_data  .data-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+
+#no-data-message img{
+  width: 65%;
+  margin: 0 auto;
+}
+.nodataimgbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+.nodataimgbox span{
+  margin-top: 20px;
+}
+
+.bg-pending-transparent{
+  background-color: rgba(230, 203, 60, 0.19) !important;
+  color: rgb(230, 195, 60) !important;
+}
+.colinner_boxheight .customblck_card{
+  height: 100%;
+}
+
+
+/* table dropdown */
+
+/* Style the dropdown button and content */
+.Custom_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0f172a;
+  min-width: 137px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #1f293a;
+  right: -47px;
+  border-radius: 4px;
+}
+
+/* Style the ellipsis icon */
+.ellipsis {
+  font-size: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* Style the dropdown items */
+.dropdown-content a {
+  padding: 7px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  border-bottom: 1px dashed #91919145;
+  color: #fff;
+}
+
+.dropdown-content a:last-child {
+  border: none !important;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover {
+  background: #ffe4c405;
+  transition: .25s linear cubic-bezier;
+}
+
+/* Show the dropdown content when the button is clicked */
+.Custom_dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* style data table end */

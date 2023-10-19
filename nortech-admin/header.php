@@ -92,7 +92,7 @@
                         </li>
 
                         <li class="adminmenu">
-                            <a href="##"><img src="assets/images/newimages/icons/admingreyicon.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/adminwhiteicon.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
+                            <a href="admin.php"><img src="assets/images/newimages/icons/admingreyicon.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/adminwhiteicon.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
                         </li>
 
 
