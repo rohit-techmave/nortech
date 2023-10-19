@@ -422,8 +422,10 @@
 </script>
 <!-- page refresh on click -->
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0-beta/dist/chart.min.js"></script>
+
+
 
 
 </body>
 </html>
+

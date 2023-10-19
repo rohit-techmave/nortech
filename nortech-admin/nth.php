@@ -394,8 +394,10 @@
                     <div class="reports__chtarea row">
                     <div class="col-lg-6">
                <div class="customblck_card">
-                  <div class="blcard_header">
+                  <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Holders</h3>
+                     <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path></svg></a>
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart" >
@@ -406,8 +408,10 @@
          </div>
          <div class="col-lg-6">
                <div class="customblck_card">
-                  <div class="blcard_header">
+                  <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH in Circulation</h3>
+                     <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path></svg></a>
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart" >
@@ -419,8 +423,10 @@
 
          <div class="col-lg-6">
                <div class="customblck_card">
-                  <div class="blcard_header">
+                  <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Locked</h3>
+                     <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path></svg></a>
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart">
@@ -432,8 +438,10 @@
 
          <div class="col-lg-6">
                <div class="customblck_card">
-                  <div class="blcard_header">
+                  <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Reward</h3>
+                     <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path></svg></a>
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart">
@@ -445,8 +453,10 @@
 
          <div class="col-lg-12">
                <div class="customblck_card">
-                  <div class="blcard_header">
+                  <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH history Price</h3>
+                     <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path></svg></a>
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart">

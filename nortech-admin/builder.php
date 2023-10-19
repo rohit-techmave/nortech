@@ -320,5 +320,6 @@
       <!-- End Content -->
    </div>
 </div>
+</div>
 <!--end container-->
 <?php include("footer.php") ?>

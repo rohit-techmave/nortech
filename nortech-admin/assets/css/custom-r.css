@@ -596,6 +596,8 @@ position: relative;
 .blcard_header{
   border-bottom: 1px solid #293445;
   padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .blcard_body{
   padding: 20px;
@@ -760,4 +762,24 @@ position: relative;
 
 .nthtabsarea li {
   width: calc(25% - 4px) !important;
+}
+
+.customblck_card .balnce__chart canvas{
+  width: 100% !important;
+}
+
+.header_wbtn a{
+  width: auto !important;
+}
+
+.btnheader_w{
+  padding: 5px 17px;
+  border-radius: 5px;
+  color: #2563eb;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.btnheader_w svg{
+  margin-left: 5px;
 }

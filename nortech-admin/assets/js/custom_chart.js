@@ -37,13 +37,28 @@ $(document).ready(function () {
                 y: {
                     beginAtZero: true,
                     ticks: {
-                        color: '#878F9A' // Change y-axis label number color to blue
+                        color: '#ffffff' // Change y-axis label number color to blue
                     }
                 },
                 x: {
                     ticks: {
-                        color: '#878F9A' // Change the label color to green
+                        color: '#ffffff' // Change the label color to green
                     }
+                }
+            },  plugins: {
+                tooltip: {
+                    mode: 'index',
+                    intersect: false,
+                }
+            },
+            tooltips: {
+                callbacks: {
+                    title: function(tooltipItem) {
+                        return labels[tooltipItem[0].dataIndex];
+                    },
+                    label: function(tooltipItem) {
+                        return 'Value: ' + dataValues[tooltipItem.dataIndex];
+                    },
                 }
             }
         }
@@ -78,15 +93,30 @@ $(document).ready(function () {
              y: {
                  beginAtZero: true,
                  ticks: {
-                    color: '#878F9A' // Change y-axis label number color to blue
+                    color: '#ffffff' // Change y-axis label number color to blue
                 }
              },
              x: {
                 ticks: {
-                    color: '#878F9A' // Change the label color to green
+                    color: '#ffffff' // Change the label color to green
                 }
             }
-         }
+         },  plugins: {
+            tooltip: {
+                mode: 'index',
+                intersect: false,
+            }
+        },
+        tooltips: {
+            callbacks: {
+                title: function(tooltipItem) {
+                    return labels[tooltipItem[0].dataIndex];
+                },
+                label: function(tooltipItem) {
+                    return 'Value: ' + dataValues[tooltipItem.dataIndex];
+                },
+            }
+        }
    
      }
  });
@@ -121,9 +151,32 @@ var data = {
       },
       scales: {
         y: {
-          beginAtZero: true
+            beginAtZero: true,
+            ticks: {
+                color: '#ffffff' // Change y-axis label number color to blue
+            }
+        },
+        x: {
+            ticks: {
+                color: '#ffffff' // Change the label color to green
+            }
         }
-      }
+    },  plugins: {
+        tooltip: {
+            mode: 'index',
+            intersect: false,
+        }
+    },
+    tooltips: {
+        callbacks: {
+            title: function(tooltipItem) {
+                return labels[tooltipItem[0].dataIndex];
+            },
+            label: function(tooltipItem) {
+                return 'Value: ' + dataValues[tooltipItem.dataIndex];
+            },
+        }
+    }
     }
   });
 
@@ -150,15 +203,34 @@ var data = {
 };
 
 var options = {
-  scales: {
-    x: {
-      beginAtZero: true,
-      // Customize X-axis settings
+    scales: {
+        y: {
+            beginAtZero: true,
+            ticks: {
+                color: '#ffffff' // Change y-axis label number color to blue
+            }
+        },
+        x: {
+            ticks: {
+                color: '#ffffff' // Change the label color to green
+            }
+        }
+    },  plugins: {
+        tooltip: {
+            mode: 'index',
+            intersect: false,
+        }
     },
-    y: {
-      // Customize Y-axis settings
+    tooltips: {
+        callbacks: {
+            title: function(tooltipItem) {
+                return labels[tooltipItem[0].dataIndex];
+            },
+            label: function(tooltipItem) {
+                return 'Value: ' + dataValues[tooltipItem.dataIndex];
+            },
+        }
     }
-  }
 };
 
 var rewardChart = new Chart(ctx, {
@@ -170,7 +242,72 @@ var rewardChart = new Chart(ctx, {
 
 
 // NTH price chart
+var ctx = document.getElementById('pricenthchart').getContext('2d');
 
+// Sample data
+var dataValues = [42, 70, 28, 90, 60, 75, 50, 30, 85, 65, 40, 55];
+var labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May' , 'Jun' , 'Jul' , 'Aug' , 'Sep' , 'Oct' , 'Nov' , 'Dec'];
+
+// Define a function to set bar colors based on y values
+function getColorBasedOnValue(value) {
+    // You can define your own logic here to map values to colors
+    // For example, let's use a gradient color based on the value.
+    var max = Math.max(...dataValues);
+    var min = Math.min(...dataValues);
+    var normalizedValue = (value - min) / (max - min);
+    var red = Math.round(255 * normalizedValue);
+    var green = 100;
+    var blue = 100;
+    return `rgba(${red}, ${green}, ${blue}, 0.6)`;
+}
+
+// Create an array of background colors based on data values
+var backgroundColors = dataValues.map(getColorBasedOnValue);
+
+var data = {
+    labels: labels,
+    datasets: [{
+        label: 'NTH history Price',
+        data: dataValues,
+        backgroundColor: backgroundColors,
+        borderColor: backgroundColors, // Border color matches the bar color
+        borderWidth: 1
+    }]
+};
+
+var myBarChart = new Chart(ctx, {
+    type: 'bar',
+    data: data,
+    options: {
+        scales: {
+            y: {
+                ticks: {
+                    color: '#ffffff' // Change y-axis label number color to blue
+                }
+            },
+            x: {
+                ticks: {
+                    color: '#ffffff' // Change the label color to green
+                }
+            }
+        },  plugins: {
+            tooltip: {
+                mode: 'index',
+                intersect: false,
+            }
+        },
+        tooltips: {
+            callbacks: {
+                title: function(tooltipItem) {
+                    return labels[tooltipItem[0].dataIndex];
+                },
+                label: function(tooltipItem) {
+                    return 'Value: ' + dataValues[tooltipItem.dataIndex];
+                },
+            }
+        }
+    }
+});
 
   
 
