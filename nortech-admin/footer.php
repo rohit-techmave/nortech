@@ -259,6 +259,8 @@
    // Call the function with the desired title length limit (e.g., 20 characters)
    limitTitleLength(30);
 </script>
+
+<!-- table arrow assending and dessending -->
 <script>
    const table = document.getElementById("export-button");
    const headers = table.querySelectorAll("th.sortable");
@@ -281,6 +283,8 @@
      }
    });
 </script>
+
+
 <script>
    // Function to limit the number of characters in containers with a specific class and add ellipsis
    function limitContentByClass(className, maxCharacters) {
