@@ -449,7 +449,9 @@
                      <h3 class="blcard_header_title">NTH history Price</h3>
                   </div>
                   <div class="blcard_body">
-                 
+                  <div class="balnce__chart">
+                           <canvas id="pricenthchart" class="default_chart"></canvas>
+                        </div>
                </div>
             </div>
          </div>

@@ -70,7 +70,7 @@ $(document).ready(function () {
 
  // Create the bar chart using Chart.js
  var ctx = document.getElementById('nthcirculation').getContext('2d');
- var myBarChart = new Chart(ctx, {
+ var nthcirculation = new Chart(ctx, {
      type: 'bar',
      data: barData,
      options: {
@@ -97,7 +97,7 @@ $(document).ready(function () {
 var data = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May' , 'Jun' , 'Jul' , 'Aug' , 'Sep' , 'Oct' , 'Nov' , 'Dec'],
     datasets: [{
-      label: 'My Dataset',
+      label: 'NTH Locked',
       data: [45, 72, 28, 90, 60, 75, 50, 30, 85, 65, 40, 55],
       fill: true,
          borderColor: '#215be1',
@@ -112,7 +112,7 @@ var data = {
   var ctx = document.getElementById('nthlocked').getContext('2d');
   
   // Create the chart with custom animation
-  var chart = new Chart(ctx, {
+  var nthlocked = new Chart(ctx, {
     type: 'line',
     data: data,
     options: {
@@ -137,16 +137,7 @@ var data = {
 
   datasets: [
     {
-      label: "Bars",
-      fill: true,
-      borderColor: '#fc6f6f',
-      backgroundColor: '#fc6f6f45',
-      borderWidth: 1,
-      data: [45, 72, 28, 90, 60, 75, 50, 30, 85, 65, 40, 55],
-      type: "bar"
-    },
-    {
-      label: "Lines",
+      label: "Reward Chart",
       fill: true,
       borderColor: '#215be1',
       backgroundColor: '#fc6f6f45',
@@ -170,7 +161,7 @@ var options = {
   }
 };
 
-var chart = new Chart(ctx, {
+var rewardChart = new Chart(ctx, {
   type: "bar",
   data: data,
   options: options
@@ -178,7 +169,7 @@ var chart = new Chart(ctx, {
 
 
 
-
+// NTH price chart
 
 
   
