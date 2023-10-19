@@ -128,7 +128,7 @@
        // Initialize DataTable for the first table
        $('#datatable1').DataTable({
            // Add DataTable options and configuration here
-        
+           "order": [[0, 'desc']],
            "paging": true,
            "fixedHeader": true,
            "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
@@ -138,7 +138,7 @@
        // Initialize DataTable for the second table
        $('#datatable2').DataTable({
            // Add DataTable options and configuration here
-           
+           "order": [[0, 'desc']],
            "paging": true,
            "fixedHeader": true,
            "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
