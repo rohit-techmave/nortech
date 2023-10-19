@@ -2507,30 +2507,38 @@ textarea.form-control {
 .history_tab_ak.finance_tab li button {
   border-radius: 0 !important;
   background: #0f172a;
-  border-bottom: 2px solid #273243;
-  padding: 12px !important;
+  border-bottom: none;
+  padding: 10px 25px !important;
+  border-left: 2px solid #293445;
+  width: 100% !important;
+  text-align: justify;
 }
 .history_tab_ak.finance_tab li button.bg-violet-600 {
-  background: #1c3052 !important;
-  border-bottom: 2px solid #0e5cf1;
+  background: transparent !important;
+  border-bottom: none;
   color: #015cfa !important;
+  border-left: 2px solid #025efc;
 }
 .main_tab_box__ank {
   position: relative;
 }
 
-.finance_tab{
+.finance_tab {
   display: block;
+  padding: 15px !important;
+  background: #0f172a !important;
+  border: 1px solid #27303f;
 }
 
 .finance__as_area.finanace_ank li {
   width: calc(25% - 4px) !important;
 }
 .mega-menu {
-  width: 25%;
+  width: 24.6%;
   position: absolute;
   top: 45px;
   left: 0;
+  z-index: 2;
 }
 .notify_btn {
   display: flex;
@@ -2545,4 +2553,40 @@ textarea.form-control {
 }
 .actionbtnarea.action_th_box {
   width: 16% !important;
+}
+.account_id {
+  color: #7c3aed;
+  font-weight: 600;
+}
+.transection_amount {
+  text-align: end;
+}
+.transection_amount h5 span {
+  display: block;
+  font-size: 13px;
+  color: #c0cce2;
+}
+.transection_dt{
+  font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 13px;
+}
+.title_head h4 {
+  margin-bottom: 20px;
+  position: relative;
+}
+.title_head h4::before {
+  position: absolute;
+  content: '';
+  background: #035efc;
+  width: 2px;
+  height: 20px;
+  top: 0;
+  left: -20px;
+}
+.actionbtnarea.w-10{
+  width: 10% !important;
+}
+.pay_bvc {
+  width: 120px;
 }

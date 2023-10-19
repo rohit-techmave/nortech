@@ -287,17 +287,720 @@
                               </div>
                            </div>
                         </div>
+                                          <div class="col-lg-6">
+                                 <div class="customblck_card">
+                                    <div class="blcard_header">
+                                       <h3 class="blcard_header_title">Pending Payment</h3>
+                                    </div>
+                                    <div class="blcard_body">
+                                       <div class=" card_listhgt">
+                                             <div class="common__listcard">
+                                                <div class="newbuilder__dataL">
+                                                   <div class="user_listimg">
+                                                      <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                                   </div>
+                                                   <div class="usernameandid_dt">
+                                                      <div class="namecomon_user">
+                                                         Alex Smith
+                                                      </div>
+                                             
+                                                      <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                                <div class="transection_amount">
+                                                         <h5>$200</h5>
+                                                         <span class="newly__date">20 Oct,2023 10:00 am</span>
+                                                      </div>
+                                                
+                                             </div>
+                                    
+                                             <div class="common__listcard">
+                                                <div class="newbuilder__dataL">
+                                                   <div class="user_listimg">
+                                                      <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                                   </div>
+                                                   <div class="usernameandid_dt">
+                                                      <div class="namecomon_user">
+                                                         Alex Smith
+                                                      </div>
+                                          
+                                                      <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                                <div class="transection_amount">
+                                                         <h5>$200</h5>
+                                                         <span class="newly__date">23 Oct,2023 11:00 am</span>
+                                                      </div>
+                                                
+                                             </div>
+
+                                          <div class="common__listcard">
+                                                <div class="newbuilder__dataL">
+                                                   <div class="user_listimg">
+                                                      <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                                   </div>
+                                                   <div class="usernameandid_dt">
+                                                      <div class="namecomon_user">
+                                                         Alex Smith
+                                                      </div>
+                                                
+                                                      <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                                <div class="transection_amount">
+                                                         <h5>$200</h5>
+                                                         <span class="newly__date">23 Oct,2023 11:00 am</span>
+                                                      </div>
+                                                
+                                             </div>
+
+                                       <div class="common__listcard">
+                                                <div class="newbuilder__dataL">
+                                                   <div class="user_listimg">
+                                                      <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                                   </div>
+                                                   <div class="usernameandid_dt">
+                                                      <div class="namecomon_user">
+                                                         Alex Smith
+                                                      </div>
+                                                      <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span>  0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                                <div class="transection_amount">
+                                                   <h5>$200</h5>
+                                                   <span class="newly__date">23 Oct,2023 11:00 am</span>
+                                                </div>
+                                             
+                                             </div>
+                                    
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                             <div class="col-lg-6">
+                              <div class="customblck_card">
+                                 <div class="blcard_header">
+                                    <h3 class="blcard_header_title">History Payment</h3>
+                                 </div>
+                                 <div class="blcard_body">
+                                    <div class=" card_listhgt">
+                                          <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                          
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                           
+                                                      <h5> $200 <span>Transection ID: ACRAF23DB3C4</span></h5>
+                                                      
+                                                   </div>
+                                             
+                                          </div>
+                                 
+                                          <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                       
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                                      <h5> $200 <span>Transection ID: ACRAF23DB3C4</span></h5>
+                                                     
+                                                   </div>
+                                             
+                                          </div>
+
+                                       <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                             
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                                      <h5> $200 <span>Transection ID: ACRAF23DB3C4</span></h5>
+                                                      
+                                                   </div>
+                                             
+                                          </div>
+
+                                    <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                          
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                 
+                                                      Alex Smith
+                                                   </div>
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span>  0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                                <h5>$200 <span>Transection ID: ACRAF23DB3C4</span></h5>
+                                                
+                                             </div>
+                                          
+                                          </div>
+                                 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                   <div class="hidden tab-content" id="Payway-ak-done" role="tabpanel"
                      aria-labelledby="Payway-ak-done-tab">
-                     wretyu
+                     <div class="top__flex_">
+                        <h3 class="main_title">Challenge</h3>
+
+                     </div>
+                    <div class="row">
+                    <div class="col-lg-12">
+                              <div class="box">
+                                 <div class="box-header">
+                                    <h3>Create Builder Challenge</h3>
+                                 </div>
+                                 <div class="box-body">
+                                    <div class="task-box">
+                                    <div class="row" >
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">User Count</label>
+                                       
+                                             </div>
+                                       </div>
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">Total Win NTH Rewards</label>
+                                       
+                                             </div>
+                                       </div>
+                              
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="update_action">
+                                       <a href="#" class="update_btn" id="addRowButton">Add More</a>
+                                       <a href="#" class="ban_Service_btn" id="removeRowButton" style="display:none">Remove</a>
+
+                                       
+                                       </div>
+                                 </div>
+                              </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                              <div class="box">
+                                 <div class="box-header">
+                                    <h3>Create FishTank Challenge</h3>
+                                 </div>
+                                 <div class="box-body">
+                                    <div class="task-box1">
+                                    <div class="title_head">
+                                       <h4>Win Rate % Challenge</h4>
+                                    </div>
+                                    <div class="row" >
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">Win Rate %</label>
+                                       
+                                             </div>
+                                       </div>
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">Total Win NTH Rewards</label>
+                                       
+                                             </div>
+                                       </div>
+                              
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="update_action">
+                                       <a href="#" class="update_btn" id="addRowButton1">Add More</a>
+                                       <a href="#" class="ban_Service_btn" id="removeRowButton1" style="display:none">Remove</a>
+
+                                       
+                                       </div>
+
+
+                                       <div class="task-box2">
+                                    <div class="title_head">
+                                       <h4>Make % Profit Challenge</h4>
+                                    </div>
+                                    <div class="row" >
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">Make % Profit</label>
+                                       
+                                             </div>
+                                       </div>
+                                       <div class="col-lg-6">
+                                          <div class="form-group">
+                                             <input class="form-control" type="text">
+                                                <label for="" class="form-label">Win Bonus %</label>
+                                       
+                                             </div>
+                                       </div>
+                              
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="update_action">
+                                       <a href="#" class="update_btn" id="addRowButton2">Add More</a>
+                                       <a href="#" class="ban_Service_btn" id="removeRowButton2" style="display:none">Remove</a>
+
+                                       
+                                       </div>
+                                 </div>
+                              </div>
+                        </div>
+                    </div>
                   </div>
+
+
                   <div class="hidden tab-content" id="History-ak" role="tabpanel" aria-labelledby="History-ak-tab">
                      rtyu
                   </div>
+
+
                   <div class="hidden tab-content" id="Payway" role="tabpanel" aria-labelledby="Payway-tab">
-                     ertyu
+                  <div class="top__flex_">
+                        <h3 class="main_title">Payway</h3>
+
+                     </div>
+                  <div class="col-lg-12">
+                           <div class="box">
+                              <div class="box-header">
+                                 <h3>Pending Payments</h3>
+                              </div>
+                              <div class="box-body">
+                                 <div class="datatable-container">
+                                    <table id="datatable1" class="display">
+                                       <thead>
+                                          <tr>
+                                             <th class="sortable sorted-asc">
+                                                <div class="arrow_box">
+                                                   <span>Name</span>
+                                                   <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                                         class="fas fa-arrow-down"></i></div>
+                                                </div>
+                                             </th>
+                                           
+                                             <th class="sortable">
+                                                <div class="arrow_box">
+                                                   <span>Amount</span>
+                                                   <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                                         class="fas fa-arrow-down"></i></div>
+                                                </div>
+
+                                             </th>
+                                             <th class="sortable">
+                                                <div class="arrow_box">
+                                                   <span>NTH</span>
+                                                   <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                                         class="fas fa-arrow-down"></i></div>
+                                                </div>
+                                             </th>
+                                             <th class="sortable">
+                                                <div class="arrow_box">
+                                                   <span>Date/Time</span>
+                                                   <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                                         class="fas fa-arrow-down"></i></div>
+                                                </div>
+                                             </th>
+                                             <th class="actionbtnarea w-10 sortable">
+                                                <div class="arrow_box">
+                                                   <span>Action</span>
+                                                   <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                                         class="fas fa-arrow-down"></i></div>
+                                                </div>
+
+                                             </th>
+
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <div class="d-flex align-items-center">
+                                                   <div class="flex-shrink-0 me-2">
+                                                      <img src="assets/images/newimages/avatar-1.jpg" alt=""
+                                                         class="avatar-xs rounded-circle">
+                                                   </div>
+                                                   <div class="flex-grow-1">Vihan Hudda
+                                                     <a href="#" class="email_user"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                            
+                                             <td>
+                                             <span class="payment_box__">
+                                                <div class="payment_icon">
+                                                   <img src="assets/images/newimages/pix-icon.png" alt="">
+                                                </div>
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$200</span>
+                                                   <span class="payment_method">Pay via Pix</span>
+                                             </h5>
+                                             </span>
+                                             </td>
+                                             <td>
+                                               <a href="##" class="btn btnamount_service"> 2000 NTH</a>
+                                             </td>
+                                             <td>20 Jan,2023 10:00 am</td>
+                                             <td>
+                                                <div class="action_btn d-flex">
+                                                <a href="#" class="notify_btn">Make</a>
+                                    
+                                                </div>
+                                               
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                <div class="d-flex align-items-center">
+                                                   <div class="flex-shrink-0 me-2">
+                                                      <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                                         class="avatar-xs rounded-circle">
+                                                   </div>
+                                                   <div class="flex-grow-1">Jansh Brown
+                                                   <a href="#" class="email_user"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                           
+                                             <td>
+                                             <span class="payment_box__">
+                                                <div class="payment_icon">
+                                                   <img src="assets/images/newimages/osko-icon.png" alt="">
+                                                </div>
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$500</span>
+                                                   <span class="payment_method ">Pay via Osko</span>
+                                             </h5>
+                                             </span>
+                                             </td>
+                                             <td>
+                                             <a href="##" class="btn btnamount_service"> 1000 NTH</a>
+                                             </td>
+                                             <td>25 Jan,2023 10:00 am</td>
+                                             <td>
+                                             <div class="action_btn d-flex">
+                                                <a href="#" class="notify_btn">Make</a>
+                                    
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                <div class="d-flex align-items-center">
+                                                   <div class="flex-shrink-0 me-2">
+                                                      <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                                         class="avatar-xs rounded-circle">
+                                                   </div>
+                                                   <div class="flex-grow-1">Ayaan Bowen
+                                                   <a href="#" class="email_user"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                            
+                                             <td>
+                                             <span class="payment_box__">
+                                                <div class="payment_icon">
+                                                   <img src="assets/images/newimages/credit-card-icon.png" alt="">
+                                                </div>
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$1000</span>
+                                                   <span class="payment_method ">Pay via Credit Card</span>
+                                             </h5>
+                                             </span>
+                                             </td>
+                                             <td>
+                                             <a href="##" class="btn btnamount_service"> 1500 NTH</a>
+                                             </td>
+                                             <td>20 July,2023 10:00 am</td>
+                                             <td>
+                                            
+                                             <div class="action_btn d-flex">
+                                                <a href="#" class="notify_btn">Make</a>
+                                    
+                                                </div>
+                                             </td>
+                                          </tr>
+
+                                          <tr>
+                                             <td>
+                                                <div class="d-flex align-items-center">
+                                                   <div class="flex-shrink-0 me-2">
+                                                      <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                                         class="avatar-xs rounded-circle">
+                                                   </div>
+                                                   <div class="flex-grow-1">Prezy Mark
+                                                   <a href="#" class="email_user"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                           
+                                             <td>
+                                             <span class="payment_box__">
+                                                <div class="payment_icon">
+                                                   <img src="assets/images/newimages/osko-icon.png" alt="">
+                                                </div>
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$500</span>
+                                                   <span class="payment_method ">Pay via Osko</span>
+                                             </h5>
+                                             </span>
+                                             </td>
+                                             <td>
+                                             <a href="##" class="btn btnamount_service"> 2000 NTH</a>
+                                             </td>
+                                             <td>20 July,2023 10:00 am</td>
+                                             <td>
+                                             <div class="action_btn d-flex">
+                                                <a href="#" class="notify_btn">Make</a>
+                                    
+                                                </div>
+                                             </td>
+                                          </tr>
+
+                                          <tr>
+                                             <td>
+                                                <div class="d-flex align-items-center">
+                                                   <div class="flex-shrink-0 me-2">
+                                                      <img src="assets/images/newimages/avatar-6.jpg" alt=""
+                                                         class="avatar-xs rounded-circle">
+                                                   </div>
+                                                   <div class="flex-grow-1">Alex Smith
+                                                   <a href="#" class="email_user"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                       
+                                             <td>
+                                             <span class="payment_box__">
+                                                <div class="payment_icon">
+                                                   <img src="assets/images/newimages/pix-icon.png" alt="">
+                                                </div>
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$200</span>
+                                                   <span class="payment_method">Pay via Pix</span>
+                                             </h5>
+                                             </span>
+                                             </td>
+                                             <td>
+                                             <a href="##" class="btn btnamount_service"> 9000 NTH</a>
+                                             </td>
+                                             <td>09 July,2023 10:00 am</td>
+                                             <td>
+                                             <div class="action_btn d-flex">
+                                                <a href="#" class="notify_btn">Make</a>
+                                    
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     <div class="row">
+                     <div class="col-lg-7">
+                              <div class="customblck_card">
+                                 <div class="blcard_header">
+                                    <h3 class="blcard_header_title">History Payment</h3>
+                                 </div>
+                                 <div class="blcard_body">
+                                    <div class=" card_listhgt">
+                                          <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-6.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                          
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                           
+                                           <a href="##" class="btn btnamount_service"> 9000 NTH</a>
+                                                
+                                             </div>
+                                             <span class="payment_box__ pay_bvc">
+                                           
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$200</span>
+                                                   <span class="payment_method">Pay via Pix</span>
+                                             </h5>
+                                             </span>
+                                            
+                                             
+                                          </div>
+                                 
+                                          <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-3.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                       
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                           
+                                           <a href="##" class="btn btnamount_service"> 9000 NTH</a>
+                                                
+                                             </div>
+
+                                                   <span class="payment_box__ pay_bvc">
+                                            
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$500</span>
+                                                   <span class="payment_method ">Pay via Osko</span>
+                                             </h5>
+                                             </span>
+                                            
+                                          </div>
+
+                                       <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-1.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                      Alex Smith
+                                                   </div>
+                                             
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span> 0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                           
+                                           <a href="##" class="btn btnamount_service"> 9000 NTH</a>
+                                                
+                                             </div>
+                                                   <span class="payment_box__ pay_bvc">
+                                              
+                                                <h5 class="font-bold leading-snug "> 
+                                                   <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$1000</span>
+                                                   <span class="payment_method ">Pay via Credit Card</span>
+                                             </h5>
+                                             </span>
+                                        
+                                          </div>
+
+                                    <div class="common__listcard">
+                                             <div class="newbuilder__dataL">
+                                          
+                                                <div class="user_listimg">
+                                                   <img src="assets/images/newimages/avatar-2.jpg" alt="" class="">
+                                                </div>
+                                                <div class="usernameandid_dt">
+                                                   <div class="namecomon_user">
+                                                 
+                                                      Alex Smith
+                                                   </div>
+                                                   <a href="#" class=" anchorhover"><span class="account_id">Acc. Id:</span>  0xe849fa28a...ea14</a>
+                                                   <div class="newly__date transection_dt">23 Oct,2023 11:00 am</div>
+                                              
+                                                </div>
+                                             </div>
+                                             <div class="transection_amount">
+                                           
+                                           <a href="##" class="btn btnamount_service"> 9000 NTH</a>
+                                                
+                                             </div>
+                                             <span class="payment_box__ pay_bvc">
+                                            
+                                            <h5 class="font-bold leading-snug "> 
+                                               <span class="title-limit  from-red-600 to-violet-600  bg-clip-text">$500</span>
+                                               <span class="payment_method ">Pay via Osko</span>
+                                         </h5>
+                                         </span>
+                                          
+                                          </div>
+                                 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-5">
+                        <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                              <div class="Rewards_card p-6">
+                                 <div class="relative md:shrink-0 reward_area">
+                                    <h2 class="font-semibold">Fees Earned</h2>
+                                    <a href="##">
+                                             <small id="" class="font-bold bg-gradient-to-r from-violet-600 to-red-600 buy_buttoncs">This Month</small>
+                                             </a>
+                                    <div class="pt-6 nthAmount">
+                                       <a href="item-detail.html" class="btn btn-sm rounded-full bg-violet-600/5 hover:bg-violet-600 border-violet-600/10 hover:border-violet-600 text-violet-600 hover:text-white">$ 300</a>
+                                    </div>
+                                 </div>
+                                 <div class="p-6 w-full balance_area">
+                                    <h1 class="font-bold leading-snug text-white text-4xl"> <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">Total Fees Earned</span></h1>
+                                    <div class="pt-6 balanceAmount">
+                                       <h3>$ 10000</h3>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           </div>
+                     </div>
+                       
                   </div>
                </div>
             </div>
@@ -327,7 +1030,7 @@
 <!--end container-->
 <?php include("footer.php") ?>
 
-
+<!-- dropdown tab js start -->
 
 <script>
    $(document).ready(function () {
@@ -369,3 +1072,101 @@
       });
    });
 </script>
+<!-- dropdown tab js End -->
+
+<!-- append code for div -->
+<script>
+        $(document).ready(function() {
+            let rowsAppended = 0;
+            const maxRows = 2; // Set the maximum number of rows
+            
+            $('#addRowButton').click(function() {
+                if (rowsAppended < maxRows) {
+                    const newRow = '<div class="row"><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">User Count</label></div></div><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">Total Win NTH Rewards</label></div></div></div>';
+                    $('.task-box').append(newRow);
+                    rowsAppended++;
+
+                    // Show the Remove button when at least one row is appended
+                    $('#removeRowButton').show();
+                } else {
+                    alert("You've reached the limit.");
+                }
+            });
+            
+            $('#removeRowButton').click(function() {
+                if (rowsAppended > 0) {
+                    $('.task-box .row:last-child').remove();
+                    rowsAppended--;
+
+                    // Hide the Remove button if no rows are left
+                    if (rowsAppended === 0) {
+                        $('#removeRowButton').hide();
+                    }
+                }
+            });
+        });
+    </script>
+
+<script>
+        $(document).ready(function() {
+            let rowsAppended = 0;
+            const maxRows = 2; // Set the maximum number of rows
+            
+            $('#addRowButton1').click(function() {
+                if (rowsAppended < maxRows) {
+                    const newRow = '<div class="row"><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">Win Rate %</label></div></div><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">Total Win NTH Rewards</label></div></div></div>';
+                    $('.task-box1').append(newRow);
+                    rowsAppended++;
+
+                    // Show the Remove button when at least one row is appended
+                    $('#removeRowButton1').show();
+                } else {
+                    alert("You've reached the limit.");
+                }
+            });
+            
+            $('#removeRowButton1').click(function() {
+                if (rowsAppended > 0) {
+                    $('.task-box1 .row:last-child').remove();
+                    rowsAppended--;
+
+                    // Hide the Remove button if no rows are left
+                    if (rowsAppended === 0) {
+                        $('#removeRowButton1').hide();
+                    }
+                }
+            });
+        });
+    </script>
+
+<script>
+        $(document).ready(function() {
+            let rowsAppended = 0;
+            const maxRows = 2; // Set the maximum number of rows
+            
+            $('#addRowButton2').click(function() {
+                if (rowsAppended < maxRows) {
+                    const newRow = '<div class="row"><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">Make % Profit</label></div></div><div class="col-lg-6"><div class="form-group"><input class="form-control" type="text"><label for="" class="form-label">Win Bonus %</label></div></div></div>';
+                    $('.task-box2').append(newRow);
+                    rowsAppended++;
+
+                    // Show the Remove button when at least one row is appended
+                    $('#removeRowButton2').show();
+                } else {
+                    alert("You've reached the limit.");
+                }
+            });
+            
+            $('#removeRowButton2').click(function() {
+                if (rowsAppended > 0) {
+                    $('.task-box2 .row:last-child').remove();
+                    rowsAppended--;
+
+                    // Hide the Remove button if no rows are left
+                    if (rowsAppended === 0) {
+                        $('#removeRowButton2').hide();
+                    }
+                }
+            });
+        });
+    </script>
