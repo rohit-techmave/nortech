@@ -120,9 +120,9 @@
 
 
 <!-- data table code -->
-<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/fixedheader/3.1.13/js/dataTables.fixedHeader.min.js"></script>
-<script src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.fixedHeader.min.js"></script>
+<script src="assets/js/dataTables.fixedColumns.min.js"></script>
 <script>
    $(document).ready(function() {
        // Initialize DataTable for the first table
