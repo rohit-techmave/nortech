@@ -398,9 +398,9 @@
                      <h3 class="blcard_header_title">NTH Holders</h3>
                   </div>
                   <div class="blcard_body">
-                     <div class="balnce__chart">
-                           <canvas id="rewardChart" class="default_chart"></canvas>
-                        </div>
+                  <div class="balnce__chart" >
+                           <canvas id="nthHolderLineChart" class=""></canvas>
+                  </div>
                </div>
             </div>
          </div>
@@ -410,9 +410,9 @@
                      <h3 class="blcard_header_title">NTH in Circulation</h3>
                   </div>
                   <div class="blcard_body">
-                  <div class="balnce__chart">
-                           <canvas id="rewardChart" class="default_chart"></canvas>
-                        </div>
+                  <div class="balnce__chart" >
+                        <canvas id="nthcirculation" class=""></canvas>
+                  </div>
                </div>
             </div>
          </div>
@@ -424,7 +424,7 @@
                   </div>
                   <div class="blcard_body">
                   <div class="balnce__chart">
-                           <canvas id="rewardChart" class="default_chart"></canvas>
+                           <canvas id="nthlocked" class="default_chart"></canvas>
                         </div>
                </div>
             </div>
@@ -449,9 +449,7 @@
                      <h3 class="blcard_header_title">NTH history Price</h3>
                   </div>
                   <div class="blcard_body">
-                  <div class="balnce__chart">
-                           <canvas id="rewardChart" class="default_chart"></canvas>
-                        </div>
+                 
                </div>
             </div>
          </div>
