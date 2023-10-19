@@ -1449,11 +1449,12 @@ input:checked + .slider {
   text-align: end;
 }
 .update_btn {
-  padding: 10px 20px;
+  padding: 7px 14px;
   background: #2563eb47;
   border-radius: 5px;
   border: 1px solid #2563eb;
   color: #2563eb;
+  font-size: 13px;
 }
 .wallet_title {
   display: flex;
@@ -1531,10 +1532,13 @@ color:#0ab39c
 }
 .ban_Service_btn {
   border: 1px solid #ff0000;
-  padding: 10px 12px;
+  padding: 3px 14px;
   background: #ff00001c;
   border-radius: 5px;
   color: #ff0000;
+  font-size: 13px;
+  line-height: 22px;
+  height: 30px;
 }
 /*  */
 th.sortable {
@@ -2543,13 +2547,18 @@ textarea.form-control {
 .notify_btn {
   display: flex;
   align-items: center;
-  padding: 5px 10px;
+  padding: 3px 14px;
   background: #7c3aed;
   border-radius: 5px;
   margin-right: 5px;
+  font-size: 13px;
+  line-height: 0px;
+  height: 30px;
 }
 .notify_btn svg{
-  margin-right:3px;
+  margin-right: 3px;
+  width: 13px !important;
+  height: 13px !important;
 }
 .actionbtnarea.action_th_box {
   width: 16% !important;
