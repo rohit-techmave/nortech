@@ -25,7 +25,7 @@
             <li role="presentation" class="md:inline-block block md:w-fit w-full">
                <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Portfolio-tab"
                   data-tabs-target="#Portfolio" type="button" role="tab" aria-controls="Portfolio"
-                  aria-selected="false">My
+                  aria-selected="false">
                   Marketplace</button>
             </li>
             <li role="presentation" class="md:inline-block block md:w-fit w-full">
@@ -39,7 +39,7 @@
                aria-selected="false">Settings</button>
          </li> -->
          </ul>
-
+         <!-- mega menus list start -->
          <div class="mega-menu" id="menu1">
             <div class="col-lg-12 drop__box">
                <div class="location__list">
@@ -71,6 +71,46 @@
             </div>
 
          </div>
+
+
+         <div class="mega-menu mega-menu2" id="menu2">
+            <div class="col-lg-12 drop__box2">
+               <div class="location__list2">
+                  <ul class="md:w-fit w-full flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash history_tab_ak finance_tab"
+                     id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out"
+                           id="General-mk-tab" data-tabs-target="#General-mk" type="button" role="tab"
+                           aria-controls="General-mk" aria-selected="true">General</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out"
+                           id="Education-mk-tab" data-tabs-target="#Education-mk" type="button" role="tab"
+                           aria-controls="Education-mk" aria-selected="false">Education</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out"
+                           id="Finance-mk-tab" data-tabs-target="#Finance-mk" type="button" role="tab"
+                           aria-controls="Finance-mk" aria-selected="false">Finance</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out"
+                           id="Campings-mk-tab" data-tabs-target="#Campings-mk" type="button" role="tab" aria-controls="#Campings-mk"
+                           aria-selected="false">Campings</button>
+                     </li>
+                     <li role="presentation" class="md:inline-block block md:w-fit w-full">
+                        <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out"
+                           id="Products-mk-tab" data-tabs-target="#Products-mk" type="button" role="tab" aria-controls="#Products-mk"
+                           aria-selected="false">Products</button>
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+
+         </div>
+           <!-- mega menus list start -->
+
       </div>
 
 
@@ -1010,8 +1050,32 @@
 
          </div>
          <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
+            <div id="StarterContent">
+                  <div class="tab-content" id="General-mk" role="tabpanel" aria-labelledby="General-mk-tab">
+                     General
+                  </div>
 
-         </div>
+                  <div class="hidden tab-content" id="Education-mk" role="tabpanel" aria-labelledby="Education-mk-tab">
+                  Education
+                  </div>
+
+
+                  <div class="hidden tab-content" id="Finance-mk" role="tabpanel" aria-labelledby="Finance-mk-tab">
+                     Finance
+                  </div>
+
+
+                  <div class="hidden tab-content" id="Campings-mk" role="tabpanel" aria-labelledby="Campings-mk-tab">
+                     Campings
+                  </div>
+
+                  <div class="hidden tab-content" id="Products-mk" role="tabpanel" aria-labelledby="Products-mk-tab">
+                      Products
+                  </div>
+               </div>
+           </div>
+
+
          <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
 
          </div>
@@ -1030,7 +1094,9 @@
 <!--end container-->
 <?php include("footer.php") ?>
 
-<!-- dropdown tab js start -->
+<!--------------------------------------------------------------------
+                        dropdown tab js start
+--------------------------------------------------------------------- -->
 
 <script>
    $(document).ready(function () {
@@ -1072,7 +1138,50 @@
       });
    });
 </script>
-<!-- dropdown tab js End -->
+
+
+<script>
+   $(document).ready(function () {
+      $(".drop__box2").hide();
+      $("#Portfolio-tab").click(function () {
+         $(".drop__box2").toggle();
+      });
+
+      $(".location__list2 ul li").click(function () {
+         $(".drop__box2").toggle();
+      })
+
+
+   })
+</script>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      const locationInput = document.getElementById("Portfolio-tab");
+      const locationList = document.querySelector(".location__list2");
+      const dropBox = document.querySelector(".drop__box2");
+
+      locationInput.addEventListener("click", function (event) {
+         locationList.style.display = "block";
+
+         event.stopPropagation();
+      });
+
+      document.addEventListener("click", function (event) {
+         if (!dropBox.contains(event.target)) {
+            locationList.style.display = "none";
+            $(".drop__box2").hide();
+         }
+      });
+
+      locationList.addEventListener("click", function (event) {
+         event.stopPropagation();
+      });
+   });
+</script>
+<!--------------------------------------------------------------------
+                        dropdown tab js End
+--------------------------------------------------------------------- -->
 
 <!-- append code for div -->
 <script>
