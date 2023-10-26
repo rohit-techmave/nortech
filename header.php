@@ -355,3 +355,13 @@
                     </div>
                 </div>
                 <!-- Top Header -->
+
+                <div class="nthprice_topbox" id="mobileviewntham">
+                                     <div class="Nth_price  priceitemstop ">
+                                         <h1>NTH PRICE : 0.1</h1>
+                                     </div>
+                                     <div class="horizontal_linebreak"></div>
+                                      <div class="token_amount priceitemstop">
+                                        <h1>100 NTH</h1>
+                                      </div>
+                                </div>

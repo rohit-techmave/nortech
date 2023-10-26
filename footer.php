@@ -459,6 +459,87 @@ $(window).on('load',function(){
 	},500);
 });
 </script>
+
+
+
+<script>
+// Add variables to track dragging and hover
+let isDragging = false;
+let isHovered = false;
+let startX = 0;
+let scrollLeft = 0;
+
+// Auto-scroll the list on mobile view
+function autoScrollList() {
+    const tabList = document.getElementById('myTab');
+    let scrollAmount = 0;
+    const scrollSpeed = 2;
+
+    function scroll() {
+        if (!isDragging && !isHovered) {
+            tabList.scrollLeft += scrollSpeed;
+            scrollAmount += scrollSpeed;
+            if (scrollAmount >= tabList.scrollWidth - tabList.clientWidth) {
+                scrollAmount = 0;
+                tabList.scrollLeft = 0;
+            }
+        }
+    }
+
+    setInterval(scroll, 50); // Adjust the interval for desired scroll speed
+}
+
+// Handle touch events for dragging
+function handleTouchStart(event) {
+    isDragging = true;
+    startX = event.touches[0].pageX;
+    scrollLeft = document.getElementById('myTab').scrollLeft;
+}
+
+function handleTouchMove(event) {
+    if (!isDragging) return;
+
+    const x = event.touches[0].pageX;
+    const xDiff = startX - x;
+    document.getElementById('myTab').scrollLeft = scrollLeft + xDiff;
+}
+
+function handleTouchEnd() {
+    isDragging = false;
+}
+
+// Handle hover events to pause auto-scrolling
+function handleMouseOver() {
+    isHovered = true;
+}
+
+function handleMouseOut() {
+    isHovered = false;
+}
+
+const isMobileView = window.innerWidth <= 768; // You can adjust this breakpoint
+
+if (isMobileView) {
+    autoScrollList();
+
+    // Add event listeners for touch and hover events
+    const tabList = document.getElementById('myTab');
+    tabList.addEventListener('touchstart', handleTouchStart);
+    tabList.addEventListener('touchmove', handleTouchMove);
+    tabList.addEventListener('touchend', handleTouchEnd);
+    tabList.addEventListener('mouseover', handleMouseOver);
+    tabList.addEventListener('mouseout', handleMouseOut);
+}
+
+</script>
+
+
+
+
+
+
+
+
 </body>
 
 </html>

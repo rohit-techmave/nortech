@@ -3500,7 +3500,7 @@ h6 {
     }
 
     .xl\:max-w-2xl {
-        max-width: 42rem !important
+        max-width: 100% !important
     }
 
     .xl\:grid-cols-1 {

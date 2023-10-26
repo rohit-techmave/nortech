@@ -943,6 +943,10 @@ text-align: end;
 display: block;
 margin-bottom: 15px;
 }
+.courses table tbody .item td{
+  width: 100%;
+  display: block;
+}
 .course_db li .bg-violet-600 {
 background: #025efc !important;
 }
@@ -962,7 +966,7 @@ border: 1px solid #fff;
 }
 
 .customer_profileleft{
-width: 280px;
+width: 100%;
 }
 .servicecard_user h6 {
 margin-bottom: 0;
@@ -2093,4 +2097,72 @@ input[type="range"]::-moz-range-thumb {
 }
 .allcourse_collection .allcourse_grid_box .group {
   margin-bottom: 20px;
+}
+
+#mobileviewntham{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+  #mobileviewntham{
+    display: flex !important;
+    position: absolute;
+    top: 59px;
+    right: 0px;
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+  .nthprice_topbox{
+    display: none;
+  }
+  #main-content{
+    margin-top: 33px !important;
+  }
+  .priceitemstop h1 {
+    color: #fff;
+    font-size: 13px;
+  }
+  .horizontal_linebreak {
+    position: relative;
+    content: "";
+    width: 1px;
+    height: 31px;
+    background: #5b5b5b;
+    top: 23px;
+    left: 0px;
+  }
+  .usertabdash {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  .usertabdash li {
+    display: inline-block !important;
+    margin-right: 5px;
+    cursor: pointer;
+    width: auto !important;
+  }
+
+  h6{
+    font-size: 13px;
+  }
 }
