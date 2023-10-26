@@ -3,7 +3,7 @@
                     <div class="container-fluid">
                         <div class="grid grid-cols-1">
                             <div class="sm:text-start text-center mx-md-2">
-                                <p class="mb-0 text-slate-400">© <script>document.write(new Date().getFullYear())</script> Designed by <a href="https://techmavesoftware.com/" target="_blank" class="text-reset">TechMave Software</a>.</p>
+                                <p class="copyrighttext">© <script>document.write(new Date().getFullYear())</script> Designed by <a href="https://techmavesoftware.com/" target="_blank" class="text-reset">TechMave Software</a>.</p>
                             </div><!--end col-->
                         </div><!--end grid-->
                     </div><!--end container-->

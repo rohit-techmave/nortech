@@ -47,42 +47,47 @@
                   <h6 class="text-lg font-semibold">Buy NTH Token</h6>
                </div>
 
+               <form action="">
                <div class="exchange-form row ">
 
-                  <div class="col-lg-6">
-                     <div class="input-group currencyareawithinp">
-                        <!-- Change input type to "text" -->
-                        <input type="text" id="amount" placeholder="Enter amount"
-                           class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2">
-                        <select id="currency__select" class="custom-select">
-                           <option value="usd">USD</option>
-                           <option value="aud">AUD</option>
-                           <option value="brl">BRL</option>
-                           <!-- Add more currencies as needed -->
-                        </select>
+<div class="col-lg-6">
+   <div class="input-group currencyareawithinp">
+   <div class="form-group">
+         <input class="form-control" type="text">
+            <label for="" class="form-label">Enter Amount</label>
+     
+         </div>
+      <select id="currency__select" class="custom-select">
+         <option value="usd">USD</option>
+         <option value="aud">AUD</option>
+         <option value="brl">BRL</option>
+         <!-- Add more currencies as needed -->
+      </select>
 
-                     </div>
-                  </div>
+   </div>
+</div>
 
-                  <div class="col-lg-auto">
-                     <div class="exchangesign">
-                        <h1><i class="fas fa-exchange-alt"></i></h1>
-                     </div>
-                  </div>
-                  <div class="col-lg-5">
-                     <input type="text" id="result" placeholder="Converted Amount" readonly
-                        class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2">
+<div class="col-lg-1">
+   <div class="exchangesign">
+      <h1><i class="fas fa-exchange-alt"></i></h1>
+   </div>
+</div>
+<div class="col-lg-5">
+<div class="form-group convertedinp">
+         <input class="form-control" type="text">
+            <label for="" class="form-label">Converted Amount</label>
+     
+         </div>
 
-                  </div>
+</div>
 
-                  <div class="col-lg-12">
-                     <div class="formsubmit_btnnth">
-                        <input type="submit" id="submit" name="send"
-                           class="btn bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-full mt-5"
-                           value="Pay Now">
-                     </div>
-                  </div>
-               </div>
+<div class="col-lg-12">
+   <div class="formsubmit_btnnth">
+     <a href="##"><button type="button">Pay Now</button></a>
+   </div>
+</div>
+</div>
+               </form>
 
             </div>
 

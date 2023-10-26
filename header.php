@@ -69,13 +69,15 @@
                         </li> -->
 
                         <li class="">
-                            <a href="index.php"><i data-feather="user" class="h-4 w-4 me-3"></i>Profile</a>
+                            <a href="index.php"><i data-feather="home" class="h-4 w-4 me-3"></i>Dashboard</a>
                         </li>
+
 
                         <li class="">
-                            <a href="home.php"><i data-feather="home" class="h-4 w-4 me-3"></i>Home</a>
+                            <a href="profile.php"><i data-feather="user" class="h-4 w-4 me-3"></i>Profile</a>
                         </li>
 
+                        
                         <li class="">
                             <a href="finance.php"><i data-feather="activity" class="h-4 w-4 me-3"></i>Finance</a>
                         </li>

@@ -290,7 +290,7 @@ a{
 .customer_profileleft{
     padding: 29px 18px;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .page-wrapper .sidebar-wrapper .sidebar-menu li a {
@@ -341,11 +341,16 @@ a{
     border-bottom: 1px solid #2c3b5d94;
   }
 
+  .servicecard_user h6{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+
   .service_list h6{
     font-size: 14px;
   }
   .balance_area h1{
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
 
   .nthAmount a{
@@ -355,7 +360,7 @@ a{
 
   .balanceAmount h3{
     padding:0px !important;
-    font-size: 40px !important;
+    font-size: 28px !important;
   }
 
   .Rewards_card{
@@ -370,8 +375,8 @@ a{
     width: 50% !important;
   }
 
-  .reward_area h2{
-    font-size: 22px;
+  .reward_area h2 {
+    font-size: 18px;
   }
 
   .services_list_user li{
@@ -579,7 +584,7 @@ a{
 .finance__area .bg-violet-600 {
   border: none;
   background: #7c3aed;
-  background: linear-gradient(0deg, #ab81f4 0%, #7c3aed 100%);
+  background-image: linear-gradient(to right, #1a5be7, #4958d4, #5c57c2, #6756b1, #6d56a1);
     color: #fff;
     overflow: hidden;
 }
@@ -636,11 +641,12 @@ a{
 
 .exchange-form .input-group input {
   flex-grow: 1;
-  padding: 10px;
+  padding: 16px 20px !important;
   border: 1px solid #ccc;
   border-radius: 5px;
   color: #000;
   position: relative;
+  
 }
 
 .exchange-form #currency__select{
@@ -659,8 +665,14 @@ a{
 .exchange-form .select2-container {
   position: absolute !important;
   right: 10px;
-  top: 15px;
+  top: 24px;
+  border: 1px solid #213048;
+  width: 80px !important;
 }
+.exchange-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-left: 20px;
+}
+
 .exchange-form .select2-container--default .select2-selection--single {
   background-color: transparent !important;
   border: none !important;
@@ -752,7 +764,7 @@ a{
 
 .formsubmit_btnnth{
   text-align: right;
-  padding-right: 60px;
+  padding-right: 0px;
   margin-top: 10px;
 cursor: pointer;
 }
@@ -1267,7 +1279,7 @@ font-size: 20px;
 .box {
   background: #0f172a;
   /* margin-top: 10px; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-bottom: 15px;
 }
 .box-header {
@@ -2103,17 +2115,112 @@ input[type="range"]::-moz-range-thumb {
   display: none;
 }
 
+.copyrighttext{
+  font-size: 13px;
+  text-align: center;
+}
+.copyrighttext a{
+  color: #ffba23;
+}
+.hovercardef{
+  position: relative;
+  z-index: 5;
+  transition-delay: 0.15s;
+  transition-duration: 0.8s;
+  background: #0f172a;
+  border-radius: .75rem !important;
+  transition-property: opacity, transform;
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 100%;
+}
+.hovercardef::before {
+  background-image: linear-gradient(100deg, #fff, #0398ed);
+
+}
+
+.hovercardef::before {
+	content: "";
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	border-radius: 15px;
+	background-image: linear-gradient(100deg, #7c3aed61, #0398ed);
+	background-repeat: repeat-x;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
 
 
+.hovercardef:hover::before {
+  transform: rotate(0deg) translateX(-8px) translateY(5px);
+}
 
+.servicecard_user , .Rewards_card {
+  background: #0f172a;
+  height: 100%;
+  border-radius: 13px;
+}
 
+.hm_eqcards .col-lg-6{
+  margin-bottom: 10px;
+}
+.payment_list h6{
+  font-size: 13px !important;
+}
+.customer_profileleft .profile-pic .h-28.w-28{
+  width: 75px !important;
+  height: 75px !important;
+}
+.text-lg {
+  font-size: 14px !important;
+  line-height: 28px !important;
+}
 
+:is(.dark .page-wrapper .sidebar-wrapper .sidebar-menu li.active > a) {
+  color: #fff !important;
+  background-image: linear-gradient(to right, #1a5be7, #4958d4, #5c57c2, #6756b1, #6d56a1);
+}
 
+:is(.dark .page-wrapper .sidebar-wrapper .sidebar-brand > a:hover){
+  background: transparent !important;
+}
 
+.exchangesign h1 i {
+  color: #e6c850;
+}
+.currencyareawithinp .form-group{
+  width: 100%;
+}
 
+.convertedinp input{
+  padding: 16px 20px !important;
+}
 
+.exchange-form .form-group{
+  margin-bottom: 0px;
+}
+.exchange-form button {
+  padding: 7px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(255, 186, 35) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+}
 
+.exchangesign{
+  text-align: center;
+}
 
+.exchange-form{
+  padding: 30px !important;
+}
 
 
 
