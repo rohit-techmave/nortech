@@ -35,6 +35,7 @@
     --dark-scheme-color: #040836;
     --dark-scheme-color-2: #0d1250;
     --dark-scheme-font-color: #999999;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,'segoe ui',Roboto,Helvetica,Arial,sans-serif;
 }
 
 /* ================================================== */
@@ -192,7 +193,7 @@ header.transparent {
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
-    background: rgba(255, 255, 255, 0.0);
+    background: rgba(255, 255, 255);
 }
 
 header.autoshow {
@@ -637,7 +638,8 @@ header .header-col.mid .social-icons {
 
 #mainmenu li>a {
     padding-right: 6px;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 16px !important;
 }
 
 #mainmenu li.has-child>a {
@@ -1541,10 +1543,12 @@ header.header-solid.header-light {
 
 header.header-light .logo {
     display: none;
+    width: 170px;
 }
 
 header.header-light .logo-2 {
     display: inline-block;
+    width: 170px;
 }
 
 /* topbar start here */
@@ -3223,9 +3227,9 @@ a.btn-main.btn-white {
     background: #ffffff;
 }
 
-header a.btn-main,
-header a.btn-line {
-    padding: 6px 20px !important;
+header a.btn-main, header a.btn-line {
+    padding: 12px 20px !important;
+    font-weight: 600;
 }
 
 header a.btn-main i {
@@ -14677,7 +14681,7 @@ img.nft__item_preview{
 }
 
 .menu_side_area {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .rtl .menu_side_area {
@@ -15028,13 +15032,13 @@ img.nft__item_preview{
 /* ================================================== */
 
 #quick_search {
-    margin-left: 30px;
-    padding: 4px 11px;
+    /* margin-left: 30px; */
+    padding: 10px 15px;
     border: none;
     border-radius: 6px;
     font-size: 15px;
     background: rgba(255, 255, 255, .1);
-    width: 120%;
+    width: 250px;
     font-family: var(--title-font);
     outline: none;
 }
@@ -17387,4 +17391,129 @@ img {
         left: 0;
         top: -21px;
     }
+}
+.noti__ {
+    padding-left: 10px;
+}
+#mainmenu li.notification__.has-child:after {
+   display: none;
+}
+.notification__ a i {
+    font-size: 22px;
+}
+.notification__ .notification_bx__ {
+    top: 45px;
+    width: 350px !important;
+    right: 0px;
+    left: unset !important;
+}
+.header-light {
+    border-bottom: 1px solid #F1F3F6 !important;
+}
+.notification__ a {
+    position: relative;
+    padding: 9px 13px !important;
+    border: 1px solid #ececec;
+    border-radius: 50px;
+}
+.noti_count {
+    position: absolute;
+    top: 0;
+    right: -6px;
+    background: #dc3545;
+    padding: 0px 7px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 17px;
+}
+.notification__ .noti_count::before {
+    position: absolute;
+    inset: 0 0 0 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    margin: auto;
+    -webkit-animation: pulse-me 1.7s linear infinite;
+    animation: pulse-me 1.7s linear infinite;
+    background-color: #ff3d64;
+    content: "";
+    -webkit-transform: scale(.4);
+    transform: scale(.4);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+.notification_bx__{
+    overflow: unset !important;
+}
+.notification_bx__:before {
+    position: absolute;
+    top: -9px;
+    right: 13px;
+    margin-left: -69px;
+    content: "";
+    display: block;
+    border-left: 10px solid #29111100;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    z-index: 9999;
+    box-shadow: 2px 0px 45px 0px rgba(20, 20, 20, 0.1);
+}
+.noti_bell {
+    display: flex;
+    align-items: center;
+}
+.noti_cnt h6 {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.noti_cnt p {
+    line-height: 20px;
+    margin: 0;
+    font-size: 12px;
+}
+.img_noti_ak {
+    margin-right: 10px;
+}
+.notification_bx__ li{
+    margin: 5px 8px !important;
+}
+.notification_bx__ li a {
+    border-radius: 5px !important;
+    padding: 10px !important;
+    border-bottom: 1px dashed #ececec;
+    border-right: none;
+}
+.notification_bx__ li a:hover{
+    border-bottom: 1px dashed transparent; 
+}
+.notification_bx__ li a:hover .noti_cnt h6 {
+    color: #fff;
+}
+.btn-login {
+    background: transparent !important;
+    color: #8364e2 !important;
+    border: 1px solid #8364e2 !important;
+    margin-right: 3px;
+}
+.header-light .container {
+    max-width: 1450px;
+}
+@keyframes pulse-me {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3);
+      }
+      50% {
+        opacity: .3;
+      }
+      70% {
+        opacity: .09;
+      }
+      100% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        transform: scale(3);
+      }
 }
