@@ -2404,7 +2404,14 @@ body {
 }
 
 /* last services courses slider style */
-
+.complete_incomplete_course{
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.lascard_img {
+  border-radius: 20px;
+}
 .lascard_details span{
   font-size: 0.625rem;
   line-height: 1.625;
@@ -2431,18 +2438,50 @@ body {
   font-weight: 400;
   margin-bottom: 15px;
 }
-
-.lasbtn {
-  display: flex;
-  -moz-box-pack: justify;
-  justify-content: space-between;
-  -moz-box-align: center;
-  align-items: center;
-  opacity: 1;
-  background: transparent;
-  color: rgb(52, 71, 103);
-  border: 1px solid rgba(255, 255, 255, 0.75);
+.lasbtn{
+  margin-top: 26px;
 }
+.lasbtn a{
+  padding: 9px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  font-size: 14px;
+  transition: all 150ms ease-in 0s;
+}
+.lasbtn a:hover {
+  opacity: 0.75;
+  background-color: transparent;
+  border-color: rgb(255, 255, 255);
+  transform: scale(1.02);
+}
+.welcomeuser_coursebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.bottomwelcome_text{
+  display: flex;
+  align-items: baseline;
+}
+.lascard_img{
+  width: 100%;
+  height: 180px;
+}
+.lascard_img img{
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 

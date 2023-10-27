@@ -58,9 +58,9 @@
                            </div>
                         </div>
 
-                        <div class="complete_incomplete_course">
+                        <div class="complete_incomplete_course bggredient">
                            <div class="row">
-                              <div class="col-lg-4">
+                              <div class="col-lg-3">
                                  <div class="welcomeuser_coursebox">
                                       <div class="topflex_welcome">
                                           <h1>Welcome back!</h1>
@@ -73,7 +73,7 @@
                                  </div>
                               </div>
 
-                              <div class="col-lg-8">
+                              <div class="col-lg-9">
                                  <div class="lastservices_courses">
                                     <div class="row">
                                        
@@ -88,7 +88,7 @@
                                                              <h1><a href="##">Blockchain course</a></h1>
                                                              <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
                                                              <div class="lasbtn">
-                                                                 <button type="button">Continue</button>
+                                                                 <a href="##">Continue</a>
                                                              </div>
                                                          </div>
                                                  </div>
@@ -106,7 +106,7 @@
                                                              <h1><a href="##">Blockchain course</a></h1>
                                                              <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
                                                              <div class="lasbtn">
-                                                                 <button type="button">Continue</button>
+                                                                 <a href="##">Continue</a>
                                                              </div>
                                                          </div>
                                                  </div>
@@ -124,7 +124,7 @@
                                                              <h1><a href="##">Blockchain course</a></h1>
                                                              <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
                                                              <div class="lasbtn">
-                                                                 <button type="button">Continue</button>
+                                                                 <a href="##">Continue</a>
                                                              </div>
                                                          </div>
                                                  </div>
