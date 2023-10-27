@@ -2407,24 +2407,30 @@ body {
 .complete_incomplete_course{
   margin-top: 30px;
   border-radius: 15px;
-  padding: 30px;
+  padding: 40px 30px 40px 30px;
 }
 .lascard_img {
   border-radius: 20px;
 }
 .lascard_details span{
-  font-size: 0.625rem;
+  font-size: 12px;
   line-height: 1.625;
   text-transform: capitalize;
   vertical-align: unset;
   text-decoration: none;
   color: rgb(160, 174, 192);
   font-weight: 500;
+  margin-top: 10px;
 }
-
+.lascard_details{
+  margin-top: 10px;
+}
 .lascard_details h1{
   margin-bottom: 8px;
   color: #fff;
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .lascard_details p{
@@ -2469,18 +2475,35 @@ body {
   height: 180px;
 }
 .lascard_img img{
-  border-radius: 20px;
+  border-radius: 10px;
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 
+.topflex_welcome h1{
+  margin: 0px 0px 3px;
+  font-size: 21px;
+  line-height: 1.375;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
 
-
-
-
-
+.topflex_welcome p {
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.bottomwelcome_text p{
+  font-size: 14px;
+}
+.arrowright__bth{
+  margin-left: 10px;
+  font-size: 12px;
+}
 
 
 
