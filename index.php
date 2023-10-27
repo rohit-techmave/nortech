@@ -68,7 +68,7 @@
                                       </div>
 
                                       <div class="bottomwelcome_text">
-                                          <p>last Services  <div class="arrowright__bth"><iconify-icon icon="tabler:arrow-right"></iconify-icon></div></p>
+                                          <p>last Services  <div class="arrowright__bth"><i class="fa-solid fa-arrow-right"></i></div></p>
                                       </div>
                                  </div>
                               </div>
@@ -99,7 +99,7 @@
                                             <div class="lascard">
                                                  <div class="lascard-root">
                                                          <div class="lascard_img">
-                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                            <img src="assets/images/newimages/courses/5.jpeg" alt="">
                                                          </div>
                                                          <div class="lascard_details">
                                                              <span>Education Content</span>
@@ -117,7 +117,7 @@
                                             <div class="lascard">
                                                  <div class="lascard-root">
                                                          <div class="lascard_img">
-                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                            <img src="assets/images/newimages/courses/6.jpeg" alt="">
                                                          </div>
                                                          <div class="lascard_details">
                                                              <span>Education Content</span>
