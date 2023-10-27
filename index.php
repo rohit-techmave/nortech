@@ -3,16 +3,141 @@
 
                 <div class="container-fluid relative px-3">
                     <div class="layout-specing">
-                        <!-- Start Content -->
-                        <div class="md:flex justify-between items-center">
-                            <div>
-                                <h5 class="font-semibold text-2xl mb-1">Welcome!</h5>
-                                <h5 class="font-medium text-base text-slate-400">Jenny Jimenez</h5>
+                     
+                        <!-- <div class="md:flex justify-between items-center">
+                            <div class="ctc_bredcrm">
+                                <h1 class="breacrm_mainhead">Welcome!</h1>
+                                <h5 class="subheading_breadcrm">Jenny Jimenez</h5>
                             </div>
-                            <!-- <span class="text-slate-400">My balance: <span class="font-semibold text-emerald-600">$ 45,578.032</span></span> -->
+                        </div> -->
+
+                        <div class="row mt-1">
+                           <div class="col-lg-3">
+                                <div class="infodashuser_card bggredient ">
+                                      <div class="dsd_cardinfo">
+                                         <span>Account balance</span>
+                                         <h1>$53,000 <span class="progressnumbers__">+55%</span></h1>
+                                      </div>
+                                      <div class="ico_dashtopnc">
+                                      <iconify-icon icon="ph:wallet-fill" class="svgiconwd"></iconify-icon>
+                                      </div>
+                                </div>
+                           </div>
+                           <div class="col-lg-3">
+                                <div class="infodashuser_card bggredient ">
+                                      <div class="dsd_cardinfo">
+                                         <span>Total Earned NTH</span>
+                                         <h1>34,000 </h1>
+                                      </div>
+                                      <div class="ico_dashtopnc">
+                                      <img src="assets/images/newimages/icons/nth-white.png" alt="" class="">
+                                      </div>
+                                </div>
+                           </div>
+                           <div class="col-lg-3">
+                                <div class="infodashuser_card bggredient ">
+                                      <div class="dsd_cardinfo">
+                                         <span> Certificates</span>
+                                         <h1>+4,543 </h1>
+                                      </div>
+                                      <div class="ico_dashtopnc">
+                                      <iconify-icon icon="ph:certificate-fill" class="svgiconwd"></iconify-icon>
+                                      </div>
+                                </div>
+                           </div>
+                           <div class="col-lg-3">
+                                <div class="infodashuser_card bggredient ">
+                                      <div class="dsd_cardinfo">
+                                         <span>Total Sales</span>
+                                         <h1>$53,000 </h1>
+                                      </div>
+                                      <div class="ico_dashtopnc">
+                                      <iconify-icon icon="ooui:chart" class="svgiconwd"></iconify-icon>
+                                      </div>
+                                </div>
+                           </div>
                         </div>
 
-                        <div class="grid lg:grid-cols-12 gap-6 mt-6">
+                        <div class="complete_incomplete_course">
+                           <div class="row">
+                              <div class="col-lg-4">
+                                 <div class="welcomeuser_coursebox">
+                                      <div class="topflex_welcome">
+                                          <h1>Welcome back!</h1>
+                                          <p>Nice to see you Jenny Jimenez!</p>
+                                      </div>
+
+                                      <div class="bottomwelcome_text">
+                                          <p>last Services  <div class="arrowright__bth"><iconify-icon icon="tabler:arrow-right"></iconify-icon></div></p>
+                                      </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-8">
+                                 <div class="lastservices_courses">
+                                    <div class="row">
+                                       
+                                    <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Education Content</span>
+                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <button type="button">Continue</button>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Education Content</span>
+                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <button type="button">Continue</button>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Education Content</span>
+                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <button type="button">Continue</button>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- <div class="grid lg:grid-cols-12 gap-6 mt-6">
                             <div class="xl:col-span-8 lg:col-span-12">
                                 <div class="grid grid-cols-1 gap-6">
                                     <div class="relative overflow-hidden rounded-lg bggredient ">
@@ -183,7 +308,7 @@
 </div>
                                
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End Content -->
                     </div>
                 </div><!--end container-->

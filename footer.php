@@ -47,6 +47,8 @@
 <script src="assets/js/select2.min.js"></script>
 
 
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
  <!-- chart js -->
  <!-- Include Chart.js library -->
  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
