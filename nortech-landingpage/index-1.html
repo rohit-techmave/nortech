@@ -56,10 +56,92 @@
                                     </ul>
                             </div>
                             <div class="de-flex-col header-col-mid">
-                                <div class="de-flex-col">
-                                    <input id="quick_search" class="xs-hide" name="quick_search" placeholder="search item here..." type="text" />
+                                <div class="de-flex-col search-bar">
+                                    <!-- <input id="quick_search" class="xs-hide" id="search-input" name="quick_search" placeholder="search item here..." type="text" /> -->
+                                   <div class="search" id="toggleButton">
+                                    <div class="left_side_ak">
+                                        <div class="icon_srch">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                        <div class="text__">
+                                           <h6>Search...</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right_side_ak">
+                                        <div class="trigger_btn">
+                                            /
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div id="targetDiv" class="hidden search_box_main_ak">
+                                    <div class="search_input">
+                                        <div class="search_btn"> <iconify-icon icon="uil:search" width="17"></iconify-icon> </div>
+                                        <input  class="search_int"  name="quick_search" placeholder="Search coin, pair, contract address, exchange, or post" type="text" />
+                                        <div class="search_cross_btn" id="cancelButton"><iconify-icon icon="charm:cross" width="20"></iconify-icon></div>
+                                    </div>
+                                     
+                                    <div class="trending_list">
+                                        <h6 class="trending_title">Trending <iconify-icon icon="noto:fire" width="16"></iconify-icon></h6>
+                                        <ul class="search_list">
+                                            <li class="active">
+                                                <a href="#">
+                                                    <div class="img_box_srch_">
+                                                        <img src="images/new-images/24478.png" alt="">
+                                                        <div class="srch_text">
+                                                            <h6>Pepe <span>Pepe</span></h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hastag_srch">
+                                                        <h6>#1</h6>
+                                                    </div>
+                                                </a>
+                                               
+                                             
+                                            </li>
+                                            <li class="">
+                                                <a href="">
+                                                    <div class="img_box_srch_">
+                                                        <img src="images/new-images/7186.png" alt="">
+                                                        <div class="srch_text">
+                                                            <h6>PancakeSwap <span>CAKE</span></h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hastag_srch">
+                                                        <h6>#2</h6>
+                                                    </div>
+                                                </a>
+                                             
+                                             
+                                            </li>
+                                            <li class="">
+                                                <a href="#">
+                                                    <div class="img_box_srch_">
+                                                        <img src="images/new-images/1345.png" alt="">
+                                                        <div class="srch_text">
+                                                            <h6>Bitcoin <span>BTC</span></h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hastag_srch">
+                                                        <h6>#3</h6>
+                                                    </div>
+                                                </a>
+                                              
+                                             
+                                            </li>
+                                        </ul>
+
+                                        <h6 class="trending_title">Recent searches</h6>
+                                    </div>
+
+                                   </div>
                                 </div>
                                 
+                           
+                                  
+                                  
+                                  
+                                  
+                                  
                             
                                 <div class="menu_side_area">
                                     <a href="wallet.html" class="btn-main btn-login"><i class="icon_wallet_alt"></i><span>Login</span></a>
@@ -945,9 +1027,40 @@
         });
       });
     </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script>
+const toggleButton = document.getElementById("toggleButton");
+const targetDiv = document.getElementById("targetDiv");
+const cancelButton = document.getElementById("cancelButton");
+
+toggleButton.addEventListener("click", function(event) {
+    event.stopPropagation(); // Prevent the click from propagating to the body
+    // Toggle the visibility of the div
+    targetDiv.classList.toggle("hidden");
+});
+
+cancelButton.addEventListener("click", function(event) {
+    event.stopPropagation(); // Prevent the click from propagating to the body
+    // Hide the div
+    targetDiv.classList.add("hidden");
+});
+
+document.addEventListener("click", function(event) {
+    // Close the div if it is open and the click is outside of the div
+    if (!targetDiv.classList.contains("hidden")) {
+        targetDiv.classList.add("hidden");
+    }
+});
+
+// Prevent clicks inside the div from closing it
+targetDiv.addEventListener("click", function(event) {
+    event.stopPropagation(); // Prevent the click from propagating to the body
+});
+
+</script>
 
 </body>
 
 
-<!-- Mirrored from madebydesignesia.com/themes/gigaland/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 09:51:16 GMT -->
+
 </html>
