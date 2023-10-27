@@ -6,10 +6,10 @@
     <div class="col-lg-3">
     <div class="accordion">
   <div class="at-item">
-    <div class="at-title active" id="at-title1">
+    <div class="at-title active bggredient" id="at-title1">
       <h2>Status</h2>
     </div>
-    <div class="at-tab" style="display: block;" id="at-tab1">
+    <div class="at-tab bggredient" style="display: block;" id="at-tab1">
        <div class="form-group">
           
             <div class="invisible-checkboxes">
@@ -30,10 +30,10 @@
     </div>
   </div>
   <div class="at-item">
-    <div class="at-title active" id="at-title2">
+    <div class="at-title active bggredient" id="at-title2">
       <h2>Price Range</h2>
     </div>
-    <div class="at-tab" style="display: block;" id="at-tab2">
+    <div class="at-tab bggredient" style="display: block;" id="at-tab2">
     <div class="wrapper">
       <div class="price-input">
         <div class="field">
@@ -57,10 +57,10 @@
     </div>
   </div>
   <div class="at-item">
-    <div class="at-title active" id="at-title3">
+    <div class="at-title active bggredient" id="at-title3">
       <h2>Collection</h2>
     </div>
-    <div class="at-tab" style="display: block;" id="at-tab3">
+    <div class="at-tab bggredient" style="display: block;" id="at-tab3">
         <div class="widget-wrap">
         <input type="text" id="the-filter" placeholder="Search For..." autocomplete="off"/>
         <ul id="the-list">

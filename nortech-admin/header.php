@@ -76,7 +76,7 @@
                         </li> -->
 
                         <li class="">
-                            <a href="index.php"><i data-feather="user" class="h-4 w-4 me-3"></i>User</a>
+                            <a href="index.php"><i data-feather="user" class="h-4 w-4 me-3"></i>Dashboard</a>
                         </li>
 
                         <li class="">
@@ -84,15 +84,15 @@
                         </li>
 
                         <li class="NTHmenu">
-                            <a href="nth.php"><img src="assets/images/newimages/icons/nthgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
+                            <a href="nth.php"><img src="assets/images/newimages/icons/nthblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
                         </li>
 
                         <li class="platFormmenu">
-                            <a href="platform.php"><img src="assets/images/newimages/icons/platformgrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
+                            <a href="platform.php"><img src="assets/images/newimages/icons/platformblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
                         </li>
 
                         <li class="adminmenu">
-                            <a href="admin.php"><img src="assets/images/newimages/icons/admingreyicon.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/adminwhiteicon.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
+                            <a href="admin.php"><img src="assets/images/newimages/icons/admingreyiconblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/adminwhiteicon.png" alt="" class="h-4 w-4 me-3 whiteicon">Admin</a>
                         </li>
 
 
@@ -114,7 +114,7 @@
             <!-- sidebar-wrapper  -->
 
             <!-- Start Page Content -->
-            <main class="page-content bg-gray-50 dark:bg-slate-800">
+            <main class="page-content ">
                 <!-- Top Header -->
                 <div class="top-header">
                     <div class="header-bar flex justify-between">

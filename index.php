@@ -15,7 +15,7 @@
                         <div class="grid lg:grid-cols-12 gap-6 mt-6">
                             <div class="xl:col-span-8 lg:col-span-12">
                                 <div class="grid grid-cols-1 gap-6">
-                                    <div class="relative overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900 p-2">
+                                    <div class="relative overflow-hidden rounded-lg bggredient ">
                                     <div class="p-4 border-b border-gray-100 dark:border-gray-800">
                                             <h6 class="text-lg font-semibold">BALANCE</h6>
                                             
@@ -30,7 +30,7 @@
 
                                     <div>
                                         
-                                            <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full ">
+                                            <div class="group relative overflow-hidden rounded-lg bggredient">
                              
                                             <div class="p-4 border-b border-gray-100 dark:border-gray-800">
     <h6 class="text-lg font-semibold">My Courses</h6>
@@ -52,7 +52,7 @@
                            </div>
 
                            
-                                        <div class="relative courses_dashcard overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900">
+                                        <div class=" courses_dashcard  relative overflow-hidden rounded-lg bggredient">
 
 <div class="p-4 border-b border-gray-100 dark:border-gray-800">
     <h6 class="text-lg font-semibold">My Notification</h6>
@@ -86,7 +86,7 @@
 
                             <div class="xl:col-span-4 lg:col-span-12">
 
-                                    <div class="relative overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900">
+                                    <div class=" relative overflow-hidden rounded-lg bggredient">
 
                                         <div class="p-4 border-b border-gray-100 dark:border-gray-800">
                                             <h6 class="text-lg font-semibold">Total % EW</h6>
@@ -127,7 +127,7 @@
                                     </div>
                                 
 
-                                <div class="relative courses_dashcard overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900">
+                                <div class=" courses_dashcard  relative overflow-hidden rounded-lg bggredient">
 
 <div class="p-4 border-b border-gray-100 dark:border-gray-800">
     <h6 class="text-lg font-semibold">Courses</h6>
@@ -155,7 +155,7 @@
 </div>
 </div>
 
-<div class="relative courses_dashcard overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900">
+<div class="courses_dashcard relative overflow-hidden rounded-lg bggredient">
 
 <div class="p-4 border-b border-gray-100 dark:border-gray-800">
     <h6 class="text-lg font-semibold">My Invites</h6>

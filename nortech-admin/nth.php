@@ -40,7 +40,7 @@
                   <div class="createnftid_section">
          <div class="row">
             <div class="col-lg-12">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">Create Votes</h3>
                   </div>
@@ -87,7 +87,7 @@
             </div>
 
             <div class="col-lg-6 countdown-container">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">Pending Votes</h3>
                   </div>
@@ -151,7 +151,7 @@
          </div>
 
          <div class="col-lg-6 countdown-container">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">History Votes</h3>
                   </div>
@@ -227,7 +227,7 @@
 
                     <div class="reports__chtarea row">
                     <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Holders</h3>
                      <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
@@ -241,7 +241,7 @@
             </div>
          </div>
          <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH in Circulation</h3>
                      <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
@@ -256,7 +256,7 @@
          </div>
 
          <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Locked</h3>
                      <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
@@ -271,7 +271,7 @@
          </div>
 
          <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH Reward</h3>
                      <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
@@ -286,7 +286,7 @@
          </div>
 
          <div class="col-lg-12">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header header_wbtn">
                      <h3 class="blcard_header_title">NTH history Price</h3>
                      <a href="#" class="btnheader_w">View Report <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">

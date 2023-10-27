@@ -1382,15 +1382,15 @@ video {
 }
 
 .rounded-lg {
-    border-radius: 0px;
-}
+    border-radius: 12px;
+  }
 
 .rounded-md {
-    border-radius: 0px;
+    border-radius: 12px;
 }
 
 .rounded-xl {
-    border-radius: 0px;
+    border-radius: 12px;
 }
 
 .rounded-b-md {

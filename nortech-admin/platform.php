@@ -133,7 +133,7 @@
 
                      <div class="row">
                         <div class="col-lg-12">
-                           <div class="box">
+                           <div class="box bggredient">
                               <div class="box-header">
                                  <h3>Ranking Copy</h3>
                               </div>
@@ -328,7 +328,7 @@
                            </div>
                         </div>
                                           <div class="col-lg-6">
-                                 <div class="customblck_card">
+                                 <div class="customblck_card bggredient">
                                     <div class="blcard_header">
                                        <h3 class="blcard_header_title">Pending Payment</h3>
                                     </div>
@@ -419,7 +419,7 @@
                            </div>
 
                              <div class="col-lg-6">
-                              <div class="customblck_card">
+                              <div class="customblck_card bggredient">
                                  <div class="blcard_header">
                                     <h3 class="blcard_header_title">History Payment</h3>
                                  </div>
@@ -528,7 +528,7 @@
                      </div>
                     <div class="row">
                     <div class="col-lg-12">
-                              <div class="box">
+                              <div class="box bggredient">
                                  <div class="box-header">
                                     <h3>Create Builder Challenge</h3>
                                  </div>
@@ -564,7 +564,7 @@
                         </div>
 
                         <div class="col-lg-12">
-                              <div class="box">
+                              <div class="box bggredient">
                                  <div class="box-header">
                                     <h3>Create FishTank Challenge</h3>
                                  </div>
@@ -647,7 +647,7 @@
 
                      </div>
                   <div class="col-lg-12">
-                           <div class="box">
+                           <div class="box bggredient">
                               <div class="box-header">
                                  <h3>Pending Payments</h3>
                               </div>
@@ -886,7 +886,7 @@
                         </div>
                      <div class="row">
                      <div class="col-lg-7">
-                              <div class="customblck_card">
+                              <div class="customblck_card bggredient">
                                  <div class="blcard_header">
                                     <h3 class="blcard_header_title">History Payment</h3>
                                  </div>
@@ -1019,7 +1019,7 @@
                            </div>
                         </div>
                         <div class="col-lg-5">
-                        <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                        <div class="group customblck_card bggredient">
                               <div class="Rewards_card p-6">
                                  <div class="relative md:shrink-0 reward_area">
                                     <h2 class="font-semibold">Fees Earned</h2>

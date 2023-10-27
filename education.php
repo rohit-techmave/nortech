@@ -34,7 +34,7 @@
 
                   <div class="" id="Finance" role="tabpanel" aria-labelledby="Finance-tab">
 
-                  <div class="filter__header__">
+                  <div class="filter__header__ bggredient">
                   <h6 class="text-lg font-semibold">Your Courses</h6>
               
 
@@ -51,7 +51,7 @@
 
                </div>
 
-                     <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full ">
+                     <div class="group bggredient">
                         <div class="row ">
                            <ul id="course-list">
                         

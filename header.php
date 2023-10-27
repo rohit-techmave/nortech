@@ -40,6 +40,8 @@
 	<div class="spinner"></div>
 	<div class="txt ">NORTECH</div>
 </div>
+
+
   
         <div class="page-wrapper toggled">
             <!-- sidebar-wrapper -->
@@ -51,8 +53,10 @@
                             <img src="assets/images/newimages/logonortech-dark.png" class="hidden dark:block logonortech_dark" alt="">
                         </a>
                     </div>
+
+                    <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-n4yg98">
         
-                    <ul class="sidebar-menu border-t dark:border-white/10 border-gray-100" data-simplebar style="height: calc(100% - 70px);">
+                    <ul class="sidebar-menu" data-simplebar style="height: calc(100% - 70px);">
                         <!-- <li class="">
                             <a href="index.html"><i data-feather="airplay" class="h-4 w-4 me-3"></i>Dashboard</a>
                         </li> -->
@@ -87,19 +91,19 @@
                         </li>
 
                         <li class="marketplacemenu">
-                            <a href="marketplace.php"><img src="assets/images/newimages/icons/marketplacegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/marketplace-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Market Place</a>
+                            <a href="marketplace.php"><img src="assets/images/newimages/icons/marketplaceblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/marketplace-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Market Place</a>
                         </li>
 
                         <li class="votemenu">
-                            <a href="##"><img src="assets/images/newimages/icons/votegrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/votewhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Vote</a>
+                            <a href="##"><img src="assets/images/newimages/icons/voteblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/votewhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Vote</a>
                         </li>
 
                         <li class="stakingmenu">
-                            <a href="##"><img src="assets/images/newimages/icons/stakinggrey.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/stakingwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Staking</a>
+                            <a href="##"><img src="assets/images/newimages/icons/stakingblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/stakingwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Staking</a>
                         </li>
 
                         <li class="communitymenu">
-                            <a href="##"><img src="assets/images/newimages/icons/communityicon.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/communityicon-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Community</a>
+                            <a href="##"><img src="assets/images/newimages/icons/communityiconblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/communityicon-white.png" alt="" class="h-4 w-4 me-3 whiteicon">Community</a>
                         </li>
 
                         <!-- <li class="sidebar-dropdown">
@@ -176,9 +180,9 @@
             <!-- sidebar-wrapper  -->
 
             <!-- Start Page Content -->
-            <main class="page-content bg-gray-50 dark:bg-slate-800">
+            <main class="page-content">
                 <!-- Top Header -->
-                <div class="top-header">
+                <div class="top-header" id="top_header">
                     <div class="header-bar flex justify-between">
                         <div class="flex items-center space-x-1">
                             <!-- Logo -->

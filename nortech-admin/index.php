@@ -28,7 +28,7 @@
       <div class="main_card_box_total ">
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient ">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-primary"> <svg class="svg-white"
@@ -105,7 +105,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient ">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-warning">
@@ -142,7 +142,7 @@
 
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient ">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-success">
@@ -181,7 +181,7 @@
 
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient ">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-pink">
@@ -219,7 +219,7 @@
          </div>
       </div>
 
-      <div class="box">
+      <div class="box bggredient ">
          <div class="box-header">
             <h3>All Members</h3>
          </div>
@@ -496,7 +496,7 @@
 
       <div class="row">
          <div class="col-lg-8">
-         <div class="box">
+         <div class="box bggredient ">
 
             <div class="box-body">
                <div class="redeem_box notification">
@@ -524,7 +524,7 @@
             </div>
          </div>
          <div class="col-lg-4">
-         <div class="box box_h_gen">
+         <div class="box box_h_gen bggredient ">
 
             <div class="box-body">
                <div class="redeem_box box_redeem_">

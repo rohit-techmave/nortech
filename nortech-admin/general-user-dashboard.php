@@ -19,7 +19,7 @@
                         </div>
       
 
-      <div class="box">
+      <div class="box bggredient ">
          <div class="box-header">
             <h3>All General User</h3>
          </div>

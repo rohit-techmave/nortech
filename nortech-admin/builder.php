@@ -11,7 +11,7 @@
       <div class="main_card_box_total dashcards">
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3">
@@ -50,7 +50,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3">
@@ -84,7 +84,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3">
@@ -119,7 +119,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3">
@@ -156,7 +156,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3"> <span class="avatar avatar-md p-2 bg-pink">
@@ -187,7 +187,7 @@
          </div>
          <div class="card_box_total">
             <a href="#">
-               <div class="box custom-card">
+               <div class="box custom-card bggredient">
                   <div class="box-body">
                      <div class="d-flex align-items-center">
                         <div class="me-3">
@@ -224,7 +224,7 @@
       <div class="createnftid_section">
          <div class="row">
             <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">Create ID ( NFT ) </h3>
                   </div>
@@ -246,7 +246,7 @@
                </div>
             </div>
             <div class="col-lg-6">
-               <div class="customblck_card">
+               <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">History New Builders</h3>
                   </div>

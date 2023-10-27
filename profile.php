@@ -12,7 +12,7 @@
          </div> -->
       <div id="main-content" class="main grid md:grid-cols-12 gap-6 mt-6">
          <div id="sidebarWrap" class="sidebar lg:col-span-3 md:col-span-4">
-            <div id="sidebar-profile" class="customer_profileleft">
+            <div id="sidebar-profile" class="customer_profileleft bggredient ">
                <div class="group profile-pic w-[112px]">
                   <input id="pro-img" name="profile-image" type="file" class="hidden" onchange="loadFile(event)" />
                   <div>
@@ -115,13 +115,13 @@
                   <div class="" id="Finance" role="tabpanel" aria-labelledby="Finance-tab">
                      <div class="xl:col-span-12 lg:col-span-12">
                         <div class="grid grid-cols-1 gap-6">
-                           <div class="relative overflow-hidden rounded-lg border border-gray-100 dark:border-gray-800 bg-white dark:bg-slate-900 p-2">
+                           <div class="relative overflow-hidden rounded-lg bggredient">
                               <div class="track_record">
                                  <h2>Track Record</h2>
                               </div>
 
                               <div class="trading_graphimg">
-                                 <img src="assets/images/newimages/tradinggraph2.jpg" alt="">
+                                 <img src="assets/images/newimages/stockchart.png" alt="">
                               </div>
                               <!-- <div id="tradingview_123"></div>
                               <script src="s3.tradingview.com/tv.js"></script>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="row hm_eqcards">
                            <div class="col-lg-6">
-                           <div class="hovercardef">
+                           <div class="hovercardef relative overflow-hidden rounded-lg bggredient">
                               <div class="Rewards_card p-6 ">
                                  <div class="relative md:shrink-0 reward_area">
                                     <h2  class="font-semibold">Rewards</h2>
@@ -173,7 +173,7 @@
                            </div>
                            <!-- End Content -->
                            <div class="col-lg-6">
-                           <div class="hovercardef">
+                           <div class="hovercardef relative overflow-hidden rounded-lg bggredient">
                               <div class="servicecard_user ">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <h6 class="text-lg font-semibold">My Service</h6>
@@ -213,7 +213,7 @@
                            <!-- End Content -->
                            </div>
                           <div class="col-lg-6">
-                          <div class="hovercardef">
+                          <div class="hovercardef relative overflow-hidden rounded-lg bggredient">
                               <div class="servicecard_user ">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <h6 class="text-lg font-semibold">Payments</h6>
@@ -245,7 +245,7 @@
                            <!-- End Content -->
                           </div>
                           <div class="col-lg-6">
-                          <div class="hovercardef">
+                          <div class="hovercardef relative overflow-hidden rounded-lg bggredient">
                               <div class="servicecard_user ">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <h6 class="text-lg font-semibold">History Payway</h6>
@@ -266,7 +266,7 @@
 
                   <!-- Course tab start -->
                   <div class="hidden" id="Courses" role="tabpanel" aria-labelledby="Courses-tab">
-                     <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-3xl">
+                     <div class="relative overflow-hidden rounded-lg bggredient">
                      <div class="grid md:grid-cols-12 gap-6">
                   <div class="lg:col-span-3 md:col-span-3">
                   <ul class="md:w-fit w-full flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash course_db" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
@@ -645,7 +645,7 @@
                      </div>
                    
                         <div class="grid xl:grid-cols-2 grid-cols-1 gap-6">
-                        <div class="group mt-4 rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                        <div class="group mt-4 relative overflow-hidden rounded-lg bggredient mx-auto xl:max-w-2xl">
                               <div class="servicecard_user">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <h6 class="text-lg font-semibold">My Rewards</h6>
@@ -723,7 +723,7 @@
                            </div>
 
 
-                           <div class="group mt-4 rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                           <div class="group mt-4 relative overflow-hidden rounded-lg bggredient mx-auto xl:max-w-2xl">
                               <div class="servicecard_user">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <h6 class="text-lg font-semibold">My Certificate</h6>
@@ -794,7 +794,7 @@
 
                   <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
                     
-                     <div class="group  rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full">
+                     <div class="group relative bggredient">
                               <div class="servicecard_user">
                                  <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                     <div class="top_balance">
@@ -862,7 +862,7 @@
                               </div>
                            </div>
                            <div class="grid xl:grid-cols-2 grid-cols-1 gap-6">
-                                       <div class="group mt-4 rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                                       <div class="group mt-4 relative overflow-hidden rounded-lg bggredient w-full mx-auto xl:max-w-2xl">
                                              <div class="Rewards_card p-6">
                                                 <div class="relative md:shrink-0 reward_area">
                                                    <h2  class="font-semibold">Level</h2>
@@ -882,7 +882,7 @@
                                              </div>
                                           </div>
 
-                                          <div class="group mt-4 rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                                          <div class="group mt-4 relative overflow-hidden rounded-lg bggredient">
                                              <div class="servicecard_user">
                                                
                                                 <div class="p-6 w-full">
@@ -906,7 +906,7 @@
                                              </div>
                                           </div>
 
-                                          <div class="group mt-4 rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-2xl">
+                                          <div class="group mt-4 relative overflow-hidden rounded-lg bggredient">
                                              <div class="servicecard_user">
                                                 <div class="p-3 border-b border-gray-100 dark:border-gray-800">
                                                    <h6 class="text-lg font-semibold">My Budget</h6>
@@ -938,7 +938,7 @@
 
                   <!-- history tab start-->
                   <div class="hidden" id="History" role="tabpanel" aria-labelledby="History-tab">
-                  <div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full mx-auto xl:max-w-3xl">
+                  <div class="group relative bggredient">
                      <div class="row">
 
                   <div class="col-lg-12">
@@ -1154,8 +1154,8 @@
                         </div> -->
                         <h3 class="main_title">Access & Security</h3>
                      
-                        <div class="box">
-                        <div class="box-header authentication">
+                        <div class="box bggredient">
+                        <div class="box-header authentication ">
                            <h3>Two Factor Authentication</h3>
                            <!-- <div class="switch-field">
                                  <input type="radio" id="radio-one" name="switch-one" value="yes" checked="">
@@ -1173,7 +1173,7 @@
                 
                      </div>
                      <form action="#">
-                     <div class="box">
+                     <div class="box bggredient">
                         <div class="box-header">
                            <h3>Reset Password</h3>
                         </div>
@@ -1203,7 +1203,7 @@
                      </form>
                      
                      <form action="#">
-                     <div class="box">
+                     <div class="box bggredient">
                         <div class="box-header">
                            <h3>Email Update</h3>
                         </div>
@@ -1220,7 +1220,7 @@
                      
 
                      <form action="#">
-                     <div class="box">
+                     <div class="box bggredient">
                         <div class="box-header">
                            <h3>Profile Update</h3>
                         </div>
@@ -1264,7 +1264,7 @@
                        
                      </div>
 
-                     <div class="box">
+                     <div class="box bggredient">
                      <div class="box-header">
                            <h3>Wallet Change</h3>
                         </div>
@@ -1293,7 +1293,7 @@
                    </div>
 
 
-                   <div class="box">
+                   <div class="box bggredient">
                      <div class="box-header">
                            <h3>Change API'S</h3>
                         </div>
@@ -1332,3 +1332,7 @@
 </div>
 <!--end container-->
 <?php include("footer.php") ?>
+
+
+<!-- stock chart js -->
+

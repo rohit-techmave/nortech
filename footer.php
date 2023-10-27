@@ -1,5 +1,5 @@
   <!-- Footer Start -->
-  <footer class="shadow dark:shadow-gray-700 bg-white dark:bg-slate-900 px-6 py-4">
+  <footer class="shadow px-6 py-4">
                     <div class="container-fluid">
                         <div class="grid grid-cols-1">
                             <div class="sm:text-start text-center mx-md-2">
@@ -534,7 +534,29 @@ if (isMobileView) {
 </script>
 
 
+<!-- header fixed -->
+<script>
+// Define an array of class names you want to target
+var classNames = ["top-header", "sidebar-brand"];
 
+// Add a scroll event listener
+window.addEventListener("scroll", function() {
+  // Loop through each class name
+  classNames.forEach(function(className) {
+    // Get all elements with the current class name
+    var elements = document.getElementsByClassName(className);
+    
+    // Loop through the elements and add or remove the "scrolled-header" class
+    for (var i = 0; i < elements.length; i++) {
+      if (window.pageYOffset >= elements[i].offsetTop) {
+        elements[i].classList.add("scrolled-header");
+      } else {
+        elements[i].classList.remove("scrolled-header");
+      }
+    }
+  });
+});
+</script>
 
 
 

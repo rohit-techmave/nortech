@@ -42,7 +42,7 @@
          <div class="" id="Finance" role="tabpanel" aria-labelledby="Finance-tab">
 
             <div
-               class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-800 overflow-hidden ease-in-out duration-500 w-full ">
+               class="group relative overflow-hidden rounded-lg bggredient">
                <div class="p-4 border-b border-gray-100 dark:border-gray-800">
                   <h6 class="text-lg font-semibold">Buy NTH Token</h6>
                </div>
@@ -108,7 +108,7 @@
        
             <div class="row">
                <div class="col-lg-4">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-body padding-0">
                         <div class="inner_box_pp">
                            <div class="flex justify-between items-center">
@@ -160,7 +160,7 @@
                <!-- col-lg-4 -->
 
                <div class="col-lg-4">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-body padding-0">
                         <div class="inner_box_pp">
                            <div class="flex justify-between items-center">
@@ -210,7 +210,7 @@
                <!-- col-lg-4 -->
 
                <div class="col-lg-4">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-body padding-0">
                         <div class="inner_box_pp">
                            <div class="flex justify-between items-center">
@@ -260,7 +260,7 @@
                <!-- col-lg-4 -->
                
                <div class="col-lg-12">
-                  <div class="box">
+                  <div class="box bggredient">
                <!-- <div class="box-header">
                   <h3>User Management</h3>
                </div> -->
@@ -447,7 +447,7 @@
          <div class="hidden" id="Portfolio" role="tabpanel" aria-labelledby="Portfolio-tab">
             <div class="row">
                <div class="col-lg-8">
-                  <div class="box">
+                  <div class="box bggredient">
                      <!-- <div class="box-header">
                                  <h3>Wallet Change</h3>
                               </div> -->
@@ -459,7 +459,7 @@
                   </div>
                </div>
                <div class="col-lg-4">
-                  <div class="box">
+                  <div class="box bggredient">
                      <!-- <div class="box-header">
                                  <h3>Wallet Change</h3>
                               </div> -->
@@ -473,7 +473,7 @@
             </div>
 
 
-            <div class="box">
+            <div class="box bggredient">
                <div class="box-header">
                   <h3>User Management</h3>
                </div>
@@ -639,7 +639,7 @@
 
                </div>
             </div>
-            <div class="box">
+            <div class="box bggredient">
 
                <div class="box-body">
                   <div class="redeem_box">
@@ -668,7 +668,7 @@
             </div>
          </div>
          <div class="hidden" id="ID" role="tabpanel" aria-labelledby="ID-tab">
-            <div class="box">
+            <div class="box bggredient">
                <!-- <div class="box-header">
                         <h3>Select </h3>
                      </div> -->
@@ -713,7 +713,7 @@
                </div>
             </div>
 
-            <div class="box">
+            <div class="box bggredient">
                <div class="box-header">
                   <h3>Units</h3>
                </div>
@@ -730,7 +730,7 @@
                   </div>
                </div>
             </div>
-            <div class="box">
+            <div class="box bggredient">
                <div class="box-header">
                   <h3>Buy Price</h3>
                </div>
@@ -753,7 +753,7 @@
             </div>
             <div class="row">
                <div class="col-lg-6">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-header">
                         <h3>Set Take Profit</h3>
                      </div>
@@ -779,7 +779,7 @@
                   </div>
                </div>
                <div class="col-lg-6">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-header">
                         <h3>Set Stop Loss</h3>
                      </div>
@@ -809,7 +809,7 @@
             </div>
             <div class="row">
                <div class="col-lg-12">
-                  <div class="box">
+                  <div class="box bggredient">
                      <div class="box-header">
                         <h3>Total</h3>
                      </div>
