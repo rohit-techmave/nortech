@@ -833,7 +833,7 @@ font-size: 14px;
 .dataTables_filter label input {
 padding: 6px 10px;
 border-radius: 5px;
-background: #0d0f27;
+background: transparent !important;
 border: 1px solid #242f40;
 margin-left: 5px;
 }

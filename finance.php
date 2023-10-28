@@ -73,11 +73,14 @@
    </div>
 </div>
 <div class="col-lg-5">
-<div class="form-group convertedinp">
+   <div class="input-group">
+   <div class="form-group convertedinp">
          <input class="form-control" type="text">
             <label for="" class="form-label">Converted Amount</label>
      
          </div>
+   </div>
+
 
 </div>
 
