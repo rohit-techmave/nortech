@@ -163,7 +163,7 @@
 
                             <!-- Notification Dropdown -->
                             <li class="dropdown inline-block relative">
-                                <button data-dropdown-toggle="dropdown" class="dropdown-toggle btn btn-icon btn-sm rounded-full inline-flex bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white" type="button">
+                                <button data-dropdown-toggle="dropdown" class="dropdown-toggle notification_btn btn btn-icon btn-sm rounded-full inline-flex bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white" type="button">
                                     <i data-feather="bell" class="h-4 w-4"></i>
                                     <span class="absolute top-0 end-0 flex items-center justify-center bg-emerald-600 text-white text-[10px] font-bold rounded-full w-2 h-2 after:content-[''] after:absolute after:h-2 after:w-2 after:bg-emerald-600 after:top-0 after:end-0 after:rounded-full after:animate-ping"></span>
                                 </button>
@@ -242,7 +242,7 @@
 
                             <!-- Wallet -->
                             <li class="inline-block mb-0">
-                                <a id="connectWallet" class="btn btn-icon btn-sm rounded-full inline-flex bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"><i class="uil uil-wallet"></i></a>
+                                <a id="connectWallet" class="btn btn-icon wallet_area btn-sm rounded-full inline-flex bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"><i class="uil uil-wallet"></i></a>
                             </li>
                             <!-- Wallet -->
             

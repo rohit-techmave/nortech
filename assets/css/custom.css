@@ -2180,6 +2180,21 @@ input[type="range"]::-moz-range-thumb {
   padding: 30px !important;
 }
 
+.exchange-form .form-group label {
+  font-size: 13px;
+  position: absolute;
+  top: -22px;
+  left: 0px;
+  background: transparent;
+  padding: 5px;
+  color: #8aa2b3;
+  z-index: 1;
+}
+.exchange-form .form-group {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
 /* new dashboard bg change style 27-10-2023 */
 body {
   background: url("../images/newimages/memepost3.jpg") ;
@@ -2722,7 +2737,7 @@ textarea.form-control {
   padding: 17px 15px;
   border: none;
   background-color: transparent !important;
-  color: #000;
+  color: #e8e8e8;
   border: 1px solid #50486f;
   border-radius: 50px !important;
 }
