@@ -2418,7 +2418,7 @@ body {
   text-transform: capitalize;
   vertical-align: unset;
   text-decoration: none;
-  color: rgb(160, 174, 192);
+  color: rgb(197, 207, 219);
   font-weight: 500;
   margin-top: 10px;
 }
@@ -2440,7 +2440,7 @@ body {
   text-transform: none;
   vertical-align: unset;
   text-decoration: none;
-  color: rgb(160, 174, 192);
+  color: rgb(211, 217, 224);
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -2504,6 +2504,27 @@ body {
   margin-left: 10px;
   font-size: 12px;
 }
+
+.complete_incomplete_course{
+  background: url(../images/newimages/coursebg2.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

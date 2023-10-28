@@ -20,6 +20,11 @@
         <link rel="shortcut icon" href="assets/images/newimages/nortech-favicon.png">
 
         <!-- Css -->
+
+          <!-- slick css -->
+          <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        
         <!-- select2 css -->
         <link rel="stylesheet" href="assets/css/select2.min.css">
         <!-- Main Css -->

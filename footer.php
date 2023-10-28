@@ -39,6 +39,9 @@
         <script src="assets/js/app.js"></script>
         <!-- JAVASCRIPTS -->
 
+        <!-- slick js -->
+<script src="assets/js/slick.js"></script>
+
         <!-- datatable -->
         <script src="assets/datatables/datatables.min.js"></script>
         <script src="assets/datatables/jquery.dataTables.min.js"></script>

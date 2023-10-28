@@ -75,7 +75,7 @@
 
                               <div class="col-lg-9">
                                  <div class="lastservices_courses">
-                                    <div class="row">
+                                    <div class="row courseslider__">
                                        
                                     <div class="col-lg-4">
                                             <div class="lascard">
@@ -102,8 +102,8 @@
                                                             <img src="assets/images/newimages/courses/5.jpeg" alt="">
                                                          </div>
                                                          <div class="lascard_details">
-                                                             <span>Education Content</span>
-                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <span>Marketplace</span>
+                                                             <h1><a href="##">Web Developer </a></h1>
                                                              <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
                                                              <div class="lasbtn">
                                                                  <a href="##">Continue</a>
@@ -120,8 +120,62 @@
                                                             <img src="assets/images/newimages/courses/6.jpeg" alt="">
                                                          </div>
                                                          <div class="lascard_details">
+                                                             <span>Finance Plataform</span>
+                                                             <h1><a href="##">PayWay</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/4.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
                                                              <span>Education Content</span>
                                                              <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/5.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Marketplace</span>
+                                                             <h1><a href="##">Web Developer </a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/6.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Finance Plataform</span>
+                                                             <h1><a href="##">PayWay</a></h1>
                                                              <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
                                                              <div class="lasbtn">
                                                                  <a href="##">Continue</a>
@@ -314,3 +368,41 @@
                 </div><!--end container-->
 
 <?php include("footer.php") ?>
+
+
+<!-- course slider js -->
+
+
+<!-- dashcards slick slider -->
+<script>
+   $(document).ready(function(){
+   $('.courseslider__').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   autoplay:true,
+   autoplaySpeed: 2000,
+   arrows:false,
+   responsive: [
+   {
+     breakpoint: 768,
+     settings: {
+       arrows: false,
+       centerMode: true,
+       centerPadding: '40px',
+       slidesToShow: 3
+     }
+   },
+   {
+     breakpoint: 480,
+     settings: {
+       arrows: false,
+       centerMode: true,
+       centerPadding: '40px',
+       slidesToShow: 1
+     }
+   }
+   ]
+   });
+   });
+</script>
+<!-- end -->
