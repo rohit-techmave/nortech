@@ -135,6 +135,86 @@
                                             <div class="lascard">
                                                  <div class="lascard-root">
                                                          <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/2.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Education Content</span>
+                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/1.webp" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Marketplace</span>
+                                                             <h1><a href="##">Web Developer </a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/6.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Finance Plataform</span>
+                                                             <h1><a href="##">PayWay</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           
+                        </div>
+
+                        <div class=" recommendedcrs bggredient">
+                           <div class="row">
+                              <div class="col-lg-3">
+                                 <div class="welcomeuser_coursebox">
+                                      <div class="topflex_welcome">
+                                          <h1>Recommended for You</h1>
+                                      </div>
+
+                                      <div class="bottomwelcome_text">
+                                          <p>View All  <div class="arrowright__bth"><i class="fa-solid fa-arrow-right"></i></div></p>
+                                      </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-9">
+                                 <div class="lastservices_courses">
+                                    <div class="row courseslider__">
+                                       
+                                    <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
                                                             <img src="assets/images/newimages/courses/4.jpeg" alt="">
                                                          </div>
                                                          <div class="lascard_details">
@@ -185,11 +265,189 @@
                                             </div>
                                        </div>
 
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/2.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Education Content</span>
+                                                             <h1><a href="##">Blockchain course</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/1.webp" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Marketplace</span>
+                                                             <h1><a href="##">Web Developer </a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
+                                       <div class="col-lg-4">
+                                            <div class="lascard">
+                                                 <div class="lascard-root">
+                                                         <div class="lascard_img">
+                                                            <img src="assets/images/newimages/courses/6.jpeg" alt="">
+                                                         </div>
+                                                         <div class="lascard_details">
+                                                             <span>Finance Plataform</span>
+                                                             <h1><a href="##">PayWay</a></h1>
+                                                             <p>lorem ipsum dolor sit amet consectetur adipiscing elit nascetur fermentum velit ridiculus volutpat egestas</p>
+                                                             <div class="lasbtn">
+                                                                 <a href="##">Continue</a>
+                                                             </div>
+                                                         </div>
+                                                 </div>
+                                            </div>
+                                       </div>
+
                                     </div>
                                  </div>
                               </div>
                            </div>
+
+                           
                         </div>
+
+                        <div class="notificatin_list">
+                           <div class="row">
+                              <div class="col-lg-12">
+                              <div class="box bggredient">
+               <div class="box-header">
+                  <h3>Notifications</h3>
+                  <div class="count_notification"><iconify-icon icon="carbon:notification-new"></iconify-icon> 30 notification this month</div>
+               </div>
+               <div class="box-body">
+               <div class="datatable-container">
+        <table id="" class="display simple_table__">
+        <thead>
+                              <tr>
+                                 <th class="">
+                                       <span>Name</span>
+                                 </th>
+                                 <th class="">
+                                       <span>Message Type</span>
+                                   
+                                 </th>
+                                 
+                                 <th class="actionbtnarea ">
+                                       <span> &nbsp; </span>
+                                 </th>
+
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-1.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Builder Joao</div>
+                                    </div>
+                                 </td>
+                                 <td>INVITE</td>
+                               
+                                 <td>
+                                    <a href="##" class="readmore_ntbtn"> Read More</a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Admin Pablo</div>
+                                    </div>
+                                 </td>
+                                 <td>MESSAGE</td>
+                                
+                                 <td>
+                                    <a href="##" class="readmore_ntbtn"> Read More</a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Admin ravi</div>
+                                    </div>
+                                 </td>
+                                 <td>MESSAGE</td>
+                                 
+                                 <td>
+                                    <a href="##" class="readmore_ntbtn"> Read More</a>
+                                 </td>
+                              </tr>
+
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Plataform</div>
+                                    </div>
+                                 </td>
+                                 <td>PROMOTION</td>
+                                
+                                 <td>
+                                    <a href="##" class="readmore_ntbtn replay__modal_"> Read More</a>
+                                 </td>
+                              </tr>
+
+                              <tr>
+                                 <td>
+                                    <div class="d-flex align-items-center">
+                                       <div class="flex-shrink-0 me-2">
+                                          <img src="assets/images/newimages/avatar-6.jpg" alt=""
+                                             class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="flex-grow-1">Plataform</div>
+                                    </div>
+                                 </td>
+                                 <td>PROMOTION</td>
+                                 
+                                 <td class="">
+                                 <a href="##" class="readmore_ntbtn replay__modal_"> Read More</a>
+                                 </td>
+                              </tr>
+                           </tbody>
+        </table>
+    </div>
+
+               </div>
+            </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        
 
                         <!-- <div class="grid lg:grid-cols-12 gap-6 mt-6">
                             <div class="xl:col-span-8 lg:col-span-12">
@@ -367,10 +625,47 @@
                     </div>
                 </div><!--end container-->
 
+
+ <!-- Dropdown menu -->
+ <div class=" replaychatbox bggredient absolute end-0 m-0 mt-4 z-10  overflow-hidden shadow dark:shadow-gray-700">
+
+                                   <div class="replayheader">
+                                   <span class="px-4 py-4 flex justify-between">
+                                    <div class="d-flex align-items-center cutomuser_profilecreae">
+                                       <div class="user_imagecircle">
+                                          <img src="assets/images/newimages/avatar-1.jpg" alt="" class="avatar-xs rounded-circle">
+                                       </div>
+                                       <div class="userpr_title">Builder Joao</div>
+                                    </div>
+                                        <span class="closereplay_modal"><i class="fa-solid fa-xmark"></i></span>
+                                    </span>
+                                   </div>
+                                   
+                                    <ul class="py-2 text-start h-64 border-t border-gray-100 dark:border-gray-800" data-simplebar>
+                                        <li>
+                                            <a href="#!" class="block font-medium py-1.5 px-4">
+                                                <div class="adminreplayarea">
+                                                <div class="triangle"></div>
+                                                    <div class="mmsgarea_box ">
+                                                        <p class="message_area">Joao invites you to buy a PayWay course</p>
+                                                        <div class="text-slate-400 timemsg">15 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                     
+                                    </ul>
+
+                                    <div class="chat_box_footer">
+    
+    <input type="text" id="MsgInput" placeholder="Reply">
+    <button onclick="send()"><i class="fab fa-telegram-plane"></i></button>
+  </div>
+                                </div>
+
+
 <?php include("footer.php") ?>
 
-
-<!-- course slider js -->
 
 
 <!-- dashcards slick slider -->
@@ -406,3 +701,21 @@
    });
 </script>
 <!-- end -->
+
+<script>
+   $(document).ready(function(){
+      
+      $(".replaychatbox").hide();
+      $(".replay__modal_").click(function(){
+         $(".replaychatbox").toggle();
+      });
+
+      $(".closereplay_modal").click(function(){
+         $(".replaychatbox").hide();
+      });
+
+      
+   })
+</script>
+
+
