@@ -17638,17 +17638,121 @@ input.search_int::placeholder {
     text-transform: uppercase;
 }
 
+.recent_Searches ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+}
+.img_recent img {
+	width: 20px;
+}
+.recent_cnt_ak h6 {
+	font-size: 13px;
+}
+.recent_cnt_ak h6 span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #acaeaf;
+  }
+  .recent_box_ak {
+    padding: 10px;
+    text-align: center;
+  }
+  .recent_Searches ul li {
+    display: flex;
+    width: calc(25% - 10px);
+    background: #eff2f5;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
 
+.img_recent img {
+    width: 20px;
+    border-radius: 20px;
+  }
 
-
-
-
-
-
-
-
-
-
+/* last services courses slider style */
+.complete_incomplete_course{
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 40px 30px 40px 30px;
+  }
+  .lascard_img {
+    border-radius: 20px;
+  }
+  .lascard_details span{
+    font-size: 12px;
+    line-height: 1.625;
+    text-transform: capitalize;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(160, 174, 192);
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .lascard_details{
+    margin-top: 10px;
+  }
+  .lascard_details h1{
+    margin-bottom: 8px;
+    color: #fff;
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .lascard_details p{
+    margin: 0px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(160, 174, 192);
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .lasbtn{
+    margin-top: 26px;
+  }
+  .lasbtn a{
+    padding: 9px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    font-size: 14px;
+    transition: all 150ms ease-in 0s;
+  }
+  .lasbtn a:hover {
+    opacity: 0.75;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    transform: scale(1.02);
+  }
+  .welcomeuser_coursebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .bottomwelcome_text{
+    display: flex;
+    align-items: baseline;
+  }
+  .lascard_img{
+    width: 100%;
+    height: 180px;
+  }
+  .lascard_img img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 
 
 
