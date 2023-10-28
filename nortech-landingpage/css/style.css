@@ -17685,54 +17685,55 @@ input.search_int::placeholder {
   .lascard_img {
     border-radius: 20px;
   }
-  .lascard_details span{
-    font-size: 12px;
-    line-height: 1.625;
-    text-transform: capitalize;
-    vertical-align: unset;
-    text-decoration: none;
-    color: rgb(160, 174, 192);
-    font-weight: 500;
-    margin-top: 10px;
-  }
+  .lascard_details span {
+	font-size: 12px;
+	line-height: 1.625;
+	text-transform: capitalize;
+	vertical-align: unset;
+	text-decoration: none;
+	color: rgb(133, 133, 133);
+	font-weight: 500;
+	margin-top: 0;
+}
   .lascard_details{
     margin-top: 10px;
   }
-  .lascard_details h1{
-    margin-bottom: 8px;
-    color: #fff;
-    margin-top: 6px;
-    font-size: 18px;
-    font-weight: bold;
-  }
+  .lascard_details h1 {
+	margin-bottom: 5px;
+	color: #fff;
+	margin-top: 6px;
+	font-size: 18px;
+	font-weight: bold;
+}
   
-  .lascard_details p{
-    margin: 0px;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    text-transform: none;
-    vertical-align: unset;
-    text-decoration: none;
-    color: rgb(160, 174, 192);
-    font-weight: 400;
-    margin-bottom: 15px;
-  }
-  .lasbtn{
-    margin-top: 26px;
-  }
-  .lasbtn a{
-    padding: 9px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    font-size: 14px;
-    transition: all 150ms ease-in 0s;
-  }
-  .lasbtn a:hover {
-    opacity: 0.75;
-    background-color: transparent;
-    border-color: rgb(255, 255, 255);
-    transform: scale(1.02);
-  }
+  .lascard_details p {
+	margin: 0px;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	text-transform: none;
+	vertical-align: unset;
+	text-decoration: none;
+	color: rgb(126, 126, 126);
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+  .lasbtn {
+	margin-top: 20px;
+}
+  .lasbtn a {
+	padding: 9px 30px;
+	border: 1px solid rgb(131, 100, 226);
+	border-radius: 12px;
+	font-size: 14px;
+	transition: all 150ms ease-in 0s;
+}
+.lasbtn a:hover {
+	opacity: 0.75;
+	background-color: #8364e2;
+	border-color: rgb(146, 119, 229);
+	transform: scale(1.02);
+	color: #fff;
+}
   .welcomeuser_coursebox{
     display: flex;
     flex-direction: column;
@@ -17745,25 +17746,174 @@ input.search_int::placeholder {
   }
   .lascard_img{
     width: 100%;
-    height: 180px;
   }
-  .lascard_img img{
-    border-radius: 10px;
+  .lascard_img img {
+	border-radius: 10px;
+	object-fit: cover;
+	height: 170px !important;
+}
+ 
+.nft__item {
+	padding: 10px 10px 22px;
+	border: none;
+	border-radius: 15px;
+	border: 1px solid #ececed;
+	margin-bottom: 0;
+}
+/* .courses_slider .owl-stage-outer {
+	position: relative;
+	overflow: unset !important;
+} */
+
+/* .courses_slider .owl-stage-outer {
+	padding-left: 20px;
+	padding-top: 30px;
+} */
+.lascard_details h1 a {
+    color: #000;
+  }
+.nft__item:hover, .opt-create:hover {
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(131, 100, 226, 0.19);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(131, 100, 226, 0.19);
+	box-shadow: 2px 2px 10px 0px rgba(131, 100, 226, 0.19);
+}
+.top_course_box {
+	display: flex;
+	align-items: center;
+}
+.left_side_bx_ img {
+    width: 85px !important;
+    height: 80px !important;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+  }
+  .right_course_box_ h6 {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+.right_course_box_ p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 0;
+
+}
+  .left_ak_info span {
+    font-size: 10px;
+  }
+  .rating_ak_info span {
+    font-size: 11px;
+  }
+  .cousrse_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .left_side_bx_ {
+    margin-right: 14px;
+  }
+  #courses_slider__ .nft__item {
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px 0px rgba(131, 100, 226, 0.19);
+	margin-bottom: 0;
+}
+  .rating_ak_info span i {
+    color: #ffc14c;
+  }
+
+  .top_courses {
+	padding: 20px 0 20px;
+}
+#section-items {
+	background-size: auto;
+	padding: 110px 0 25px !important;
+}
+.courses_slider  .owl-stage-outer {
+	padding-top: 12px;
+}
+.top_tt {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
   }
 
 
+/***********************************
 
+*******************************/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #000;
+	background-color: #0d6efd;
+	background: transparent !important;
+	border-bottom: 3px solid #1d68e6 !important;
+	color: #000 !important;
+}
+.nav-pills .nav-link {
+	font-weight: 500;
+	border-radius: 0;
+	color: #8a8a8a !important;
+	padding: 0;
+	margin-right: 18px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.nav {
+      justify-content: center;
+  }
+  .modal_close {
+	position: absolute;
+	right: 15px;
+	top: 11px;
+}
+.form-control {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 214, 228);
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    outline: 0px;
+    padding: 0px 16px;
+    width: 100%;
+    font-size: 14px;
+    height: 55px;
+    line-height: 21px;
 
-
-
-
-
-
-
-@keyframes pulse-me {
+}
+.form-control:focus{
+    border-color: rgb(56, 97, 251);
+  box-shadow: rgb(230, 240, 255) 0px 0px 0px 4px;
+}
+.field-set label {
+    color: #000;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .form-control::placeholder {
+    color:#A8AFBB;
+}
+.modal-content {
+	border-radius: 15px;
+}
+.forgot_pwd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.forgot_pwd a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #808a9d !important;
+}
+.field-set {
+    margin-bottom: 20px;
+  }
+  @keyframes pulse-me {
     0% {
         opacity: 0;
         -webkit-transform: scale(.3);
