@@ -1083,3 +1083,124 @@ body {
   background: transparent !important;
   border: none !important;
 }
+
+
+/* card line gredient */
+ .shadow-1{
+  top: 0px;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-100%, #F82552), color-stop(64%, rgba(21, 22, 37, 0)));
+  background: linear-gradient(to bottom, #F82552 -100%, rgba(21, 22, 37, 0) 64%);
+  width: 3px;
+  height: 60px;
+}
+.shadow-2{
+	top: 0px;
+  left: 3px;
+	background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #F82552), color-stop(64%, rgba(21, 22, 37, 0)));
+	background: linear-gradient(to right, #F82552 -100%, rgba(21, 22, 37, 0) 64%);
+	width: 200px;
+	height: 3px;
+}
+.shadow-3{
+	bottom: 0px;
+	right: 0;
+	width: 3px;
+  height: 60px;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(-100%, rgb(0, 117, 255)), color-stop(64%, rgba(21, 22, 37, 0)));
+	background: linear-gradient(to top, rgb(0, 117, 255) -100%, rgba(21, 22, 37, 0) 64%);
+}
+
+.shadow-4{
+	bottom: 0px;
+	right: 3px;
+	width: 200px;
+	height: 3px;
+	background: -webkit-gradient(linear, right top, left top, color-stop(-100%, rgb(0, 117, 255)), color-stop(64%, rgba(21, 22, 37, 0)));
+	background: linear-gradient(to left, rgb(0, 117, 255) -100%, rgba(21, 22, 37, 0) 64%);
+}
+.border-shadow {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: 9;
+}
+
+
+#datatable2_length select {
+  background-color: #080d2d;
+  appearance: none;
+  padding: 0px 20px 0px 10px !important;
+  height: 27px !important;
+  font-size: 12px !important;
+  position: relative !important;
+  border: none;
+}
+
+#datatable2_length label{
+  position: relative;
+}
+
+#datatable2_length label::after {
+  color: #FFF;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  right: 52px;
+  font-size: 8px;
+  top: -4px;
+}
+
+#datatable1_length label select {
+  background-color: #080d2d;
+  appearance: none;
+  padding: 0px 20px 0px 10px !important;
+  height: 27px !important;
+  font-size: 12px !important;
+  position: relative !important;
+  border: none;
+}
+#datatable1_length label{
+  position: relative;
+}
+#datatable1_length label::after {
+  color: #FFF;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  right: 52px;
+  font-size: 8px;
+  top: -4px;
+}
+
+
+.blcard_header_title{
+  font-size: 14px;
+}
+
+.customblck_card:hover {
+  cursor: pointer;
+}
+
+.lr_inputs{
+  margin-bottom: 20px;
+}
+.lr_inputs .form-group {
+  position: relative;
+  width: 100%;
+}
+
+.lr_inputs label{
+  margin-right: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #e4e4e4;
+  margin-bottom: 7px;
+}
+.lr_inputs label img{
+  width: 28px;
+  margin-right: 6px;
+}

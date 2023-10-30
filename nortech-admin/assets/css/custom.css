@@ -558,7 +558,7 @@ h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a {
       width: 130px;
       height: 40px;
       color: #fff;
-      border-radius: 5px;
+      border-radius: 2px;
       padding: 10px 25px;
       font-family: 'Lato', sans-serif;
       font-weight: 500;
@@ -577,7 +577,7 @@ h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a {
 .finance__area .bg-violet-600 {
   border: none;
   background: #7c3aed;
-  background: linear-gradient(0deg, #ab81f4 0%, #7c3aed 100%);
+  background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%);
     color: #fff;
     overflow: hidden;
 }
@@ -585,19 +585,9 @@ h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a {
     text-decoration: none;
     color: #fff;
 }
-.finance__area .bg-violet-600:before {
-    position: absolute;
-    content: '';
-    display: inline-block;
-    top: -180px;
-    left: 0;
-    width: 30px;
-    height: 100%;
-    background-color: #fff;
-    animation: shiny-btn1 3s ease-in-out infinite;
-}
+
 .finance__area .bg-violet-600:hover{
-  opacity: .7;
+  opacity: 1;
 }
 .finance__area .bg-violet-600:active{
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
@@ -845,8 +835,7 @@ table.dataTable th {
 }
 table.dataTable td {
 padding: 10px;
-border-bottom: 1px solid #293445;
-font-size: 14px;
+font-size: 13px;
 }
 /* table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
   bottom: 13px;
@@ -858,7 +847,7 @@ font-size: 14px;
 .paginate_button {
 text-decoration: none;
 padding: 7px 10px;
-background: #1e293a;
+background: #111230;
 font-size: 14px;
 color: #fff;
 }
@@ -1082,7 +1071,7 @@ color: #c7c3c3;
 }
 .buy_more a {
 padding: 10px 20px;
-background: #1e53e5;
+background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%);
 border-radius: 5px;
 }
 .buy_more {
@@ -1271,13 +1260,13 @@ font-size: 20px;
 .box-body {
   padding: 20px;
 }
-.form-control {
+/* .form-control {
   border: 1px solid #2d3f5a !important;
   padding: 8px 15px !important;
   border-radius: 5px !important;
   margin: 10px 0 !important;
   color: #d8dce4 !important;
-}
+} */
 .form-control:focus{
   box-shadow: none !important;
 }
@@ -1309,7 +1298,7 @@ font-size: 20px;
   position: absolute;
   top: -12px;
   left: 15px;
-  background: #0f172a;
+  background: transparent;
   padding: 0 5px;
   color: #8aa2b3;
   z-index: 1;
@@ -1530,13 +1519,13 @@ color:#0ab39c
 }
 .ban_Service_btn {
   border: 1px solid #ff0000;
-  padding: 3px 14px;
+  padding: 3px 8px;
   background: #ff00001c;
   border-radius: 5px;
   color: #ff0000;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 22px;
-  height: 30px;
+  height: 26px;
 }
 /*  */
 th.sortable {
@@ -2545,13 +2534,13 @@ textarea.form-control {
 .notify_btn {
   display: flex;
   align-items: center;
-  padding: 3px 14px;
+  padding: 3px 8px;
   background: #7c3aed;
   border-radius: 5px;
   margin-right: 5px;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 0px;
-  height: 30px;
+  height: 26px;
 }
 .notify_btn svg{
   margin-right: 3px;
@@ -2599,4 +2588,130 @@ textarea.form-control {
 }
 .mega-menu2 {
   left: 50% !important;
+}
+
+.breadcrumsArea{
+  position: relative;
+  margin-top: -9px;
+  margin-bottom: 20px;
+}
+.buttonbackpage{
+  width: 22px;
+  height: 22px;
+  background: #232249;
+  line-height: 22px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 8px;
+}
+.flex_ulbreadcrum{
+  display: flex !important;
+  align-items: center;
+}
+.btnbackbrd{
+  margin-right: 12px;
+}
+.breadcrumsArea li{
+  font-size: 13px;
+}
+
+/* forminput style */
+.cridnftbox_height{
+  height: 100%;
+}
+
+/* line button custom style */
+.linebtn_custom {
+	border: none;
+	color: #FFF;
+	padding: 8px 25px 8px;
+	text-transform: uppercase;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	position: relative;
+	text-decoration: none !important;
+	outline: none !important;
+	border-radius: 4px;
+	font-size: 13px;
+	margin-top: 12px;
+	background: #0075ff;
+	background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%);
+}
+
+.linebtn_custom .hover-shape1{
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 5px;
+  height: 124%;
+  left: -42%;
+  top: -5px;
+  transform: rotate(22deg);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.linebtn_custom .hover-shape2{
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 5px;
+  height: 124%;
+  left: -42%;
+  top: -5px;
+  -webkit-transform: rotate(22deg);
+  transform: rotate(22deg);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.linebtn_custom:hover .hover-shape2{
+  left: 50%;
+}
+.linebtn_custom:hover .hover-shape1{
+  left: 42%;
+}
+
+.linebtn_custom .hover-shape3 {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.linebtn_custom .hover-shape3{
+  position: absolute;
+  width: 5px;
+  height: 124%;
+  left: -42%;
+  top: -5px;
+  transform: rotate(22deg);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.linebtn_custom:hover .hover-shape3{
+  width: 11px;
+  left: 58%;
+}
+.plusiconbtn {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: right;
+  color: #e0e0e0;
+}
+.plusiconbtn .linebtn_custom {
+	border: none;
+	color: #FFF;
+	padding: 3px 4px 3px;
+	text-transform: uppercase;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	position: relative;
+	text-decoration: none !important;
+	outline: none !important;
+	border-radius: 4px;
+	font-size: 8px;
+	margin-top: 0px;
+	margin-right: 5px;
+	background: #0075ff;
+	background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%);
+	line-height: 10px;
 }

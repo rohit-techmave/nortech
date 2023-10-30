@@ -45,7 +45,19 @@
                         </div>
                      </div>
                   </div>
+
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
+
                </div>
+                    
             </a>
          </div>
          <div class="card_box_total">
@@ -79,6 +91,15 @@
                         </div>
                      </div>
                   </div>
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
          </div>
@@ -114,6 +135,15 @@
                         </div>
                      </div>
                   </div>
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
          </div>
@@ -151,6 +181,15 @@
                         </div>
                      </div>
                   </div>
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
          </div>
@@ -182,6 +221,15 @@
                         </div>
                      </div>
                   </div>
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
          </div>
@@ -217,6 +265,15 @@
                         </div>
                      </div>
                   </div>
+                   <!-- gredint border style dont remove -->
+                   <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
          </div>
@@ -224,29 +281,36 @@
       <div class="createnftid_section">
          <div class="row">
             <div class="col-lg-6">
-               <div class="customblck_card bggredient">
+               <div class="customblck_card bggredient cridnftbox_height">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">Create ID ( NFT ) </h3>
                   </div>
                   <div class="blcard_body">
                      <form action="#">
-                        <div class="form-group">
-                           <input class="form-control" type="text">
-                           <label for="" class="form-label">Name</label>
-                        </div>
-                        <div class="form-group">
-                           <input class="form-control" type="text">
-                           <label for="" class="form-label">Reference</label>
-                        </div>
+	                                    <div class="form-group">
+	                                        <label for="firstname">Name</label>
+	                                        <input type="text" name="firstname" id="firstname" class="form-control required">
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <label for="lastname">Reference</label>
+	                                        <input type="text" name="lastname" id="lastname" class="form-control required">
+	                                    </div>
+	                  
                         <div class="update_action">
-                           <a href="#" class="update_btn">Create ID</a>
+                           <a href="#" class="linebtn_custom">Create ID
+
+                           <span class="hover-shape1"></span>
+                                    <span class="hover-shape2"></span>
+                                    <span class="hover-shape3"></span>
+                           </a>
+                         
                         </div>
                      </form>
                   </div>
                </div>
             </div>
             <div class="col-lg-6">
-               <div class="customblck_card bggredient">
+               <div class="customblck_card bggredient cridnftbox_height">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">History New Builders</h3>
                   </div>

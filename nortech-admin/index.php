@@ -60,6 +60,18 @@
                         </div>
                      </div>
                   </div>
+
+
+                  <!-- gredint border style dont remove -->
+                            <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
+
                </div>
             </a>
 
@@ -98,6 +110,15 @@
                         </div>
                      </div>
                   </div>
+                    <!-- gredint border style dont remove -->
+                    <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
 
@@ -134,6 +155,15 @@
                         </div>
                      </div>
                   </div>
+                    <!-- gredint border style dont remove -->
+                    <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
 
@@ -173,6 +203,15 @@
                         </div>
                      </div>
                   </div>
+                    <!-- gredint border style dont remove -->
+                    <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
 
@@ -212,6 +251,15 @@
                         </div>
                      </div>
                   </div>
+                    <!-- gredint border style dont remove -->
+                    <span class="border-shadow shadow-1"></span>
+                            <span class="border-shadow shadow-2"></span>
+                            <span class="border-shadow shadow-3"></span>
+                            <span class="border-shadow shadow-4"></span>
+                            <span class="hover-shape-bg hover_shape1"></span>
+                            <span class="hover-shape-bg hover_shape2"></span>
+                            <span class="hover-shape-bg hover_shape3"></span>
+                  <!-- gredint border style end dont remove -->
                </div>
             </a>
 

@@ -6,21 +6,21 @@
 <div class="container-fluid relative px-3">
    <div class="layout-specing">
   
-               <ul class="finance__area nthtabsarea flexgrid_tabs md:w-fit w-full  flex-wrap justify-center  p-3 bg-white  shadow dark:shadow-gray-800 rounded-md usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
+               <ul class="finance__area nthtabsarea flexgrid_tabs md:w-fit w-full  flex-wrap justify-center bg-white   dark:shadow-gray-800  usertabdash" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
-                     <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out custom-btn btn-11" id="fee-tab" data-tabs-target="#fee" type="button" role="tab" aria-controls="fee" aria-selected="true">
+                     <button class="px-6 py-2   w-full transition-all duration-500 ease-in-out custom-btn btn-11" id="fee-tab" data-tabs-target="#fee" type="button" role="tab" aria-controls="fee" aria-selected="true">
                        Fee
                         <div class="dot"></div>
                      </button>
                   </li>
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
-                     <button class="px-6 py-2 rounded-md w-full transition-all duration-500 ease-in-out" id="dao-tab" data-tabs-target="#dao" type="button" role="tab" aria-controls="dao" aria-selected="false">DAO</button>
+                     <button class="px-6 py-2  w-full transition-all duration-500 ease-in-out" id="dao-tab" data-tabs-target="#dao" type="button" role="tab" aria-controls="dao" aria-selected="false">DAO</button>
                   </li>
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
-                     <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="Stake-tab" data-tabs-target="#Stake" type="button" role="tab" aria-controls="Stake" aria-selected="false">Stake</button>
+                     <button class="px-6 py-2   w-full transition-all duration-500 ease-in-out" id="Stake-tab" data-tabs-target="#Stake" type="button" role="tab" aria-controls="Stake" aria-selected="false">Stake</button>
                   </li>
                   <li role="presentation" class="md:inline-block block md:w-fit w-full">
-                     <button class="px-6 py-2  rounded-md w-full transition-all duration-500 ease-in-out" id="report-tab" data-tabs-target="#report" type="button" role="tab" aria-controls="report" aria-selected="false">Report</button>
+                     <button class="px-6 py-2   w-full transition-all duration-500 ease-in-out" id="report-tab" data-tabs-target="#report" type="button" role="tab" aria-controls="report" aria-selected="false">Report</button>
                   </li>
                  
                </ul>
@@ -31,9 +31,10 @@
 
                   <div class="" id="fee" role="tabpanel" aria-labelledby="fee-tab">
                   <div class="createnftid_section">
-         <h1>Fee</h1>
-      <!-- End Content -->
-   </div>
+                        <h1>Fee</h1>
+                     <!-- End Content -->
+                  </div>
+
                   </div>
                   
                   <div class="hidden" id="dao" role="tabpanel" aria-labelledby="dao-tab">
@@ -47,46 +48,60 @@
                   <div class="blcard_body">
                      <form action="#">
                         <div class="row">
-                            <div class="col-lg-12">
-                            <div class="form-group">
-                           <input class="form-control" type="text">
-                           <label for="" class="form-label">Vote Title</label>
-                        </div>
-                            </div>
-                            <div class="col-lg-12">
-                            <div class="form-group">
-                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  <label for="exampleFormControlTextarea1" class="form-label">Vote Description</label>
-                               </div>
-                            </div>
-
                             <div class="col-lg-6">
-                            <div class="form-group">
-                            <input type="text" id="basicDate" class="form-control" placeholder="" data-input>
-                           <label for="" class="form-label">Voting Start Date & Time</label>
-                        </div>
                          
+                        <div class="form-group">
+	                                        <label for="firstname">Vote Title</label>
+	                                        <input type="text" name="firstname" id="firstname" class="form-control required">
+	                                    </div>
+                            </div>
+                            <div class="col-lg-6">
+
+                            <div class="form-group">
+	                                        <label for="firstname">Vote Description</label>
+	                                        <input type="text" name="firstname" id="firstname" class="form-control required">
+	                                    </div>
                             </div>
 
                             <div class="col-lg-6">
                             <div class="form-group">
+	                                        <label for="basicDate">Voting Start Date & Time</label>
+	                                        <input type="text" name="basicDate" id="basicDate" class="form-control required" >
+	                                    </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                            <div class="form-group">
+                            <label for="basicDate2">Voting ends Date & Time</label>
                             <input type="text" id="basicDate2" class="form-control" placeholder="" data-input>
-                           <label for="" class="form-label">Voting ends Date & Time</label>
                         </div>
                          
                             </div>
+
+                            <div class="col-lg-12">
+                            <div class="update_action">
+                        <a href="#" class="linebtn_custom">Create Vote
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a>
+                        </div>
+                            </div>
+
+
+                            </div>
+
+                           
 
                         </div>
                         
-                        <div class="update_action">
-                           <a href="#" class="update_btn votecrreated_alert">Create Vote</a>
-                        </div>
+                       
                      </form>
                   </div>
                </div>
-            </div>
 
-            <div class="col-lg-6 countdown-container">
+               <div class="col-lg-6 countdown-container">
                <div class="customblck_card bggredient">
                   <div class="blcard_header">
                      <h3 class="blcard_header_title">Pending Votes</h3>
@@ -213,6 +228,12 @@
                </div>
             </div>
          </div>
+
+            </div>
+
+           
+
+         
       </div>
       <!-- End Content -->
    </div>

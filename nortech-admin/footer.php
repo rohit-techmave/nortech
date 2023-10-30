@@ -61,6 +61,12 @@
 <!-- end -------------------------------------------------------------->
 
 
+<script src="assets/js/common_scripts.min.js"></script>
+	<script src="assets/js/functions.js"></script>
+
+	
+	<script src="assets/js/survey_func.js"></script>
+
 <!-- copy code js -->
 <script>
    let copyText = document.querySelector(".copy-text");

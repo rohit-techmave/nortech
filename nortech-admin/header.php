@@ -35,6 +35,9 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!-- Sweet alert Css -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css">
+        <link rel="stylesheet" href="assets/css/inputfield.css">
+        
+        
     </head>
     
     <body class="font-urbanist text-base text-black dark:text-white dark:bg-slate-900">
@@ -58,9 +61,9 @@
                     <ul class="sidebar-menu border-t dark:border-white/10 border-gray-100" data-simplebar style="height: calc(100% - 70px);">
                         <!-- <li class="">
                             <a href="index.html"><i data-feather="airplay" class="h-4 w-4 me-3"></i>Dashboard</a>
-                        </li> -->
+                        </li>
 
-                        <!-- <li class="sidebar-dropdown">
+                       <li class="sidebar-dropdown">
                             <a href="javascript:void(0)"><i data-feather="image" class="h-4 w-4 me-3"></i>Explore Items</a>
                             <div class="sidebar-submenu">
                                 <ul>
@@ -87,8 +90,24 @@
                             <a href="nth.php"><img src="assets/images/newimages/icons/nthblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/nth-white.png" alt="" class="h-4 w-4 me-3 whiteicon">NTH</a>
                         </li>
 
-                        <li class="platFormmenu">
+                        <!-- <li class="platFormmenu">
                             <a href="platform.php"><img src="assets/images/newimages/icons/platformblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
+                        </li> -->
+
+                        <!-- <li class="platFormmenu">
+                        <a href="platform.php"><img src="assets/images/newimages/icons/platformblue.png" alt="" class="h-4 w-4 me-3 greyicon"><img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon">Platform</a>
+                        </li> -->
+
+                       <li class="sidebar-dropdown">
+                            <a href="javascript:void(0)"><img src="assets/images/newimages/icons/platformblue.png" alt="" class="h-4 w-4 me-3 greyicon"> <img src="assets/images/newimages/icons/platformwhite.png" alt="" class="h-4 w-4 me-3 whiteicon"> Platform</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="finance.php">Finance</a></li>
+                                    <li><a href="education.php">Education</a></li>
+                                    <li><a href="##">Marketplace</a></li>
+                                    <li><a href="##">Report</a></li>
+                                </ul>
+                            </div>
                         </li>
 
                         <li class="adminmenu">
