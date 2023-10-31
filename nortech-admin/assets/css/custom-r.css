@@ -1204,3 +1204,211 @@ body {
   width: 28px;
   margin-right: 6px;
 }
+
+.crs_grid_list {
+	position: relative;
+	width: 100%;
+	display: flex !important;
+	align-items: center;
+	background: #ffffff;
+  background: radial-gradient(circle, #4a4176 -24%, #1E1F35 40%);
+	box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+	-webkit-box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+	border-radius: 0.4rem;
+	overflow: hidden;
+	margin-bottom: 14px;
+  padding: 8px;
+}
+
+.crs_grid_list_thumb {
+	width: 203px;
+	height: 200px;
+	position: relative;
+}
+.crs_grid_list_thumb a {
+	display: block;
+	height: 100%;
+}
+.crs_grid_list_thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.crs_grid_list_caption {
+	flex: 1;
+	padding: 15px ;
+	position: relative;
+	display: block;
+  z-index: 100;
+}
+.crs_lt_101 {
+  position: relative;
+  display: flex;
+  margin-bottom: 4px;
+  justify-content: space-between;
+}
+.crs_lt_101 .est.st_1 {
+	background: rgba(226, 58, 49,0.11);
+	color: #e23a31;
+}
+.crs_lt_101 .est.st_2 {
+	background: rgba(139, 195, 74,0.11);
+	color: #8bc34a;
+}
+.crs_lt_102 .crs_tit {
+	font-size: 17px;
+	line-height: 1.4;
+	margin: 0;
+  color: #fff;
+  margin-top: 10px;
+}
+span.crs_auth {
+	font-size: 13px;
+	line-height: 1;
+	font-weight: 600;
+	color: #23a16f;
+}
+span.crs_auth i {
+	color: #d2d2d2;
+}
+.crs_lt_103 {
+  padding: 4px 0px 12px 0px;
+	position: relative;
+	display: block;
+}
+.crs_info_detail {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.crs_info_detail ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.crs_lt_103 .crs_info_detail ul li {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #cacccf;
+  font-size: 11px;
+  list-style: none;
+  margin-right: 14px;
+}
+.crs_info_detail ul li i {
+	margin-right: 5px;
+}
+.crs_lt_101 .est {
+	display: inline-flex;
+	align-items: center;
+	height: 26px;
+	justify-content: flex-start;
+	background: #23a16f;
+	padding: 0 10px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 4px;
+}
+.crs_flex {
+	width: auto;
+	display: flex;
+	align-items: center;
+}
+.crs_fl_first {
+	flex: 1;
+}
+.crs_price h2 {
+	margin: 0;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+  color: #192a31;
+}
+.crs_price h2 .currency {
+  font-size: 19px;
+  color: #fff !important;
+}
+.crs_price .theme-cl {
+  color: #23a16f !important;
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+.theme-bg {
+  background: #23a16f !important;
+  font-size: 14px;
+  padding: 4px 14px !important;
+  border-radius: 3px;
+}
+.crs_linkview .linebtn_custom {
+	border: none;
+	color: #FFF;
+	padding: 5px 16px 8px;
+	text-transform: uppercase;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	position: relative;
+	text-decoration: none !important;
+	outline: none !important;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-top: 12px;
+	background: #0075ff;
+	background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%);
+	font-weight: bold;
+}
+.crs_grid_list .hover_shape1{
+  left: 37%;
+}
+
+.crs_grid_list .hover-shape-bg {
+	width: 35px;
+	height: 100%;
+	-webkit-transform: skew(-26deg);
+	transform: skew(-26deg);
+	display: inline-block;
+	margin: 0 5.5px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(150, 136, 217, 0.06)), to(rgba(255, 255, 255, 0)));
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(150, 136, 217, 0.06) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.crs_grid_list  .hover_shape2 {
+	left: 46.5%;
+}
+
+.crs_grid_list .hover_shape3 {
+  left: 56%;
+  width: 60px;
+}
+.passratebtnsub a{
+  margin-top: 0px;
+}
+
+.courselist_top_body{
+  height: 407px;
+  overflow: hidden;
+}
+
+.topcourseicon{
+  width: 18px;
+  margin-right: 6px;
+}
+.blcard_header_title {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+table.dataTable {
+  white-space: nowrap;
+}

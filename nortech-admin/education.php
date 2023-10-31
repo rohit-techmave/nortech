@@ -20,7 +20,7 @@
          </div> -->
    </div>
    <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-6">
          <div class="customblck_card bggredient">
             <div class="blcard_header">
                <h3 class="blcard_header_title">BASE % PASS RATE</h3>
@@ -28,7 +28,7 @@
             <div class="blcard_body">
                <form action="#" class="fl-form fl-style-2">
                   <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-lg-6">
                         <div class="lr_inputs">
                            <div class="col-auto">
                               <label for="inputPassword6" class="col-form-label"><img src="assets/images/newimages/levels/level1.png" alt="">Builder Elite</label>
@@ -39,7 +39,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-6">
                         <div class="lr_inputs">
                            <div class="col-auto">
                               <label for="inputPassword6" class="col-form-label"><img src="assets/images/newimages/levels/level2.png" alt="">Builder Enthusiast</label>
@@ -50,7 +50,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-6">
                         <div class="lr_inputs">
                            <div class="col-auto">
                               <label for="inputPassword6" class="col-form-label"><img src="assets/images/newimages/levels/level3.png" alt="">Student</label>
@@ -61,7 +61,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-6">
                         <div class="lr_inputs">
                            <div class="col-auto">
                               <label for="inputPassword6" class="col-form-label"><img src="assets/images/newimages/levels/level4.png" alt="">Builder Prodigy</label>
@@ -72,7 +72,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-12">
                         <div class="lr_inputs">
                            <div class="col-auto">
                               <label for="inputPassword6" class="col-form-label"><img src="assets/images/newimages/levels/level5.png" alt="">Builder Ambassador</label>
@@ -83,9 +83,9 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-12">
                         <label for=""> &nbsp; </label>
-                        <div class="update_action">
+                        <div class="update_action passratebtnsub">
                            <a href="#" class="linebtn_custom">Submit
                            <span class="hover-shape1"></span>
                            <span class="hover-shape2"></span>
@@ -99,23 +99,254 @@
          </div>
       </div>
       <!--end col-->
-      <!-- End Content -->
-   </div>
 
-   <div class="row">
       <div class="col-lg-6">
          <div class="customblck_card bggredient">
             <div class="blcard_header">
-               <h3 class="blcard_header_title">Top Courses</h3>
+               <h3 class="blcard_header_title"> <img src="assets/images/newimages/courses/topicon.png" alt="" class="topcourseicon">Top Courses</h3>
             </div>
-            <div class="blcard_body">
-               
+            <div class="blcard_body courselist_top_body">
+                <div class="top_coursesList">
+                <div class="crs_grid_list topcourseitem">
+								
+								<div class="crs_grid_list_thumb">
+									<a href="##"><img src="assets/images/newimages/courses/courseimgcr1.jpeg" class="img-fluid rounded" alt=""></a>
+								</div>
+								
+								<div class="crs_grid_list_caption">
+									<div class="crs_lt_101">
+										<div class="course_tag">
+                              <span class="est st_1">Instructor </span>
+										<span class="est st_2">Technology</span>
+                              </div>
+
+                              <div class="star-rating">
+                                             <div class="star-rating__star">★</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+									</div>
+									<div class="crs_lt_102">
+										<h4 class="crs_tit">Advanced Crypto: Develop a Leader's Mindset</h4>
+										<!-- <span class="crs_auth"><i>By</i> Litha Joshi</span> -->
+									</div>
+									<div class="crs_lt_103">
+										<div class="crs_info_detail">
+											<ul>
+												<li><i class="fa-regular fa-clock"></i><span>1h 45min</span></li>
+												<li><i class="fa-regular fa-user"></i><span>10k+ Enrolled</span></li>
+												<li><i class="fa-regular fa-eye"></i><span>92k Views</span></li>
+											</ul>
+										</div>
+									</div>
+									<div class="crs_flex">
+										<div class="crs_fl_first">
+											<div class="crs_price"><h2><span class="currency">Free</span></h2></div>
+										</div>
+										<div class="crs_fl_last">
+											<div class="crs_linkview"><a href="#" class="linebtn_custom">Learn More
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a></div>
+										</div>
+									</div>
+								</div>
+                        <span class="border-shadow shadow-1"></span>
+                        <span class="border-shadow shadow-2"></span>
+                        <span class="border-shadow shadow-3"></span>
+                        <span class="border-shadow shadow-4"></span>
+								<span class="hover-shape-bg hover_shape1"></span>
+                        <span class="hover-shape-bg hover_shape2"></span>
+                        <span class="hover-shape-bg hover_shape3"></span>
+							</div>
+
+                     <div class="crs_grid_list topcourseitem">
+								
+								<div class="crs_grid_list_thumb">
+									<a href="##"><img src="assets/images/newimages/courses/courseimgcr2.jpeg" class="img-fluid rounded" alt=""></a>
+								</div>
+								
+								<div class="crs_grid_list_caption">
+									<div class="crs_lt_101">
+										<div class="course_tag">
+                              <span class="est st_1">Instructor </span>
+										<span class="est st_2">Technology</span>
+                              </div>
+
+                              <div class="star-rating">
+                                             <div class="star-rating__star">★</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+									</div>
+									<div class="crs_lt_102">
+										<h4 class="crs_tit">Crypto 101 for Beginners: Introduction to The Basics</h4>
+										<!-- <span class="crs_auth"><i>By</i> Litha Joshi</span> -->
+									</div>
+									<div class="crs_lt_103">
+										<div class="crs_info_detail">
+											<ul>
+												<li><i class="fa-regular fa-clock"></i><span>1h 45min</span></li>
+												<li><i class="fa-regular fa-user"></i><span>10k+ Enrolled</span></li>
+												<li><i class="fa-regular fa-eye"></i><span>92k Views</span></li>
+											</ul>
+										</div>
+									</div>
+									<div class="crs_flex">
+										<div class="crs_fl_first">
+											<div class="crs_price"><h2><span class="currency">$</span><span class="theme-cl">77.99</span></h2></div>
+										</div>
+										<div class="crs_fl_last">
+											<div class="crs_linkview"><a href="#" class="linebtn_custom">Learn More
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a></div>
+										</div>
+									</div>
+								</div>
+                        <span class="border-shadow shadow-1"></span>
+                        <span class="border-shadow shadow-2"></span>
+                        <span class="border-shadow shadow-3"></span>
+                        <span class="border-shadow shadow-4"></span>
+								<span class="hover-shape-bg hover_shape1"></span>
+                        <span class="hover-shape-bg hover_shape2"></span>
+                        <span class="hover-shape-bg hover_shape3"></span>
+							</div>
+
+                     <div class="crs_grid_list topcourseitem">
+								
+								<div class="crs_grid_list_thumb">
+									<a href="##"><img src="assets/images/newimages/courses/courseimgcr3.jpeg" class="img-fluid rounded" alt=""></a>
+								</div>
+								
+								<div class="crs_grid_list_caption">
+									<div class="crs_lt_101">
+										<div class="course_tag">
+                              <span class="est st_1">Instructor </span>
+										<span class="est st_2">Technology</span>
+                              </div>
+
+                              <div class="star-rating">
+                                             <div class="star-rating__star">★</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+									</div>
+									<div class="crs_lt_102">
+										<h4 class="crs_tit">NFT Domains: The Future of Web3 Identity</h4>
+										<!-- <span class="crs_auth"><i>By</i> Litha Joshi</span> -->
+									</div>
+									<div class="crs_lt_103">
+										<div class="crs_info_detail">
+											<ul>
+												<li><i class="fa-regular fa-clock"></i><span>1h 45min</span></li>
+												<li><i class="fa-regular fa-user"></i><span>10k+ Enrolled</span></li>
+												<li><i class="fa-regular fa-eye"></i><span>92k Views</span></li>
+											</ul>
+										</div>
+									</div>
+									<div class="crs_flex">
+										<div class="crs_fl_first">
+											<div class="crs_price"><h2><span class="currency">Free</span></h2></div>
+										</div>
+										<div class="crs_fl_last">
+											<div class="crs_linkview"><a href="#" class="linebtn_custom">Learn More
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a></div>
+										</div>
+									</div>
+								</div>
+                        <span class="border-shadow shadow-1"></span>
+                        <span class="border-shadow shadow-2"></span>
+                        <span class="border-shadow shadow-3"></span>
+                        <span class="border-shadow shadow-4"></span>
+								<span class="hover-shape-bg hover_shape1"></span>
+                        <span class="hover-shape-bg hover_shape2"></span>
+                        <span class="hover-shape-bg hover_shape3"></span>
+							</div>
+
+                     <div class="crs_grid_list topcourseitem">
+								
+								<div class="crs_grid_list_thumb">
+									<a href="##"><img src="assets/images/newimages/courses/courseimgcr4.jpeg" class="img-fluid rounded" alt=""></a>
+								</div>
+								
+								<div class="crs_grid_list_caption">
+									<div class="crs_lt_101">
+										<div class="course_tag">
+                              <span class="est st_1">Instructor </span>
+										<span class="est st_2">Technology</span>
+                              </div>
+
+                              <div class="star-rating">
+                                             <div class="star-rating__star">★</div>
+                                             <div class="star-rating__text">
+                                                   <span class="star-rating__rating">4.6</span>
+                                                   <span class="star-rating__count">(20)</span>
+                                             </div>
+                                          </div>
+									</div>
+									<div class="crs_lt_102">
+										<h4 class="crs_tit">Beginner Guide to How to Make a Game with Unity</h4>
+										<!-- <span class="crs_auth"><i>By</i> Litha Joshi</span> -->
+									</div>
+									<div class="crs_lt_103">
+										<div class="crs_info_detail">
+											<ul>
+												<li><i class="fa-regular fa-clock"></i><span>1h 45min</span></li>
+												<li><i class="fa-regular fa-user"></i><span>10k+ Enrolled</span></li>
+												<li><i class="fa-regular fa-eye"></i><span>92k Views</span></li>
+											</ul>
+										</div>
+									</div>
+									<div class="crs_flex">
+										<div class="crs_fl_first">
+											<div class="crs_price"><h2><span class="currency">$</span><span class="theme-cl">77.99</span></h2></div>
+										</div>
+										<div class="crs_fl_last">
+											<div class="crs_linkview"><a href="#" class="linebtn_custom">Learn More
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a></div>
+										</div>
+									</div>
+								</div>
+                        <span class="border-shadow shadow-1"></span>
+                        <span class="border-shadow shadow-2"></span>
+                        <span class="border-shadow shadow-3"></span>
+                        <span class="border-shadow shadow-4"></span>
+								<span class="hover-shape-bg hover_shape1"></span>
+                        <span class="hover-shape-bg hover_shape2"></span>
+                        <span class="hover-shape-bg hover_shape3"></span>
+							</div>
+
+                </div>
             </div>
          </div>
       </div>
       <!--end col-->
+      <!-- End Content -->
+   </div>
 
-      <div class="col-lg-6">
+   <div class="row">
+      
+
+      <div class="col-lg-12">
          <div class="customblck_card bggredient">
             <div class="blcard_header">
                <h3 class="blcard_header_title">NTH Statisc POS Fee's</h3>
@@ -133,3 +364,43 @@
 </div>
 <!--end container-->
 <?php include("footer.php") ?>
+
+
+<!-- top course slider -->
+<script>
+   $(document).ready(function(){
+   $('.top_coursesList').slick({
+      centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 2,
+            vertical: true,
+            verticalSwiping: true,
+            arrows: false,
+            autoplay:true,
+            autoplaySpeed: 2000,
+            swipeToSlide: true,
+            focusOnSelect: true,
+   responsive: [
+   {
+     breakpoint: 768,
+     settings: {
+       arrows: false,
+       centerMode: true,
+       centerPadding: '40px',
+       slidesToShow: 3
+     }
+   },
+   {
+     breakpoint: 480,
+     settings: {
+       arrows: false,
+       centerMode: true,
+       centerPadding: '40px',
+       slidesToShow: 1
+     }
+   }
+   ]
+   });
+   });
+</script>
+<!-- end -->

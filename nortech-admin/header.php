@@ -104,8 +104,8 @@
                                 <ul>
                                     <li><a href="finance.php">Finance</a></li>
                                     <li><a href="education.php">Education</a></li>
-                                    <li><a href="##">Marketplace</a></li>
-                                    <li><a href="##">Report</a></li>
+                                    <li><a href="marketplace.php">Marketplace</a></li>
+                                    <li><a href="reports.php">Report</a></li>
                                 </ul>
                             </div>
                         </li>
