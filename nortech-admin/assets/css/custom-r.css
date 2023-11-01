@@ -1412,3 +1412,72 @@ span.crs_auth i {
 table.dataTable {
   white-space: nowrap;
 }
+
+
+.dataTables_length select {
+  background-color: #080d2d;
+  appearance: none;
+  padding: 0px 20px 0px 10px !important;
+  height: 27px !important;
+  font-size: 12px !important;
+  position: relative !important;
+  border: none;
+}
+
+.dataTables_length label{
+  position: relative;
+}
+
+.dataTables_length label::after {
+  color: #FFF;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  right: 52px;
+  font-size: 8px;
+  top: -4px;
+}
+
+.dataTables_length label select {
+  background-color: #080d2d;
+  appearance: none;
+  padding: 0px 20px 0px 10px !important;
+  height: 27px !important;
+  font-size: 12px !important;
+  position: relative !important;
+  border: none;
+}
+.dataTables_length label{
+  position: relative;
+}
+.dataTables_length label::after {
+  color: #FFF;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  right: 52px;
+  font-size: 8px;
+  top: -4px;
+}
+
+   /* data table customoization */
+
+   .tabltoparea{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .tabltoparea #export-button-container button{
+    margin-right: 5px;
+  }
+  div.dataTables_wrapper {
+    overflow-x: scroll;
+  }
+  .entries_pagination{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  }

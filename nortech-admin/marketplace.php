@@ -1,26 +1,6 @@
 <?php include("header.php") ?>
 
-<style>
-    /* data table customoization */
 
-  .tabltoparea{
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
-  .tabltoparea #export-button-container button{
-    margin-right: 5px;
-  }
-  div.dataTables_wrapper {
-    overflow-x: scroll;
-  }
-  .entries_pagination{
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  }
-</style>
 
 
 <div class="container-fluid relative px-3">
@@ -175,13 +155,7 @@
                                              class="fas fa-arrow-down"></i></div>
                                        </div>
                                     </th>
-                                    <th class="sortable">
-                                       <div class="arrow_box">
-                                          <span>Course Description</span>
-                                          <div class="arrow"><i class="fas fa-arrow-up"></i> <i
-                                             class="fas fa-arrow-down"></i></div>
-                                       </div>
-                                    </th>
+                                 
                                     <th class="sortable">
                                        <div class="arrow_box">
                                           <span>Date</span>
@@ -224,24 +198,112 @@
                                           <div class="flex-grow-1">Vihan Hudda</div>
                                        </div>
                                     </td>
-                                    <td>Shibuya Scramble Punks</td>
-                                    <td>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit.</td>
-                                    <td>17 Oct,2023</td>
+                                    <td>Advanced Crypto</td>
+                                    <td>09 Oct,2023</td>
                                     <td> <span class="fw-semibold text-primary">07</span></td>
                                     <td>Free</td>
                                   
                                     <td>
                                        <div class="action_btn d-flex">
-                                          <a href="#" class="notify_btn">
-                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell h-4 w-4">
-                                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                                                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                                             </svg>
-                                             View Details
+                                          <a href="course-detail.php" class="view-detailicon bggreen_custom">
+                                          <i class="fa-regular fa-eye"></i>
+                                             
                                           </a>
+
+                                         
+
                                        </div>
                                     </td>
                                  </tr>
+
+                                 <tr>
+                                  <td>2</td>
+                                    <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                             <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Jansh Brown </div>
+                                       </div>
+                                    </td>
+                                    <td>Get Confident in Crypto</td>
+                                    <td>04 Oct,2023</td>
+                                    <td> <span class="fw-semibold text-primary">11</span></td>
+                                    <td>Free</td>
+                                  
+                                    <td>
+                                       <div class="action_btn d-flex">
+                                          <a href="course-detail.php" class="view-detailicon bggreen_custom">
+                                          <i class="fa-regular fa-eye"></i>
+                                             
+                                          </a>
+
+                                         
+
+                                       </div>
+                                    </td>
+                                 </tr>
+
+                                 <tr>
+                                  <td>3</td>
+                                    <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                             <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Prezy Mark </div>
+                                       </div>
+                                    </td>
+                                    <td>Coding for Beginners</td>
+                                    <td>28 Oct,2023</td>
+                                    <td> <span class="fw-semibold text-primary">08</span></td>
+                                    <td>Free</td>
+                                  
+                                    <td>
+                                       <div class="action_btn d-flex">
+                                          <a href="course-detail.php" class="view-detailicon bggreen_custom">
+                                          <i class="fa-regular fa-eye"></i>
+                                             
+                                          </a>
+
+                                         
+
+                                       </div>
+                                    </td>
+                                 </tr>
+
+                                 <tr>
+                                  <td>4</td>
+                                    <td>
+                                       <div class="d-flex align-items-center">
+                                          <div class="flex-shrink-0 me-2">
+                                             <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
+                                          </div>
+                                          <div class="flex-grow-1">Vihan Hudda</div>
+                                       </div>
+                                    </td>
+                                    <td>Shibuya Scramble Punks</td>
+                                    <td>1 Nov,2023</td>
+                                    <td> <span class="fw-semibold text-primary">04</span></td>
+                                    <td>&150.00</td>
+                                  
+                                    <td>
+                                       <div class="action_btn d-flex">
+                                          <a href="course-detail.php" class="view-detailicon bggreen_custom">
+                                          <i class="fa-regular fa-eye"></i>
+                                             
+                                          </a>
+
+                                         
+
+                                       </div>
+                                    </td>
+                                 </tr>
+
+                                
                                 
                               </tbody>
                            </table>
@@ -327,7 +389,7 @@
    
   
     // Move export buttons to the export-button-container div
-    $('.buttons-excel, .buttons-pdf, .buttons-csv , .buttons-copy ,  .buttons-print').appendTo('#export-button-container');
+    $('.dataTables_length').appendTo('#export-button-container');
   
     // Move search input to the search-button-container div
     $('.dataTables_filter').appendTo('#search-button-container');
