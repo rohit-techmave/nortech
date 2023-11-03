@@ -8,7 +8,7 @@
          </div> -->
       <div class="row">
          <div class="col-lg-3 colinner_boxheight">
-            <div class="customblck_card">
+            <div class="customblck_card bggredient ">
                <div class="blcard_header">
                   <h3 class="blcard_header_title">All Members</h3>
                </div>
@@ -40,7 +40,7 @@
             </div>
          </div>
          <div class="col-lg-9 colinner_boxheight">
-            <div class="customblck_card">
+            <div class="customblck_card bggredient ">
                <div class="blcard_header">
                   <h3 class="blcard_header_title table-heading" id="card-heading">All Members</h3>
                </div>

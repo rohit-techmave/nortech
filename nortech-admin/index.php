@@ -4,9 +4,9 @@
    <div class="layout-specing">
       <!-- Start Content -->
       <div class="md:flex justify-between items-center">
-         <div>
-            <h5 class="font-semibold text-2xl mb-1">Welcome!</h5>
-            <h5 class="font-medium text-base text-slate-400">Jenny Jimenez</h5>
+         <div class="dashwelcome_textuser">
+            <h2 class="">Welcome! :</h2>
+            <h5 class="">Jenny Jimenez</h5>
          </div>
 
 

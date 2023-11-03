@@ -8,13 +8,13 @@
       <div>
          <ul class="breadcrumb tracking-[0.5px] mb-0 inline-block mt-1 flex_ulbreadcrum">
             <li class="btnbackbrd">
-               <a href="index.php">
+               <a href="marketplace.php">
                   <div class="buttonbackpage"><i class="fa-solid fa-chevron-left"></i></div>
                </a>
             </li>
             <li class="inline breadcrumb-item   duration-500 text-slate-400 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"><a href="javascript:void(0)">Platform</a></li>
-            <li class="inline breadcrumb-item   duration-500 text-slate-400 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"><a href="javascript:void(0)">Marketplace</a></li>
-            <li class="inline breadcrumb-item   duration-500 text-slate-400 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"><a href="javascript:void(0)">Education</a></li>
+            <li class="inline breadcrumb-item   duration-500 text-slate-400 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"><a href="marketplace.php">Marketplace</a></li>
+            <li class="inline breadcrumb-item   duration-500 text-slate-400 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"><a href="marketplace.php">Education</a></li>
 
             <li class="inline breadcrumb-item   duration-500 text-slate-900 dark:text-white" aria-current="page">Course Details</li>
          </ul>
@@ -77,7 +77,7 @@
                         $49.99
                         </span> <span class="old-price">$219.00</span>
                      </div>
-                     <h6 class="limited-offer pb-0"><i class="fas fa-hourglass-color"></i> <strong>Limited time offer.</strong></h6>
+                     <!-- <h6 class="limited-offer pb-0"><i class="fas fa-hourglass-color"></i> <strong>Limited time offer.</strong></h6> -->
                   </div>
                  
                </div>
@@ -260,8 +260,284 @@
                   <div class="blcard_header coursedesc_title">
                      <h3 class="blcard_header_title"><img src="assets/images/newimages/trophy-svg.svg" alt="" class="trophy__imgg">Course Levels</h3>
                   </div>
-                  <div class="blcard_body">
+                  <div class="blcard_body levels_bodycontent">
                   
+                 
+  <div class="accordion">
+   <div class="progress_lineacr">
+        <div class="linebar"></div>
+   </div>
+    <div class="accordion-item active">
+      <div class="accordion-header ">
+
+      <div class="lecture-status-icon ">
+   <div class="hexagon-bg"><i class="fas fa-play ml-1"></i></div>
+</div>
+
+        <h2>Section 1: Welcome to the course!</h2>
+
+        <!-- effect dont remove -->
+        <span class="hover-shape-bg hover_shape1"></span>
+      <span class="hover-shape-bg hover_shape2"></span>
+      <span class="hover-shape-bg hover_shape3"></span>
+        <!-- effect end  dont remove -->
+
+      </div>
+      <div class="accordion-body">
+
+          <div class="course_introductionlist">
+              <ul>
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 1. What is Web3 identity?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 2. What is an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 3. How to get an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 4. Top 3 Use cases with Unstoppable Domains</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 5. Wrap up!</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+              
+              </ul>
+          </div>
+
+      </div>
+
+      
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header ">
+      <div class="lecture-status-icon ">
+   <div class="hexagon-bg"><i class="fas fa-play ml-1"></i></div>
+</div>
+        <h2>Section 2: How Does Blockchain Work?</h2>
+
+        <!-- effect dont remove -->
+        <span class="hover-shape-bg hover_shape1"></span>
+      <span class="hover-shape-bg hover_shape2"></span>
+      <span class="hover-shape-bg hover_shape3"></span>
+        <!-- effect end  dont remove -->
+      </div>
+      <div class="accordion-body">
+      <div class="course_introductionlist">
+              <ul>
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 1. What is Web3 identity?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 2. What is an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 3. How to get an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 4. Top 3 Use cases with Unstoppable Domains</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 5. Wrap up!</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+              
+              </ul>
+          </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header ">
+      <div class="lecture-status-icon ">
+   <div class="hexagon-bg"><i class="fas fa-play ml-1"></i></div>
+</div>
+        <h2>Section 3: How Does It Really Work?</h2>
+
+        <!-- effect dont remove -->
+        <span class="hover-shape-bg hover_shape1"></span>
+      <span class="hover-shape-bg hover_shape2"></span>
+      <span class="hover-shape-bg hover_shape3"></span>
+        <!-- effect end  dont remove -->
+      </div>
+      <div class="accordion-body">
+      <div class="course_introductionlist">
+              <ul>
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 1. What is Web3 identity?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 2. What is an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 3. How to get an NFT domain?</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 4. Top 3 Use cases with Unstoppable Domains</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="##">
+                         <div class="lecture-title">
+                           <h2> 5. Wrap up!</h2>
+                           <div class="lecture-duration">07:51</div>
+                         </div>
+                 
+                            <div class="lecturewatch_button">
+                                <button type="button">Watch Now</button>
+                            </div>
+                  </a>
+               </li>
+
+               
+
+              
+              </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
                </div>
             </div>
          </div>
@@ -272,4 +548,25 @@
 </div>
 <!--end container-->
 <?php include("footer.php") ?>
+
+<!-- accordian js -->
+<script>
+const accordionItem = document.querySelectorAll('.accordion-item');
+                             
+                             const onClickAccordionHeader = e => {
+                               if (e.currentTarget.parentNode.classList.contains('active')) {
+                                 e.currentTarget.parentNode.classList.remove("active");
+                               } else {
+                                 Array.prototype.forEach.call(accordionItem, e => e.classList.remove('active'));
+                                 e.currentTarget.parentNode.classList.add("active");
+                               }
+                             };
+                             
+                             const init = () => {
+                               Array.prototype.forEach.call(accordionItem, e => e.querySelector('.accordion-header').addEventListener('click', onClickAccordionHeader, false));
+                             };
+                             
+                             document.addEventListener('DOMContentLoaded', init);
+</script>
+<!-- end -->
 

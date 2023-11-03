@@ -40,6 +40,29 @@
 <script src="assets/js/app.js"></script>
 <!-- JAVASCRIPTS -->
 
+
+<!-- dropify js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.css" integrity="sha512-In/+MILhf6UMDJU4ZhDL0R0fEpsp4D3Le23m6+ujDWXwl3whwpucJG1PEmI3B07nyJx+875ccs+yX2CqQJUxUw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js" integrity="sha512-8QFTrG0oeOiyWo/VM9Y8kgxdlCryqhIxVeRpWSezdRRAvarxVtwLnGroJgnVW9/XBRduxO/z1GblzPrMQoeuew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+  $(document).ready(function() {
+    $('.dropify').dropify({
+        messages: {
+            'default': 'Drag and drop a file here or click',
+            'replace': 'Drag and drop or click to replace',
+            'remove':  'Remove',
+            'error':   'Ooops, something went wrong.'
+        }
+    });
+});
+</script>
+
+
+<!-- dropify js end -->
+
+
 <!-- slick js -->
 <script src="assets/js/slick.js"></script>
 
@@ -60,12 +83,12 @@
 <script src="assets/js/custom_chart.js"></script>
 <!-- end -------------------------------------------------------------->
 
-
+<!-- floating input js start -->
 <script src="assets/js/common_scripts.min.js"></script>
 	<script src="assets/js/functions.js"></script>
-
-	
 	<script src="assets/js/survey_func.js"></script>
+
+  <!-- floating input js end -->
 
 <!-- copy code js -->
 <script>
@@ -105,7 +128,6 @@
            $('#result').val(convertedAmount.toFixed(2) + ' NTH');
        });
    });
-   
 </script>
 <!-- finance page convert currency js end -->
 
@@ -129,6 +151,7 @@
 <script src="assets/js/jquery.dataTables.min.js"></script>
 <script src="assets/js/dataTables.fixedHeader.min.js"></script>
 <script src="assets/js/dataTables.fixedColumns.min.js"></script>
+
 <script>
    $(document).ready(function() {
        // Initialize DataTable for the first table
@@ -266,6 +289,7 @@
    limitTitleLength(30);
 </script>
 
+
 <!-- table arrow assending and dessending -->
 <script>
    const table = document.getElementById("export-button");
@@ -329,7 +353,7 @@
      
    });
 </script>
-
+<!-- loader end -->
 
 
 <!-- Sweet alert toast message -->
@@ -350,8 +374,7 @@
    });
    
 </script>
-
-
+<!-- sweet alert end -->
 
 <script>
    $('.votecrreated_alert').on('click',function(){
@@ -366,7 +389,6 @@
 
 <!--  Flatpickr  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.js"></script>
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/themes/dark.css">
 <script>
@@ -392,7 +414,7 @@
    weekNumbers: true,
    });
 </script>
-<!-- page refresh on click -->
+<!--flatpicker end -->
 
 
 <!-- header fixed -->
@@ -418,6 +440,36 @@ window.addEventListener("scroll", function() {
   });
 });
 </script>
+<!-- fixed header end -->
+
+
+<!-- data table searchbar style js -->
+<script>
+  $(document).ready(function() {
+
+  // Iterate through each DataTable
+  $('.datatable-container').each(function() {
+    const $searchLabel = $(this).find('.dataTables_filter label');
+    const $searchInput = $(this).find('.dataTables_filter input');
+
+    // Add the search icon (Font Awesome in this example)
+    $searchLabel.prepend('<i class="fas fa-search"></i>');
+
+     // Update the search filter for each DataTable
+  $('.datatable-container').each(function() {
+    const $searchInput = $(this).find('.dataTables_filter input');
+
+    // Add a placeholder text to the input field
+    $searchInput.attr('placeholder', 'Search here...');
+
+
+  });
+    
+  });
+});
+
+</script>
+<!-- data table searchbar style js end -->
 
 
 
