@@ -41,11 +41,21 @@
     </head>
     
     <body class="font-urbanist text-base text-black dark:text-white dark:bg-slate-900">
-        <!-- Loader Start -->
-        <div class="page-loader">
+ 
+       <div class="page-loader">
 	<div class="spinner"></div>
 	<div class="txt ">NORTECH</div>
+    
 </div>
+
+
+
+    <div id="pageLoader">
+        <video id="introVideo" autoplay loop muted>
+            <source src="assets/images/newimages/nortechvieo.mp4" type="video/mp4">
+           
+        </video>
+    </div>
   
         <div class="page-wrapper toggled">
             <!-- sidebar-wrapper -->

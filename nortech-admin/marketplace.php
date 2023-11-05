@@ -53,12 +53,475 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="customblck_card bggredient">
-                     <div class="blcard_header">
-                        <h3 class="blcard_header_title">Pending Approval</h3>
+                     <div class="blcard_header tab_headerw-title">
+                     <div class="pendingdata_tabs">
+                        <!-- Tab buttons -->
+<div class="tab-button" onclick="openTab('tab1')">Pending Course Approval</div>
+<div class="tab-button" onclick="openTab('tab2')">Pending Products Approval</div>
+
+<div id="active-line" class="active-tab-button"></div>
+
+</div>
                      </div>
                      <div class="blcard_body">
-                        <form action="#" class="fl-form fl-style-2">
-                        </form>
+
+
+<!-- Tab content -->
+<div id="tab1" class="tab-content">
+<div class="datatable-container custom_table_area">
+                          
+                          <table id="pending_course_table" class="display">
+                             <thead>
+                                <tr>
+                                   <th class="sortable sorted-asc">
+                                      <div class="arrow_box">
+                                         <span>S.No.</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable sorted-asc">
+                                      <div class="arrow_box">
+                                         <span>Created By</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Course Name</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Date</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Total Lavel's</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Course Amount</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Status</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="actionbtnarea action_th_box sortable">
+                                      <div class="arrow_box">
+                                         <span>Action</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+
+                                   
+                                </tr>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                   <td>1</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-1.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Vihan Hudda</div>
+                                      </div>
+                                   </td>
+                                   <td>Advanced Crypto</td>
+                                   <td>09 Oct,2023</td>
+                                   <td> <span class="fw-semibold text-primary">07</span></td>
+                                   <td>Free</td>
+                                   <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                   <td>
+                                      <div class="action_btn d-flex">
+                                         <div class="action_customdropdowncr">
+                                            <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                            <div class="popup popup_dropdowncs">
+                                               <div class="closepopa_header">
+                                                  <h2>Quick Action</h2>
+                                                  <span class="close-icon">&times;</span>
+                                               </div>
+                                               <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="course-detail.php"><i class="fa-regular fa-eye"></i> View Details</a>
+                                                  <a href="##" class="approve-button"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectCourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td>2</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Jansh Brown </div>
+                                      </div>
+                                   </td>
+                                   <td>Get Confident in Crypto</td>
+                                   <td>04 Oct,2023</td>
+                                   <td> <span class="fw-semibold text-primary">11</span></td>
+                                   <td>Free</td>
+                                   <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                   <td>
+                                      <div class="action_btn d-flex">
+                                         <div class="action_customdropdowncr">
+                                            <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                            <div class="popup popup_dropdowncs">
+                                               <div class="closepopa_header">
+                                                  <h2>Quick Action</h2>
+                                                  <span class="close-icon">&times;</span>
+                                               </div>
+                                               <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="course-detail.php"><i class="fa-regular fa-eye"></i> View Details</a>
+                                                  <a href="##" class="approve-button"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectCourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td>3</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Prezy Mark </div>
+                                      </div>
+                                   </td>
+                                   <td>Coding for Beginners</td>
+                                   <td>28 Oct,2023</td>
+                                   <td> <span class="fw-semibold text-primary">08</span></td>
+                                   <td>Free</td>
+                                   <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                   <td>
+                                      <div class="action_btn d-flex">
+                                         <div class="action_customdropdowncr">
+                                            <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                            <div class="popup popup_dropdowncs">
+                                               <div class="closepopa_header">
+                                                  <h2>Quick Action</h2>
+                                                  <span class="close-icon">&times;</span>
+                                               </div>
+                                               <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="course-detail.php"><i class="fa-regular fa-eye"></i> View Details</a>
+                                                  <a href="##" class="approve-button"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectCourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td>4</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Vihan Hudda</div>
+                                      </div>
+                                   </td>
+                                   <td>Shibuya Scramble Punks</td>
+                                   <td>1 Nov,2023</td>
+                                   <td> <span class="fw-semibold text-primary">04</span></td>
+                                   <td>&150.00</td>
+                                   <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                   <td>
+                                      <div class="action_btn d-flex">
+                                         <div class="action_customdropdowncr">
+                                            <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                            <div class="popup popup_dropdowncs">
+                                               <div class="closepopa_header">
+                                                  <h2>Quick Action</h2>
+                                                  <span class="close-icon">&times;</span>
+                                               </div>
+                                               <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="course-detail.php"><i class="fa-regular fa-eye"></i> View Details</a>
+                                                  <a href="##" class="approve-button"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectCourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </td>
+                                </tr>
+                                
+                             </tbody>
+                          </table>
+                          
+                       </div>
+                       <!-- table end -->
+</div>
+
+<div id="tab2" class="tab-content">
+
+                     <div class="datatable-container productablearea">
+                        <!-- test -->
+                      
+                   
+                        <table id="pending-product_datatable" class="display">
+                           <thead>
+                              <tr>
+                                 <th class="sortable sorted-asc">
+                                    <div class="arrow_box">
+                                       <span>S.No.</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable sorted-asc">
+                                    <div class="arrow_box">
+                                       <span>Product Name</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Product Category</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Product Image</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Date</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="sortable">
+                                    <div class="arrow_box">
+                                       <span>Status</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                                 <th class="actionbtnarea action_th_box sortable">
+                                    <div class="arrow_box">
+                                       <span>Action</span>
+                                       <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                          class="fas fa-arrow-down"></i></div>
+                                    </div>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>
+                                    Sport Wear 
+                                 </td>
+                                 <td>Sports kit</td>
+                                 <td class="proimgtd">
+                                    <div class="product_image">
+                                       <img src="assets/images/newimages/products/pro-tshirt-set.png" alt="">
+                                       <div class="hexagon-bg"></div>
+                                    </div>
+                                 </td>
+                                 <td>09 Oct,2023</td>
+                                 <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                 <td>
+                                    <div class="action_btn d-flex">
+                                       <div class="action_customdropdowncr">
+                                          <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                          <div class="popup popup_dropdowncs">
+                                             <div class="closepopa_header">
+                                                <h2>Quick Action</h2>
+                                                <span class="close-icon">&times;</span>
+                                             </div>
+                                             <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="##" class="approve-button-product"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectpro-CourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Tshirt</td>
+                                 <td>Tshirt</td>
+                                 <td class="proimgtd">
+                                    <div class="product_image">
+                                       <img src="assets/images/newimages/products/pro-tshirt.png" alt="">
+                                       <div class="hexagon-bg"></div>
+                                    </div>
+                                 </td>
+                                 <td>04 Oct,2023</td>
+                                 <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                 <td>
+                                    <div class="action_btn d-flex">
+                                       <div class="action_customdropdowncr">
+                                          <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                          <div class="popup popup_dropdowncs">
+                                             <div class="closepopa_header">
+                                                <h2>Quick Action</h2>
+                                                <span class="close-icon">&times;</span>
+                                             </div>
+                                             <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="##" class="approve-button-product"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectpro-CourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Bag</td>
+                                 <td>Gym Kit</td>
+                                 <td class="proimgtd">
+                                    <div class="product_image">
+                                       <img src="assets/images/newimages/products/prokit.png" alt="">
+                                       <div class="hexagon-bg"></div>
+                                    </div>
+                                 </td>
+                                 <td>28 Oct,2023</td>
+                                 <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                 <td>
+                                    <div class="action_btn d-flex">
+                                       <div class="action_customdropdowncr">
+                                          <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                          <div class="popup popup_dropdowncs">
+                                             <div class="closepopa_header">
+                                                <h2>Quick Action</h2>
+                                                <span class="close-icon">&times;</span>
+                                             </div>
+                                             <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="##" class="approve-button-product"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectpro-CourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Football</td>
+                                 <td>Sport</td>
+                                 <td class="proimgtd">
+                                    <div class="product_image">
+                                       <img src="assets/images/newimages/products/pro-football.png" alt="">
+                                       <div class="hexagon-bg"></div>
+                                    </div>
+                                 </td>
+                                 <td>1 Nov,2023</td>
+                                 <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                 <td>
+                                    <div class="action_btn d-flex">
+                                       <div class="action_customdropdowncr">
+                                          <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                          <div class="popup popup_dropdowncs">
+                                             <div class="closepopa_header">
+                                                <h2>Quick Action</h2>
+                                                <span class="close-icon">&times;</span>
+                                             </div>
+                                             <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="##" class="approve-button-product"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectpro-CourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>5</td>
+                                 <td>Modern Cap</td>
+                                 <td>Cap</td>
+                                 <td class="proimgtd">
+                                    <div class="product_image">
+                                       <img src="assets/images/newimages/products/pro-cap.png" alt="">
+                                       <div class="hexagon-bg"></div>
+                                    </div>
+                                 </td>
+                                 <td>2 Nov,2023</td>
+                                 <td>
+                                    <span class="badge bg-danger-transparent">Pending</span>
+                                    </td>
+                                 <td>
+                                    <div class="action_btn d-flex">
+                                       <div class="action_customdropdowncr">
+                                          <button class="open-popup-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                          <div class="popup popup_dropdowncs">
+                                             <div class="closepopa_header">
+                                                <h2>Quick Action</h2>
+                                                <span class="close-icon">&times;</span>
+                                             </div>
+                                             <div class="dropdown_content_pop" id="dropdown_content_pop">
+                                                  <a href="##" class="approve-button-product"><i class="fa-regular fa-thumbs-up"></i> Approve</a>
+                                                  <a href="##" class="rejectpro-CourseButton"><i class="fa-regular fa-thumbs-down"></i> Reject</a>
+                                               </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                       
+                     </div>
+                     <!-- table end -->
+                 
+</div>
+
+
                      </div>
                   </div>
                </div>
@@ -68,8 +531,47 @@
                         <h3 class="blcard_header_title">History Approval</h3>
                      </div>
                      <div class="blcard_body">
-                        <form action="#" class="fl-form fl-style-2">
-                        </form>
+                        <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Courses Approved</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">205 Approved</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                   <a href="#" class="linebtn_custom view_listbtnn">View Details
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a>
+                              </div>
+                           </div>
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Products approved</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">56 Approved</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                   <a href="#" class="linebtn_custom view_listbtnn">View Details
+
+<span class="hover-shape1"></span>
+         <span class="hover-shape2"></span>
+         <span class="hover-shape3"></span>
+</a>
+                              </div>
+                           </div>
+                          
+                        </div>
                      </div>
                   </div>
                </div>
@@ -79,8 +581,37 @@
                         <h3 class="blcard_header_title">Volume Approval</h3>
                      </div>
                      <div class="blcard_body">
-                        <form action="#" class="fl-form fl-style-2">
-                        </form>
+                        <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Total Amount From Marketplace</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">$456.00</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                   
+                              </div>
+                           </div>
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Total Active Users</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">1500</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                 
+                              </div>
+                           </div>
+                          
+                        </div>
                      </div>
                   </div>
                </div>
@@ -90,11 +621,93 @@
                         <h3 class="blcard_header_title">History Copy Trade</h3>
                      </div>
                      <div class="blcard_body">
-                        <form action="#" class="fl-form fl-style-2">
-                        </form>
+                        <div class=" card_listhgt">
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Traders Approved</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">$456.00</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                   
+                              </div>
+                           </div>
+                           <div class="common__listcard">
+                              <div class="approve_list_history">
+                                    <h2 class="approveitem_title">Services Approved</h2>
+
+                                   <a href="##">
+                                   <div class="check_approve">
+                              <h5 class="approved_number">1500</h5>
+                              <div class="check_sign__"><i class="fa-regular fa-circle-check"></i></div>
+                              </div>
+                                   </a>
+
+                                 
+                              </div>
+                           </div>
+                          
+                        </div>
                      </div>
                   </div>
                </div>
+               <div class="col-lg-6">
+         <div class="box bggredient ">
+
+            <div class="box-body">
+               <div class="redeem_box notification">
+                  <div class="trading_historybox">
+
+                     <h6 class="title_tradingprofit">Total Tranding Profit</h6>
+                    <div class="trading_profile">
+                    <h3>$43,975,43 
+                     </h3>
+                     <div class="flex-shrink-0">
+                                          <h5 class="text-success fs-14 mb-0">
+                                             +16.24 % <i class="fa-solid fa-arrow-trend-up"></i>
+                                          </h5>
+                                       </div>
+                    </div>
+
+
+                  </div>
+                 
+               </div>
+
+            </div>
+            </div>
+         </div>
+
+         <div class="col-lg-6">
+         <div class="box bggredient ">
+
+            <div class="box-body">
+               <div class="redeem_box notification">
+                  <div class="trading_historybox">
+
+                     <h6 class="title_tradingprofit">Total Tranding Loss</h6>
+                    <div class="trading_profile loss">
+                    <h3>$2,85,21 
+                     </h3>
+                     <div class="flex-shrink-0">
+                                          <h5 class="text-danger fs-14 mb-0">
+                                             -4.89 % <i class="fa-solid fa-arrow-trend-up"></i>
+                                          </h5>
+                                       </div>
+                    </div>
+
+
+                  </div>
+                 
+               </div>
+
+            </div>
+            </div>
+         </div>
             </div>
          </div>
          <div class="hidden" id="Education" role="tabpanel" aria-labelledby="Education-tab">
@@ -106,11 +719,7 @@
                      </div>
                      <div class="blcard_body">
                         <div class="datatable-container custom_table_area">
-                           <!-- test -->
-                           <div class="tabltoparea">
-                              <div id="eduexport-button-container"></div>
-                              <div id="search-button-container"></div>
-                           </div>
+                          
                            <table id="datatable_customr" class="display">
                               <thead>
                                  <tr>
@@ -163,6 +772,8 @@
                                              class="fas fa-arrow-down"></i></div>
                                        </div>
                                     </th>
+
+                                    
                                  </tr>
                               </thead>
                               <tbody>
@@ -302,12 +913,10 @@
                                        </div>
                                     </td>
                                  </tr>
+                                 
                               </tbody>
                            </table>
-                           <div class="entries_pagination">
-                              <div id="entries-container"></div>
-                              <div id="pagination-container"></div>
-                           </div>
+                           
                         </div>
                         <!-- table end -->
                      </div>
@@ -356,8 +965,8 @@
                   <div class="blcard_body">
                      <div class="datatable-container productablearea">
                         <!-- test -->
-                        <div class="tabltoparea">
-                           <div id="proentries-container"></div>
+                      
+                          
                            <div class="addproductbtn" id="addproduct_button">
                               <a class="view-more black-shape" href="##" data-bs-toggle="offcanvas" data-bs-target="#addproductoffcanvas" aria-controls="offcanvasBottom">
                               <span class="btn-text"><i class="fa-solid fa-plus"></i> Add Product</span>
@@ -367,8 +976,9 @@
                               <span class="hover-shape3"></span>
                               </a>
                            </div>
-                           <div id="product-search-container"></div>
-                        </div>
+                           
+                           
+                  
                         <table id="product_datatable" class="display">
                            <thead>
                               <tr>
@@ -566,10 +1176,7 @@
                               </tr>
                            </tbody>
                         </table>
-                        <div class="entries_pagination">
-                           <div id="probtentries-container"></div>
-                           <div id="propagination-container"></div>
-                        </div>
+                       
                      </div>
                      <!-- table end -->
                   </div>
@@ -671,6 +1278,7 @@
 });
 </script>
 <!-- off canvas select working js end -->
+
 
 <script>
 $(document).ready(function(){
@@ -839,21 +1447,101 @@ $(document).ready(function(){
 <!-- end -->
 
 
+
+<script>
+  // Add event listeners for all elements with the class "approve-button-product"
+  const approveButtons = document.querySelectorAll(".approve-button-product");
+  approveButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const productName = button.getAttribute("data-product-name");
+      showApprovalDialog(productName);
+    });
+  });
+
+  // Common function to show SweetAlert with custom button text
+  function showApprovalDialog(productName) {
+    Swal.fire({
+      title: `Are you sure you want to approve ${productName}?`,
+      text: "This action cannot be undone.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: `Approve ${productName}`,
+      cancelButtonText: "Cancel",
+    });
+  }
+</script>
+
+
+<script>
+  // Use noConflict to prevent naming conflicts
+  const mySwal = Swal.noConflict();
+
+  // Now, use mySwal instead of Swal in your code
+  mySwal.fire({
+    // SweetAlert configuration
+  });
+</script>
+
+
+
+<!-- reject course alert -->
+<script>
+   // Define the class for handling course rejection
+   class CourseRejectHandler {
+     constructor() {
+       this.setupEventListeners();
+     }
+   
+     setupEventListeners() {
+       const rejectButtons = document.querySelectorAll('.rejectCourseButton');
+   
+       rejectButtons.forEach((button) => {
+         button.addEventListener('click', () => {
+           Swal.fire({
+             title: 'Reject Course',
+             text: 'Are you sure you want to reject this course?',
+             icon: 'warning',
+             showCancelButton: true,
+             confirmButtonText: 'Yes, reject it',
+             cancelButtonText: 'No, cancel',
+             customClass: {
+               container: 'custom-rejectalert' // Custom class for the main dialog
+             }
+           }).then((result) => {
+             if (result.isConfirmed) {
+               // User confirmed to reject the course
+               // You can add additional logic here to handle the rejection, such as sending a request to your server.
+   
+               // Example: Replace this with your logic
+               Swal.fire({
+                 title: 'Course Rejected',
+                 text: 'The course has been rejected.',
+                 icon: 'success',
+                 customClass: {
+                   container: 'courserejected_alet2', // Custom class for the main dialog
+                   popup: 'custom-sweetalert-popup' // Custom class for the success message
+                 }
+               });
+             }
+           });
+         });
+       });
+     }
+   }
+   
+   // Instantiate the class once
+   new CourseRejectHandler();
+</script>
+<!-- end -->
+
 <!-- -------------------- data table js code for multiple table ------------------------ -->
 <!-- custom data table fixed sear and pagination -->
-<script>
-   $(document).ready(function () {
-   $('.custom_table_area .dataTables_length').appendTo('#eduexport-button-container');
-   $('.custom_table_area .dataTables_filter').appendTo('#search-button-container');
-    $('.custom_table_area .dataTables_info').appendTo('#entries-container');
-   $('.custom_table_area .dataTables_paginate').appendTo('#pagination-container');
-   });
-</script>
+
 
 <!-- market place data table -->
 <script>
    $('#datatable_customr').DataTable({
-   
+      scrollX: true,
      });
 </script>
 <!-- end custom data table -->
@@ -862,18 +1550,65 @@ $(document).ready(function(){
 <!-- marketplace products datatable -->
 <script>
    $('#product_datatable').DataTable({ 
+      scrollX: true,
    });
 </script>
 
+
+
+<!-- general pending approval data table js -->
 <script>
-   $(document).ready(function () {
-   $('.productablearea .dataTables_length').appendTo('#proentries-container');
-   $('.productablearea .dataTables_filter').appendTo('#product-search-container');
-    $('.productablearea .dataTables_info').appendTo('#probtentries-container');
-   $('.productablearea .dataTables_paginate').appendTo('#propagination-container');
+    // Function to open a tab
+    function openTab(tabName) {
+        // Hide all tabs and tab buttons
+        const tabs = document.getElementsByClassName('tab-content');
+        const tabButtons = document.getElementsByClassName('tab-button');
+        for (let i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
+            tabButtons[i].classList.remove('active-tab-button');
+        }
+
+        // Show the selected tab, set its button as active, and animate the active line
+        const activeButton = document.querySelector('[onclick="openTab(\'' + tabName + '\')"]');
+        const activeLine = document.getElementById('active-line');
+        activeLine.style.transform = `translateX(${activeButton.offsetLeft}px) scaleX(1)`;
+        activeButton.classList.add('active-tab-button');
+        document.getElementById(tabName).style.display = 'block';
+    }
+
+    // Open the first tab by default
+    openTab('tab1');
+</script>
+
+<!-- marketplace products datatable -->
+<script>
+   $('#pending_course_table').DataTable({ 
+      scrollX: true,
    });
 </script>
-<!-- marketplace products datatable end-->
+
+<!-- marketplace products datatable -->
+<script>
+   $('#pending-product-table').DataTable({ 
+      scrollX: true,
+   });
+</script>
+
+<!-- marketplace products datatable -->
+<script>
+   $('#pending-other-table').DataTable({ 
+      scrollX: true,
+   });
+</script>
+<!-- end -->
+
+<!-- pending products datatable -->
+<script>
+   $('#pending-product_datatable').DataTable({ 
+      scrollX: true,
+   });
+</script>
+<!-- end -->
 
 
 

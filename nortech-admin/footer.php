@@ -472,6 +472,28 @@ window.addEventListener("scroll", function() {
 <!-- data table searchbar style js end -->
 
 
+<script>
+        // Function to hide the page loader and show the scrollbar when the page has fully loaded
+        function hidePageLoader() {
+            const body = document.querySelector('body');
+            body.classList.add('loaded');
+            body.classList.remove('loading');
+        }
+
+        // Function to show the loader and hide the scrollbar when the page is loading
+        function showPageLoader() {
+            const body = document.querySelector('body');
+            body.classList.remove('loaded');
+            body.classList.add('loading');
+        }
+
+        // Listen for the page load event and hide the loader when the page is fully loaded
+        window.addEventListener('load', function () {
+            hidePageLoader();
+        });
+
+    </script>
+
 
 </body>
 </html>

@@ -1762,7 +1762,6 @@ span.red {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .dataTables_scrollHeadInner, .dataTable{
@@ -4269,3 +4268,213 @@ table.dataTable th {
   height: 85vh !important;
 }
 /* off canvas select 2 style end*/
+
+
+  /* CSS to style the page loader */
+/* CSS to style the page loader and make the video full-width */
+#pageLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000; /* Background color or image */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Video styling to make it full-width */
+#introVideo {
+  width: 100%;
+  height: auto;
+}
+
+/* Hide the video after the page has loaded */
+body.loaded #pageLoader {
+  display: none;
+}
+ /* Hide the scrollbar when the loader is displayed */
+ body.loading {
+  overflow: hidden;
+}
+
+.multi_pendinstable_tab{
+  display: flex;
+}
+
+.dataTables_length{
+  left: 0px;
+}
+.dataTables_filter{
+ left: 100%;
+}
+.dataTables_length, .dataTables_filter {
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.dataTables_info, .dataTables_paginate {
+  position: sticky;
+  bottom: 0;
+  margin-top: 10px;
+  display: inline-block;
+}
+.dataTables_paginate{
+  left: 100%;
+}
+div.dataTables_wrapper {
+  overflow-x: scroll;
+  padding-top: 4px;
+}
+
+.pendingdata_tabs{
+  display: flex;
+}
+
+ /* Define styles for the tabs */
+ .pendingdata_tabs .tab {
+  display: none;
+}
+
+/* Define styles for the tab buttons */
+.pendingdata_tabs .tab-button {
+  cursor: pointer;
+  padding: 10px 5px 10px 14px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  background: transparent;
+  font-size: 12px;
+  transition: background-color 0.2s;
+  color: #ccc;
+}
+
+/* Define styles for the active tab button */
+.pendingdata_tabs .active-tab-button {
+  border-bottom: 1px solid #0075ff; 
+  color: #0075ff;
+}
+
+/* Add an underline for the active tab button */
+.pendingdata_tabs .active-tab-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+ /* Add an underline for the active tab button */
+ .active-tab-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff; /* Change this to your desired underline color */
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0); /* Start with no width */
+  transform-origin: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Define styles for the tab content */
+.pendingdata_tabs .tab-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.tab_headerw-title{
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+}
+
+.approve_list_history .approved_number{
+  color: #205be2;
+  background-image: -webkit-linear-gradient(0deg, #205be2 40%, #ae2f84 63%, #d1283c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+}
+.approveitem_title{
+  font-size: 14px !important;
+  margin-bottom: 3px;
+  color: #e5e5e5;
+}
+
+.approve_list_history{
+  width: 100%;
+  display: block;
+}
+.check_approve{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.check_sign__{
+  color: #0ab39c;
+}
+
+.view_listbtnn {
+	border: none;
+	color: #FFF;
+	padding: 8px 25px 8px;
+	text-transform: capitalize;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	position: relative;
+	text-decoration: none !important;
+	outline: none !important;
+	border-radius: 4px;
+	font-size: 13px;
+	margin-top: 12px;
+	background: #1a1a1a4d;
+	/* background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%); */
+	width: 100%;
+	text-align: center;
+}
+
+.view_listbtnn:hover .hover-shape1 {
+  left: 47%;
+}
+.view_listbtnn:hover .hover-shape3 {
+	width: 7px;
+	left: 53%;
+}
+
+.trading_profile{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.trading_historybox{
+  width: 100%;
+}
+
+.trading_profile h3{
+  color: #24ca74;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1px;
+}
+.trading_profile.loss h3{
+  color: #ff834a;
+}
+.trading_historybox .title_tradingprofit{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}

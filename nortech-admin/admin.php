@@ -45,7 +45,7 @@
                   <h3 class="blcard_header_title table-heading" id="card-heading">All Members</h3>
                </div>
                <div class="blcard_body">
-                  <div class="filtertb_data">
+                  <div class="filtertb_data datatable-container custom_table_area">
                      <!-- Data tables for each tab -->
                      <div class="data-table" id="Course-table">
                         <table class="dttable">
@@ -573,42 +573,42 @@ document.getElementById('tab-search').addEventListener('input', function() {
 </script>
 <!-- end -->
 
-
+<!-- table call start -->
 <script>
    $(document).ready(function() {
           // Initialize DataTable for the first table
           $('.dttable').DataTable({
-              // Add DataTable options and configuration here
-              "order": [[0, 'desc']],
-              "paging": true,
-              "fixedHeader": true,
-              "dom": '<"custom-controls"lfr>t<"custom-controls"ip>', // Place length and filter controls in div with class "custom-controls"
-              // ... other options
+            scrollX: true,    
           });
-      
-         
-      });
-       
+   });  
 </script>
+<!-- table call end -->
 
-<!-- table dropdown -->
 
+<!-- data table searchbar style js -->
 <script>
-// Example: Toggle visibility of dropdown content when clicking the dropdown button
-document.querySelectorAll(".Custom_dropdown").forEach(function(dropdown) {
-  const button = dropdown.querySelector(".dropdown-button");
-  const content = dropdown.querySelector(".dropdown-content");
+  $(document).ready(function() {
 
-  button.addEventListener("click", function() {
-    content.classList.toggle("show");
+  // Iterate through each DataTable
+  $('.dataTables_wrapper').each(function() {
+    const $searchLabel = $(this).find('.dataTables_filter label');
+    const $searchInput = $(this).find('.dataTables_filter input');
+
+    // Add the search icon (Font Awesome in this example)
+    $searchLabel.prepend('<i class="fas fa-search"></i>');
+
+     // Update the search filter for each DataTable
+  $('.dataTables_wrapper').each(function() {
+    const $searchInput = $(this).find('.dataTables_filter input');
+
+    // Add a placeholder text to the input field
+    $searchInput.attr('placeholder', 'Search here...');
+
+
   });
-
-  // Close the dropdown when clicking outside of it
-  window.addEventListener("click", function(event) {
-    if (!event.target.matches('.dropdown-button')) {
-      content.classList.remove("show");
-    }
+    
   });
 });
 
 </script>
+<!-- data table searchbar style js end -->
