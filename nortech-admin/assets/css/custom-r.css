@@ -785,13 +785,14 @@ position: relative;
 }
 
 #tab-search {
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 10px;
-  background: #0f172a;
-  border: 1px solid #293445;
-  border-radius: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 6px 14px;
+	background: transparent;
+	border: 1px solid #293445;
+	border-radius: 5px;
+	font-size: 13px;
 }
 
 /* tab filter data table style start */

@@ -494,6 +494,57 @@ window.addEventListener("scroll", function() {
 
     </script>
 
+    <!-- action popup dropdown js -->
+    <!-- dropdown popup start -->
+<script>
+   // JavaScript to open and close the popups with dropdown menus
+   const openButtons = document.querySelectorAll('.open-popup-button');
+   const popups = document.querySelectorAll('.popup');
+   
+   openButtons.forEach((button, index) => {
+     button.addEventListener('click', () => {
+       popups.forEach((popup, popupIndex) => {
+         if (popupIndex === index) {
+           popup.classList.add('show');
+         } else {
+           popup.classList.remove('show');
+         }
+       });
+     });
+   });
+   
+   // JavaScript to close the popups when clicking the close icon
+   const closeIcons = document.querySelectorAll('.close-icon');
+   
+   closeIcons.forEach((closeIcon, index) => {
+     closeIcon.addEventListener('click', () => {
+       popups[index].classList.remove('show');
+     });
+   });
+   
+   // Close the popups when clicking outside of them
+   window.addEventListener('click', (event) => {
+     popups.forEach((popup) => {
+       if (!event.target.classList.contains('open-popup-button') && !popup.contains(event.target)) {
+         popup.classList.remove('show');
+       }
+     });
+   });
+   
+   // Close the popup when clicking an anchor tag within the dropdown
+   document.querySelectorAll('.popup .dropdown_content_pop a').forEach((anchor) => {
+     anchor.addEventListener('click', (event) => {
+       const popup = event.target.closest('.popup');
+       if (popup) {
+         popup.classList.remove('show');
+       }
+     });
+   });
+   
+</script>
+<!-- dropdown popup end -->
+
+
 
 </body>
 </html>

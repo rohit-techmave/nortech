@@ -15,7 +15,9 @@
                <div class="blcard_body">
                   <div class="search__box">
                      <!-- Search input for tabs -->
-                     <input type="text" id="tab-search" placeholder="Search tabs...">
+                    <div class="seartab_tablebox">
+                    <input type="text" id="tab-search" placeholder="Search tabs..."> <i class="fas fa-search"></i>
+                    </div>
                      <div class="permissions__tabs">
                         <!-- Left tabs list -->
                         <div class="tab" data-tab="Course" onclick="changeTab('Course')">Course Approval</div>

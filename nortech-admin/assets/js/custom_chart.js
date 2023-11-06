@@ -311,11 +311,7 @@ var myBarChart = new Chart(ctx, {
 
   
 
-
-
-
-
-
+// market place report charts js
 
 
 
