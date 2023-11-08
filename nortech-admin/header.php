@@ -43,8 +43,8 @@
     <body class="font-urbanist text-base text-black dark:text-white dark:bg-slate-900">
  
        <div class="page-loader">
-	<div class="spinner"></div>
-	<div class="txt ">NORTECH</div>
+	<div class="spinner"><img src="assets/images/newimages/icon_nortech.gif" alt=""> </div>
+	<!-- <div class="txt ">NORTECH</div> -->
     
 </div>
 

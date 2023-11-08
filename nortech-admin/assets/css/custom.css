@@ -4583,3 +4583,181 @@ div.dataTables_wrapper {
 	font-size: 12px;
 	color: #9090ac;
 }
+
+.fl-form input.fl-input{
+  font-size: 13px !important;
+}
+.formtitle_header{
+  margin-bottom: 5px;
+}
+
+.formtitle_header h1{
+  font-size: 13px;
+  color: #a8b2d5;
+  font-weight: normal;
+}
+
+/* btnautowidth */
+.btnautowidth {
+	border: none;
+	color: #FFF;
+	padding: 5px 20px 5px;
+	text-transform: capitalize;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	position: relative;
+	text-decoration: none !important;
+	outline: none !important;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-top: 0px;
+	background: #3b82f6 !important;
+	/* background: linear-gradient(90deg, rgba(119,80,251,1) 0%, rgba(141,72,249,1) 26%, rgba(168,62,246,1) 44%, rgba(193,67,203,1) 62%, rgba(217,78,137,1) 80%, rgba(237,85,74,1) 100%); */
+	width: auto !important;
+	text-align: center;
+	border: 1px solid #354460;
+}
+ 
+.btnautowidth:hover .hover-shape1 {
+  left: 41%;
+}
+
+.btnautowidth:hover .hover-shape3 {
+	width: 3px;
+	left: 60%;
+}
+
+
+#checkBalanceButton{
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  padding: 11px 25px 11px;
+}
+
+/* inputnumber style */
+/* Hide the up and down arrows for number input */
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type="number"] {
+        -moz-appearance: textfield; /* Firefox */
+    }
+/* inputnumber style end*/    
+
+#contract_balance h1{
+  font-size: 20px !important;
+}
+
+.icon_input_righ{
+  position: relative;
+}
+.percentagesign {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 14px;
+	height: 97%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	background: #25294b82;
+	border-radius: 0px;
+}
+
+#contract_balance .buy_more a {
+	font-size: 14px;
+}
+
+.multiinputcol_marginb{
+  margin-bottom: 12px;
+}
+.linebtn_custom i{
+  margin-right: 4px;
+}
+
+.customradioselectbtn ul{
+  display: flex;
+}
+.radioform_wlabel label{
+  font-size: 13px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  padding: 0 5px;
+  color: #8aa2b3;
+  z-index: 1;
+}
+.customradioselectbtn{
+  margin-top: 10px;
+}
+.centerrow_align{
+  align-items: center !important;
+}
+
+.customradioselectbtn ul {
+  padding: 0;
+  margin: 0 0 0px 0 !important;
+}
+
+.customradioselectbtn.wrapper {
+	padding: 10px 10px 0px 44px;
+}
+.radioform_wlabel{
+  margin-bottom: 0px !important;
+}
+.pooltable_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.poollistitem{
+  margin-left: 0px !important;
+}
+.btndelete_pool{
+  font-size: 14px;
+  margin-right: 30px;
+  color: rgb(248, 113, 113) !important;
+}
+.listsearchpool_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.poolsearchinput{
+  position: relative;
+}
+.searchpool {
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 6px 14px;
+	background: transparent;
+	border: 1px solid #293445;
+	border-radius: 5px;
+	font-size: 13px;
+  position: relative;
+  color: #9090ac;
+}
+
+.poolsearchinput i {
+	position: absolute;
+	right: 11px;
+	top: 12px;
+	font-size: 12px;
+	color: #9090ac;
+}
+
+
+
+
+

@@ -269,7 +269,7 @@
 
       <div class="box bggredient ">
          <div class="box-header">
-            <h3>All Members</h3>
+            <h3>All Users</h3>
          </div>
          <div class="box-body">
             <div class="datatable-container">

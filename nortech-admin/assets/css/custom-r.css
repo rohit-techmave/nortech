@@ -594,7 +594,7 @@ position: relative;
 }
 
 .blcard_header{
-  border-bottom: 1px solid #293445;
+  border-bottom: 1px dashed #293445;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -685,11 +685,11 @@ position: relative;
 /* SPINNER ANIMATION */
 .spinner {
   position: relative;
-  top: 35%;
+  top: 45%;
   width: 80px;
   height: 80px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1s infinite ease-in-out;
   animation: sk-scaleout 1s infinite ease-in-out;
