@@ -2694,7 +2694,7 @@ textarea.form-control {
 .plusiconbtn {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   justify-content: right;
   color: #e0e0e0;
 }
@@ -4739,7 +4739,7 @@ div.dataTables_wrapper {
 .searchpool {
 	box-sizing: border-box;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	padding: 6px 14px;
 	background: transparent;
 	border: 1px solid #293445;
@@ -4758,6 +4758,85 @@ div.dataTables_wrapper {
 }
 
 
+#noResultsMessage{
+  text-align: center;
+}
+.updateapy_btn{
+  margin-top: 0px;
+}
 
+.fl-form .fl-wrap-select::after {
+	display: none !important;
+}
+#myChart22{
+  width: 100% !important;
+}
+.fl-wrap-select .select2-container{
+  width: 82% !important;
+}
+.selectchartendexp{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
+.exportchart_button button{
+  font-size: 13px;
+  border-radius: 4px;
+  color: #3b82f6 !important;
+}
 
+.exportchart_button button iconify-icon{
+  margin-right: 5px;
+}
+.heightfixed .customblck_card{
+  height: 100%;
+}
+.passratebtnsub a{
+  width: 100%;
+  text-align: center;
+}
+.btnfullwidth a{
+  width: 100%;
+  text-align: center;
+}
+
+.cardheightto_col .customblck_card{
+  height: 100%;
+}
+.cardheightto_col{
+  margin-bottom: 15px;
+}
+.totla_nthamountpos h1{
+  text-align: left;
+  margin-bottom: 15px;
+  color: #8891a8;
+  font-size: 15px;
+}
+.totla_nthamountpos h1 span {
+	color: #24ca74;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 1px;
+}
+
+.filterbtn_tabletr button{
+  border: 1px solid #242f40;
+  padding: 4px 20px;
+  border-radius: 6px;
+  color: #c4c3c3;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  transition: .3s;
+  margin-right: 5px;
+}
+
+.filterbtn_tabletr button:hover{
+  background: #814cff;
+  color: #fff;
+  transform: scale(1.06);
+}
+.filterbtn_tabletr{
+  margin-bottom: 15px;
+}

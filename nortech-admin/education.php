@@ -352,7 +352,149 @@
                <h3 class="blcard_header_title">NTH Statisc POS Fee's</h3>
             </div>
             <div class="blcard_body">
-               
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="totla_nthamountpos">
+                     <h1>Total NTH use in Statisc POS :  <span>450</span></h1>
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                  <div class="datatable-container custom_table_area">
+                          
+                          <table id="Purchases_coursetb" class="display">
+                             <thead>
+                                <tr>
+                                   <th class="sortable sorted-asc">
+                                      <div class="arrow_box">
+                                         <span>S.No.</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable sorted-asc">
+                                      <div class="arrow_box">
+                                         <span>User Name</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up active-arrow"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Course Name</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Purchase Date</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Course Amount</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                   <th class="sortable">
+                                      <div class="arrow_box">
+                                         <span>Admin Profit</span>
+                                         <div class="arrow"><i class="fas fa-arrow-up"></i> <i
+                                            class="fas fa-arrow-down"></i></div>
+                                      </div>
+                                   </th>
+                                  
+                                   
+                                </tr>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                   <td>1</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-1.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Vihan Hudda</div>
+                                      </div>
+                                   </td>
+                                   <td>Advanced Crypto</td>
+                                   <td>09 Oct,2023</td>
+                                   <td>$49.99 </td>
+                                   <td>
+                                   $20.00
+                                    </td>
+                                  
+                                </tr>
+                                <tr>
+                                   <td>2</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-2.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Jansh Brown </div>
+                                      </div>
+                                   </td>
+                                   <td>Get Confident in Crypto</td>
+                                   <td>04 Oct,2023</td>
+                                   <td>$64.40 </td>
+                                   <td>
+                                   $10.00
+                                    </td>
+                                   
+                                </tr>
+                                <tr>
+                                   <td>3</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-3.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Prezy Mark </div>
+                                      </div>
+                                   </td>
+                                   <td>Coding for Beginners</td>
+                                   <td>28 Oct,2023</td>
+                                   <td>$70.00 </td>
+                                   <td>
+                                   $24.23
+                                    </td>
+                                  
+                                </tr>
+                                <tr>
+                                   <td>4</td>
+                                   <td>
+                                      <div class="d-flex align-items-center">
+                                         <div class="flex-shrink-0 me-2">
+                                            <img src="assets/images/newimages/avatar-4.jpg" alt=""
+                                               class="avatar-xs rounded-circle">
+                                         </div>
+                                         <div class="flex-grow-1">Vihan Hudda</div>
+                                      </div>
+                                   </td>
+                                   <td>Shibuya Scramble Punks</td>
+                                   <td>1 Nov,2023</td>
+                                   <td>$99</td>
+                                   <td>
+                                   $10.40
+                                    </td>
+                                   
+                                </tr>
+                                
+                             </tbody>
+                          </table>
+                          
+                       </div>
+                       <!-- table end -->
+                  </div>
+               </div>
             </div>
          </div>
       </div>
@@ -404,3 +546,13 @@
    });
 </script>
 <!-- end -->
+
+
+<!--  -->
+<!-- market place data table -->
+<script>
+   $('#Purchases_coursetb').DataTable({
+      scrollX: true,
+     });
+</script>
+<!-- end custom data table -->

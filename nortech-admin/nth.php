@@ -407,7 +407,7 @@
       <div class="hidden" id="Stake" role="tabpanel" aria-labelledby="Stake-tab">
          <div class="row ">
             <!-- adjust burn syatem start -->
-            <div class="col-lg-6">
+            <div class="col-lg-4 cardheightto_col">
                      <div class="customblck_card bggredient">
                         <div class="blcard_header">
                            <h3 class="blcard_header_title">Staking Management</h3>
@@ -416,7 +416,7 @@
 
                         <form action="">
                            <div class="row centerrow_align">
-                           <div class="col-lg-6 multiinputcol_marginb">
+                           <div class="col-lg-12 multiinputcol_marginb">
                            
                                  <div class="form-group">
                                     <label for="UserAddress">User Address</label>
@@ -425,7 +425,7 @@
                                  </div>
                               </div>
 
-                              <div class="col-lg-6 multiinputcol_marginb">
+                              <div class="col-lg-12 multiinputcol_marginb">
                            
                                  <div class="form-group">
                                     <label for="StakeAmount">Stake Amount</label>
@@ -477,7 +477,7 @@
                      </div>
                   </div>
 
-                  <div class="col-lg-6">
+                  <div class="col-lg-4 cardheightto_col">
                      <div class="customblck_card bggredient">
                         <div class="blcard_header">
                            <h3 class="blcard_header_title">Stake Pool Management</h3>
@@ -505,7 +505,7 @@
                                 
                                  <div class="usernameandid_dt poollistitem">
                                     <div class="namecomon_user">
-                                    0xe849fa28a...ea14
+                                    0xe849fa28aea14
                                     </div>
                                     <span class="newly__date">17 Oct,2023</span>
                                  </div>
@@ -518,7 +518,7 @@
                                 
                                  <div class="usernameandid_dt poollistitem">
                                     <div class="namecomon_user">
-                                   rohit
+                                    5xe849fa28aea14
                                     </div>
                                     <span class="newly__date">17 Oct,2023</span>
                                  </div>
@@ -531,7 +531,7 @@
                                 
                                  <div class="usernameandid_dt poollistitem">
                                     <div class="namecomon_user">
-                                   ankur
+                                   130849fa28aea14
                                     </div>
                                     <span class="newly__date">18 Oct,2023</span>
                                  </div>
@@ -544,7 +544,7 @@
                                 
                                  <div class="usernameandid_dt poollistitem">
                                     <div class="namecomon_user">
-                                    0xe849fa28a...ea14
+                                    0xe849fa345ea14
                                     </div>
                                     <span class="newly__date">17 Oct,2023</span>
                                  </div>
@@ -558,10 +558,92 @@
                      </div>
                   </div>
 
+                  <div class="col-lg-4 cardheightto_col">
+                     <div class="customblck_card bggredient">
+                        <div class="blcard_header">
+                           <h3 class="blcard_header_title">APY Management</h3>
+                        </div>
+
+                        <div class="blcard_body">
+
+                        <form action="">
+                           <div class="row centerrow_align">
+                           <div class="col-lg-12 multiinputcol_marginb">
+                           
+                                 <div class="form-group">
+                                    <label for="PoolAddress">Pool Address</label>
+                                    <input type="text" name="PoolAddress" id="PoolAddress" class="form-control required icon_input_righ">
+                               
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-12 multiinputcol_marginb">
+                           
+                                 <div class="form-group">
+                                    <label for="APYPercentage">APY Percentage</label>
+                                    <input type="number" name="APYPercentage" id="APYPercentage" class="form-control required icon_input_righ" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                                    <div class="percentagesign">%</div>
+                                 </div>
+                              </div>
+
+                             
+
+                              <div class="col-lg-12">
+                                    <div class="update_action btnfullwidth">
+                                       <a href="##" class="linebtn_custom updateapy_btn"><i class="fa-solid fa-arrow-right"></i> Update APY 
+                                       <span class="hover-shape1"></span>
+                                       <span class="hover-shape2"></span>
+                                       <span class="hover-shape3"></span>
+                                       </a>
+                                    </div>
+                                 </div>
+
+                           </div>
+                        </form>
+                           
+                           </div>
+                          
+                     </div>
+                  </div>
+
+
+                  <div class="col-lg-12">
+                     <div class="customblck_card bggredient">
+                        <div class="blcard_header">
+                           <h3 class="blcard_header_title">Statistics Management</h3>
+                        </div>
+                        <div class="blcard_body">
+
+                        <form action="">
+                             <div class="row">
+                              <div class="selectchartendexp">
+                              <div class="col-lg-2">
+                              <label for="amountType">Select Amount Type:</label>
+                              <select id="amountType" class="js-select2" onchange="updateChart()">
+            <option value="staked">Staked Amount</option>
+            <option value="yield">Total Yield Distributed</option>
+        </select>
+    </div>
+    <div class="col-auto exportchart_button">
+    <button type="button" onclick="exportChart()"> <iconify-icon icon="pajamas:export"></iconify-icon> Export Chart</button>
+    </div>
+                              </div>
+    <canvas id="myChart22" height="70"></canvas>
+   
+                              </div>
+                             </div>
+                        </form>
+                           
+                           </div>
+                          
+                     </div>
+                  </div>
+
+
                   <!-- adjust burn syatem end -->
          </div>
-      </div>
-      <div class="hidden" id="report" role="tabpanel" aria-labelledby="report-tab">
+
+         <div class="hidden" id="report" role="tabpanel" aria-labelledby="report-tab">
          <div class="reports__chtarea row">
             <div class="col-lg-6">
                <div class="customblck_card bggredient">
@@ -655,6 +737,8 @@
             </div>
          </div>
       </div>
+      </div>
+     
    </div>
    <!--end col-->
    <!-- End Content -->
@@ -810,4 +894,113 @@ searchInput.addEventListener('input', updatePoolList);
 </script>
 
 
+<!-- statics management chart -->
+<script>
+        // Sample data
+        var janData = [42, 70, 28, 90, 60, 75, 50, 30, 85, 65, 40, 55];
+        var febData = [45, 72, 28, 90, 60, 75, 50, 30, 85, 65, 40, 55];
+        // Add more datasets for other months as needed
 
+        // Function to calculate the total for an array
+        function calculateTotal(array) {
+            return array.reduce((acc, value) => acc + value, 0);
+        }
+
+        // Initial chart type
+        var selectedChartType = 'jan';
+
+        // Function to update the chart based on the selected type
+        function updateChart() {
+            var chartType = document.getElementById('amountType').value;
+            selectedChartType = chartType;
+
+            // Get the data based on the selected type
+            var data = (chartType === 'jan') ? janData : febData;
+            var total = calculateTotal(data);
+
+            // Update the chart with new data and total
+            myChart.data.labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May' , 'Jun' , 'Jul' , 'Aug' , 'Sep' , 'Oct' , 'Nov' , 'Dec']; // Replace with month names
+            myChart.data.datasets[0].data = data;
+            myChart.data.datasets[1].data = [total];
+            myChart.update();
+        }
+
+        // Function to export the chart as an image
+        function exportChart() {
+            var canvas = document.getElementById('myChart22');
+            var image = canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream');
+            var link = document.createElement('a');
+            link.href = image;
+            link.download = 'chart.png';
+            link.click();
+        }
+
+        // Create the initial chart
+        var ctx = document.getElementById('myChart22').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May' , 'Jun' , 'Jul' , 'Aug' , 'Sep' , 'Oct' , 'Nov' , 'Dec'], // Replace with month names
+                datasets: [
+                    {
+                        label: 'Jan Data',
+                        data: janData,
+                        backgroundColor: 'rgba(0, 117, 255, 0.08)',
+                        borderColor: 'rgb(0, 117, 255)',
+                        borderWidth: 1,
+                        pointRadius: 5,
+                        barPercentage: 0.8,
+                        categoryPercentage: 0.7
+                    },
+                    {
+                        label: 'Total',
+                        data: [0],
+                        type: 'line',
+                        fill: false,
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1,
+                        pointRadius: 5,
+                        pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+                    }
+                ]
+            },
+            options: {
+        scales: {
+            y: {
+                ticks: {
+                    color: '#ffffff' // Change y-axis label number color to blue
+                }
+            },
+            x: {
+                ticks: {
+                    color: '#ffffff' // Change the label color to green
+                }
+            }
+        },  plugins: {
+            tooltip: {
+                mode: 'index',
+                intersect: false,
+            },
+            legend: {
+                            display: true,
+                            labels: {
+                                color: '#ffffff', // Legend label color
+                            }
+                        }
+        },
+        tooltips: {
+            callbacks: {
+                title: function(tooltipItem) {
+                    return labels[tooltipItem[0].dataIndex];
+                },
+                label: function(tooltipItem) {
+                    return 'Value: ' + dataValues[tooltipItem.dataIndex];
+                },
+            }
+        }
+    }
+        });
+
+        // Initialize Select2
+        $('.js-select2').select2();
+    </script>

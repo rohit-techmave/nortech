@@ -309,7 +309,7 @@
 	                                        <input type="text" name="lastname" id="lastname" class="form-control required">
 	                                    </div>
 	                  
-                        <div class="update_action">
+                        <div class="update_action btnfullwidth">
                            <a href="#" class="linebtn_custom">Create ID
 
                            <span class="hover-shape1"></span>
